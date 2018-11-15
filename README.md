@@ -1,2 +1,1 @@
-# smell-and-machine-learning
-Code Smell and Machine Learning
+# Code Smell and Machine Learning
