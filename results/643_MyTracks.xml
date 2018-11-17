@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:28:10.162">
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/AbstractSendToGoogleActivity.java">
+<violation beginline="75" endline="433" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks" class="AbstractSendToGoogleActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/ChartView.java">
+<violation beginline="54" endline="1030" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks" class="ChartView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/MarkerListActivity.java">
+<violation beginline="58" endline="352" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks" class="MarkerListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/SearchListActivity.java">
+<violation beginline="76" endline="559" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks" class="SearchListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/TrackDetailActivity.java">
+<violation beginline="85" endline="643" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks" class="TrackDetailActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/TrackEditActivity.java">
+<violation beginline="61" endline="316" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks" class="TrackEditActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="87" endline="211" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.apps.mytracks" class="TrackEditActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/TrackListActivity.java">
+<violation beginline="96" endline="814" begincolumn="103" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks" class="TrackListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/content/MyTracksProvider.java">
+<violation beginline="52" endline="524" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="MyTracksProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/content/SearchEngine.java">
+<violation beginline="81" endline="94" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.content" class="SearchEngine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SearchQuery' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/content/TrackDataHub.java">
+<violation beginline="42" endline="644" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="TrackDataHub" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/content/TrackDataListener.java">
+<violation beginline="26" endline="134" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="TrackDataListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/fragments/ChartFragment.java">
+<violation beginline="57" endline="545" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.fragments" class="ChartFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/fragments/MyTracksMapFragment.java">
+<violation beginline="82" endline="764" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.fragments" class="MyTracksMapFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/fragments/StatsFragment.java">
+<violation beginline="55" endline="307" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.fragments" class="StatsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/file/exporter/CsvTrackWriter.java">
+<violation beginline="53" endline="249" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.file.exporter" class="CsvTrackWriter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/file/exporter/GpxTrackWriter.java">
+<violation beginline="38" endline="202" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.file.exporter" class="GpxTrackWriter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/file/exporter/KmlTrackWriter.java">
+<violation beginline="49" endline="497" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.file.exporter" class="KmlTrackWriter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/file/exporter/TcxTrackWriter.java">
+<violation beginline="45" endline="342" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.file.exporter" class="TcxTrackWriter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/file/exporter/TrackWriter.java">
+<violation beginline="52" endline="144" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.file.exporter" class="TrackWriter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/file/importer/AbstractFileTrackImporter.java">
+<violation beginline="65" endline="630" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.file.importer" class="AbstractFileTrackImporter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/gdata/AndroidGDataClient.java">
+<violation beginline="162" endline="296" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.apps.mytracks.io.gdata" class="AndroidGDataClient" method="createAndExecuteMethod" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/gdata/maps/MapsFeatureMetadata.java">
+<violation beginline="8" endline="88" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.io.gdata.maps" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MapsFeatureMetadata' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/gdata/maps/MapsGDataConverter.java">
+<violation beginline="62" endline="177" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.apps.mytracks.io.gdata.maps" class="MapsGDataConverter" method="getEntryForFeature" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/gdata/maps/MapsMapMetadata.java">
+<violation beginline="7" endline="52" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.io.gdata.maps" class="MapsMapMetadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MapsMapMetadata' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/gdata/maps/XmlMapsGDataSerializer.java">
+<violation beginline="24" endline="262" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.gdata.maps" class="XmlMapsGDataSerializer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/sendtogoogle/SendRequest.java">
+<violation beginline="29" endline="218" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.io.sendtogoogle" class="SendRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SendRequest' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=27, WMC=29)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/sync/SyncAdapter.java">
+<violation beginline="70" endline="648" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.sync" class="SyncAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/io/sync/SyncUtils.java">
+<violation beginline="61" endline="557" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.sync" class="SyncUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/services/TrackRecordingService.java">
+<violation beginline="87" endline="1418" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.apps.mytracks.services" class="TrackRecordingService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="87" endline="1418" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.services" class="TrackRecordingService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1179" endline="1383" begincolumn="74" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.services" class="TrackRecordingService$ServiceBinder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/services/sensors/ant/AntSensorManager.java">
+<violation beginline="379" endline="490" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.apps.mytracks.services.sensors.ant" class="AntSensorManager" method="handleResponseEventMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/services/sensors/ant/AntSensorValue.java">
+<violation beginline="24" endline="60" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.services.sensors.ant" class="AntSensorValue" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AntSensorValue' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/settings/SettingsActivity.java">
+<violation beginline="49" endline="282" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.settings" class="SettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/util/Api8Adapter.java">
+<violation beginline="49" endline="195" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.util" class="Api8Adapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/util/ApiAdapter.java">
+<violation beginline="42" endline="256" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.util" class="ApiAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/util/ListItemUtils.java">
+<violation beginline="66" endline="69" begincolumn="33" endcolumn="84" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.apps.mytracks.util" class="ListItemUtils" method="setListItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="66" endline="171" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.apps.mytracks.util" class="ListItemUtils" method="setListItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracks/src/com/google/android/apps/mytracks/widgets/TrackWidgetProvider.java">
+<violation beginline="53" endline="495" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.widgets" class="TrackWidgetProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksLib/src/com/google/android/apps/mytracks/content/MyTracksLocation.java">
+<violation beginline="27" endline="66" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.content" class="MyTracksLocation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MyTracksLocation' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=4, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksLib/src/com/google/android/apps/mytracks/content/MyTracksProviderUtils.java">
+<violation beginline="35" endline="402" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="MyTracksProviderUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksLib/src/com/google/android/apps/mytracks/content/MyTracksProviderUtilsImpl.java">
+<violation beginline="43" endline="1186" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.apps.mytracks.content" class="MyTracksProviderUtilsImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="43" endline="1186" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="MyTracksProviderUtilsImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="65" endline="178" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.apps.mytracks.content" class="MyTracksProviderUtilsImpl" method="createTrack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="367" endline="511" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.apps.mytracks.content" class="MyTracksProviderUtilsImpl" method="createWaypoint" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1154" endline="1176" begincolumn="18" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.content" class="MyTracksProviderUtilsImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CachedTrackPointsIndexes' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksLib/src/com/google/android/apps/mytracks/content/Sensor.java">
+<violation beginline="57" endline="354" begincolumn="48" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="Sensor$SensorData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="200" endline="345" begincolumn="80" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="Sensor$SensorData$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="357" endline="874" begincolumn="48" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="Sensor$SensorDataSet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="556" endline="865" begincolumn="83" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="Sensor$SensorDataSet$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksLib/src/com/google/android/apps/mytracks/content/Track.java">
+<violation beginline="33" endline="236" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.content" class="Track" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Track' is suspected to be a Data Class (WOC=3.333%, NOPA=1, NOAM=28, WMC=32)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksLib/src/com/google/android/apps/mytracks/content/Waypoint.java">
+<violation beginline="31" endline="249" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.content" class="Waypoint" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Waypoint' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=28, WMC=33)
+</violation>
+<violation beginline="54" endline="56" begincolumn="18" endcolumn="53" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.apps.mytracks.content" class="Waypoint" method="Waypoint" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksLib/src/com/google/android/apps/mytracks/content/WaypointCreationRequest.java">
+<violation beginline="28" endline="126" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.content" class="WaypointCreationRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WaypointCreationRequest' is suspected to be a Data Class (WOC=12.500%, NOPA=4, NOAM=6, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksLib/src/com/google/android/apps/mytracks/stats/TripStatistics.java">
+<violation beginline="30" endline="598" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.stats" class="TripStatistics" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/content/MyTracksProviderTest.java">
+<violation beginline="30" endline="263" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="MyTracksProviderTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/content/MyTracksProviderUtilsImplTest.java">
+<violation beginline="46" endline="908" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="MyTracksProviderUtilsImplTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/content/SearchEngineTest.java">
+<violation beginline="43" endline="326" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="SearchEngineTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/content/TrackDataHubTest.java">
+<violation beginline="57" endline="805" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.content" class="TrackDataHubTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/fragments/ChartFragmentTest.java">
+<violation beginline="34" endline="352" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.fragments" class="ChartFragmentTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/io/backup/PreferenceBackupHelperTest.java">
+<violation beginline="41" endline="100" begincolumn="74" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.backup" class="PreferenceBackupHelperTest$MockPreferenceEditor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/io/fusiontables/SendFusionTablesUtilsTest.java">
+<violation beginline="32" endline="212" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.fusiontables" class="SendFusionTablesUtilsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/io/sendtogoogle/SendRequestTest.java">
+<violation beginline="28" endline="287" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.io.sendtogoogle" class="SendRequestTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/services/TrackRecordingServiceTest.java">
+<violation beginline="67" endline="798" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.services" class="TrackRecordingServiceTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/services/tasks/AnnouncementPeriodicTaskTest.java">
+<violation beginline="50" endline="533" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.services.tasks" class="AnnouncementPeriodicTaskTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="67" endline="91" begincolumn="35" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.services.tasks" class="AnnouncementPeriodicTaskTest$TextToSpeechInterface" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/stats/TripStatisticsUpdaterTest.java">
+<violation beginline="17" endline="331" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.stats" class="TripStatisticsUpdaterTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest/src/com/google/android/apps/mytracks/util/StringUtilsTest.java">
+<violation beginline="29" endline="183" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.util" class="StringUtilsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest_E2E/src/com/google/android/apps/mytracks/endtoendtest/EndToEndTestUtils.java">
+<violation beginline="53" endline="936" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.endtoendtest" class="EndToEndTestUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest_E2E/src/com/google/android/apps/mytracks/endtoendtest/RunConfiguration.java">
+<violation beginline="26" endline="133" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.apps.mytracks.endtoendtest" class="RunConfiguration" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RunConfiguration' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=8, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest_E2E/src/com/google/android/apps/mytracks/endtoendtest/common/ExportAllAndImportAllTest.java">
+<violation beginline="46" endline="637" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.endtoendtest.common" class="ExportAllAndImportAllTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest_E2E/src/com/google/android/apps/mytracks/endtoendtest/common/SettingsTest.java">
+<violation beginline="33" endline="296" begincolumn="87" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.endtoendtest.common" class="SettingsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyTracks/MyTracksTest_E2E/src/com/google/android/apps/mytracks/endtoendtest/others/SensorTest.java">
+<violation beginline="36" endline="247" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.mytracks.endtoendtest.others" class="SensorTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

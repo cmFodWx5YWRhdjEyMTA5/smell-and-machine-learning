@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:17:02.306">
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendar-widget/app/calendar-widget/src/androidTest/java/com/plusonelabs/calendar/calendar/MockCalendarContentProvider.java">
+<violation beginline="39" endline="194" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.plusonelabs.calendar.calendar" class="MockCalendarContentProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendar-widget/app/calendar-widget/src/main/java/com/plusonelabs/calendar/EventAppWidgetProvider.java">
+<violation beginline="30" endline="176" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.plusonelabs.calendar" class="EventAppWidgetProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendar-widget/app/calendar-widget/src/main/java/com/plusonelabs/calendar/MainActivity.java">
+<violation beginline="30" endline="164" begincolumn="114" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.plusonelabs.calendar" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendar-widget/app/calendar-widget/src/main/java/com/plusonelabs/calendar/calendar/CalendarQueryResult.java">
+<violation beginline="26" endline="213" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.plusonelabs.calendar.calendar" class="CalendarQueryResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendar-widget/app/calendar-widget/src/main/java/com/plusonelabs/calendar/prefs/InstanceSettings.java">
+<violation beginline="34" endline="535" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.plusonelabs.calendar.prefs" class="InstanceSettings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

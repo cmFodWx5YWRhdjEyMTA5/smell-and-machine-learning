@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:10:56.970">
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/DCCHistory.java">
+<violation beginline="149" endline="213" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="io.mrarm.irc" class="DCCHistory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Entry' is suspected to be a Data Class (WOC=0.000%, NOPA=10, NOAM=0, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/DCCManager.java">
+<violation beginline="60" endline="956" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="DCCManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="737" endline="890" begincolumn="75" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="DCCManager$ActivityDialogHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/DCCNotificationManager.java">
+<violation beginline="26" endline="398" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="DCCNotificationManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/DCCTransferListAdapter.java">
+<violation beginline="31" endline="498" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="DCCTransferListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/EditNotificationSettingsActivity.java">
+<violation beginline="54" endline="794" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="EditNotificationSettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="78" endline="186" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.mrarm.irc" class="EditNotificationSettingsActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/EditServerActivity.java">
+<violation beginline="119" endline="294" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.mrarm.irc" class="EditServerActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/IRCApplication.java">
+<violation beginline="10" endline="94" begincolumn="99" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="IRCApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/MainActivity.java">
+<violation beginline="60" endline="571" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/MessageFormatSettingsActivity.java">
+<violation beginline="41" endline="436" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="MessageFormatSettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="71" endline="222" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.mrarm.irc" class="MessageFormatSettingsActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/NotificationManager.java">
+<violation beginline="24" endline="315" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="NotificationManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/ServerConnectionInfo.java">
+<violation beginline="35" endline="454" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="ServerConnectionInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/ServerConnectionManager.java">
+<violation beginline="26" endline="405" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="ServerConnectionManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/ServerListAdapter.java">
+<violation beginline="22" endline="389" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc" class="ServerListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/chat/ChatFragment.java">
+<violation beginline="36" endline="315" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc.chat" class="ChatFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="62" endline="162" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.mrarm.irc.chat" class="ChatFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/chat/ChatMessagesFragment.java">
+<violation beginline="56" endline="544" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc.chat" class="ChatMessagesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/chat/ChatSelectTouchListener.java">
+<violation beginline="30" endline="636" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc.chat" class="ChatSelectTouchListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/config/NotificationCountStorage.java">
+<violation beginline="19" endline="226" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc.config" class="NotificationCountStorage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/config/ServerCertificateManager.java">
+<violation beginline="40" endline="251" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc.config" class="ServerCertificateManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/config/SettingsHelper.java">
+<violation beginline="22" endline="340" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc.config" class="SettingsHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/job/ServerPingScheduler.java">
+<violation beginline="19" endline="167" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc.job" class="ServerPingScheduler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/util/AlignToPointSpan.java">
+<violation beginline="26" endline="28" begincolumn="34" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="io.mrarm.irc.util" class="AlignToPointSpan" method="drawLeadingMargin" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/util/IRCColorUtils.java">
+<violation beginline="90" endline="198" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.mrarm.irc.util" class="IRCColorUtils" method="appendFormattedString" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/util/MessageBuilder.java">
+<violation beginline="43" endline="724" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc.util" class="MessageBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/view/AutoRunCommandListEditText.java">
+<violation beginline="33" endline="289" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc.view" class="AutoRunCommandListEditText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/revolution-irc/app/src/main/java/io/mrarm/irc/view/ChatAutoCompleteEditText.java">
+<violation beginline="35" endline="451" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.mrarm.irc.view" class="ChatAutoCompleteEditText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

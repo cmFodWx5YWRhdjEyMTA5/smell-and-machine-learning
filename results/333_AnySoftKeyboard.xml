@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:27:11.625">
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/debug/java/com/anysoftkeyboard/debug/LogCatLogProvider.java">
+<violation beginline="10" endline="81" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.debug" class="LogCatLogProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/AnySoftKeyboard.java">
+<violation beginline="98" endline="2334" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.anysoftkeyboard" class="AnySoftKeyboard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="98" endline="2334" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard" class="AnySoftKeyboard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="189" endline="312" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard" class="AnySoftKeyboard" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="390" endline="501" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard" class="AnySoftKeyboard" method="onStartInputView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="938" endline="1157" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard" class="AnySoftKeyboard" method="onFunctionKey" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/addons/AddOnsFactory.java">
+<violation beginline="98" endline="99" begincolumn="28" endcolumn="109" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.addons" class="AddOnsFactory" method="AddOnsFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="104" endline="105" begincolumn="18" endcolumn="131" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.addons" class="AddOnsFactory" method="AddOnsFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="470" endline="471" begincolumn="38" endcolumn="113" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.addons" class="AddOnsFactory$SingleAddOnsFactory" method="SingleAddOnsFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="500" endline="501" begincolumn="40" endcolumn="113" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.addons" class="AddOnsFactory$MultipleAddOnsFactory" method="MultipleAddOnsFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/dictionaries/BTreeDictionary.java">
+<violation beginline="32" endline="437" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.dictionaries" class="BTreeDictionary" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/dictionaries/DictionaryAddOnAndBuilder.java">
+<violation beginline="45" endline="47" begincolumn="38" endcolumn="123" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.dictionaries" class="DictionaryAddOnAndBuilder" method="DictionaryAddOnAndBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="56" endline="57" begincolumn="37" endcolumn="193" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.dictionaries" class="DictionaryAddOnAndBuilder" method="DictionaryAddOnAndBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="61" endline="62" begincolumn="37" endcolumn="210" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.dictionaries" class="DictionaryAddOnAndBuilder" method="DictionaryAddOnAndBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/dictionaries/SuggestionsProvider.java">
+<violation beginline="26" endline="411" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.dictionaries" class="SuggestionsProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/dictionaries/TextEntryState.java">
+<violation beginline="22" endline="199" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.dictionaries" class="TextEntryState" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/ime/AnySoftKeyboardBase.java">
+<violation beginline="56" endline="375" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/ime/AnySoftKeyboardHardware.java">
+<violation beginline="76" endline="181" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardHardware" method="onKeyDown" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/ime/AnySoftKeyboardKeyboardSwitchedListener.java">
+<violation beginline="39" endline="228" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardKeyboardSwitchedListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/ime/AnySoftKeyboardKeyboardTagsSearcher.java">
+<violation beginline="193" endline="359" begincolumn="74" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardKeyboardTagsSearcher$TagsSuggestionList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/ime/AnySoftKeyboardWithGestureTyping.java">
+<violation beginline="31" endline="381" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardWithGestureTyping" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboardextensions/KeyboardExtension.java">
+<violation beginline="38" endline="38" begincolumn="29" endcolumn="279" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.keyboardextensions" class="KeyboardExtension" method="KeyboardExtension" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/AnyKeyboard.java">
+<violation beginline="55" endline="828" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards" class="AnyKeyboard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="153" endline="261" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard.keyboards" class="AnyKeyboard" method="initKeysMembers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/ExternalAnyKeyboard.java">
+<violation beginline="74" endline="79" begincolumn="31" endcolumn="59" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.keyboards" class="ExternalAnyKeyboard" method="ExternalAnyKeyboard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="119" endline="229" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard.keyboards" class="ExternalAnyKeyboard" method="createPhysicalTranslatorFromResourceId" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/KeyboardAddOnAndBuilder.java">
+<violation beginline="37" endline="47" begincolumn="35" endcolumn="66" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.keyboards" class="KeyboardAddOnAndBuilder" method="KeyboardAddOnAndBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/KeyboardSwitcher.java">
+<violation beginline="56" endline="783" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards" class="KeyboardSwitcher" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/views/AnyKeyboardView.java">
+<violation beginline="57" endline="367" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/views/AnyKeyboardViewBase.java">
+<violation beginline="93" endline="2091" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardViewBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="94" endline="2091" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardViewBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="346" endline="465" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardViewBase" method="setKeyboardTheme" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="481" endline="653" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardViewBase" method="setValueFromTheme" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="655" endline="758" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardViewBase" method="setKeyIconValueFromTheme" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="989" endline="1254" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardViewBase" method="onBufferDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/views/AnyKeyboardViewWithMiniKeyboard.java">
+<violation beginline="47" endline="262" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardViewWithMiniKeyboard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/views/CandidateView.java">
+<violation beginline="54" endline="550" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="CandidateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="220" endline="333" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="CandidateView" method="onDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/views/DemoAnyKeyboardView.java">
+<violation beginline="23" endline="246" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="DemoAnyKeyboardView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/views/KeyDrawableStateProvider.java">
+<violation beginline="3" endline="43" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="KeyDrawableStateProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'KeyDrawableStateProvider' is suspected to be a Data Class (WOC=0.000%, NOPA=13, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/views/MiniKeyboardActionListener.java">
+<violation beginline="9" endline="108" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="MiniKeyboardActionListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/views/OnKeyboardActionListener.java">
+<violation beginline="24" endline="127" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="OnKeyboardActionListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/keyboards/views/PointerTracker.java">
+<violation beginline="30" endline="563" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="PointerTracker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/quicktextkeys/QuickTextKey.java">
+<violation beginline="48" endline="51" begincolumn="24" endcolumn="82" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.quicktextkeys" class="QuickTextKey" method="QuickTextKey" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/quicktextkeys/ui/RecordHistoryKeyboardActionListener.java">
+<violation beginline="11" endline="112" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.quicktextkeys.ui" class="RecordHistoryKeyboardActionListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/theme/KeyboardTheme.java">
+<violation beginline="35" endline="37" begincolumn="25" endcolumn="83" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.theme" class="KeyboardTheme" method="KeyboardTheme" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/ui/dev/DeveloperToolsFragment.java">
+<violation beginline="50" endline="235" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ui.dev" class="DeveloperToolsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/ui/settings/MainFragment.java">
+<violation beginline="61" endline="388" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ui.settings" class="MainFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/ui/settings/NextWordSettingsFragment.java">
+<violation beginline="42" endline="272" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ui.settings" class="NextWordSettingsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/ui/settings/wordseditor/UserDictionaryEditorFragment.java">
+<violation beginline="77" endline="532" begincolumn="110" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ui.settings.wordseditor" class="UserDictionaryEditorFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/anysoftkeyboard/ui/tutorials/VersionChangeLogs.java">
+<violation beginline="13" endline="270" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.anysoftkeyboard.ui.tutorials" class="VersionChangeLogs" method="createChangeLog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/main/java/com/menny/android/anysoftkeyboard/AnyApplication.java">
+<violation beginline="63" endline="293" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.menny.android.anysoftkeyboard" class="AnyApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/AnySoftKeyboardDictionaryEnablingTest.java">
+<violation beginline="22" endline="304" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard" class="AnySoftKeyboardDictionaryEnablingTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/AnySoftKeyboardDictionaryGetWordsTest.java">
+<violation beginline="15" endline="536" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard" class="AnySoftKeyboardDictionaryGetWordsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/AnySoftKeyboardGesturesTest.java">
+<violation beginline="17" endline="464" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard" class="AnySoftKeyboardGesturesTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/AnySoftKeyboardGimmicksTest.java">
+<violation beginline="28" endline="1007" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard" class="AnySoftKeyboardGimmicksTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/AnySoftKeyboardKeyboardPersistentLayoutTest.java">
+<violation beginline="26" endline="258" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard" class="AnySoftKeyboardKeyboardPersistentLayoutTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/TestInputConnection.java">
+<violation beginline="19" endline="326" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard" class="TestInputConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/TestableAnySoftKeyboard.java">
+<violation beginline="48" endline="503" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard" class="TestableAnySoftKeyboard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ViewTestUtils.java">
+<violation beginline="29" endline="225" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard" class="ViewTestUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/dictionaries/SuggestionsProviderTest.java">
+<violation beginline="33" endline="471" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.dictionaries" class="SuggestionsProviderTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/dictionaries/TextEntryStateTest.java">
+<violation beginline="12" endline="158" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.dictionaries" class="TextEntryStateTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ime/AnySoftKeyboardClipboardTest.java">
+<violation beginline="32" endline="379" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardClipboardTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ime/AnySoftKeyboardGestureTypingTest.java">
+<violation beginline="30" endline="384" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardGestureTypingTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ime/AnySoftKeyboardKeyboardSwitcherTest.java">
+<violation beginline="32" endline="349" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardKeyboardSwitcherTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ime/AnySoftKeyboardKeyboardSwitchingTest.java">
+<violation beginline="38" endline="393" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardKeyboardSwitchingTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ime/AnySoftKeyboardKeyboardTagsSearcherTest.java">
+<violation beginline="24" endline="315" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardKeyboardTagsSearcherTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ime/AnySoftKeyboardPhysicalKeyboardTest.java">
+<violation beginline="24" endline="486" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardPhysicalKeyboardTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ime/AnySoftKeyboardQuickTextTest.java">
+<violation beginline="18" endline="219" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ime" class="AnySoftKeyboardQuickTextTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/keyboards/ExternalAnyKeyboardRowsTest.java">
+<violation beginline="31" endline="526" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards" class="ExternalAnyKeyboardRowsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/keyboards/views/AnyKeyboardViewBaseTest.java">
+<violation beginline="38" endline="291" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardViewBaseTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/keyboards/views/AnyKeyboardViewTest.java">
+<violation beginline="55" endline="518" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardViewTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/keyboards/views/AnyKeyboardViewWithMiniKeyboardTest.java">
+<violation beginline="38" endline="525" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.keyboards.views" class="AnyKeyboardViewWithMiniKeyboardTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ui/settings/MainSettingsActivityTest.java">
+<violation beginline="37" endline="256" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ui.settings" class="MainSettingsActivityTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ui/settings/SingleSelectionAddOnsBrowserFragmentTest.java">
+<violation beginline="31" endline="194" begincolumn="122" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ui.settings" class="SingleSelectionAddOnsBrowserFragmentTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/ui/settings/wordseditor/UserDictionaryEditorFragmentTest.java">
+<violation beginline="27" endline="324" begincolumn="113" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.ui.settings.wordseditor" class="UserDictionaryEditorFragmentTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/app/src/test/java/com/anysoftkeyboard/utils/IMEUtilTest.java">
+<violation beginline="15" endline="222" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.utils" class="IMEUtilTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/base/src/main/java/com/anysoftkeyboard/base/utils/LogProvider.java">
+<violation beginline="19" endline="48" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.base.utils" class="LogProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/base/src/main/java/com/anysoftkeyboard/base/utils/Logger.java">
+<violation beginline="24" endline="229" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.base.utils" class="Logger" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/base/src/main/java/com/anysoftkeyboard/base/utils/NullLogProvider.java">
+<violation beginline="6" endline="75" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.base.utils" class="NullLogProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/base/src/test/java/com/anysoftkeyboard/base/utils/LoggerTest.java">
+<violation beginline="12" endline="246" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.base.utils" class="LoggerTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/jnidictionaryv2/src/main/java/com/anysoftkeyboard/dictionaries/jni/ResourceBinaryDictionary.java">
+<violation beginline="91" endline="92" begincolumn="44" endcolumn="72" rule="ExcessiveParameterList" ruleset="Design" package="com.anysoftkeyboard.dictionaries.jni" class="ResourceBinaryDictionary" method="getSuggestionsNative" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AnySoftKeyboard/prefs/src/test/java/com/anysoftkeyboard/prefs/RxSharedPrefsTest.java">
+<violation beginline="27" endline="314" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.anysoftkeyboard.prefs" class="RxSharedPrefsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

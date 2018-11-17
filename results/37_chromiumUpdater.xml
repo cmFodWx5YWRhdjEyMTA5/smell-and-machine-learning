@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:14:03.561">
+<file name="/home/matheus/smell-and-machine-learning/repositories/chromiumUpdater/ChromiumAutoUpdater/app/src/main/java/com/dosse/chromiumautoupdater/ChromiumUpdater.java">
+<violation beginline="117" endline="377" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.dosse.chromiumautoupdater" class="ChromiumUpdater$UpdateThread" method="downloadUpdate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

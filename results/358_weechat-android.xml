@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:32:56.094">
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/Weechat.java">
+<violation beginline="23" endline="92" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid" class="Weechat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/WeechatActivity.java">
+<violation beginline="83" endline="544" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid" class="WeechatActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/adapters/ChatLinesAdapter.java">
+<violation beginline="61" endline="341" begincolumn="106" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid.adapters" class="ChatLinesAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/fragments/BufferFragment.java">
+<violation beginline="53" endline="414" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid.fragments" class="BufferFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/fragments/BufferListFragment.java">
+<violation beginline="39" endline="165" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid.fragments" class="BufferListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/relay/Buffer.java">
+<violation beginline="30" endline="425" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid.relay" class="Buffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/relay/BufferList.java">
+<violation beginline="37" endline="456" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid.relay" class="BufferList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/relay/Lines.java">
+<violation beginline="23" endline="206" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid.relay" class="Lines" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/service/P.java">
+<violation beginline="48" endline="431" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid.service" class="P" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/service/RelayService.java">
+<violation beginline="57" endline="320" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.ubergeek42.WeechatAndroid.service" class="RelayService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RelayService' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+<violation beginline="57" endline="320" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid.service" class="RelayService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/app/src/main/java/com/ubergeek42/WeechatAndroid/utils/Utils.java">
+<violation beginline="50" endline="270" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.WeechatAndroid.utils" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/cats/src/main/java/com/ubergeek42/cats/Kitty.java">
+<violation beginline="14" endline="234" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.cats" class="Kitty" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/cats/src/test/java/com/ubergeek42/cats/CatTest.java">
+<violation beginline="20" endline="237" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.cats" class="CatTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/cats/src/test/java/com/ubergeek42/cats/StringsTest.java">
+<violation beginline="25" endline="121" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.cats" class="StringsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/relay/src/main/java/com/ubergeek42/weechat/Buffer.java">
+<violation beginline="33" endline="306" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.weechat" class="Buffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/relay/src/main/java/com/ubergeek42/weechat/BufferLine.java">
+<violation beginline="33" endline="112" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.ubergeek42.weechat" class="BufferLine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BufferLine' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=7, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/relay/src/main/java/com/ubergeek42/weechat/Color.java">
+<violation beginline="34" endline="388" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.weechat" class="Color" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/relay/src/main/java/com/ubergeek42/weechat/relay/connection/AbstractConnection.java">
+<violation beginline="21" endline="180" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.weechat.relay.connection" class="AbstractConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/relay/src/main/java/com/ubergeek42/weechat/relay/messagehandler/HotlistManager.java">
+<violation beginline="102" endline="211" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ubergeek42.weechat.relay.messagehandler" class="HotlistManager" method="handleMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/relay/src/main/java/com/ubergeek42/weechat/relay/protocol/RelayObject.java">
+<violation beginline="26" endline="205" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.weechat.relay.protocol" class="RelayObject" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/weechat-android/relay/src/test/java/com/ubergeek42/weechat/relay/protocol/DataTest.java">
+<violation beginline="14" endline="233" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ubergeek42.weechat.relay.protocol" class="DataTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:06:45.565">
+<file name="/home/matheus/smell-and-machine-learning/repositories/mounts2sd/src/com/spazedog/mounts2sd/ActivityAppSettings.java">
+<violation beginline="231" endline="406" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.spazedog.mounts2sd" class="ActivityAppSettings" method="startInstallation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="236" endline="388" begincolumn="35" endcolumn="25" rule="ExcessiveMethodLength" ruleset="Design" package="com.spazedog.mounts2sd" class="ActivityAppSettings" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mounts2sd/src/com/spazedog/mounts2sd/ActivityTabController.java">
+<violation beginline="52" endline="449" begincolumn="151" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.spazedog.mounts2sd" class="ActivityTabController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mounts2sd/src/com/spazedog/mounts2sd/FragmentTabConfigure.java">
+<violation beginline="89" endline="189" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.spazedog.mounts2sd" class="FragmentTabConfigure" method="onViewCreated" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mounts2sd/src/com/spazedog/mounts2sd/FragmentTabLog.java">
+<violation beginline="189" endline="300" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.spazedog.mounts2sd" class="FragmentTabLog" method="generateDebugFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mounts2sd/src/com/spazedog/mounts2sd/tools/Preferences.java">
+<violation beginline="217" endline="449" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.spazedog.mounts2sd.tools" class="Preferences$DeviceSetup" method="load" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="471" endline="714" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.spazedog.mounts2sd.tools" class="Preferences$DeviceConfig" method="load" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mounts2sd/src/com/spazedog/mounts2sd/tools/containers/IDeviceConfig.java">
+<violation beginline="9" endline="324" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.spazedog.mounts2sd.tools.containers" class="IDeviceConfig" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mounts2sd/src/com/spazedog/mounts2sd/tools/containers/IDeviceProperties.java">
+<violation beginline="11" endline="269" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.spazedog.mounts2sd.tools.containers" class="IDeviceProperties" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mounts2sd/src/com/spazedog/mounts2sd/tools/containers/IDeviceSetup.java">
+<violation beginline="9" endline="316" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.spazedog.mounts2sd.tools.containers" class="IDeviceSetup" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

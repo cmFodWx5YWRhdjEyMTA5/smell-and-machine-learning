@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:41:48.486">
+<file name="/home/matheus/smell-and-machine-learning/repositories/guessaday/app/src/main/java/com/goltzkiste/guessaday/MainActivity.java">
+<violation beginline="178" endline="299" begincolumn="13" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.goltzkiste.guessaday" class="MainActivity" method="loadActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

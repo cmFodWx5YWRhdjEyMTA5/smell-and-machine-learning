@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:52:38.066">
+<file name="/home/matheus/smell-and-machine-learning/repositories/clean-calculator/src/com/udojava/evalex/Expression.java">
+<violation beginline="468" endline="743" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.udojava.evalex" class="Expression" method="Expression" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/clean-calculator/src/home/jmstudios/calc/Main.java">
+<violation beginline="48" endline="940" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="home.jmstudios.calc" class="Main" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="170" endline="350" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="home.jmstudios.calc" class="Main" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="356" endline="463" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="home.jmstudios.calc" class="Main" method="addText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="609" endline="786" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="home.jmstudios.calc" class="Main" method="onClickListenerEqual" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

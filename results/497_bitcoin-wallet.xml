@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:02:38.882">
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/integration-android/src/de/schildbach/wallet/integration/android/BitcoinIntegration.java">
+<violation beginline="29" endline="276" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.integration.android" class="BitcoinIntegration" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/Configuration.java">
+<violation beginline="40" endline="288" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet" class="Configuration" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/WalletApplication.java">
+<violation beginline="75" endline="370" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet" class="WalletApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/data/PaymentIntent.java">
+<violation beginline="52" endline="514" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.data" class="PaymentIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/service/BlockchainService.java">
+<violation beginline="115" endline="931" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.service" class="BlockchainService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="585" endline="780" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.schildbach.wallet.service" class="BlockchainService" method="observeLiveDatasThatAreDependentOnWalletAndBlockchain" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/AlertDialogsFragment.java">
+<violation beginline="61" endline="380" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui" class="AlertDialogsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/CircularProgressView.java">
+<violation beginline="34" endline="155" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui" class="CircularProgressView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CircularProgressView' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/ExchangeRatesAdapter.java">
+<violation beginline="67" endline="82" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui" class="ExchangeRatesAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ListItem' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/ReportIssueDialogBuilder.java">
+<violation beginline="89" endline="193" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.schildbach.wallet.ui" class="ReportIssueDialogBuilder" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/ReportIssueDialogFragment.java">
+<violation beginline="65" endline="322" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui" class="ReportIssueDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/RequestCoinsFragment.java">
+<violation beginline="77" endline="392" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui" class="RequestCoinsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/RequestCoinsViewModel.java">
+<violation beginline="49" endline="204" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui" class="RequestCoinsViewModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RequestCoinsViewModel' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/SendingAddressesFragment.java">
+<violation beginline="72" endline="355" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui" class="SendingAddressesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/SendingAddressesViewModel.java">
+<violation beginline="49" endline="119" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui" class="SendingAddressesViewModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SendingAddressesViewModel' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/TransactionsAdapter.java">
+<violation beginline="122" endline="365" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="de.schildbach.wallet.ui" class="TransactionsAdapter$ListItem$TransactionItem" method="TransactionItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="398" endline="555" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.schildbach.wallet.ui" class="TransactionsAdapter" method="TransactionsAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/WalletActivity.java">
+<violation beginline="71" endline="469" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui" class="WalletActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="162" endline="264" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.schildbach.wallet.ui" class="WalletActivity" method="buildEnterAnimation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/WalletAddressViewModel.java">
+<violation beginline="48" endline="178" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui" class="WalletAddressViewModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WalletAddressViewModel' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/WalletAddressesViewModel.java">
+<violation beginline="44" endline="141" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui" class="WalletAddressesViewModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WalletAddressesViewModel' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/WalletTransactionsFragment.java">
+<violation beginline="74" endline="371" begincolumn="105" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui" class="WalletTransactionsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/WalletTransactionsViewModel.java">
+<violation beginline="61" endline="293" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui" class="WalletTransactionsViewModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WalletTransactionsViewModel' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/backup/RestoreWalletDialogFragment.java">
+<violation beginline="78" endline="440" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui.backup" class="RestoreWalletDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="130" endline="235" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.schildbach.wallet.ui.backup" class="RestoreWalletDialogFragment" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/monitor/BlockListAdapter.java">
+<violation beginline="70" endline="152" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui.monitor" class="BlockListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ListItem' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=9)
+</violation>
+<violation beginline="111" endline="151" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui.monitor" class="BlockListAdapter$ListItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ListTransaction' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/monitor/BlockListFragment.java">
+<violation beginline="91" endline="129" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui.monitor" class="BlockListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewModel' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/monitor/PeerListAdapter.java">
+<violation beginline="53" endline="74" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui.monitor" class="PeerListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ListItem' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/scan/ScanActivity.java">
+<violation beginline="89" endline="502" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui.scan" class="ScanActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/send/MaintenanceDialogFragment.java">
+<violation beginline="69" endline="328" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui.send" class="MaintenanceDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/send/RaiseFeeDialogFragment.java">
+<violation beginline="76" endline="379" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui.send" class="RaiseFeeDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/send/SendCoinsFragment.java">
+<violation beginline="129" endline="1401" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.schildbach.wallet.ui.send" class="SendCoinsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="129" endline="1401" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui.send" class="SendCoinsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="806" endline="944" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.schildbach.wallet.ui.send" class="SendCoinsFragment" method="sendPayment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1004" endline="1205" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.schildbach.wallet.ui.send" class="SendCoinsFragment" method="updateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/send/SendCoinsViewModel.java">
+<violation beginline="45" endline="86" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.schildbach.wallet.ui.send" class="SendCoinsViewModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SendCoinsViewModel' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/ui/send/SweepWalletFragment.java">
+<violation beginline="104" endline="681" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.ui.send" class="SweepWalletFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoin-wallet/wallet/src/de/schildbach/wallet/util/WalletUtils.java">
+<violation beginline="75" endline="361" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.schildbach.wallet.util" class="WalletUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

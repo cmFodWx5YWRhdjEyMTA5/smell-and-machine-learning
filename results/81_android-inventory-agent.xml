@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:25:04.608">
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-inventory-agent/app/src/main/java/org/flyve/inventory/agent/core/home/HomeSchema.java">
+<violation beginline="26" endline="106" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.flyve.inventory.agent.core.home" class="HomeSchema" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HomeSchema' is suspected to be a Data Class (WOC=13.333%, NOPA=0, NOAM=10, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-inventory-agent/app/src/main/java/org/flyve/inventory/agent/schema/ListInventorySchema.java">
+<violation beginline="3" endline="32" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.flyve.inventory.agent.schema" class="ListInventorySchema" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ListInventorySchema' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-inventory-agent/app/src/main/java/org/flyve/inventory/agent/schema/ServerSchema.java">
+<violation beginline="3" endline="41" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.flyve.inventory.agent.schema" class="ServerSchema" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ServerSchema' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+</pmd>

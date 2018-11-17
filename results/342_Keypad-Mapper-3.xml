@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:29:03.697">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/gen/de/enaikoon/android/keypadmapper3/R.java">
+<violation beginline="10" endline="3774" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.enaikoon.android.keypadmapper3" class="R" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1641" endline="3773" begincolumn="25" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="de.enaikoon.android.keypadmapper3" class="R" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/inviu/opencellidlibrary/CellIDCollectionService.java">
+<violation beginline="172" endline="357" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.enaikoon.android.inviu.opencellidlibrary" class="CellIDCollectionService" method="onStartCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="617" endline="766" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.enaikoon.android.inviu.opencellidlibrary" class="CellIDCollectionService" method="updateCellLocation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/inviu/opencellidlibrary/Meassurement.java">
+<violation beginline="12" endline="313" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.enaikoon.android.inviu.opencellidlibrary" class="Meassurement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Meassurement' is suspected to be a Data Class (WOC=7.407%, NOPA=0, NOAM=24, WMC=34)
+</violation>
+<violation beginline="31" endline="32" begincolumn="28" endcolumn="88" rule="ExcessiveParameterList" ruleset="Design" package="de.enaikoon.android.inviu.opencellidlibrary" class="Meassurement" method="Meassurement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/inviu/opencellidlibrary/OpenCellIdGPSDataValidator.java">
+<violation beginline="308" endline="411" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.enaikoon.android.inviu.opencellidlibrary" class="OpenCellIdGPSDataValidator" method="validateGPSData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/inviu/opencellidlibrary/UploadService.java">
+<violation beginline="13" endline="86" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.enaikoon.android.inviu.opencellidlibrary" class="UploadService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UploadService' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/inviu/opencellidlibrary/Uploader.java">
+<violation beginline="53" endline="210" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.enaikoon.android.inviu.opencellidlibrary" class="Uploader" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/keypadmapper3/KeypadMapperApplication.java">
+<violation beginline="44" endline="608" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.enaikoon.android.keypadmapper3" class="KeypadMapperApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="299" endline="441" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.enaikoon.android.keypadmapper3" class="KeypadMapperApplication" method="checkLastGpxFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/keypadmapper3/SettingsActivity.java">
+<violation beginline="51" endline="1015" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.enaikoon.android.keypadmapper3" class="SettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="192" endline="385" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.enaikoon.android.keypadmapper3" class="SettingsActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="620" endline="761" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.enaikoon.android.keypadmapper3" class="SettingsActivity" method="init" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/keypadmapper3/domain/Address.java">
+<violation beginline="13" endline="118" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.enaikoon.android.keypadmapper3.domain" class="Address" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Address' is suspected to be a Data Class (WOC=5.263%, NOPA=0, NOAM=16, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/keypadmapper3/domain/Mapper.java">
+<violation beginline="39" endline="492" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.enaikoon.android.keypadmapper3.domain" class="Mapper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/keypadmapper3/domain/Trackpoint.java">
+<violation beginline="13" endline="91" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.enaikoon.android.keypadmapper3.domain" class="Trackpoint" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Trackpoint' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/keypadmapper3/geocode/ReverseGeocodeResult.java">
+<violation beginline="14" endline="36" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.enaikoon.android.keypadmapper3.geocode" class="ReverseGeocodeResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ReverseGeocodeResult' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/keypadmapper3/location/LocationProvider.java">
+<violation beginline="34" endline="263" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.enaikoon.android.keypadmapper3.location" class="LocationProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/keypadmapper3/photo/GpsLocationWriter.java">
+<violation beginline="81" endline="219" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.enaikoon.android.keypadmapper3.photo" class="GpsLocationWriter" method="update" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/keypadmapper3/utils/GPSDataValidator.java">
+<violation beginline="306" endline="409" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.enaikoon.android.keypadmapper3.utils" class="GPSDataValidator" method="validateGPSData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/de/enaikoon/android/keypadmapper3/view/menu/KeypadMapperMenu.java">
+<violation beginline="50" endline="533" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.enaikoon.android.keypadmapper3.view.menu" class="KeypadMapperMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/org/osm/keypadmapper2/ExtendedAddressFragment.java">
+<violation beginline="29" endline="284" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.osm.keypadmapper2" class="ExtendedAddressFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/org/osm/keypadmapper2/KeypadFragment.java">
+<violation beginline="49" endline="640" begincolumn="99" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.osm.keypadmapper2" class="KeypadFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="129" endline="242" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.osm.keypadmapper2" class="KeypadFragment" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="255" endline="381" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.osm.keypadmapper2" class="KeypadFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/KeypadMapper3/src/org/osm/keypadmapper2/KeypadMapper2Activity.java">
+<violation beginline="67" endline="981" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.osm.keypadmapper2" class="KeypadMapper2Activity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="83" endline="92" begincolumn="13" endcolumn="5" rule="DataClass" ruleset="Design" package="org.osm.keypadmapper2" class="KeypadMapper2Activity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LocObj' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+<violation beginline="275" endline="397" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.osm.keypadmapper2" class="KeypadMapper2Activity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/gen/com/actionbarsherlock/R.java">
+<violation beginline="10" endline="3275" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock" class="R" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1142" endline="3274" begincolumn="25" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock" class="R" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/ActionBarSherlock.java">
+<violation beginline="41" endline="794" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock" class="ActionBarSherlock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/app/ActionBar.java">
+<violation beginline="59" endline="956" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.app" class="ActionBar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/app/SherlockActivity.java">
+<violation beginline="21" endline="270" begincolumn="205" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.app" class="SherlockActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/app/SherlockExpandableListActivity.java">
+<violation beginline="21" endline="259" begincolumn="233" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.app" class="SherlockExpandableListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/app/SherlockFragmentActivity.java">
+<violation beginline="21" endline="303" begincolumn="123" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.app" class="SherlockFragmentActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/app/SherlockListActivity.java">
+<violation beginline="21" endline="270" begincolumn="213" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.app" class="SherlockListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/app/SherlockPreferenceActivity.java">
+<violation beginline="21" endline="270" begincolumn="225" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.app" class="SherlockPreferenceActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/ActionBarSherlockCompat.java">
+<violation beginline="51" endline="1203" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock.internal" class="ActionBarSherlockCompat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="51" endline="1203" begincolumn="211" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal" class="ActionBarSherlockCompat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/app/ActionBarImpl.java">
+<violation beginline="66" endline="1026" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.app" class="ActionBarImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/app/ActionBarWrapper.java">
+<violation beginline="16" endline="468" begincolumn="151" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.app" class="ActionBarWrapper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet.java">
+<violation beginline="46" endline="1111" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock.internal.nineoldandroids.animation" class="AnimatorSet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator.java">
+<violation beginline="44" endline="1265" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock.internal.nineoldandroids.animation" class="ValueAnimator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="44" endline="1265" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.nineoldandroids.animation" class="ValueAnimator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/ActionMenu.java">
+<violation beginline="36" endline="264" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="ActionMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/ActionMenuItemView.java">
+<violation beginline="48" endline="295" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="ActionMenuItemView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/ActionMenuPresenter.java">
+<violation beginline="47" endline="714" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="ActionMenuPresenter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="371" endline="500" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="ActionMenuPresenter" method="flagActionItems" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/ActionMenuView.java">
+<violation beginline="33" endline="575" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="ActionMenuView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="123" endline="332" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="ActionMenuView" method="onMeasureExactFormat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="547" endline="574" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="ActionMenuView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LayoutParams' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/BaseMenuPresenter.java">
+<violation beginline="31" endline="231" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="BaseMenuPresenter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/MenuBuilder.java">
+<violation beginline="52" endline="1335" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="MenuBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="52" endline="1335" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="MenuBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java">
+<violation beginline="37" endline="647" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="MenuItemImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/MenuPopupHelper.java">
+<violation beginline="47" endline="376" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="MenuPopupHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/MenuWrapper.java">
+<violation beginline="11" endline="185" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.view.menu" class="MenuWrapper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/widget/ActionBarContextView.java">
+<violation beginline="46" endline="518" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="ActionBarContextView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/widget/ActionBarView.java">
+<violation beginline="71" endline="1548" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="ActionBarView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="71" endline="1548" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="ActionBarView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="874" endline="1068" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="ActionBarView" method="onMeasure" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1071" endline="1207" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="ActionBarView" method="onLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/widget/IcsAdapterView.java">
+<violation beginline="50" endline="1160" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="IcsAdapterView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="50" endline="1160" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="IcsAdapterView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/widget/IcsListPopupWindow.java">
+<violation beginline="283" endline="405" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="IcsListPopupWindow" method="buildDropDown" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/widget/IcsProgressBar.java">
+<violation beginline="186" endline="1193" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="IcsProgressBar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="186" endline="1193" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="IcsProgressBar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/internal/widget/ScrollingTabContainerView.java">
+<violation beginline="46" endline="546" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.internal.widget" class="ScrollingTabContainerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/view/Menu.java">
+<violation beginline="51" endline="446" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.view" class="Menu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/widget/ActivityChooserModel.java">
+<violation beginline="95" endline="1104" begincolumn="1" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock.widget" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="932" endline="1038" begincolumn="15" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.actionbarsherlock.widget" class="ActivityChooserModel$HistoryLoader" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/widget/SearchView.java">
+<violation beginline="103" endline="1811" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.actionbarsherlock.widget" class="SearchView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="103" endline="1811" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.widget" class="SearchView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="255" endline="357" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.actionbarsherlock.widget" class="SearchView" method="SearchView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/actionbarsherlock/src/com/actionbarsherlock/widget/SuggestionsAdapter.java">
+<violation beginline="58" endline="733" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.actionbarsherlock.widget" class="SuggestionsAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="308" endline="322" begincolumn="26" endcolumn="5" rule="DataClass" ruleset="Design" package="com.actionbarsherlock.widget" class="SuggestionsAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ChildViewCache' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/enaikoon_resources_lib/src/de/enaikoon/android/library/resources/locale/LocaleInfo.java">
+<violation beginline="16" endline="81" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.enaikoon.android.library.resources.locale" class="LocaleInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LocaleInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/enaikoon_resources_lib/src/de/enaikoon/android/library/resources/locale/parse/ImageDescription.java">
+<violation beginline="14" endline="46" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.enaikoon.android.library.resources.locale.parse" class="ImageDescription" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ImageDescription' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Keypad-Mapper-3/enaikoon_resources_lib/src/de/enaikoon/android/library/resources/locale/parse/StringResource.java">
+<violation beginline="14" endline="40" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.enaikoon.android.library.resources.locale.parse" class="StringResource" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StringResource' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+</pmd>

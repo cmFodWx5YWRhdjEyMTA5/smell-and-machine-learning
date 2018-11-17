@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:56:30.369">
+<file name="/home/matheus/smell-and-machine-learning/repositories/rainwave-android/src/cc/rainwave/android/NowPlayingActivity.java">
+<violation beginline="90" endline="985" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cc.rainwave.android" class="NowPlayingActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="278" endline="453" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="cc.rainwave.android" class="NowPlayingActivity" method="setListeners" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rainwave-android/src/cc/rainwave/android/PlaylistActivity.java">
+<violation beginline="69" endline="466" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cc.rainwave.android" class="PlaylistActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rainwave-android/src/cc/rainwave/android/SyncService.java">
+<violation beginline="43" endline="153" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="cc.rainwave.android" class="SyncService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SyncService' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rainwave-android/src/cc/rainwave/android/adapters/SongListAdapter.java">
+<violation beginline="145" endline="263" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="cc.rainwave.android.adapters" class="SongListAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rainwave-android/src/cc/rainwave/android/api/Session.java">
+<violation beginline="66" endline="735" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cc.rainwave.android.api" class="Session" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rainwave-android/src/com/google/android/apps/iosched/ui/widget/Workspace.java">
+<violation beginline="56" endline="1077" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.apps.iosched.ui.widget" class="Workspace" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="56" endline="1077" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.apps.iosched.ui.widget" class="Workspace" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="443" endline="559" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.apps.iosched.ui.widget" class="Workspace" method="onInterceptTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="593" endline="738" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.apps.iosched.ui.widget" class="Workspace" method="onTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

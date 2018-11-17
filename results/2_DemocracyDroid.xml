@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:06:10.430">
+<file name="/home/matheus/smell-and-machine-learning/repositories/DemocracyDroid/app/src/main/java/com/workingagenda/democracydroid/Feedreader/RssItem.java">
+<violation beginline="19" endline="107" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.workingagenda.democracydroid.Feedreader" class="RssItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RssItem' is suspected to be a Data Class (WOC=5.556%, NOPA=0, NOAM=16, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/DemocracyDroid/app/src/main/java/com/workingagenda/democracydroid/Objects/Episode.java">
+<violation beginline="7" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.workingagenda.democracydroid.Objects" class="Episode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Episode' is suspected to be a Data Class (WOC=6.667%, NOPA=0, NOAM=14, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/DemocracyDroid/app/src/main/java/com/workingagenda/democracydroid/SettingsActivity.java">
+<violation beginline="30" endline="172" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.workingagenda.democracydroid" class="SettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

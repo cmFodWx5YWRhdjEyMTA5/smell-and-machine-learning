@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:19:07.672">
+<file name="/home/matheus/smell-and-machine-learning/repositories/WaveLinesWallpaper/app/src/main/java/de/markusfisch/android/wavelines/database/Database.java">
+<violation beginline="13" endline="232" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.wavelines.database" class="Database" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/WaveLinesWallpaper/app/src/main/java/de/markusfisch/android/wavelines/fragment/ThemeEditorFragment.java">
+<violation beginline="25" endline="368" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.wavelines.fragment" class="ThemeEditorFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/WaveLinesWallpaper/app/src/main/java/de/markusfisch/android/wavelines/fragment/ThemeListFragment.java">
+<violation beginline="25" endline="206" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.wavelines.fragment" class="ThemeListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/WaveLinesWallpaper/app/src/main/java/de/markusfisch/android/wavelines/graphics/WaveLinesRenderer.java">
+<violation beginline="100" endline="209" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.markusfisch.android.wavelines.graphics" class="WaveLinesRenderer" method="create" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/WaveLinesWallpaper/app/src/main/java/de/markusfisch/android/wavelines/widget/ThemesView.java">
+<violation beginline="25" endline="571" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.wavelines.widget" class="ThemesView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

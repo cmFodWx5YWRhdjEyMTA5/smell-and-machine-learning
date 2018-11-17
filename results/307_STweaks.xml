@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:20:50.878">
+<file name="/home/matheus/smell-and-machine-learning/repositories/STweaks/src/com/gokhanmoral/stweaks/app/MainActivity.java">
+<violation beginline="42" endline="719" begincolumn="127" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gokhanmoral.stweaks.app" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="130" endline="284" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.gokhanmoral.stweaks.app" class="MainActivity" method="parseUIFromXml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

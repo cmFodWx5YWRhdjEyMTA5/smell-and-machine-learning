@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:15:23.713">
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsBordeaux/src/fr/ybo/transportsbordeaux/activity/TransportsBordeaux.java">
+<violation beginline="59" endline="291" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.ybo.transportsbordeaux.activity" class="TransportsBordeaux" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsBordeaux/src/fr/ybo/transportsbordeaux/activity/itineraires/ItineraireRequete.java">
+<violation beginline="86" endline="546" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.ybo.transportsbordeaux.activity.itineraires" class="ItineraireRequete" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsBordeaux/src/fr/ybo/transportsbordeaux/activity/map/TrajetOnMap.java">
+<violation beginline="54" endline="169" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportsbordeaux.activity.map" class="TrajetOnMap" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsBordeaux/src/fr/ybo/transportsbordeaux/database/TransportsBordeauxDatabase.java">
+<violation beginline="69" endline="180" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportsbordeaux.database" class="TransportsBordeauxDatabase" method="getUpgrades" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsBordeaux/src/fr/ybo/transportsbordeaux/itineraires/PortionTrajet.java">
+<violation beginline="12" endline="98" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsbordeaux.itineraires" class="PortionTrajet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PortionTrajet' is suspected to be a Data Class (WOC=7.692%, NOPA=0, NOAM=12, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsBordeaux/src/fr/ybo/transportsbordeaux/util/Coordinate.java">
+<violation beginline="21" endline="48" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsbordeaux.util" class="Coordinate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Coordinate' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsBordeauxHelper/src/main/java/fr/ybo/transportsbordeauxhelper/Generateur.java">
+<violation beginline="60" endline="593" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.ybo.transportsbordeauxhelper" class="Generateur" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="192" endline="309" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportsbordeauxhelper" class="Generateur" method="remplirArretRoutes" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="475" endline="592" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportsbordeauxhelper" class="Generateur" method="priseEnCompteDatePublication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsBordeauxHelper/src/main/java/fr/ybo/transportsbordeauxhelper/gtfs/GestionnaireGtfs.java">
+<violation beginline="137" endline="252" begincolumn="17" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportsbordeauxhelper.gtfs" class="GestionnaireGtfs" method="chargeDonnees" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsCommun/src/fr/ybo/transportscommun/activity/bus/AbstractDetailArret.java">
+<violation beginline="52" endline="548" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.ybo.transportscommun.activity.bus" class="AbstractDetailArret" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="126" endline="232" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportscommun.activity.bus" class="AbstractDetailArret" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsCommun/src/fr/ybo/transportscommun/activity/bus/AbstractListArretByPosition.java">
+<violation beginline="42" endline="340" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.ybo.transportscommun.activity.bus" class="AbstractListArretByPosition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsCommun/src/fr/ybo/transportscommun/activity/commun/SimpleMenu.java">
+<violation beginline="35" endline="202" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.ybo.transportscommun.activity.commun" class="SimpleMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsCommun/src/fr/ybo/transportscommun/donnees/modele/Bounds.java">
+<violation beginline="22" endline="75" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportscommun.donnees.modele" class="Bounds" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Bounds' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsCommun/src/fr/ybo/transportscommun/donnees/modele/DetailArretConteneur.java">
+<violation beginline="17" endline="70" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportscommun.donnees.modele" class="DetailArretConteneur" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DetailArretConteneur' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=9, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsCommun/src/fr/ybo/transportscommun/donnees/modele/Notification.java">
+<violation beginline="22" endline="87" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportscommun.donnees.modele" class="Notification" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Notification' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsCommun/src/fr/ybo/transportscommun/util/StringOperation.java">
+<violation beginline="48" endline="294" begincolumn="24" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportscommun.util" class="StringOperation" method="initMap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennes/src/fr/ybo/transportsrennes/activity/itineraires/ItineraireRequete.java">
+<violation beginline="78" endline="512" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.ybo.transportsrennes.activity.itineraires" class="ItineraireRequete" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennes/src/fr/ybo/transportsrennes/adapters/bus/FavoriAdapter.java">
+<violation beginline="86" endline="193" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportsrennes.adapters.bus" class="FavoriAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennes/src/fr/ybo/transportsrennes/database/TransportsRennesDatabase.java">
+<violation beginline="72" endline="361" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportsrennes.database" class="TransportsRennesDatabase" method="getUpgrades" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennes/src/fr/ybo/transportsrennes/database/modele/AlertBdd.java">
+<violation beginline="23" endline="45" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsrennes.database.modele" class="AlertBdd" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AlertBdd' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennes/src/fr/ybo/transportsrennes/itineraires/PortionTrajet.java">
+<violation beginline="26" endline="112" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsrennes.itineraires" class="PortionTrajet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PortionTrajet' is suspected to be a Data Class (WOC=7.692%, NOPA=0, NOAM=12, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennes/src/fr/ybo/transportsrennes/keolis/modele/StatusKeolis.java">
+<violation beginline="24" endline="63" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsrennes.keolis.modele" class="StatusKeolis" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StatusKeolis' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennes/src/fr/ybo/transportsrennes/keolis/modele/bus/Departure.java">
+<violation beginline="23" endline="69" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsrennes.keolis.modele.bus" class="Departure" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Departure' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennes/src/fr/ybo/transportsrennes/keolis/modele/bus/DepartureMetro.java">
+<violation beginline="23" endline="43" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsrennes.keolis.modele.bus" class="DepartureMetro" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DepartureMetro' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennes/src/fr/ybo/transportsrennes/util/Coordinate.java">
+<violation beginline="21" endline="48" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsrennes.util" class="Coordinate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Coordinate' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennesHelper/src/main/java/fr/ybo/transportsrenneshelper/generateurmodele/Generateur.java">
+<violation beginline="60" endline="679" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.ybo.transportsrenneshelper.generateurmodele" class="Generateur" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="354" endline="526" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportsrenneshelper.generateurmodele" class="Generateur" method="remplirArretRoutes" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennesHelper/src/main/java/fr/ybo/transportsrenneshelper/keolis/modele/MetroStation.java">
+<violation beginline="24" endline="116" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsrenneshelper.keolis.modele" class="MetroStation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MetroStation' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennesHelper/src/main/java/fr/ybo/transportsrenneshelper/keolis/modele/StatusKeolis.java">
+<violation beginline="24" endline="63" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsrenneshelper.keolis.modele" class="StatusKeolis" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StatusKeolis' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennesHelper/src/main/java/fr/ybo/transportsrenneshelper/parcours/GenerateurParcours.java">
+<violation beginline="38" endline="188" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="fr.ybo.transportsrenneshelper.parcours" class="GenerateurParcours" method="genereParcours" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TransportsRennes/TransportsRennesHelper/src/main/java/fr/ybo/transportsrenneshelper/parcours/modele/Parcour.java">
+<violation beginline="6" endline="90" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.ybo.transportsrenneshelper.parcours.modele" class="Parcour" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Parcour' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=9, WMC=12)
+</violation>
+<violation beginline="8" endline="36" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="fr.ybo.transportsrenneshelper.parcours.modele" class="Parcour" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Arret' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+</pmd>

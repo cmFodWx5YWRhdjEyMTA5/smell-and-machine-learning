@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:19:00.126">
+<file name="/home/matheus/smell-and-machine-learning/repositories/voicesmith/voicesmith/src/de/jurihock/voicesmith/Utils.java">
+<violation beginline="43" endline="276" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.jurihock.voicesmith" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/voicesmith/voicesmith/src/de/jurihock/voicesmith/audio/HeadsetManager.java">
+<violation beginline="206" endline="315" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.jurihock.voicesmith.audio" class="HeadsetManager" method="registerHeadsetDetector" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/voicesmith/voicesmith/src/de/jurihock/voicesmith/dsp/Math.java">
+<violation beginline="23" endline="70" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.jurihock.voicesmith.dsp" class="Math" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/voicesmith/voicesmith/src/de/jurihock/voicesmith/io/pcm/PcmDevice.java">
+<violation beginline="25" endline="110" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="de.jurihock.voicesmith.io.pcm" class="PcmDevice" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PcmDevice' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/voicesmith/voicesmith/src/de/jurihock/voicesmith/services/AudioService.java">
+<violation beginline="40" endline="431" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.jurihock.voicesmith.services" class="AudioService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

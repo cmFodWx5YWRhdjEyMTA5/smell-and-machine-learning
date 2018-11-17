@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:49:32.659">
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/androidTest/java/org/andstatus/app/context/TestSuite.java">
+<violation beginline="53" endline="277" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.context" class="TestSuite" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/androidTest/java/org/andstatus/app/data/DataUpdaterTest.java">
+<violation beginline="63" endline="629" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.data" class="DataUpdaterTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/androidTest/java/org/andstatus/app/net/http/HttpConnectionMock.java">
+<violation beginline="37" endline="253" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.http" class="HttpConnectionMock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/androidTest/java/org/andstatus/app/net/social/pumpio/ConnectionPumpioTest.java">
+<violation beginline="68" endline="454" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.social.pumpio" class="ConnectionPumpioTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="167" endline="282" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.net.social.pumpio" class="ConnectionPumpioTest" method="testGetTimeline" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/androidTest/java/org/andstatus/app/note/NoteEditorTest.java">
+<violation beginline="76" endline="395" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.note" class="NoteEditorTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/androidTest/java/org/andstatus/app/origin/OriginEditorTest.java">
+<violation beginline="87" endline="91" begincolumn="30" endcolumn="87" rule="ExcessiveParameterList" ruleset="Design" package="org.andstatus.app.origin" class="OriginEditorTest" method="forOneOrigin" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/androidTest/java/org/andstatus/app/timeline/ListActivityTestHelper.java">
+<violation beginline="46" endline="440" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.timeline" class="ListActivityTestHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/androidTest/java/org/andstatus/app/timeline/meta/PersistentTimelinesTest.java">
+<violation beginline="47" endline="238" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.timeline.meta" class="PersistentTimelinesTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/androidTest/java/org/apache/geode/test/junit/support/DefaultIgnoreCondition.java">
+<violation beginline="28" endline="54" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.apache.geode.test.junit.support" class="DefaultIgnoreCondition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DefaultIgnoreCondition' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=1, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/HelpActivity.java">
+<violation beginline="58" endline="412" begincolumn="140" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app" class="HelpActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/MyActivity.java">
+<violation beginline="42" endline="217" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app" class="MyActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/account/AccountData.java">
+<violation beginline="41" endline="310" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.account" class="AccountData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/account/AccountName.java">
+<violation beginline="32" endline="169" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.account" class="AccountName" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/account/AccountSettingsActivity.java">
+<violation beginline="93" endline="1355" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.andstatus.app.account" class="AccountSettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="93" endline="1355" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.account" class="AccountSettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/account/MyAccount.java">
+<violation beginline="68" endline="979" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.account" class="MyAccount" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="156" endline="552" begincolumn="61" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.account" class="MyAccount$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/account/MyAccounts.java">
+<violation beginline="45" endline="557" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.account" class="MyAccounts" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/activity/ActivityViewItem.java">
+<violation beginline="44" endline="210" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.andstatus.app.activity" class="ActivityViewItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ActivityViewItem' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=2, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/actor/ActorViewItem.java">
+<violation beginline="43" endline="191" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.actor" class="ActorViewItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/backup/MyBackupAgent.java">
+<violation beginline="48" endline="368" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.backup" class="MyBackupAgent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/context/MyContext.java">
+<violation beginline="36" endline="77" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.context" class="MyContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/context/MyContextImpl.java">
+<violation beginline="54" endline="349" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.context" class="MyContextImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/context/MySettingsActivity.java">
+<violation beginline="45" endline="229" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.context" class="MySettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/context/MySettingsFragment.java">
+<violation beginline="62" endline="513" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.context" class="MySettingsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/DataUpdater.java">
+<violation beginline="58" endline="475" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.data" class="DataUpdater" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="140" endline="271" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.data" class="DataUpdater" method="updateNote1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/DemoConversationInserter.java">
+<violation beginline="58" endline="225" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.data" class="DemoConversationInserter" method="insertAndTestConversation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/DemoNoteInserter.java">
+<violation beginline="53" endline="295" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.data" class="DemoNoteInserter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/DownloadData.java">
+<violation beginline="29" endline="564" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.data" class="DownloadData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/ImageFile.java">
+<violation beginline="36" endline="282" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.data" class="ImageFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/MyProvider.java">
+<violation beginline="55" endline="574" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.data" class="MyProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="379" endline="527" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.data" class="MyProvider" method="query" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/MyQuery.java">
+<violation beginline="51" endline="834" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.data" class="MyQuery" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/TimelineSql.java">
+<violation beginline="55" endline="157" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.data" class="TimelineSql" method="tablesForTimeline" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/converter/Convert26.java">
+<violation beginline="29" endline="450" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.data.converter" class="Convert26" method="execute2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/converter/Convert27.java">
+<violation beginline="27" endline="293" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.data.converter" class="Convert27" method="execute2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/data/converter/Convert37.java">
+<violation beginline="27" endline="132" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.data.converter" class="Convert37" method="execute2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/graphics/IdentifiableImageView.java">
+<violation beginline="28" endline="61" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.andstatus.app.graphics" class="IdentifiableImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'IdentifiableImageView' is suspected to be a Data Class (WOC=14.286%, NOPA=1, NOAM=3, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/net/http/HttpConnection.java">
+<violation beginline="33" endline="200" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.http" class="HttpConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/net/social/AActivity.java">
+<violation beginline="45" endline="572" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.social" class="AActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/net/social/Actor.java">
+<violation beginline="62" endline="730" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.social" class="Actor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/net/social/Audience.java">
+<violation beginline="42" endline="221" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.social" class="Audience" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/net/social/Connection.java">
+<violation beginline="55" endline="563" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.social" class="Connection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/net/social/ConnectionMastodon.java">
+<violation beginline="38" endline="486" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.social" class="ConnectionMastodon" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/net/social/ConnectionTwitterLike.java">
+<violation beginline="41" endline="653" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.social" class="ConnectionTwitterLike" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/net/social/Note.java">
+<violation beginline="50" endline="430" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.social" class="Note" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/net/social/pumpio/ConnectionPumpio.java">
+<violation beginline="59" endline="617" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.net.social.pumpio" class="ConnectionPumpio" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/note/BaseNoteAdapter.java">
+<violation beginline="43" endline="236" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.note" class="BaseNoteAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/note/ConversationActivity.java">
+<violation beginline="51" endline="225" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.note" class="ConversationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/note/ConversationLoader.java">
+<violation beginline="54" endline="310" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.note" class="ConversationLoader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/note/NoteContextMenu.java">
+<violation beginline="90" endline="256" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.note" class="NoteContextMenu" method="createContextMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/note/NoteEditor.java">
+<violation beginline="72" endline="768" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.note" class="NoteEditor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/note/NoteEditorData.java">
+<violation beginline="61" endline="401" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.note" class="NoteEditorData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/note/NoteEditorListActivity.java">
+<violation beginline="35" endline="145" begincolumn="132" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.note" class="NoteEditorListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/notification/NotificationData.java">
+<violation beginline="34" endline="98" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.andstatus.app.notification" class="NotificationData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NotificationData' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=1, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/origin/Origin.java">
+<violation beginline="54" endline="631" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.origin" class="Origin" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/origin/OriginEditor.java">
+<violation beginline="104" endline="208" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.origin" class="OriginEditor" method="processNewIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/origin/OriginType.java">
+<violation beginline="138" endline="251" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.andstatus.app.origin" class="OriginType" method="OriginType" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/origin/PersistentOrigins.java">
+<violation beginline="39" endline="184" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.origin" class="PersistentOrigins" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/os/MyAsyncTask.java">
+<violation beginline="39" endline="303" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.os" class="MyAsyncTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/service/CommandData.java">
+<violation beginline="59" endline="529" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.service" class="CommandData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/service/CommandExecutorOther.java">
+<violation beginline="53" endline="481" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.service" class="CommandExecutorOther" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/service/CommandQueue.java">
+<violation beginline="46" endline="450" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.service" class="CommandQueue" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/service/CommandResult.java">
+<violation beginline="42" endline="354" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.service" class="CommandResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/service/MyService.java">
+<violation beginline="56" endline="685" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.service" class="MyService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/timeline/LoadableListActivity.java">
+<violation beginline="64" endline="643" begincolumn="129" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.timeline" class="LoadableListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/timeline/TimelineActivity.java">
+<violation beginline="96" endline="1223" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.andstatus.app.timeline" class="TimelineActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="97" endline="1223" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.timeline" class="TimelineActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/timeline/TimelineData.java">
+<violation beginline="30" endline="233" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.timeline" class="TimelineData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/timeline/TimelineParameters.java">
+<violation beginline="40" endline="280" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.timeline" class="TimelineParameters" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/timeline/meta/ManageTimelines.java">
+<violation beginline="56" endline="291" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.timeline.meta" class="ManageTimelines" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/timeline/meta/PersistentTimelines.java">
+<violation beginline="41" endline="209" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.timeline.meta" class="PersistentTimelines" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/timeline/meta/Timeline.java">
+<violation beginline="59" endline="1018" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.timeline.meta" class="Timeline" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/timeline/meta/TimelineSaver.java">
+<violation beginline="39" endline="177" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.timeline.meta" class="TimelineSaver" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/user/CachedUsersAndActors.java">
+<violation beginline="30" endline="229" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.user" class="CachedUsersAndActors" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/util/MyLog.java">
+<violation beginline="73" endline="696" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.util" class="MyLog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/util/MyStringBuilder.java">
+<violation beginline="26" endline="152" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.util" class="MyStringBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/util/MyUrlSpan.java">
+<violation beginline="58" endline="310" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.util" class="MyUrlSpan" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/app/src/main/java/org/andstatus/app/util/SharedPreferencesUtil.java">
+<violation beginline="38" endline="371" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.andstatus.app.util" class="SharedPreferencesUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/draglistview/src/main/java/com/woxthebox/draglistview/BoardView.java">
+<violation beginline="44" endline="788" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.woxthebox.draglistview" class="BoardView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/andstatus/draglistview/src/main/java/com/woxthebox/draglistview/DragItemRecyclerView.java">
+<violation beginline="32" endline="519" begincolumn="99" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.woxthebox.draglistview" class="DragItemRecyclerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:14:08.298">
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/app/src/main/java/com/termux/app/DialogUtils.java">
+<violation beginline="19" endline="23" begincolumn="33" endcolumn="83" rule="ExcessiveParameterList" ruleset="Design" package="com.termux.app" class="DialogUtils" method="textInput" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/app/src/main/java/com/termux/app/ExtraKeysView.java">
+<violation beginline="312" endline="428" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.app" class="ExtraKeysView" method="reload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/app/src/main/java/com/termux/app/TermuxActivity.java">
+<violation beginline="83" endline="813" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.app" class="TermuxActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="198" endline="308" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.app" class="TermuxActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="326" endline="479" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.app" class="TermuxActivity" method="onServiceConnected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/app/src/main/java/com/termux/app/TermuxInstaller.java">
+<violation beginline="53" endline="159" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.app" class="TermuxInstaller" method="setupIfNeeded" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/app/src/main/java/com/termux/app/TermuxService.java">
+<violation beginline="43" endline="364" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.app" class="TermuxService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/app/src/main/java/com/termux/app/TermuxViewClient.java">
+<violation beginline="19" endline="279" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.app" class="TermuxViewClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="124" endline="255" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.app" class="TermuxViewClient" method="onCodePoint" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/main/java/com/termux/terminal/KeyHandler.java">
+<violation beginline="151" endline="282" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.terminal" class="KeyHandler" method="getCode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/main/java/com/termux/terminal/TerminalBuffer.java">
+<violation beginline="141" endline="292" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.terminal" class="TerminalBuffer" method="resize" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="401" endline="402" begincolumn="33" endcolumn="55" rule="ExcessiveParameterList" ruleset="Design" package="com.termux.terminal" class="TerminalBuffer" method="setOrClearEffect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/main/java/com/termux/terminal/TerminalEmulator.java">
+<violation beginline="30" endline="2366" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.termux.terminal" class="TerminalEmulator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="30" endline="2366" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.terminal" class="TerminalEmulator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="474" endline="807" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.terminal" class="TerminalEmulator" method="processCodePoint" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="810" endline="923" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.terminal" class="TerminalEmulator" method="doDeviceControl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1351" endline="1666" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.terminal" class="TerminalEmulator" method="doCsi" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1669" endline="1773" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.terminal" class="TerminalEmulator" method="selectGraphicRendition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1805" endline="1947" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.terminal" class="TerminalEmulator" method="doOscSetTextParameters" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2113" endline="2254" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.terminal" class="TerminalEmulator" method="emitCodePoint" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/main/java/com/termux/terminal/TerminalRow.java">
+<violation beginline="126" endline="235" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.terminal" class="TerminalRow" method="setChar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/main/java/com/termux/terminal/TerminalSession.java">
+<violation beginline="31" endline="342" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.terminal" class="TerminalSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/test/java/com/termux/terminal/CursorAndScreenTest.java">
+<violation beginline="5" endline="270" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.terminal" class="CursorAndScreenTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/test/java/com/termux/terminal/ResizeTest.java">
+<violation beginline="3" endline="212" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.terminal" class="ResizeTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/test/java/com/termux/terminal/ScrollRegionTest.java">
+<violation beginline="8" endline="110" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.terminal" class="ScrollRegionTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/test/java/com/termux/terminal/TerminalRowTest.java">
+<violation beginline="8" endline="432" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.terminal" class="TerminalRowTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/test/java/com/termux/terminal/TerminalTest.java">
+<violation beginline="5" endline="297" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.terminal" class="TerminalTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/test/java/com/termux/terminal/TerminalTestCase.java">
+<violation beginline="15" endline="311" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.terminal" class="TerminalTestCase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-emulator/src/test/java/com/termux/terminal/UnicodeInputTest.java">
+<violation beginline="5" endline="136" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.terminal" class="UnicodeInputTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-view/src/main/java/com/termux/view/TerminalRenderer.java">
+<violation beginline="148" endline="150" begincolumn="29" endcolumn="66" rule="ExcessiveParameterList" ruleset="Design" package="com.termux.view" class="TerminalRenderer" method="drawTextRun" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-app/terminal-view/src/main/java/com/termux/view/TerminalView.java">
+<violation beginline="40" endline="928" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.termux.view" class="TerminalView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="81" endline="205" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.view" class="TerminalView" method="TerminalView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="237" endline="341" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.view" class="TerminalView" method="onCreateInputConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="791" endline="918" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.view" class="TerminalView" method="toggleSelectingText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:40:53.375">
+<file name="/home/matheus/smell-and-machine-learning/repositories/United4/app/src/main/java/com/angryburg/uapp/API/ThreadWatcher.java">
+<violation beginline="24" endline="309" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.angryburg.uapp.API" class="ThreadWatcher" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/United4/app/src/main/java/com/angryburg/uapp/activities/MainActivity.java">
+<violation beginline="34" endline="223" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.angryburg.uapp.activities" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/United4/app/src/main/java/com/angryburg/uapp/activities/UserscriptActivity.java">
+<violation beginline="74" endline="225" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.angryburg.uapp.activities" class="UserscriptActivity" method="invalidateToolbar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/United4/app/src/main/java/com/angryburg/uapp/application/United.java">
+<violation beginline="213" endline="301" begincolumn="78" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.angryburg.uapp.application" class="United$SongDoneListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

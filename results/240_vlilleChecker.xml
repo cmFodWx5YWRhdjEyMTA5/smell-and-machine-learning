@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:59:00.282">
+<file name="/home/matheus/smell-and-machine-learning/repositories/vlilleChecker/app/src/com/vlille/checker/model/Metadata.java">
+<violation beginline="11" endline="63" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.vlille.checker.model" class="Metadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Metadata' is suspected to be a Data Class (WOC=14.286%, NOPA=3, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vlilleChecker/app/src/com/vlille/checker/ui/HomeActivity.java">
+<violation beginline="32" endline="221" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vlille.checker.ui" class="HomeActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vlilleChecker/app/src/com/vlille/checker/ui/SettingsFragment.java">
+<violation beginline="35" endline="261" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vlille.checker.ui" class="SettingsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vlilleChecker/app/src/com/vlille/checker/ui/fragment/MapFragment.java">
+<violation beginline="35" endline="190" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vlille.checker.ui.fragment" class="MapFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vlilleChecker/app/src/com/vlille/checker/ui/fragment/StationsListFragment.java">
+<violation beginline="39" endline="383" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vlille.checker.ui.fragment" class="StationsListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vlilleChecker/app/src/com/vlille/checker/ui/osm/MapView.java">
+<violation beginline="39" endline="432" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vlille.checker.ui.osm" class="MapView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vlilleChecker/app/src/com/vlille/checker/ui/osm/overlay/ItemizedOverlayWithFocus.java">
+<violation beginline="28" endline="262" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vlille.checker.ui.osm.overlay" class="ItemizedOverlayWithFocus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vlilleChecker/app/src/com/vlille/checker/ui/widget/StationWidgetConfigurationActivity.java">
+<violation beginline="27" endline="176" begincolumn="117" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vlille.checker.ui.widget" class="StationWidgetConfigurationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

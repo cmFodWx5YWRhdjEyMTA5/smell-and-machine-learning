@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:51:54.493">
+<file name="/home/matheus/smell-and-machine-learning/repositories/World-Weather/WorldWeather/app/src/androidTest/java/com/haringeymobile/ukweather/test/MainActivityFunctionalTest.java">
+<violation beginline="102" endline="220" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.haringeymobile.ukweather.test" class="MainActivityFunctionalTest" method="testCityListRowButtonsRunnable" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/World-Weather/WorldWeather/app/src/main/java/com/haringeymobile/ukweather/MainActivity.java">
+<violation beginline="54" endline="436" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.haringeymobile.ukweather" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/World-Weather/WorldWeather/app/src/main/java/com/haringeymobile/ukweather/data/objects/CityCurrentWeather.java">
+<violation beginline="10" endline="108" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.haringeymobile.ukweather.data.objects" class="CityCurrentWeather" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CityCurrentWeather' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/World-Weather/WorldWeather/app/src/main/java/com/haringeymobile/ukweather/data/objects/Weather.java">
+<violation beginline="5" endline="38" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.haringeymobile.ukweather.data.objects" class="Weather" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Weather' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/World-Weather/WorldWeather/app/src/main/java/com/haringeymobile/ukweather/data/objects/WeatherConditionFinder.java">
+<violation beginline="14" endline="167" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.haringeymobile.ukweather.data.objects" class="WeatherConditionFinder" method="findWeatherConditionStringResourceId" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/World-Weather/WorldWeather/app/src/main/java/com/haringeymobile/ukweather/database/GeneralDatabaseService.java">
+<violation beginline="12" endline="79" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.haringeymobile.ukweather.database" class="GeneralDatabaseService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GeneralDatabaseService' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/World-Weather/WorldWeather/app/src/main/java/com/haringeymobile/ukweather/weather/WeatherForecastParentFragment.java">
+<violation beginline="38" endline="390" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.haringeymobile.ukweather.weather" class="WeatherForecastParentFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/World-Weather/WorldWeather/drag-sort-listview/src/com/mobeta/android/dslv/DragSortController.java">
+<violation beginline="23" endline="470" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mobeta.android.dslv" class="DragSortController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/World-Weather/WorldWeather/drag-sort-listview/src/com/mobeta/android/dslv/DragSortListView.java">
+<violation beginline="61" endline="2997" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.mobeta.android.dslv" class="DragSortListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="61" endline="2997" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mobeta.android.dslv" class="DragSortListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="443" endline="571" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mobeta.android.dslv" class="DragSortListView" method="DragSortListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="961" endline="1098" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mobeta.android.dslv" class="DragSortListView" method="updatePositions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

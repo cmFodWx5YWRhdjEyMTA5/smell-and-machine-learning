@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:24:51.272">
+<file name="/home/matheus/smell-and-machine-learning/repositories/epub3reader/workspaceeclipse/EPUB3Reader/src/it/angrydroids/epub3reader/ChangeCSSMenu.java">
+<violation beginline="36" endline="426" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="it.angrydroids.epub3reader" class="ChangeCSSMenu" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epub3reader/workspaceeclipse/EPUB3Reader/src/it/angrydroids/epub3reader/EpubManipulator.java">
+<violation beginline="57" endline="780" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="it.angrydroids.epub3reader" class="EpubManipulator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epub3reader/workspaceeclipse/EPUB3Reader/src/it/angrydroids/epub3reader/EpubNavigator.java">
+<violation beginline="34" endline="459" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="it.angrydroids.epub3reader" class="EpubNavigator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epub3reader/workspaceeclipse/EPUB3Reader/src/it/angrydroids/epub3reader/MainActivity.java">
+<violation beginline="40" endline="472" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="it.angrydroids.epub3reader" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="159" endline="322" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="it.angrydroids.epub3reader" class="MainActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

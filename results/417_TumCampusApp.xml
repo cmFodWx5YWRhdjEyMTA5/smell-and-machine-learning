@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:43:18.364">
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/api/app/TUMCabeAPIService.java">
+<violation beginline="77" endline="247" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.api.app" class="TUMCabeAPIService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/api/app/TUMCabeClient.java">
+<violation beginline="69" endline="412" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.api.app" class="TUMCabeClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/api/app/TumHttpLoggingInterceptor.java">
+<violation beginline="47" endline="179" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.tum.in.tumcampusapp.api.app" class="TumHttpLoggingInterceptor" method="intercept" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/tumui/calendar/CalendarActivity.java">
+<violation beginline="65" endline="583" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.tumui.calendar" class="CalendarActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/tumui/calendar/CalendarController.java">
+<violation beginline="46" endline="365" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.tumui.calendar" class="CalendarController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/tumui/calendar/CreateEventActivity.java">
+<violation beginline="43" endline="374" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.tumui.calendar" class="CreateEventActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/tumui/feedback/FeedbackActivity.java">
+<violation beginline="57" endline="606" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.tumui.feedback" class="FeedbackActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/tumui/roomfinder/RoomFinderDetailsActivity.java">
+<violation beginline="44" endline="336" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.tumui.roomfinder" class="RoomFinderDetailsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/ui/chat/activity/ChatActivity.java">
+<violation beginline="65" endline="482" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.ui.chat.activity" class="ChatActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/ui/chat/activity/ChatRoomsActivity.java">
+<violation beginline="51" endline="354" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.ui.chat.activity" class="ChatRoomsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/ui/chat/model/ChatMessage.java">
+<violation beginline="17" endline="202" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.tum.in.tumcampusapp.component.ui.chat.model" class="ChatMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ChatMessage' is suspected to be a Data Class (WOC=19.048%, NOPA=4, NOAM=16, WMC=24)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/ui/news/KinoDetailsFragment.java">
+<violation beginline="47" endline="238" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.ui.news" class="KinoDetailsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/ui/onboarding/WizNavStartActivity.java">
+<violation beginline="41" endline="276" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.ui.onboarding" class="WizNavStartActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/ui/overview/MainActivity.java">
+<violation beginline="39" endline="271" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.ui.overview" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/component/ui/ticket/activity/StripePaymentActivity.java">
+<violation beginline="46" endline="319" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.component.ui.ticket.activity" class="StripePaymentActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TumCampusApp/app/src/main/java/de/tum/in/tumcampusapp/database/TcaDb.java">
+<violation beginline="101" endline="194" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tum.in.tumcampusapp.database" class="TcaDb" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

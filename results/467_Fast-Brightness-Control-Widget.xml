@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:57:31.683">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Fast-Brightness-Control-Widget/src/com/mod/android/widget/fbcw/bean/ApplicationState.java">
+<violation beginline="6" endline="33" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.mod.android.widget.fbcw.bean" class="ApplicationState" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ApplicationState' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+</pmd>

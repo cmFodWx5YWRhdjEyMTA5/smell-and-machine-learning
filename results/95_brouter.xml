@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:28:07.345">
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-codec/src/main/java/btools/codec/DataBuffers.java">
+<violation beginline="8" endline="34" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="btools.codec" class="DataBuffers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DataBuffers' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-codec/src/main/java/btools/codec/MicroCache.java">
+<violation beginline="22" endline="310" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.codec" class="MicroCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-codec/src/main/java/btools/codec/MicroCache2.java">
+<violation beginline="37" endline="269" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.codec" class="MicroCache2" method="MicroCache2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="316" endline="508" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.codec" class="MicroCache2" method="encodeMicroCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-core/src/main/java/btools/router/KinematicPath.java">
+<violation beginline="40" endline="140" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.router" class="KinematicPath" method="processWaySection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-core/src/main/java/btools/router/OsmPath.java">
+<violation beginline="17" endline="524" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.router" class="OsmPath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="138" endline="469" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.router" class="OsmPath" method="addAddionalPenalty" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-core/src/main/java/btools/router/OsmTrack.java">
+<violation beginline="31" endline="819" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.router" class="OsmTrack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="364" endline="496" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.router" class="OsmTrack" method="formatAsGpx" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-core/src/main/java/btools/router/RoutingContext.java">
+<violation beginline="21" endline="468" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.router" class="RoutingContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-core/src/main/java/btools/router/RoutingEngine.java">
+<violation beginline="22" endline="1359" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="btools.router" class="RoutingEngine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="23" endline="1359" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.router" class="RoutingEngine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="149" endline="272" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.router" class="RoutingEngine" method="doRun" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="505" endline="617" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.router" class="RoutingEngine" method="searchTrack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="770" endline="1128" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.router" class="RoutingEngine" method="_findTrack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-core/src/main/java/btools/router/StdPath.java">
+<violation beginline="37" endline="144" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.router" class="StdPath" method="processWaySection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="171" endline="567" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.router" class="StdPath" method="xxxaddAddionalPenalty" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-core/src/main/java/btools/router/VoiceHint.java">
+<violation beginline="152" endline="260" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.router" class="VoiceHint" method="calcCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-core/src/main/java/btools/router/VoiceHintProcessor.java">
+<violation beginline="58" endline="245" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.router" class="VoiceHintProcessor" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-expressions/src/main/java/btools/expressions/BExpression.java">
+<violation beginline="44" endline="238" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.expressions" class="BExpression" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-expressions/src/main/java/btools/expressions/BExpressionContext.java">
+<violation beginline="28" endline="942" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.expressions" class="BExpressionContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-map-creator/src/main/java/btools/mapcreator/ConvertSrtmTile.java">
+<violation beginline="98" endline="261" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.mapcreator" class="ConvertSrtmTile" method="doConvert" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-map-creator/src/main/java/btools/mapcreator/MapCreatorBase.java">
+<violation beginline="21" endline="171" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.mapcreator" class="MapCreatorBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-map-creator/src/main/java/btools/mapcreator/OsmNodeP.java">
+<violation beginline="169" endline="300" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.mapcreator" class="OsmNodeP" method="writeNodeData2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-map-creator/src/main/java/btools/mapcreator/WayLinker.java">
+<violation beginline="36" endline="519" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.mapcreator" class="WayLinker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="315" endline="492" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.mapcreator" class="WayLinker" method="wayFileEnd" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-map-creator/src/main/java/btools/mapdecoder/TileDecoder.java">
+<violation beginline="28" endline="150" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.mapdecoder" class="TileDecoder" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-map-creator/src/main/java/btools/mapsplitter/MapCreatorBase.java">
+<violation beginline="21" endline="173" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.mapsplitter" class="MapCreatorBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-map-creator/src/main/java/btools/mapsplitter/TileEncoder.java">
+<violation beginline="18" endline="555" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.mapsplitter" class="TileEncoder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="135" endline="259" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.mapsplitter" class="TileEncoder" method="nodeFileEnd" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-map-creator/src/main/java/btools/mapsplitter/TileSplitter.java">
+<violation beginline="16" endline="492" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.mapsplitter" class="TileSplitter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-mem-router/src/main/java/btools/memrouter/GraphLoader.java">
+<violation beginline="28" endline="317" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.memrouter" class="GraphLoader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-mem-router/src/main/java/btools/memrouter/OffsetSet.java">
+<violation beginline="15" endline="189" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.memrouter" class="OffsetSet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-mem-router/src/main/java/btools/memrouter/ScheduleParser.java">
+<violation beginline="20" endline="174" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.memrouter" class="ScheduleParser" method="parseTrainTable" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-mem-router/src/main/java/btools/memrouter/ScheduledRouter.java">
+<violation beginline="113" endline="266" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.memrouter" class="ScheduledRouter" method="_findRoute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="292" endline="472" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.memrouter" class="ScheduledRouter" method="addNextTripsForLink" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="474" endline="585" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.memrouter" class="ScheduledRouter" method="compileTrip" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-routing-app/src/main/java/btools/routingapp/BInstallerView.java">
+<violation beginline="31" endline="692" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.routingapp" class="BInstallerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="428" endline="557" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="btools.routingapp" class="BInstallerView" method="onTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-routing-app/src/main/java/btools/routingapp/BRouterActivity.java">
+<violation beginline="26" endline="618" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.routingapp" class="BRouterActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="72" endline="394" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.routingapp" class="BRouterActivity" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-routing-app/src/main/java/btools/routingapp/BRouterView.java">
+<violation beginline="42" endline="1159" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="btools.routingapp" class="BRouterView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="43" endline="1159" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.routingapp" class="BRouterView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="133" endline="288" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.routingapp" class="BRouterView" method="startSetup" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="414" endline="550" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.routingapp" class="BRouterView" method="startProcessing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="766" endline="888" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.routingapp" class="BRouterView" method="_onDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-server/src/main/java/btools/server/BRouter.java">
+<violation beginline="17" endline="136" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.server" class="BRouter" method="main" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-server/src/main/java/btools/server/RouteServer.java">
+<violation beginline="57" endline="216" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.server" class="RouteServer" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-server/src/main/java/btools/server/SuspectManager.java">
+<violation beginline="59" endline="414" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="btools.server" class="SuspectManager" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-util/src/main/java/btools/util/BitCoderContext.java">
+<violation beginline="5" endline="263" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.util" class="BitCoderContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-util/src/main/java/btools/util/ByteDataReader.java">
+<violation beginline="10" endline="153" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.util" class="ByteDataReader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/brouter/brouter-util/src/main/java/btools/util/ByteDataWriter.java">
+<violation beginline="10" endline="178" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="btools.util" class="ByteDataWriter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

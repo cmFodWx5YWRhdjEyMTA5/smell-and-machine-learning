@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:11:50.137">
+<file name="/home/matheus/smell-and-machine-learning/repositories/emerald/app/src/main/java/ru/henridellal/emerald/Apps.java">
+<violation beginline="56" endline="960" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.henridellal.emerald" class="Apps" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="165" endline="305" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="ru.henridellal.emerald" class="Apps" method="loadAppsFromSystem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/emerald/app/src/main/java/ru/henridellal/emerald/CategoryManager.java">
+<violation beginline="21" endline="413" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.henridellal.emerald" class="CategoryManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/emerald/app/src/main/java/ru/henridellal/emerald/DatabaseHelper.java">
+<violation beginline="14" endline="469" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.henridellal.emerald" class="DatabaseHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/emerald/app/src/main/java/ru/henridellal/emerald/ShortcutData.java">
+<violation beginline="9" endline="75" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="ru.henridellal.emerald" class="ShortcutData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ShortcutData' is suspected to be a Data Class (WOC=28.571%, NOPA=3, NOAM=1, WMC=8)
+</violation>
+</file>
+</pmd>

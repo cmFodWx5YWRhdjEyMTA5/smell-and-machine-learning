@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:10:04.162">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/adapter/SelectorModeManager.java">
+<violation beginline="14" endline="255" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.adapter" class="SelectorModeManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/adapter/album/viewHolder/AlbumItemHolder.java">
+<violation beginline="22" endline="145" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="us.koller.cameraroll.adapter.album.viewHolder" class="AlbumItemHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AlbumItemHolder' is suspected to be a Data Class (WOC=25.000%, NOPA=1, NOAM=3, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/data/Settings.java">
+<violation beginline="23" endline="388" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.data" class="Settings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/data/fileOperations/FileOperation.java">
+<violation beginline="50" endline="511" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.data.fileOperations" class="FileOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/data/models/Album.java">
+<violation beginline="13" endline="137" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="us.koller.cameraroll.data.models" class="Album" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Album' is suspected to be a Data Class (WOC=20.000%, NOPA=3, NOAM=3, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/data/provider/Provider.java">
+<violation beginline="21" endline="395" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.data.provider" class="Provider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/AboutActivity.java">
+<violation beginline="36" endline="189" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="us.koller.cameraroll.ui" class="AboutActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/AlbumActivity.java">
+<violation beginline="74" endline="1197" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="us.koller.cameraroll.ui" class="AlbumActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="75" endline="1197" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.ui" class="AlbumActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="133" endline="375" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="us.koller.cameraroll.ui" class="AlbumActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="508" endline="616" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="us.koller.cameraroll.ui" class="AlbumActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/BaseActivity.java">
+<violation beginline="35" endline="263" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.ui" class="BaseActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/EditImageActivity.java">
+<violation beginline="57" endline="186" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="us.koller.cameraroll.ui" class="EditImageActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/ExifEditorActivity.java">
+<violation beginline="58" endline="183" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="us.koller.cameraroll.ui" class="ExifEditorActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/FileExplorerActivity.java">
+<violation beginline="68" endline="1037" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.ui" class="FileExplorerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="95" endline="316" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="us.koller.cameraroll.ui" class="FileExplorerActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/ItemActivity.java">
+<violation beginline="79" endline="1033" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.ui" class="ItemActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="166" endline="276" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="us.koller.cameraroll.ui" class="ItemActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/MainActivity.java">
+<violation beginline="60" endline="840" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.ui" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="129" endline="377" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="us.koller.cameraroll.ui" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/SettingsActivity.java">
+<violation beginline="194" endline="441" begincolumn="62" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.ui" class="SettingsActivity$SettingsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/VirtualAlbumsActivity.java">
+<violation beginline="46" endline="161" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="us.koller.cameraroll.ui" class="VirtualAlbumsActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/ui/widget/CropImageView.java">
+<violation beginline="45" endline="1060" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="us.koller.cameraroll.ui.widget" class="CropImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="45" endline="1060" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.ui.widget" class="CropImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="563" endline="712" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="us.koller.cameraroll.ui.widget" class="CropImageView" method="checkRectBounds" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/util/ExifUtil.java">
+<violation beginline="776" endline="827" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="us.koller.cameraroll.util" class="ExifUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExifItem' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=3, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/util/InfoUtil.java">
+<violation beginline="22" endline="305" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.util" class="InfoUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Camera-Roll-Android-App/app/src/main/java/us/koller/cameraroll/util/MediaType.java">
+<violation beginline="7" endline="137" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="us.koller.cameraroll.util" class="MediaType" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

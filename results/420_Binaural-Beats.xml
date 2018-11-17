@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:43:46.256">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Binaural-Beats/app/src/main/java/com/ihunda/android/binauralbeat/BBeat.java">
+<violation beginline="103" endline="1695" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ihunda.android.binauralbeat" class="BBeat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="103" endline="1695" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ihunda.android.binauralbeat" class="BBeat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="241" endline="478" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ihunda.android.binauralbeat" class="BBeat" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="789" endline="915" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ihunda.android.binauralbeat" class="BBeat" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Binaural-Beats/app/src/main/java/com/ihunda/android/binauralbeat/DefaultProgramsBuilder.java">
+<violation beginline="53" endline="781" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ihunda.android.binauralbeat" class="DefaultProgramsBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="599" endline="709" begincolumn="23" endcolumn="1" rule="ExcessiveMethodLength" ruleset="Design" package="com.ihunda.android.binauralbeat" class="DefaultProgramsBuilder" method="OOBE_LUCID_DREAMS_2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Binaural-Beats/app/src/main/java/com/ihunda/android/binauralbeat/ProgramMeta.java">
+<violation beginline="5" endline="49" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.ihunda.android.binauralbeat" class="ProgramMeta" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProgramMeta' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Binaural-Beats/app/src/main/java/com/ihunda/android/binauralbeat/StreamVoice.java">
+<violation beginline="32" endline="49" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.ihunda.android.binauralbeat" class="StreamVoice" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StreamVoice' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Binaural-Beats/app/src/main/java/com/ihunda/android/binauralbeat/WordUtils.java">
+<violation beginline="34" endline="587" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ihunda.android.binauralbeat" class="WordUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Binaural-Beats/app/src/main/java/com/jjoe64/graphview/BarGraphView.java">
+<violation beginline="16" endline="18" begincolumn="31" endcolumn="39" rule="ExcessiveParameterList" ruleset="Design" package="com.jjoe64.graphview" class="BarGraphView" method="drawSeries" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Binaural-Beats/app/src/main/java/com/jjoe64/graphview/GraphView.java">
+<violation beginline="397" endline="397" begincolumn="40" endcolumn="199" rule="ExcessiveParameterList" ruleset="Design" package="com.jjoe64.graphview" class="GraphView" method="drawSeries" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Binaural-Beats/app/src/main/java/com/jjoe64/graphview/LineGraphView.java">
+<violation beginline="29" endline="29" begincolumn="31" endcolumn="190" rule="ExcessiveParameterList" ruleset="Design" package="com.jjoe64.graphview" class="LineGraphView" method="drawSeries" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+</pmd>

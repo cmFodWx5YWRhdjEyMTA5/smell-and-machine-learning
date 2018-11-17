@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:25:12.653">
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/ImportPoiTask.java">
+<violation beginline="62" endline="264" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.voidsink.anewjkuapp" class="ImportPoiTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ImportPoiTask' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+<violation beginline="92" endline="263" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.voidsink.anewjkuapp" class="ImportPoiTask" method="call" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/StatCardAdapter.java">
+<violation beginline="66" endline="513" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp" class="StatCardAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/activity/MainActivity.java">
+<violation beginline="80" endline="475" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.activity" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/analytics/Analytics.java">
+<violation beginline="39" endline="126" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.analytics" class="Analytics" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/base/MyLocationOverlay.java">
+<violation beginline="51" endline="273" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.voidsink.anewjkuapp.base" class="MyLocationOverlay" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MyLocationOverlay' is suspected to be a Data Class (WOC=30.000%, NOPA=0, NOAM=5, WMC=23)
+</violation>
+<violation beginline="51" endline="273" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.base" class="MyLocationOverlay" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/calendar/CalendarContractWrapper.java">
+<violation beginline="51" endline="142" begincolumn="35" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.calendar" class="CalendarContractWrapper$Calendars" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="152" endline="242" begincolumn="32" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.calendar" class="CalendarContractWrapper$Events" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/dashclock/MensaDashclockExtension.java">
+<violation beginline="60" endline="170" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.voidsink.anewjkuapp.dashclock" class="MensaDashclockExtension" method="onUpdateData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/fragment/CalendarFragment.java">
+<violation beginline="71" endline="331" begincolumn="140" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.fragment" class="CalendarFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/fragment/CalendarFragment2.java">
+<violation beginline="77" endline="531" begincolumn="109" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.fragment" class="CalendarFragment2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/fragment/LvaDetailFragment.java">
+<violation beginline="69" endline="257" begincolumn="124" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.fragment" class="LvaDetailFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/fragment/MapFragment.java">
+<violation beginline="95" endline="628" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.fragment" class="MapFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/fragment/StatFragmentDetail.java">
+<violation beginline="68" endline="253" begincolumn="124" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.fragment" class="StatFragmentDetail" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/kusss/Assessment.java">
+<violation beginline="42" endline="246" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.voidsink.anewjkuapp.kusss" class="Assessment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Assessment' is suspected to be a Data Class (WOC=6.667%, NOPA=0, NOAM=12, WMC=38)
+</violation>
+<violation beginline="63" endline="65" begincolumn="22" endcolumn="49" rule="ExcessiveParameterList" ruleset="Design" package="org.voidsink.anewjkuapp.kusss" class="Assessment" method="Assessment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/kusss/Course.java">
+<violation beginline="36" endline="164" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.voidsink.anewjkuapp.kusss" class="Course" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Course' is suspected to be a Data Class (WOC=8.333%, NOPA=0, NOAM=9, WMC=24)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/mensa/KHGMenuLoader.java">
+<violation beginline="56" endline="189" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.voidsink.anewjkuapp.mensa" class="KHGMenuLoader" method="getMensa" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/provider/KusssContentProvider.java">
+<violation beginline="456" endline="572" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.voidsink.anewjkuapp.provider" class="KusssContentProvider" method="getTerms" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/update/ImportAssessmentTask.java">
+<violation beginline="60" endline="341" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.voidsink.anewjkuapp.update" class="ImportAssessmentTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ImportAssessmentTask' is suspected to be a Data Class (WOC=0.000%, NOPA=12, NOAM=0, WMC=4)
+</violation>
+<violation beginline="130" endline="340" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.voidsink.anewjkuapp.update" class="ImportAssessmentTask" method="call" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/update/ImportCalendarTask.java">
+<violation beginline="162" endline="556" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.voidsink.anewjkuapp.update" class="ImportCalendarTask" method="call" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/update/ImportCourseTask.java">
+<violation beginline="58" endline="314" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.voidsink.anewjkuapp.update" class="ImportCourseTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ImportCourseTask' is suspected to be a Data Class (WOC=0.000%, NOPA=10, NOAM=0, WMC=4)
+</violation>
+<violation beginline="123" endline="313" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.voidsink.anewjkuapp.update" class="ImportCourseTask" method="call" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/update/ImportCurriculaTask.java">
+<violation beginline="57" endline="270" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.voidsink.anewjkuapp.update" class="ImportCurriculaTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ImportCurriculaTask' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=4)
+</violation>
+<violation beginline="120" endline="269" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.voidsink.anewjkuapp.update" class="ImportCurriculaTask" method="call" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/update/ImportExamTask.java">
+<violation beginline="64" endline="338" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.voidsink.anewjkuapp.update" class="ImportExamTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ImportExamTask' is suspected to be a Data Class (WOC=0.000%, NOPA=10, NOAM=0, WMC=5)
+</violation>
+<violation beginline="136" endline="337" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.voidsink.anewjkuapp.update" class="ImportExamTask" method="call" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/aNewJKUApp/src/main/java/org/voidsink/anewjkuapp/utils/AppUtils.java">
+<violation beginline="101" endline="1002" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.voidsink.anewjkuapp.utils" class="AppUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/android-week-view/src/main/java/com/alamkanak/weekview/WeekView.java">
+<violation beginline="58" endline="2695" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.alamkanak.weekview" class="WeekView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="58" endline="2695" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.alamkanak.weekview" class="WeekView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="751" endline="971" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.alamkanak.weekview" class="WeekView" method="drawHeaderRowAndEvents" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1223" endline="1266" begincolumn="20" endcolumn="5" rule="DataClass" ruleset="Design" package="com.alamkanak.weekview" class="WeekView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EventRect' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/anewjkuapp/android-week-view/src/main/java/com/alamkanak/weekview/WeekViewEvent.java">
+<violation beginline="44" endline="44" begincolumn="25" endcolumn="192" rule="ExcessiveParameterList" ruleset="Design" package="com.alamkanak.weekview" class="WeekViewEvent" method="WeekViewEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="80" endline="80" begincolumn="25" endcolumn="190" rule="ExcessiveParameterList" ruleset="Design" package="com.alamkanak.weekview" class="WeekViewEvent" method="WeekViewEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:35:44.194">
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/android-numberpicker/src/eu/rekisoft/android/numberpicker/NumberPicker.java">
+<violation beginline="94" endline="2845" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="eu.rekisoft.android.numberpicker" class="NumberPicker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="94" endline="2845" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="eu.rekisoft.android.numberpicker" class="NumberPicker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="577" endline="770" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="eu.rekisoft.android.numberpicker" class="NumberPicker" method="NumberPicker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2404" endline="2840" begincolumn="75" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="eu.rekisoft.android.numberpicker" class="NumberPicker$AccessibilityNodeProviderImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2474" endline="2618" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="eu.rekisoft.android.numberpicker" class="NumberPicker$AccessibilityNodeProviderImpl" method="performAction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/pagerSlidingTabStrip/src/main/java/com/astuetz/PagerSlidingTabStrip.java">
+<violation beginline="48" endline="825" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.astuetz" class="PagerSlidingTabStrip" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="120" endline="226" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.astuetz" class="PagerSlidingTabStrip" method="PagerSlidingTabStrip" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/coreFlavor/java/com/vuze/android/core/az/PlatformManagerImpl.java">
+<violation beginline="50" endline="467" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.core.az" class="PlatformManagerImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/coreFlavor/java/com/vuze/android/core/az/VuzeManager.java">
+<violation beginline="153" endline="391" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.core.az" class="VuzeManager" method="VuzeManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="494" endline="708" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.core.az" class="VuzeManager" method="preinstallPlugins" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="758" endline="881" begincolumn="9" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.core.az" class="VuzeManager$OurLoggerImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/coreFlavor/java/com/vuze/android/remote/CorePrefs.java">
+<violation beginline="27" endline="169" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.vuze.android.remote" class="CorePrefs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CorePrefs' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=5, WMC=29)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/coreFlavor/java/com/vuze/android/remote/service/VuzeService.java">
+<violation beginline="111" endline="1337" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android.remote.service" class="VuzeService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="115" endline="1337" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.service" class="VuzeService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="460" endline="752" begincolumn="22" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.service" class="VuzeService" method="startCore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/gaFlavor/java/com/vuze/android/remote/VuzeEasyTrackerNew.java">
+<violation beginline="36" endline="401" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote" class="VuzeEasyTrackerNew" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/google/android/flexbox/FlexboxLayout.java">
+<violation beginline="79" endline="2843" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.flexbox" class="FlexboxLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="79" endline="2843" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.flexbox" class="FlexboxLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="533" endline="684" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.flexbox" class="FlexboxLayout" method="measureHorizontal" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="698" endline="803" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.flexbox" class="FlexboxLayout" method="measureVertical" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="936" endline="1057" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.flexbox" class="FlexboxLayout" method="expandFlexItems" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1078" endline="1196" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.flexbox" class="FlexboxLayout" method="shrinkFlexItems" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1242" endline="1377" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.flexbox" class="FlexboxLayout" method="determineCrossSize" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1712" endline="1825" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.flexbox" class="FlexboxLayout" method="layoutHorizontal" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1927" endline="2041" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.flexbox" class="FlexboxLayout" method="layoutVertical" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2664" endline="2813" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.google.android.flexbox" class="FlexboxLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LayoutParams' is suspected to be a Data Class (WOC=0.000%, NOPA=17, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/FlexibleRecyclerAdapter.java">
+<violation beginline="50" endline="1148" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android" class="FlexibleRecyclerAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="53" endline="1148" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android" class="FlexibleRecyclerAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/FlexibleRecyclerView.java">
+<violation beginline="41" endline="420" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android" class="FlexibleRecyclerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/AndroidUtils.java">
+<violation beginline="81" endline="1218" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android.remote" class="AndroidUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="82" endline="1218" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote" class="AndroidUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/AndroidUtilsUI.java">
+<violation beginline="69" endline="1098" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android.remote" class="AndroidUtilsUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="70" endline="1098" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote" class="AndroidUtilsUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/AppPreferences.java">
+<violation beginline="51" endline="785" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote" class="AppPreferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/IVuzeEasyTracker.java">
+<violation beginline="27" endline="62" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote" class="IVuzeEasyTracker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/SideListHelper.java">
+<violation beginline="63" endline="956" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote" class="SideListHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="138" endline="294" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote" class="SideListHelper" method="SideListHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="459" endline="617" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote" class="SideListHelper" method="addEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="487" endline="613" begincolumn="32" endcolumn="25" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote" class="SideListHelper" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="657" endline="763" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote" class="SideListHelper" method="setupSideTextFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/VuzeEasyTracker.java">
+<violation beginline="40" endline="146" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote" class="VuzeEasyTracker" method="getInstance" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/VuzeRemoteApp.java">
+<violation beginline="92" endline="195" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote" class="VuzeRemoteApp" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/activity/IntentHandler.java">
+<violation beginline="56" endline="506" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.activity" class="IntentHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="68" endline="185" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.activity" class="IntentHandler" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/activity/LoginActivity.java">
+<violation beginline="59" endline="354" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.activity" class="LoginActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/activity/MetaSearchActivity.java">
+<violation beginline="70" endline="1217" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android.remote.activity" class="MetaSearchActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="75" endline="1217" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.activity" class="MetaSearchActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="151" endline="497" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.activity" class="MetaSearchActivity" method="onCreateWithSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="260" endline="373" begincolumn="32" endcolumn="25" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.activity" class="MetaSearchActivity" method="downloadResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/activity/RcmActivity.java">
+<violation beginline="63" endline="1376" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android.remote.activity" class="RcmActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="70" endline="1376" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.activity" class="RcmActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="474" endline="599" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.activity" class="RcmActivity" method="setupListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1174" endline="1361" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.activity" class="RcmActivity" method="updateFilterTexts" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/activity/SubscriptionListActivity.java">
+<violation beginline="76" endline="1009" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.activity" class="SubscriptionListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="127" endline="297" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.activity" class="SubscriptionListActivity" method="onCreateWithSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/activity/SubscriptionResultsActivity.java">
+<violation beginline="76" endline="1468" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android.remote.activity" class="SubscriptionResultsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="82" endline="1468" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.activity" class="SubscriptionResultsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="170" endline="411" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.activity" class="SubscriptionResultsActivity" method="onCreateWithSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/activity/TorrentDetailsActivityTV.java">
+<violation beginline="52" endline="365" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.activity" class="TorrentDetailsActivityTV" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/activity/TorrentDetailsCoordActivity.java">
+<violation beginline="53" endline="464" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.activity" class="TorrentDetailsCoordActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/activity/TorrentOpenOptionsActivity.java">
+<violation beginline="65" endline="323" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.vuze.android.remote.activity" class="TorrentOpenOptionsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TorrentOpenOptionsActivity' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=5, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/activity/TorrentViewActivity.java">
+<violation beginline="74" endline="1012" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.activity" class="TorrentViewActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="407" endline="510" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.activity" class="TorrentViewActivity" method="handleMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/adapter/FilesTreeAdapter.java">
+<violation beginline="52" endline="987" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.adapter" class="FilesTreeAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="593" endline="733" begincolumn="27" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.adapter" class="FilesTreeAdapter$FileFilter" method="performFiltering" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/adapter/RcmAdapterFilter.java">
+<violation beginline="33" endline="297" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.adapter" class="RcmAdapterFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/adapter/SubscriptionListAdapterFilter.java">
+<violation beginline="31" endline="173" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.vuze.android.remote.adapter" class="SubscriptionListAdapterFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubscriptionListAdapterFilter' is suspected to be a Data Class (WOC=28.571%, NOPA=0, NOAM=4, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/adapter/TorrentListRowFiller.java">
+<violation beginline="80" endline="349" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.adapter" class="TorrentListRowFiller" method="fillHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/dialog/DialogFragmentDateRange.java">
+<violation beginline="201" endline="362" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.dialog" class="DialogFragmentDateRange" method="setupPickers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/dialog/DialogFragmentNumberPicker.java">
+<violation beginline="94" endline="201" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.dialog" class="DialogFragmentNumberPicker" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/dialog/DialogFragmentSessionSettings.java">
+<violation beginline="84" endline="233" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.dialog" class="DialogFragmentSessionSettings" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/dialog/DialogFragmentSizeRange.java">
+<violation beginline="94" endline="216" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.dialog" class="DialogFragmentSizeRange" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/fragment/FilesFragment.java">
+<violation beginline="75" endline="1448" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android.remote.fragment" class="FilesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="79" endline="1448" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.fragment" class="FilesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="273" endline="446" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.fragment" class="FilesFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="977" endline="1119" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.fragment" class="FilesFragment" method="reallyStreamFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/fragment/OpenOptionsFilesFragment.java">
+<violation beginline="94" endline="293" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.fragment" class="OpenOptionsFilesFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/fragment/OpenOptionsGeneralFragment.java">
+<violation beginline="83" endline="249" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.fragment" class="OpenOptionsGeneralFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/fragment/OpenOptionsTagsFragment.java">
+<violation beginline="80" endline="226" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.fragment" class="OpenOptionsTagsFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/fragment/TorrentDetailsFragment.java">
+<violation beginline="46" endline="228" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.fragment" class="TorrentDetailsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/fragment/TorrentInfoFragment.java">
+<violation beginline="47" endline="434" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.fragment" class="TorrentInfoFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/fragment/TorrentListFragment.java">
+<violation beginline="69" endline="1810" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android.remote.fragment" class="TorrentListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="76" endline="1810" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.fragment" class="TorrentListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="312" endline="456" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.fragment" class="TorrentListFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="458" endline="564" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.fragment" class="TorrentListFragment" method="setupSideListArea" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1196" endline="1352" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.fragment" class="TorrentListFragment" method="setupActionModeCallback" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/rpc/RestJsonClientDeprecated.java">
+<violation beginline="78" endline="346" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.rpc" class="RestJsonClientDeprecated" method="connect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/rpc/RestJsonClientOkHttp.java">
+<violation beginline="89" endline="319" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.rpc" class="RestJsonClientOkHttp" method="connect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/rpc/TransmissionRPC.java">
+<violation beginline="41" endline="1241" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android.remote.rpc" class="TransmissionRPC" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="42" endline="1241" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.rpc" class="TransmissionRPC" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="370" endline="551" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.rpc" class="TransmissionRPC" method="getTorrents" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/session/Session.java">
+<violation beginline="56" endline="1130" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.android.remote.session" class="Session" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="58" endline="1130" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.session" class="Session" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/session/SessionSettings.java">
+<violation beginline="28" endline="88" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.vuze.android.remote.session" class="SessionSettings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SessionSettings' is suspected to be a Data Class (WOC=27.273%, NOPA=0, NOAM=8, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/session/Session_Torrent.java">
+<violation beginline="55" endline="849" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote.session" class="Session_Torrent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="140" endline="276" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.session" class="Session_Torrent" method="addRemoveTorrents" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/spanbubbles/DrawableTag.java">
+<violation beginline="34" endline="580" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.vuze.android.remote.spanbubbles" class="DrawableTag" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DrawableTag' is suspected to be a Data Class (WOC=16.667%, NOPA=2, NOAM=4, WMC=17)
+</violation>
+<violation beginline="178" endline="515" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.spanbubbles" class="DrawableTag" method="draw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/android/remote/spanbubbles/SpanTags.java">
+<violation beginline="183" endline="323" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.vuze.android.remote.spanbubbles" class="SpanTags" method="setTagBubbles" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/com/vuze/util/DisplayFormatters.java">
+<violation beginline="38" endline="1250" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.vuze.util" class="DisplayFormatters" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="39" endline="1250" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.util" class="DisplayFormatters" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/main/java/okhttp3/internal/http/HttpHeaders.java">
+<violation beginline="32" endline="277" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http" class="HttpHeaders" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/vuze-remote-for-android/vuzeAndroidRemote/src/nogaFlavor/java/com/vuze/android/remote/VuzeEasyTrackerNew.java">
+<violation beginline="27" endline="116" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vuze.android.remote" class="VuzeEasyTrackerNew" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

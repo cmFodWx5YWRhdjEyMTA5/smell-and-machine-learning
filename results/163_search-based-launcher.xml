@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:44:17.077">
+<file name="/home/matheus/smell-and-machine-learning/repositories/search-based-launcher/src/main/java/com/vackosar/searchbasedlauncher/control/DialogFactory.java">
+<violation beginline="21" endline="191" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vackosar.searchbasedlauncher.control" class="DialogFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/search-based-launcher/src/main/java/com/vackosar/searchbasedlauncher/entity/App.java">
+<violation beginline="5" endline="59" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.vackosar.searchbasedlauncher.entity" class="App" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'App' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/search-based-launcher/src/main/java/com/vackosar/searchbasedlauncher/entity/AppsView.java">
+<violation beginline="31" endline="193" begincolumn="118" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.vackosar.searchbasedlauncher.entity" class="AppsView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

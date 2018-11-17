@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:20:07.100">
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/at/technikum/mti/fancycoverflow/FancyCoverFlow.java">
+<violation beginline="31" endline="382" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="at.technikum.mti.fancycoverflow" class="FancyCoverFlow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FancyCoverFlow' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=17, WMC=28)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/activity/create_workout/ExerciseTypeDetailFragment.java">
+<violation beginline="66" endline="351" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.skubware.opentraining.activity.create_workout" class="ExerciseTypeDetailFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExerciseTypeDetailFragment' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+<violation beginline="178" endline="349" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.skubware.opentraining.activity.create_workout" class="ExerciseTypeDetailFragment" method="onCreateOptionsMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/activity/create_workout/ExerciseTypeListActivity.java">
+<violation beginline="63" endline="332" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.skubware.opentraining.activity.create_workout" class="ExerciseTypeListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/activity/create_workout/ExerciseTypeListFragment.java">
+<violation beginline="53" endline="461" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.skubware.opentraining.activity.create_workout" class="ExerciseTypeListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/activity/manage_workouts/WorkoutDetailFragment.java">
+<violation beginline="115" endline="280" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.skubware.opentraining.activity.manage_workouts" class="WorkoutDetailFragment" method="onCreateOptionsMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/activity/settings/SettingsActivity.java">
+<violation beginline="112" endline="213" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.skubware.opentraining.activity.settings" class="SettingsActivity" method="setupSimplePreferencesScreen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/activity/settings/sync/OpenTrainingSyncService.java">
+<violation beginline="40" endline="190" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.skubware.opentraining.activity.settings.sync" class="OpenTrainingSyncService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OpenTrainingSyncService' is suspected to be a Data Class (WOC=0.000%, NOPA=16, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/activity/settings/sync/WgerJSONParser.java">
+<violation beginline="74" endline="184" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.skubware.opentraining.activity.settings.sync" class="WgerJSONParser" method="WgerJSONParser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/activity/start_training/SwipeDismissListViewTouchListener.java">
+<violation beginline="167" endline="288" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.skubware.opentraining.activity.start_training" class="SwipeDismissListViewTouchListener" method="onTouch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/basic/ExerciseType.java">
+<violation beginline="78" endline="195" begincolumn="37" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="de.skubware.opentraining.basic" class="ExerciseType$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/basic/Workout.java">
+<violation beginline="38" endline="335" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.skubware.opentraining.basic" class="Workout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/db/DataProvider.java">
+<violation beginline="57" endline="662" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.skubware.opentraining.db" class="DataProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/db/parser/XMLSaver.java">
+<violation beginline="70" endline="194" begincolumn="36" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.skubware.opentraining.db.parser" class="XMLSaver" method="writeTrainingPlan" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="209" endline="323" begincolumn="36" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.skubware.opentraining.db.parser" class="XMLSaver" method="writeExerciseType" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opentraining/app/src/de/skubware/opentraining/exporter/LaTeXExporter.java">
+<violation beginline="50" endline="207" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.skubware.opentraining.exporter" class="LaTeXExporter" method="exportWorkoutToString" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="214" endline="343" begincolumn="16" endcolumn="9" rule="DataClass" ruleset="Design" package="de.skubware.opentraining.exporter" class="LaTeXExporter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Settings' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=15)
+</violation>
+</file>
+</pmd>

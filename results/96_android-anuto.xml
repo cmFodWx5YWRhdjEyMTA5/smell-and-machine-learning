@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:28:32.993">
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/business/game/ScoreBoard.java">
+<violation beginline="11" endline="235" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.business.game" class="ScoreBoard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/business/tower/TowerInserter.java">
+<violation beginline="20" endline="197" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.business.tower" class="TowerInserter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/business/tower/TowerSelector.java">
+<violation beginline="15" endline="261" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.business.tower" class="TowerSelector" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/business/wave/WaveAttender.java">
+<violation beginline="20" endline="215" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.business.wave" class="WaveAttender" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/business/wave/WaveManager.java">
+<violation beginline="20" endline="377" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.business.wave" class="WaveManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/engine/logic/GameEngine.java">
+<violation beginline="18" endline="142" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.engine.logic" class="GameEngine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/engine/logic/entity/Entity.java">
+<violation beginline="15" endline="185" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.engine.logic.entity" class="Entity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/entity/enemy/Enemy.java">
+<violation beginline="18" endline="337" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.entity.enemy" class="Enemy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/entity/tower/Tower.java">
+<violation beginline="18" endline="247" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.entity.tower" class="Tower" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/util/container/KeyValueStore.java">
+<violation beginline="20" endline="312" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.util.container" class="KeyValueStore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/util/container/SafeCollection.java">
+<violation beginline="11" endline="161" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.util.container" class="SafeCollection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/util/iterator/StreamIterator.java">
+<violation beginline="9" endline="220" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.util.iterator" class="StreamIterator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/util/math/Function.java">
+<violation beginline="3" endline="123" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.util.math" class="Function" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/util/math/Vector2.java">
+<violation beginline="3" endline="82" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.util.math" class="Vector2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-anuto/app/src/main/java/ch/logixisland/anuto/view/game/HeaderFragment.java">
+<violation beginline="27" endline="232" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ch.logixisland.anuto.view.game" class="HeaderFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

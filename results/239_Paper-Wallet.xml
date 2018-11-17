@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:58:46.890">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/androidTest/java/ru/valle/btc/MainActivityTest.java">
+<violation beginline="73" endline="607" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.valle.btc" class="MainActivityTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="396" endline="562" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="MainActivityTest" method="checkTxCreationFromUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/main/java/android/support/v4/print/PrintHelperKitkat.java">
+<violation beginline="257" endline="397" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="android.support.v4.print" class="PrintHelperKitkat" method="printBitmap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/main/java/com/d_project/qrcode/QRUtil.java">
+<violation beginline="152" endline="257" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.d_project.qrcode" class="QRUtil" method="getLostPoint" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/main/java/ru/valle/btc/Address.java">
+<violation beginline="16" endline="181" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.valle.btc" class="Address" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/main/java/ru/valle/btc/BTCUtils.java">
+<violation beginline="68" endline="1410" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ru.valle.btc" class="BTCUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="68" endline="1410" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.valle.btc" class="BTCUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="152" endline="175" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="ru.valle.btc" class="BTCUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PrivateKeyInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=1)
+</violation>
+<violation beginline="661" endline="793" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="BTCUtils" method="verify" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="883" endline="885" begincolumn="48" endcolumn="129" rule="ExcessiveParameterList" ruleset="Design" package="ru.valle.btc" class="BTCUtils" method="createTransaction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/main/java/ru/valle/btc/BitcoinException.java">
+<violation beginline="26" endline="53" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="ru.valle.btc" class="BitcoinException" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BitcoinException' is suspected to be a Data Class (WOC=0.000%, NOPA=13, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/main/java/ru/valle/btc/MainActivity.java">
+<violation beginline="89" endline="1652" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ru.valle.btc" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="89" endline="1652" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.valle.btc" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="247" endline="474" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="MainActivity" method="wireListeners" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="512" endline="634" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="MainActivity" method="onUnspentOutputsInfoChanged" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="666" endline="768" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="MainActivity" method="encryptOrDecryptPrivateKey" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="852" endline="976" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="MainActivity" method="showQRCodePopupForPrivateKey" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="870" endline="974" begincolumn="23" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="MainActivity" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1123" endline="1305" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="MainActivity" method="tryToGenerateSpendingTransaction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/main/java/ru/valle/btc/Transaction.java">
+<violation beginline="38" endline="1641" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ru.valle.btc" class="Transaction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="427" endline="1640" begincolumn="25" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="ru.valle.btc" class="Transaction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="427" endline="1640" begincolumn="38" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="ru.valle.btc" class="Transaction$Script" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="555" endline="808" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="Transaction$Script" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1242" endline="1354" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="Transaction$Script" method="convertReadableStringToBytesCoreStyle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1440" endline="1599" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="Transaction$Script" method="convertBytesToReadableString" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/main/java/ru/valle/btc/TrulySecureRandom.java">
+<violation beginline="43" endline="190" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.valle.btc" class="TrulySecureRandom" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/main/java/ru/valle/btc/UnspentOutputInfo.java">
+<violation beginline="26" endline="41" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="ru.valle.btc" class="UnspentOutputInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UnspentOutputInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/test/java/ru/valle/btc/BTCUtilsTest.java">
+<violation beginline="41" endline="446" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.valle.btc" class="BTCUtilsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/test/java/ru/valle/btc/Bech32Test.java">
+<violation beginline="137" endline="267" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru.valle.btc" class="Bech32Test" method="testErrorCases" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/test/java/ru/valle/btc/SegWitTest.java">
+<violation beginline="11" endline="358" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.valle.btc" class="SegWitTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Paper-Wallet/app/src/test/java/ru/valle/btc/TransactionTest.java">
+<violation beginline="42" endline="414" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.valle.btc" class="TransactionTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

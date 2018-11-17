@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:03:33.635">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pixelesque/src/com/rj/pixelesque/NumberPicker.java">
+<violation beginline="46" endline="441" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.rj.pixelesque" class="NumberPicker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pixelesque/src/com/rj/pixelesque/PixelArt.java">
+<violation beginline="25" endline="449" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.rj.pixelesque" class="PixelArt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pixelesque/src/com/rj/pixelesque/PixelArtEditor.java">
+<violation beginline="49" endline="749" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.rj.pixelesque" class="PixelArtEditor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pixelesque/src/com/rj/pixelesque/PixelArtStateView.java">
+<violation beginline="56" endline="189" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.rj.pixelesque" class="PixelArtStateView" method="init" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pixelesque/src/de/devmil/common/ui/color/ColorSelectorActivity.java">
+<violation beginline="30" endline="178" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.devmil.common.ui.color" class="ColorSelectorActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ColorSelectorActivity' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=1, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pixelesque/src/de/devmil/common/ui/color/ColorSelectorDialog.java">
+<violation beginline="29" endline="145" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.devmil.common.ui.color" class="ColorSelectorDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ColorSelectorDialog' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=1, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pixelesque/src/de/devmil/common/ui/color/HsvColorValueView.java">
+<violation beginline="37" endline="259" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.devmil.common.ui.color" class="HsvColorValueView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HsvColorValueView' is suspected to be a Data Class (WOC=27.273%, NOPA=0, NOAM=5, WMC=27)
+</violation>
+</file>
+</pmd>

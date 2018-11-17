@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:29:40.258">
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/androidTest/java/com/sensirion/smartgadget/tests/view/comfort_zone/XyPlotViewUnderTest.java">
+<violation beginline="39" endline="66" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sensirion.smartgadget.tests.view.comfort_zone" class="XyPlotViewUnderTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'XyPlotViewUnderTest' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/database_library/DatabaseFacade.java">
+<violation beginline="51" endline="357" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.database_library" class="DatabaseFacade" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/peripheral/rht_sensor/RHTSensorFacade.java">
+<violation beginline="53" endline="287" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.peripheral.rht_sensor" class="RHTSensorFacade" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/peripheral/rht_sensor/external/RHTHumigadgetSensorManager.java">
+<violation beginline="66" endline="420" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.peripheral.rht_sensor.external" class="RHTHumigadgetSensorManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/peripheral/rht_sensor/internal/RHTInternalSensorManager.java">
+<violation beginline="54" endline="293" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.peripheral.rht_sensor.internal" class="RHTInternalSensorManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/view/MainActivity.java">
+<violation beginline="92" endline="631" begincolumn="103" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.view" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/view/comfort_zone/ComfortZoneFragment.java">
+<violation beginline="77" endline="652" begincolumn="155" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.view.comfort_zone" class="ComfortZoneFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/view/dashboard/DashboardFragment.java">
+<violation beginline="76" endline="444" begincolumn="136" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.view.dashboard" class="DashboardFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/view/device_management/ManageDeviceFragment.java">
+<violation beginline="90" endline="687" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.view.device_management" class="ManageDeviceFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/view/device_management/ScanDeviceFragment.java">
+<violation beginline="81" endline="433" begincolumn="105" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.view.device_management" class="ScanDeviceFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/view/history/HistoryFragment.java">
+<violation beginline="80" endline="534" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.view.history" class="HistoryFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/view/history/PlotHandler.java">
+<violation beginline="71" endline="526" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.view.history" class="PlotHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SmartGadget-Android/app/src/main/java/com/sensirion/smartgadget/view/preference/SmartgadgetPreferenceFragment.java">
+<violation beginline="67" endline="423" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sensirion.smartgadget.view.preference" class="SmartgadgetPreferenceFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

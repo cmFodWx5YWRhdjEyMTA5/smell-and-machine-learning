@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:34:23.935">
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/PlayLicensingOrig/src/com/google/android/vending/licensing/LicenseValidator.java">
+<violation beginline="89" endline="196" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.vending.licensing" class="LicenseValidator" method="verify" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/PlayLicensingOrig/src/com/google/android/vending/licensing/util/Base64.java">
+<violation beginline="41" endline="570" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.vending.licensing.util" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/androidTest/java/org/totschnig/myexpenses/test/espresso/MyExpensesTest.java">
+<violation beginline="72" endline="303" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.test.espresso" class="MyExpensesTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/androidTest/java/org/totschnig/myexpenses/test/espresso/SettingsTest.java">
+<violation beginline="37" endline="157" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.test.espresso" class="SettingsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/androidTest/java/org/totschnig/myexpenses/test/misc/QifParserTest.java">
+<violation beginline="30" endline="720" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.test.misc" class="QifParserTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/androidTest/java/org/totschnig/myexpenses/test/model/AccountTest.java">
+<violation beginline="46" endline="305" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.test.model" class="AccountTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/androidTest/java/org/totschnig/myexpenses/test/provider/AccountInfo.java">
+<violation beginline="11" endline="66" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.totschnig.myexpenses.test.provider" class="AccountInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AccountInfo' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=4, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/androidTest/java/org/totschnig/myexpenses/test/provider/CategoryTest.java">
+<violation beginline="34" endline="452" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.test.provider" class="CategoryTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/androidTest/java/org/totschnig/myexpenses/test/provider/TransactionInfo.java">
+<violation beginline="12" endline="73" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.totschnig.myexpenses.test.provider" class="TransactionInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TransactionInfo' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=5, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/androidTest/java/org/totschnig/myexpenses/test/provider/TransactionTest.java">
+<violation beginline="79" endline="189" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.test.provider" class="TransactionTest" method="testQueriesOnTransactionUri" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/androidTest/java/org/totschnig/myexpenses/testutils/Fixture.java">
+<violation beginline="59" endline="229" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.testutils" class="Fixture" method="setup" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="256" endline="340" begincolumn="43" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.testutils" class="Fixture$TransactionBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/debug/java/org/totschnig/myexpenses/sync/LocalFileBackendProvider.java">
+<violation beginline="29" endline="200" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.sync" class="LocalFileBackendProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/forTest/java/org/totschnig/myexpenses/provider/AccountInfo.java">
+<violation beginline="10" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.totschnig.myexpenses.provider" class="AccountInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AccountInfo' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=4, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/forTest/java/org/totschnig/myexpenses/provider/TransactionInfo.java">
+<violation beginline="11" endline="72" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.totschnig.myexpenses.provider" class="TransactionInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TransactionInfo' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=5, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/com/android/calendarcommon2/EventRecurrence.java">
+<violation beginline="31" endline="908" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendarcommon2" class="EventRecurrence" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="527" endline="656" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendarcommon2" class="EventRecurrence" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/com/ortiz/touch/TouchImageView.java">
+<violation beginline="40" endline="1275" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ortiz.touch" class="TouchImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="40" endline="1275" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ortiz.touch" class="TouchImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="545" endline="650" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ortiz.touch" class="TouchImageView" method="fitImageToView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1256" endline="1268" begincolumn="13" endcolumn="5" rule="DataClass" ruleset="Design" package="com.ortiz.touch" class="TouchImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ZoomVariables' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/MyApplication.java">
+<violation beginline="85" endline="849" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses" class="MyApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/AccountEdit.java">
+<violation beginline="79" endline="504" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="AccountEdit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/BackupRestoreActivity.java">
+<violation beginline="53" endline="307" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="BackupRestoreActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/BudgetActivity.java">
+<violation beginline="49" endline="347" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="BudgetActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/CalculatorInput.java">
+<violation beginline="45" endline="408" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="CalculatorInput" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/ContribInfoDialogActivity.java">
+<violation beginline="47" endline="325" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ContribInfoDialogActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/EditActivity.java">
+<violation beginline="34" endline="182" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="EditActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/ExpenseEdit.java">
+<violation beginline="186" endline="2549" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ExpenseEdit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="188" endline="2549" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ExpenseEdit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="354" endline="631" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ExpenseEdit" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="658" endline="886" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ExpenseEdit" method="setup" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1195" endline="1320" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ExpenseEdit" method="syncStateAndValidate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2082" endline="2212" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ExpenseEdit" method="onLoadFinished" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/LaunchActivity.java">
+<violation beginline="173" endline="280" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.activity" class="LaunchActivity" method="newVersionCheck" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/ManageCurrencies.java">
+<violation beginline="22" endline="132" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ManageCurrencies" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/ManageSyncBackends.java">
+<violation beginline="42" endline="302" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ManageSyncBackends" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/ManageTemplates.java">
+<violation beginline="49" endline="225" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ManageTemplates" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/MyExpenses.java">
+<violation beginline="146" endline="1263" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.totschnig.myexpenses.activity" class="MyExpenses" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="149" endline="1263" begincolumn="128" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="MyExpenses" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="216" endline="335" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.activity" class="MyExpenses" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="489" endline="687" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.activity" class="MyExpenses" method="dispatchCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/MyPreferenceActivity.java">
+<violation beginline="88" endline="373" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="MyPreferenceActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/ProtectedFragmentActivity.java">
+<violation beginline="115" endline="926" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="ProtectedFragmentActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/RoadmapVoteActivity.java">
+<violation beginline="58" endline="413" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="RoadmapVoteActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/SplashActivity.java">
+<violation beginline="52" endline="308" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="SplashActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/activity/SyncBackendSetupActivity.java">
+<violation beginline="45" endline="265" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.activity" class="SyncBackendSetupActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/di/AppComponent.java">
+<violation beginline="39" endline="94" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.di" class="AppComponent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/dialog/ContribDialogFragment.java">
+<violation beginline="95" endline="225" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.dialog" class="ContribDialogFragment" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/dialog/DialogUtils.java">
+<violation beginline="67" endline="372" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.dialog" class="DialogUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/dialog/ExportDialogFragment.java">
+<violation beginline="96" endline="299" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.dialog" class="ExportDialogFragment" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/dialog/HelpDialogFragment.java">
+<violation beginline="60" endline="438" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.dialog" class="HelpDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="144" endline="247" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.dialog" class="HelpDialogFragment" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/dialog/ImportSourceDialogFragment.java">
+<violation beginline="23" endline="150" begincolumn="111" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.dialog" class="ImportSourceDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/dialog/ProgressDialogFragment.java">
+<violation beginline="33" endline="231" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.dialog" class="ProgressDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/dialog/TransactionDetailFragment.java">
+<violation beginline="274" endline="456" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.dialog" class="TransactionDetailFragment" method="fillData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/export/CategoryInfo.java">
+<violation beginline="22" endline="156" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.totschnig.myexpenses.export" class="CategoryInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CategoryInfo' is suspected to be a Data Class (WOC=16.667%, NOPA=2, NOAM=2, WMC=24)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/export/Exporter.java">
+<violation beginline="91" endline="332" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.export" class="Exporter" method="export" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/export/pdf/PdfPrinter.java">
+<violation beginline="193" endline="434" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.export.pdf" class="PdfPrinter" method="addTransactionList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/CategoryList.java">
+<violation beginline="89" endline="566" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="CategoryList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="207" endline="328" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="CategoryList" method="dispatchCommandMultiple" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/ContextualActionBarFragment.java">
+<violation beginline="30" endline="290" begincolumn="113" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="ContextualActionBarFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="109" endline="226" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="ContextualActionBarFragment" method="registerForContextualActionBar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/CsvImportParseFragment.java">
+<violation beginline="52" endline="325" begincolumn="125" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="CsvImportParseFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/DistributionBaseFragment.java">
+<violation beginline="46" endline="267" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="DistributionBaseFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/DistributionFragment.java">
+<violation beginline="69" endline="479" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="DistributionFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="82" endline="234" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="DistributionFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/FolderList.java">
+<violation beginline="40" endline="217" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="FolderList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/HistoryChart.java">
+<violation beginline="85" endline="447" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="HistoryChart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/OnboardingDataFragment.java">
+<violation beginline="56" endline="267" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="OnboardingDataFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/PlanMonthFragment.java">
+<violation beginline="71" endline="512" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="PlanMonthFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/SettingsFragment.java">
+<violation beginline="152" endline="971" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="SettingsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="257" endline="429" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="SettingsFragment" method="onCreatePreferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="663" endline="781" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="SettingsFragment" method="onPreferenceClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/SplitPartList.java">
+<violation beginline="67" endline="253" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="SplitPartList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/TemplatesList.java">
+<violation beginline="99" endline="631" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="TemplatesList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/fragment/TransactionList.java">
+<violation beginline="164" endline="1126" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.fragment" class="TransactionList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/model/Account.java">
+<violation beginline="107" endline="936" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.model" class="Account" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/model/PaymentMethod.java">
+<violation beginline="49" endline="302" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.model" class="PaymentMethod" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/model/Template.java">
+<violation beginline="73" endline="618" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.model" class="Template" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/model/Transaction.java">
+<violation beginline="134" endline="1246" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.totschnig.myexpenses.model" class="Transaction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="134" endline="1246" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.model" class="Transaction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/preference/PrefHandler.java">
+<violation beginline="5" endline="49" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.preference" class="PrefHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/preference/PrefHandlerImpl.java">
+<violation beginline="7" endline="127" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.preference" class="PrefHandlerImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/provider/TransactionDatabase.java">
+<violation beginline="145" endline="1873" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.totschnig.myexpenses.provider" class="TransactionDatabase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="145" endline="1873" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.provider" class="TransactionDatabase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="779" endline="1808" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.provider" class="TransactionDatabase" method="onUpgrade" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/provider/TransactionProvider.java">
+<violation beginline="74" endline="1722" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.totschnig.myexpenses.provider" class="TransactionProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="74" endline="1722" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.provider" class="TransactionProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="251" endline="832" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.provider" class="TransactionProvider" method="query" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="844" endline="958" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.provider" class="TransactionProvider" method="insert" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="976" endline="1106" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.provider" class="TransactionProvider" method="delete" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1117" endline="1477" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.provider" class="TransactionProvider" method="update" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/provider/filter/Criteria.java">
+<violation beginline="35" endline="182" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.provider.filter" class="Criteria" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/retrofit/Vote.java">
+<violation beginline="8" endline="52" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.totschnig.myexpenses.retrofit" class="Vote" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Vote' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/service/PlanExecutor.java">
+<violation beginline="62" endline="214" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.service" class="PlanExecutor" method="onHandleIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/sync/AbstractSyncBackendProvider.java">
+<violation beginline="50" endline="315" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.sync" class="AbstractSyncBackendProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/sync/DropboxBackendProvider.java">
+<violation beginline="42" endline="324" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.sync" class="DropboxBackendProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/sync/SyncAdapter.java">
+<violation beginline="93" endline="1029" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.sync" class="SyncAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="135" endline="422" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.sync" class="SyncAdapter" method="onPerformSync" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/sync/json/AccountMetaData.java">
+<violation beginline="15" endline="99" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.sync.json" class="AccountMetaData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/sync/json/TransactionChange.java">
+<violation beginline="40" endline="255" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.sync.json" class="TransactionChange" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/sync/webdav/WebDavClient.java">
+<violation beginline="55" endline="306" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.sync.webdav" class="WebDavClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/task/CsvImportTask.java">
+<violation beginline="90" endline="262" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.task" class="CsvImportTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/task/GenericTask.java">
+<violation beginline="108" endline="679" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.task" class="GenericTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/task/QifImportTask.java">
+<violation beginline="60" endline="458" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.task" class="QifImportTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/task/RestoreTask.java">
+<violation beginline="88" endline="362" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.totschnig.myexpenses.task" class="RestoreTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/task/SyncAccountTask.java">
+<violation beginline="102" endline="114" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.totschnig.myexpenses.task" class="SyncAccountTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Result' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/ui/SimpleCursorTreeAdapter.java">
+<violation beginline="109" endline="111" begincolumn="35" endcolumn="67" rule="ExcessiveParameterList" ruleset="Design" package="org.totschnig.myexpenses.ui" class="SimpleCursorTreeAdapter" method="SimpleCursorTreeAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/util/CategoryTree.java">
+<violation beginline="25" endline="85" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.totschnig.myexpenses.util" class="CategoryTree" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CategoryTree' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=4, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/util/Utils.java">
+<violation beginline="105" endline="873" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.util" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/util/ads/AdHandler.java">
+<violation beginline="19" endline="148" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.util.ads" class="AdHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/util/ads/WaterfallAdHandler.java">
+<violation beginline="6" endline="108" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.util.ads" class="WaterfallAdHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/util/licence/LicenceHandler.java">
+<violation beginline="45" endline="446" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.util.licence" class="LicenceHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/main/java/org/totschnig/myexpenses/widget/AbstractWidget.java">
+<violation beginline="26" endline="217" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.widget" class="AbstractWidget" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/myExpenses/src/test/java/org/totschnig/myexpenses/provider/ProviderUtilsTest.java">
+<violation beginline="40" endline="166" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.totschnig.myexpenses.provider" class="ProviderUtilsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/setupwizard/full-support/test/src/com/android/setupwizardlib/test/RecyclerViewRequireScrollHelperTest.java">
+<violation beginline="83" endline="123" begincolumn="20" endcolumn="5" rule="DataClass" ruleset="Design" package="com.android.setupwizardlib.test" class="RecyclerViewRequireScrollHelperTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TestRecyclerView' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/setupwizard/main/src/com/android/setupwizardlib/items/GenericInflater.java">
+<violation beginline="43" endline="495" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.setupwizardlib.items" class="GenericInflater" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/setupwizard/main/src/com/android/setupwizardlib/util/SystemBarHelper.java">
+<violation beginline="45" endline="348" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.setupwizardlib.util" class="SystemBarHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/setupwizard/test/src/com/android/setupwizardlib/test/GlifLayoutTest.java">
+<violation beginline="35" endline="148" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.setupwizardlib.test" class="GlifLayoutTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/setupwizard/test/src/com/android/setupwizardlib/test/SetupWizardLayoutTest.java">
+<violation beginline="37" endline="225" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.setupwizardlib.test" class="SetupWizardLayoutTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/setupwizard/test/src/com/android/setupwizardlib/test/SystemBarHelperTest.java">
+<violation beginline="36" endline="251" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.setupwizardlib.test" class="SystemBarHelperTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/setupwizard/test/src/com/android/setupwizardlib/test/WizardManagerHelperTest.java">
+<violation beginline="26" endline="174" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.setupwizardlib.test" class="WizardManagerHelperTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MyExpenses/setupwizard/test/src/com/android/setupwizardlib/test/util/MockWindow.java">
+<violation beginline="17" endline="262" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.setupwizardlib.test.util" class="MockWindow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

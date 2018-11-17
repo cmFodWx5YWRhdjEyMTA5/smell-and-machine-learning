@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:54:51.239">
+<file name="/home/matheus/smell-and-machine-learning/repositories/TtsPlus-FBReader/src/com/hyperionics/fbreader/plugin/tts_plus/SettingsActivity.java">
+<violation beginline="50" endline="298" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.hyperionics.fbreader.plugin.tts_plus" class="SettingsActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TtsPlus-FBReader/src/com/hyperionics/fbreader/plugin/tts_plus/SpeakActivity.java">
+<violation beginline="46" endline="867" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.hyperionics.fbreader.plugin.tts_plus" class="SpeakActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="69" endline="370" begincolumn="25" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.hyperionics.fbreader.plugin.tts_plus" class="SpeakActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TtsPlus-FBReader/src/com/hyperionics/fbreader/plugin/tts_plus/SpeakService.java">
+<violation beginline="39" endline="1052" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.hyperionics.fbreader.plugin.tts_plus" class="SpeakService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="40" endline="1052" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.hyperionics.fbreader.plugin.tts_plus" class="SpeakService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TtsPlus-FBReader/src/com/hyperionics/util/Base64.java">
+<violation beginline="41" endline="570" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.hyperionics.util" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TtsPlus-FBReader/src/org/geometerplus/android/fbreader/api/ApiClientImplementation.java">
+<violation beginline="15" endline="485" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.api" class="ApiClientImplementation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

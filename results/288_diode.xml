@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:16:03.266">
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/browser/BrowserActivity.java">
+<violation beginline="29" endline="279" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.browser" class="BrowserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/comments/CommentsListActivity.java">
+<violation beginline="110" endline="2358" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="in.shick.diode.comments" class="CommentsListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="111" endline="2358" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.comments" class="CommentsListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="181" endline="303" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.comments" class="CommentsListActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="419" endline="624" begincolumn="11" endcolumn="5" rule="DataClass" ruleset="Design" package="in.shick.diode.comments" class="CommentsListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CommentsListAdapter' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=1)
+</violation>
+<violation beginline="481" endline="623" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.comments" class="CommentsListActivity$CommentsListAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1564" endline="1715" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.comments" class="CommentsListActivity" method="onContextItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1809" endline="2002" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.comments" class="CommentsListActivity" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2005" endline="2144" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.comments" class="CommentsListActivity" method="onPrepareDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/comments/DownloadCommentsTask.java">
+<violation beginline="53" endline="615" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.comments" class="DownloadCommentsTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/comments/ProcessCommentsTask.java">
+<violation beginline="17" endline="178" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.comments" class="ProcessCommentsTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/comments/SavedCommentsActivity.java">
+<violation beginline="61" endline="477" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.comments" class="SavedCommentsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="365" endline="475" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.comments" class="SavedCommentsActivity" method="linkToEmbeddedURLs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/common/Common.java">
+<violation beginline="77" endline="710" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.common" class="Common" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="516" endline="641" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.common" class="Common" method="launchBrowser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/common/util/Util.java">
+<violation beginline="43" endline="619" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.common.util" class="Util" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/filters/SubredditFilter.java">
+<violation beginline="11" endline="149" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="in.shick.diode.filters" class="SubredditFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubredditFilter' is suspected to be a Data Class (WOC=15.385%, NOPA=0, NOAM=10, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/mail/InboxListActivity.java">
+<violation beginline="105" endline="1039" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.mail" class="InboxListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/reddits/PickSubredditActivity.java">
+<violation beginline="75" endline="529" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.reddits" class="PickSubredditActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/saved/SavedContent.java">
+<violation beginline="11" endline="131" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="in.shick.diode.saved" class="SavedContent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SavedContent' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/submit/SubmitLinkActivity.java">
+<violation beginline="86" endline="779" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.submit" class="SubmitLinkActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="365" endline="492" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.submit" class="SubmitLinkActivity$SubmitLinkTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/things/Listing.java">
+<violation beginline="21" endline="45" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="in.shick.diode.things" class="Listing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Listing' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/things/ListingData.java">
+<violation beginline="21" endline="54" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="in.shick.diode.things" class="ListingData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ListingData' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/things/ThingListing.java">
+<violation beginline="21" endline="38" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="in.shick.diode.things" class="ThingListing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ThingListing' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/threads/DownloadThreadsTask.java">
+<violation beginline="94" endline="96" begincolumn="31" endcolumn="103" rule="ExcessiveParameterList" ruleset="Design" package="in.shick.diode.threads" class="DownloadThreadsTask" method="DownloadThreadsTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="129" endline="269" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.threads" class="DownloadThreadsTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/threads/ShowThumbnailsTask.java">
+<violation beginline="45" endline="59" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="in.shick.diode.threads" class="ShowThumbnailsTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ThumbnailLoadAction' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/threads/ThreadsListActivity.java">
+<violation beginline="109" endline="1662" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="in.shick.diode.threads" class="ThreadsListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="109" endline="1662" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.threads" class="ThreadsListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="456" endline="606" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.threads" class="ThreadsListActivity" method="fillThreadsListItemView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1210" endline="1311" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="in.shick.diode.threads" class="ThreadsListActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/user/ProfileActivity.java">
+<violation beginline="110" endline="1372" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="in.shick.diode.user" class="ProfileActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="111" endline="1372" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="in.shick.diode.user" class="ProfileActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/user/UserInfo.java">
+<violation beginline="8" endline="191" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="in.shick.diode.user" class="UserInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=26, WMC=28)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/diode/app/src/main/java/in/shick/diode/user/UserListing.java">
+<violation beginline="4" endline="23" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="in.shick.diode.user" class="UserListing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserListing' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+</pmd>

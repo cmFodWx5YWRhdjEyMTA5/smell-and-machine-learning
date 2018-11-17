@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:25:09.588">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/AdministrationFunctions.java">
+<violation beginline="59" endline="607" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="AdministrationFunctions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="107" endline="383" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="AdministrationFunctions" method="setupAdmin" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BcQueueManager.java">
+<violation beginline="40" endline="173" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BcQueueManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BcQueueManager' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BookCatalogueClassic.java">
+<violation beginline="76" endline="1749" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookCatalogueClassic" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="76" endline="1749" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookCatalogueClassic" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="923" endline="1027" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookCatalogueClassic" method="fillData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1033" endline="1195" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookCatalogueClassic" method="sortOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BookDetailsAbstract.java">
+<violation beginline="51" endline="853" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookDetailsAbstract" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="145" endline="277" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookDetailsAbstract" method="onActivityResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BookDetailsReadOnly.java">
+<violation beginline="25" endline="361" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookDetailsReadOnly" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BookEdit.java">
+<violation beginline="69" endline="1077" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookEdit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="70" endline="1077" begincolumn="104" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookEdit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="112" endline="242" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookEdit" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BookEditAnthology.java">
+<violation beginline="61" endline="435" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookEditAnthology" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BookEditFields.java">
+<violation beginline="65" endline="506" begincolumn="107" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookEditFields" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="97" endline="234" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookEditFields" method="onActivityCreated" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BookEditFragmentAbstract.java">
+<violation beginline="46" endline="404" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookEditFragmentAbstract" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BookISBNSearch.java">
+<violation beginline="60" endline="811" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookISBNSearch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="118" endline="391" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BookISBNSearch" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BooksMultitypeListHandler.java">
+<violation beginline="88" endline="1125" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BooksMultitypeListHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="983" endline="1123" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BooksMultitypeListHandler" method="onContextItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/BooksOnBookshelf.java">
+<violation beginline="96" endline="1400" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BooksOnBookshelf" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="96" endline="1400" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BooksOnBookshelf" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="155" endline="264" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BooksOnBookshelf" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="610" endline="776" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="BooksOnBookshelf" method="displayList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/Bookshelf.java">
+<violation beginline="44" endline="199" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="Bookshelf" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/CatalogueDBAdapter.java">
+<violation beginline="108" endline="6151" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="CatalogueDBAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="108" endline="6151" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="CatalogueDBAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="630" endline="1653" begincolumn="24" endcolumn="9" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="CatalogueDBAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="752" endline="1652" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="CatalogueDBAdapter$DatabaseHelper" method="onUpgrade" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="5206" endline="5307" begincolumn="13" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="CatalogueDBAdapter" method="globalReplacePositionedBookItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="5696" endline="5805" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="CatalogueDBAdapter" method="ftsSendBooks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/ExportThread.java">
+<violation beginline="62" endline="266" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="ExportThread" method="onRun" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/Fields.java">
+<violation beginline="116" endline="1458" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="Fields" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/MenuHandler.java">
+<violation beginline="37" endline="275" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="MenuHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/SearchGoogleBooksHandler.java">
+<violation beginline="121" endline="187" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.eleybourn.bookcatalogue" class="SearchGoogleBooksHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SearchGoogleBooksHandler' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=2, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/SearchManager.java">
+<violation beginline="45" endline="640" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="SearchManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="364" endline="483" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="SearchManager" method="sendResults" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/StartupActivity.java">
+<violation beginline="57" endline="448" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue" class="StartupActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/UpdateFromInternet.java">
+<violation beginline="117" endline="269" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="UpdateFromInternet" method="setupFields" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/UpdateThumbnailsThread.java">
+<violation beginline="97" endline="233" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue" class="UpdateThumbnailsThread" method="onRun" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/backup/BackupManager.java">
+<violation beginline="87" endline="190" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.backup" class="BackupManager" method="backupCatalogue" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/backup/CsvExporter.java">
+<violation beginline="56" endline="277" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.backup" class="CsvExporter" method="export" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/backup/CsvImporter.java">
+<violation beginline="64" endline="432" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.backup" class="CsvImporter" method="importBooks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/booklist/BooklistBuilder.java">
+<violation beginline="133" endline="2260" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue.booklist" class="BooklistBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="133" endline="2260" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.booklist" class="BooklistBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="632" endline="1480" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.booklist" class="BooklistBuilder" method="build" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1539" endline="1650" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.booklist" class="BooklistBuilder" method="makeSingleTrigger" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/booklist/BooklistStyle.java">
+<violation beginline="63" endline="659" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.booklist" class="BooklistStyle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/booklist/BooklistStyles.java">
+<violation beginline="103" endline="238" begincolumn="24" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.booklist" class="BooklistStyles" method="getBuiltinStyles" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/booklist/FlattenedBooklist.java">
+<violation beginline="20" endline="295" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.booklist" class="FlattenedBooklist" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/cropper/CropCropImage.java">
+<violation beginline="218" endline="323" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.cropper" class="CropCropImage" method="onSaveClicked" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/cropper/CropImageView.java">
+<violation beginline="13" endline="252" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.cropper" class="CropImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/cropper/CropImageViewTouchBase.java">
+<violation beginline="32" endline="436" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.cropper" class="CropImageViewTouchBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/cropper/CropUtil.java">
+<violation beginline="35" endline="345" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.cropper" class="CropUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/database/DbSync.java">
+<violation beginline="264" endline="725" begincolumn="44" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.database" class="DbSync$SynchronizedDb" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="732" endline="859" begincolumn="51" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.database" class="DbSync$SynchronizedStatement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/database/DbUtils.java">
+<violation beginline="37" endline="1042" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue.database" class="DbUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="174" endline="930" begincolumn="45" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.database" class="DbUtils$TableDefinition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/datamanager/DataManager.java">
+<violation beginline="42" endline="502" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.datamanager" class="DataManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/datamanager/Datum.java">
+<violation beginline="34" endline="433" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.datamanager" class="Datum" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/debug/Tracker.java">
+<violation beginline="28" endline="133" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.debug" class="Tracker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/dialogs/BookshelfDialogFragment.java">
+<violation beginline="116" endline="241" begincolumn="12" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.dialogs" class="BookshelfDialogFragment" method="onActivityCreated" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/dialogs/PartialDatePicker.java">
+<violation beginline="105" endline="310" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.dialogs" class="PartialDatePicker" method="PartialDatePicker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/goodreads/GoodreadsManager.java">
+<violation beginline="89" endline="968" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.goodreads" class="GoodreadsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="650" endline="810" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.goodreads" class="GoodreadsManager" method="sendOneBook" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/goodreads/ImportAllTask.java">
+<violation beginline="63" endline="614" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.goodreads" class="ImportAllTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="370" endline="500" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.goodreads" class="ImportAllTask" method="buildBundle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/goodreads/SendAllBooksTask.java">
+<violation beginline="95" endline="222" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.goodreads" class="SendAllBooksTask" method="sendAllBooks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/goodreads/api/ListReviewsApiHandler.java">
+<violation beginline="343" endline="446" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.goodreads.api" class="ListReviewsApiHandler" method="buildFilters" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/goodreads/api/ShowBookApiHandler.java">
+<violation beginline="402" endline="525" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.goodreads.api" class="ShowBookApiHandler" method="buildFilters" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/goodreads/api/SimpleXmlFilter.java">
+<violation beginline="36" endline="465" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.goodreads.api" class="SimpleXmlFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/goodreads/api/XmlFilter.java">
+<violation beginline="72" endline="88" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="com.eleybourn.bookcatalogue.goodreads.api" class="XmlFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ElementContext' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/utils/Base64.java">
+<violation beginline="150" endline="2065" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue.utils" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="151" endline="2065" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.utils" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="886" endline="993" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.utils" class="Base64" method="encodeBytesToBytes" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/utils/SimpleTaskQueueProgressFragment.java">
+<violation beginline="47" endline="650" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.utils" class="SimpleTaskQueueProgressFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/utils/StorageUtils.java">
+<violation beginline="177" endline="283" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.utils" class="StorageUtils" method="findExportFiles" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="313" endline="422" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.utils" class="StorageUtils" method="sendDebugInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/utils/Utils.java">
+<violation beginline="106" endline="2193" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.eleybourn.bookcatalogue.utils" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="106" endline="2193" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.utils" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/widgets/FastScroller.java">
+<violation beginline="92" endline="587" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.widgets" class="FastScroller" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/src/com/eleybourn/bookcatalogue/widgets/TouchListView.java">
+<violation beginline="41" endline="532" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.widgets" class="TouchListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Book-Catalogue/tests/src/com/eleybourn/bookcatalogue/test/BookCatalogueTest.java">
+<violation beginline="25" endline="851" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.eleybourn.bookcatalogue.test" class="BookCatalogueTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="212" endline="345" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.eleybourn.bookcatalogue.test" class="BookCatalogueTest" method="test104Anthology" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

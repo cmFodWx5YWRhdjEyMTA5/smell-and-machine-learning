@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:41:17.089">
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/MainActivity.java">
+<violation beginline="76" endline="504" begincolumn="140" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="323" endline="460" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp" class="MainActivity" method="onItemClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/about/AboutFragment.java">
+<violation beginline="53" endline="256" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.about" class="AboutFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/compass/CompassFragment.java">
+<violation beginline="67" endline="454" begincolumn="116" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.compass" class="CompassFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/compass/classes/OrientationCalculatorImpl.java">
+<violation beginline="88" endline="317" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.compass.classes" class="OrientationCalculatorImpl" method="getOrientation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/compass/classes/math/Vector3.java">
+<violation beginline="30" endline="116" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.metinkale.prayerapp.compass.classes.math" class="Vector3" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Vector3' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/hadis/HadithFragment.java">
+<violation beginline="73" endline="482" begincolumn="111" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.hadis" class="HadithFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/hadis/MyScrollView.java">
+<violation beginline="45" endline="1529" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.metinkale.prayerapp.hadis" class="MyScrollView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="45" endline="1529" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.hadis" class="MyScrollView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/settings/Prefs.java">
+<violation beginline="33" endline="233" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.settings" class="Prefs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/utils/MultipleOrientationSlidingDrawer.java">
+<violation beginline="40" endline="1376" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.metinkale.prayerapp.utils" class="MultipleOrientationSlidingDrawer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="40" endline="1376" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.utils" class="MultipleOrientationSlidingDrawer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="744" endline="883" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.utils" class="MultipleOrientationSlidingDrawer" method="moveHandle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/utils/Utils.java">
+<violation beginline="47" endline="351" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.utils" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/AlarmReceiver.java">
+<violation beginline="182" endline="445" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit" class="AlarmReceiver" method="fireAlarm" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/LocationService.java">
+<violation beginline="45" endline="192" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.vakit" class="LocationService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/WidgetService.java">
+<violation beginline="144" endline="314" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit" class="WidgetService" method="updateOngoing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/fragments/CalcTimeConfDialogFragment.java">
+<violation beginline="61" endline="338" begincolumn="181" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.vakit.fragments" class="CalcTimeConfDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="72" endline="201" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.fragments" class="CalcTimeConfDialogFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/fragments/CityFragment.java">
+<violation beginline="77" endline="590" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.vakit.fragments" class="CityFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="403" endline="522" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.fragments" class="CityFragment" method="export" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/fragments/NotificationPrefs.java">
+<violation beginline="192" endline="314" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.fragments" class="NotificationPrefs" method="initMain" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="316" endline="423" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.fragments" class="NotificationPrefs" method="initEarly" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/fragments/SearchCityFragment.java">
+<violation beginline="70" endline="428" begincolumn="194" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.vakit.fragments" class="SearchCityFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/fragments/SettingsFragment.java">
+<violation beginline="54" endline="185" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.fragments" class="SettingsFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/fragments/SortFragment.java">
+<violation beginline="164" endline="177" begincolumn="12" endcolumn="5" rule="DataClass" ruleset="Design" package="com.metinkale.prayerapp.vakit.fragments" class="SortFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/fragments/VakitFragment.java">
+<violation beginline="79" endline="204" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.fragments" class="VakitFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/sounds/SoundChooser.java">
+<violation beginline="69" endline="472" begincolumn="154" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.vakit.sounds" class="SoundChooser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="205" endline="339" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.sounds" class="SoundChooser" method="onItemClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/times/Times.java">
+<violation beginline="49" endline="597" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.vakit.times" class="Times" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/widget/WidgetLegacy.java">
+<violation beginline="136" endline="277" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.widget" class="WidgetLegacy" method="update4x1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="279" endline="395" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.widget" class="WidgetLegacy" method="update2x2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="452" endline="588" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.widget" class="WidgetLegacy" method="update4x2Clock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="590" endline="724" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.widget" class="WidgetLegacy" method="update2x2Clock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/vakit/widget/WidgetV24.java">
+<violation beginline="289" endline="401" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.metinkale.prayerapp.vakit.widget" class="WidgetV24" method="update4x2Clock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/main/java/com/metinkale/prayerapp/zikr/ZikrFragment.java">
+<violation beginline="65" endline="400" begincolumn="145" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.zikr" class="ZikrFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/app/src/play/java/com/metinkale/prayerapp/compass/FragMap.java">
+<violation beginline="52" endline="211" begincolumn="203" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.metinkale.prayerapp.compass" class="FragMap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/namaz-vakti-android/citiesfetcher/src/main/java/Cities.java">
+<violation beginline="55" endline="1088" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" class="Cities" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="55" endline="1088" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" class="Cities" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="358" endline="490" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" class="Cities" method="fetchIGMG" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:08:50.176">
+<file name="/home/matheus/smell-and-machine-learning/repositories/speech_trainer/app/src/mixedbit/speechtrainer/controller/AudioBufferAllocator.java">
+<violation beginline="37" endline="137" begincolumn="11" endcolumn="5" rule="DataClass" ruleset="Design" package="mixedbit.speechtrainer.controller" class="AudioBufferAllocator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AudioBuffer' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/speech_trainer/app/src/mixedbit/speechtrainer/model/AudioEventCollector.java">
+<violation beginline="39" endline="251" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="mixedbit.speechtrainer.model" class="AudioEventCollector" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/speech_trainer/app/src/mixedbit/speechtrainer/view/TrainingActivity.java">
+<violation beginline="56" endline="360" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="mixedbit.speechtrainer.view" class="TrainingActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/speech_trainer/app_tests/src/mixedbit/speechtrainer/controller/RecordPlayTaskManagerTest.java">
+<violation beginline="34" endline="227" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="mixedbit.speechtrainer.controller" class="RecordPlayTaskManagerTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/speech_trainer/app_tests/src/mixedbit/speechtrainer/controller/SilenceFilterTest.java">
+<violation beginline="31" endline="335" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="mixedbit.speechtrainer.controller" class="SilenceFilterTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

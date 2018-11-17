@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:12:17.444">
+<file name="/home/matheus/smell-and-machine-learning/repositories/freemobilenetstat/freemobilenetstat/src/main/java/org/pixmob/freemobile/netstat/MonitorService.java">
+<violation beginline="96" endline="981" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pixmob.freemobile.netstat" class="MonitorService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="220" endline="377" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pixmob.freemobile.netstat" class="MonitorService" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="563" endline="671" begincolumn="17" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pixmob.freemobile.netstat" class="MonitorService" method="updateNotification" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/freemobilenetstat/freemobilenetstat/src/main/java/org/pixmob/freemobile/netstat/SyncService.java">
+<violation beginline="189" endline="345" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pixmob.freemobile.netstat" class="SyncService" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/freemobilenetstat/freemobilenetstat/src/main/java/org/pixmob/freemobile/netstat/content/StatisticsLoader.java">
+<violation beginline="53" endline="227" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pixmob.freemobile.netstat.content" class="StatisticsLoader" method="loadInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/freemobilenetstat/freemobilenetstat/src/main/java/org/pixmob/freemobile/netstat/ui/BatteryChart.java">
+<violation beginline="108" endline="221" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pixmob.freemobile.netstat.ui" class="BatteryChart" method="doDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/freemobilenetstat/freemobilenetstat/src/main/java/org/pixmob/freemobile/netstat/ui/Preferences.java">
+<violation beginline="86" endline="187" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pixmob.freemobile.netstat.ui" class="Preferences" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/freemobilenetstat/freemobilenetstat/src/main/java/org/pixmob/freemobile/netstat/ui/StatisticsFragment.java">
+<violation beginline="54" endline="273" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pixmob.freemobile.netstat.ui" class="StatisticsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/freemobilenetstat/httpclient/src/main/java/org/pixmob/httpclient/Base64.java">
+<violation beginline="250" endline="427" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.pixmob.httpclient" class="Base64$Decoder" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="540" endline="741" begincolumn="25" endcolumn="5" rule="DataClass" ruleset="Design" package="org.pixmob.httpclient" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Encoder' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=3)
+</violation>
+<violation beginline="599" endline="740" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.pixmob.httpclient" class="Base64$Encoder" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/freemobilenetstat/httpclient/src/main/java/org/pixmob/httpclient/HttpRequestBuilder.java">
+<violation beginline="65" endline="553" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pixmob.httpclient" class="HttpRequestBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="195" endline="384" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pixmob.httpclient" class="HttpRequestBuilder" method="execute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/freemobilenetstat/httpclient/src/main/java/org/pixmob/httpclient/UncloseableInputStream.java">
+<violation beginline="26" endline="101" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pixmob.httpclient" class="UncloseableInputStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

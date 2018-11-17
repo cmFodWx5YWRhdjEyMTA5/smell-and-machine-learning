@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:33:40.800">
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/bitcoinium/BitcoinChartsActivity.java">
+<violation beginline="34" endline="300" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.veken0m.bitcoinium" class="BitcoinChartsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/bitcoinium/GraphActivity.java">
+<violation beginline="47" endline="375" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.veken0m.bitcoinium" class="GraphActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/bitcoinium/MinerStatsActivity.java">
+<violation beginline="42" endline="353" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.veken0m.bitcoinium" class="MinerStatsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/bitcoinium/MinerWidgetProvider.java">
+<violation beginline="119" endline="284" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.veken0m.bitcoinium" class="MinerWidgetProvider$MinerUpdateService" method="getMinerInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/bitcoinium/OrderbookActivity.java">
+<violation beginline="47" endline="478" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.veken0m.bitcoinium" class="OrderbookActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/bitcoinium/fragments/mining/BitMinterFragment.java">
+<violation beginline="154" endline="256" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.veken0m.bitcoinium.fragments.mining" class="BitMinterFragment" method="drawMinerUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/bitcoinium/fragments/mining/EMCFragment.java">
+<violation beginline="151" endline="273" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.veken0m.bitcoinium.fragments.mining" class="EMCFragment" method="drawMinerUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/bitcoinium/fragments/mining/EligiusFragment.java">
+<violation beginline="163" endline="263" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.veken0m.bitcoinium.fragments.mining" class="EligiusFragment" method="drawMinerUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/bitcoinium/fragments/mining/GHashIOFragment.java">
+<violation beginline="174" endline="295" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.veken0m.bitcoinium.fragments.mining" class="GHashIOFragment" method="drawMinerUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/bitcoinium/fragments/mining/SlushFragment.java">
+<violation beginline="152" endline="314" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.veken0m.bitcoinium.fragments.mining" class="SlushFragment" method="drawMinerUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/bitminter/BTC.java">
+<violation beginline="3" endline="71" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.bitminter" class="BTC" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BTC' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/bitminter/BitMinterData.java">
+<violation beginline="5" endline="95" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.bitminter" class="BitMinterData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BitMinterData' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/bitminter/NMC.java">
+<violation beginline="3" endline="71" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.bitminter" class="NMC" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NMC' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/bitminter/Round_start.java">
+<violation beginline="6" endline="40" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.bitminter" class="Round_start" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Round_start' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/bitminter/Shift.java">
+<violation beginline="3" endline="60" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.bitminter" class="Shift" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Shift' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/bitminter/Workers.java">
+<violation beginline="3" endline="60" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.bitminter" class="Workers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Workers' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/btcguild/Pool.java">
+<violation beginline="6" endline="53" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.btcguild" class="Pool" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Pool' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/btcguild/User.java">
+<violation beginline="6" endline="85" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.btcguild" class="User" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=9, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/btcguild/Worker.java">
+<violation beginline="5" endline="164" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.btcguild" class="Worker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Worker' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=19, WMC=20)
+</violation>
+<violation beginline="28" endline="46" begincolumn="18" endcolumn="63" rule="ExcessiveParameterList" ruleset="Design" package="com.veken0m.mining.btcguild" class="Worker" method="Worker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/eligius/TimeInterval.java">
+<violation beginline="5" endline="49" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.eligius" class="TimeInterval" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TimeInterval' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/emc/User.java">
+<violation beginline="6" endline="56" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.emc" class="User" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/emc/Workers.java">
+<violation beginline="6" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.emc" class="Workers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Workers' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/slush/Slush.java">
+<violation beginline="9" endline="120" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.slush" class="Slush" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Slush' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=13, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/veken0m/mining/slush/Worker.java">
+<violation beginline="5" endline="56" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.veken0m.mining.slush" class="Worker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Worker' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/xeiam/business/ExchangeAccount.java">
+<violation beginline="38" endline="491" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.xeiam.business" class="ExchangeAccount" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/xeiam/paint/Pallet.java">
+<violation beginline="6" endline="118" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.xeiam.paint" class="Pallet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Pallet' is suspected to be a Data Class (WOC=0.000%, NOPA=20, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bitcoinium/src/main/java/com/xeiam/xbtctrader/TraderActivity.java">
+<violation beginline="42" endline="416" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.xeiam.xbtctrader" class="TraderActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

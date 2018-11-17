@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:00:51.072">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Bangla-Dictionary/src/buet/rafi/dictionary/model/Word.java">
+<violation beginline="3" endline="25" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="buet.rafi.dictionary.model" class="Word" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Word' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+</pmd>

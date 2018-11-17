@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:19:36.551">
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/com/freiheit/gnupg/GnuPGContext.java">
+<violation beginline="41" endline="851" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.freiheit.gnupg" class="GnuPGContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/com/freiheit/gnupg/GnuPGData.java">
+<violation beginline="30" endline="171" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.freiheit.gnupg" class="GnuPGData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/com/freiheit/gnupg/GnuPGKey.java">
+<violation beginline="28" endline="297" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.freiheit.gnupg" class="GnuPGKey" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/com/freiheit/gnupg/GnuPGSignature.java">
+<violation beginline="29" endline="193" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.freiheit.gnupg" class="GnuPGSignature" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/info/guardianproject/gpg/DebugLogActivity.java">
+<violation beginline="37" endline="485" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="info.guardianproject.gpg" class="DebugLogActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="111" endline="216" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="info.guardianproject.gpg" class="DebugLogActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/info/guardianproject/gpg/FileHandlerActivity.java">
+<violation beginline="26" endline="456" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="info.guardianproject.gpg" class="FileHandlerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/info/guardianproject/gpg/KeyListFragment.java">
+<violation beginline="63" endline="417" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="info.guardianproject.gpg" class="KeyListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/info/guardianproject/gpg/KeyserverResult.java">
+<violation beginline="4" endline="23" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="info.guardianproject.gpg" class="KeyserverResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'KeyserverResult' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/info/guardianproject/gpg/MainActivity.java">
+<violation beginline="35" endline="345" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="info.guardianproject.gpg" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/info/guardianproject/gpg/pinentry/PinentryDialog.java">
+<violation beginline="18" endline="318" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="info.guardianproject.gpg.pinentry" class="PinentryDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnupg-for-android/src/info/guardianproject/gpg/sync/GpgContactOperations.java">
+<violation beginline="22" endline="346" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="info.guardianproject.gpg.sync" class="GpgContactOperations" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

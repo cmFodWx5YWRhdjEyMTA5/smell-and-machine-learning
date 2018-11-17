@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:10:02.106">
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/DisplayBookPopupAction.java">
+<violation beginline="70" endline="192" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.android.fbreader" class="DisplayBookPopupAction" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/FBReader.java">
+<violation beginline="73" endline="1053" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader" class="FBReader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="206" endline="322" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.android.fbreader" class="FBReader" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/ProcessHyperlinkAction.java">
+<violation beginline="61" endline="170" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.android.fbreader" class="ProcessHyperlinkAction" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/api/ApiClientImplementation.java">
+<violation beginline="15" endline="528" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.api" class="ApiClientImplementation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/api/ApiObject.java">
+<violation beginline="13" endline="309" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.api" class="ApiObject" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/api/ApiServerImplementation.java">
+<violation beginline="42" endline="673" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.api" class="ApiServerImplementation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="73" endline="253" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.android.fbreader.api" class="ApiServerImplementation" method="request" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/api/TextPosition.java">
+<violation beginline="10" endline="45" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.android.fbreader.api" class="TextPosition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TextPosition' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/bookmark/BookmarksActivity.java">
+<violation beginline="45" endline="495" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.bookmark" class="BookmarksActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/library/LibraryActivity.java">
+<violation beginline="50" endline="501" begincolumn="174" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.library" class="LibraryActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/libraryService/BookCollectionShadow.java">
+<violation beginline="38" endline="623" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.libraryService" class="BookCollectionShadow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/libraryService/LibraryService.java">
+<violation beginline="93" endline="405" begincolumn="80" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.libraryService" class="LibraryService$LibraryImplementation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/libraryService/PositionWithTimestamp.java">
+<violation beginline="13" endline="59" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.android.fbreader.libraryService" class="PositionWithTimestamp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PositionWithTimestamp' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/libraryService/SQLiteBooksDatabase.java">
+<violation beginline="42" endline="1876" begincolumn="7" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.geometerplus.android.fbreader.libraryService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="42" endline="1876" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.libraryService" class="SQLiteBooksDatabase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="250" endline="375" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.android.fbreader.libraryService" class="SQLiteBooksDatabase" method="loadBooks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/network/BookDownloaderService.java">
+<violation beginline="46" endline="379" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.network" class="BookDownloaderService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="256" endline="378" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.android.fbreader.network" class="BookDownloaderService" method="startFileDownload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/network/BuyBooksActivity.java">
+<violation beginline="44" endline="373" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.network" class="BuyBooksActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/network/NetworkLibraryActivity.java">
+<violation beginline="54" endline="586" begincolumn="148" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.network" class="NetworkLibraryActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/network/SQLiteNetworkDatabase.java">
+<violation beginline="36" endline="406" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.network" class="SQLiteNetworkDatabase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/preferences/PreferenceActivity.java">
+<violation beginline="97" endline="768" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.android.fbreader.preferences" class="PreferenceActivity" method="init" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/sync/BookmarkSyncUtil.java">
+<violation beginline="33" endline="306" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.android.fbreader.sync" class="BookmarkSyncUtil" method="sync" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/sync/SyncService.java">
+<violation beginline="42" endline="489" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.sync" class="SyncService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/android/fbreader/tree/TreeActivity.java">
+<violation beginline="39" endline="231" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.tree" class="TreeActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/Paths.java">
+<violation beginline="34" endline="228" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader" class="Paths" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/book/AbstractBook.java">
+<violation beginline="32" endline="426" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.book" class="AbstractBook" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/book/BookCollection.java">
+<violation beginline="35" endline="884" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.book" class="BookCollection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/book/Bookmark.java">
+<violation beginline="78" endline="87" begincolumn="24" endcolumn="9" rule="ExcessiveParameterList" ruleset="Design" package="org.geometerplus.fbreader.book" class="Bookmark" method="Bookmark" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/book/BookmarkQuery.java">
+<violation beginline="22" endline="50" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.fbreader.book" class="BookmarkQuery" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BookmarkQuery' is suspected to be a Data Class (WOC=25.000%, NOPA=4, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/book/BooksDatabase.java">
+<violation beginline="31" endline="152" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.book" class="BooksDatabase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="106" endline="115" begincolumn="42" endcolumn="9" rule="ExcessiveParameterList" ruleset="Design" package="org.geometerplus.fbreader.book" class="BooksDatabase" method="createBookmark" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/book/IBookCollection.java">
+<violation beginline="27" endline="114" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.book" class="IBookCollection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/book/SerializerUtil.java">
+<violation beginline="24" endline="126" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.book" class="SerializerUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/book/XMLSerializer.java">
+<violation beginline="36" endline="1125" begincolumn="1" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.geometerplus.fbreader.book" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="36" endline="1125" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.book" class="XMLSerializer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/bookmodel/BookModel.java">
+<violation beginline="103" endline="108" begincolumn="43" endcolumn="9" rule="ExcessiveParameterList" ruleset="Design" package="org.geometerplus.fbreader.bookmodel" class="BookModel" method="createTextModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/fbreader/FBReaderApp.java">
+<violation beginline="42" endline="722" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.fbreader" class="FBReaderApp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/fbreader/FBView.java">
+<violation beginline="43" endline="795" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.fbreader" class="FBView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/fbreader/options/ImageOptions.java">
+<violation beginline="27" endline="47" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.fbreader.fbreader.options" class="ImageOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ImageOptions' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/fbreader/options/MiscOptions.java">
+<violation beginline="25" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.fbreader.fbreader.options" class="MiscOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MiscOptions' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/formats/FormatPlugin.java">
+<violation beginline="34" endline="67" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.formats" class="FormatPlugin" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/formats/NativeFormatPlugin.java">
+<violation beginline="38" endline="170" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.formats" class="NativeFormatPlugin" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/NetworkBookItem.java">
+<violation beginline="108" endline="111" begincolumn="31" endcolumn="42" rule="ExcessiveParameterList" ruleset="Design" package="org.geometerplus.fbreader.network" class="NetworkBookItem" method="NetworkBookItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/NetworkLibrary.java">
+<violation beginline="40" endline="697" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.network" class="NetworkLibrary" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/atom/ATOMCategory.java">
+<violation beginline="24" endline="47" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.fbreader.network.atom" class="ATOMCategory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ATOMCategory' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=3, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/atom/ATOMDateConstruct.java">
+<violation beginline="82" endline="186" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.fbreader.network.atom" class="ATOMDateConstruct" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/atom/ATOMLink.java">
+<violation beginline="24" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.fbreader.network.atom" class="ATOMLink" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ATOMLink' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/atom/ATOMXMLReader.java">
+<violation beginline="181" endline="304" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.fbreader.network.atom" class="ATOMXMLReader" method="startElementHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="306" endline="542" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.fbreader.network.atom" class="ATOMXMLReader" method="endElementHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/authentication/NetworkAuthenticationManager.java">
+<violation beginline="33" endline="130" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.network.authentication" class="NetworkAuthenticationManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/authentication/litres/LitResAuthenticationManager.java">
+<violation beginline="35" endline="507" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.network.authentication.litres" class="LitResAuthenticationManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/authentication/litres/LitResXMLReader.java">
+<violation beginline="191" endline="335" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.fbreader.network.authentication.litres" class="LitResXMLReader" method="endElementHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/opds/OPDSBookItem.java">
+<violation beginline="208" endline="215" begincolumn="28" endcolumn="9" rule="ExcessiveParameterList" ruleset="Design" package="org.geometerplus.fbreader.network.opds" class="OPDSBookItem" method="OPDSBookItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/opds/OPDSXMLReader.java">
+<violation beginline="151" endline="277" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.fbreader.network.opds" class="OPDSXMLReader" method="endElementHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/rss/RSSBookItem.java">
+<violation beginline="31" endline="37" begincolumn="27" endcolumn="9" rule="ExcessiveParameterList" ruleset="Design" package="org.geometerplus.fbreader.network.rss" class="RSSBookItem" method="RSSBookItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/rss/RSSXMLReader.java">
+<violation beginline="30" endline="309" begincolumn="121" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.network.rss" class="RSSXMLReader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/network/tree/NetworkCatalogTree.java">
+<violation beginline="35" endline="262" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.network.tree" class="NetworkCatalogTree" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/fbreader/util/AutoTextSnippet.java">
+<violation beginline="34" endline="146" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.fbreader.util" class="AutoTextSnippet" method="AutoTextSnippet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/application/ZLApplication.java">
+<violation beginline="30" endline="322" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.core.application" class="ZLApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/drm/FileEncryptionInfo.java">
+<violation beginline="24" endline="61" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.zlibrary.core.drm" class="FileEncryptionInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FileEncryptionInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/filesystem/ZLFile.java">
+<violation beginline="30" endline="251" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.core.filesystem" class="ZLFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/image/ZLImageManager.java">
+<violation beginline="35" endline="51" begincolumn="32" endcolumn="9" rule="DataClass" ruleset="Design" package="org.geometerplus.zlibrary.core.image" class="ZLImageManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PalmImageHeader' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/network/ZLNetworkManager.java">
+<violation beginline="310" endline="469" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.zlibrary.core.network" class="ZLNetworkManager" method="perform" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/view/DummyPaintContext.java">
+<violation beginline="30" endline="139" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.core.view" class="DummyPaintContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/view/ZLPaintContext.java">
+<violation beginline="30" endline="215" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.core.view" class="ZLPaintContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/view/ZLView.java">
+<violation beginline="24" endline="85" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.core.view" class="ZLView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/xml/ZLDTDParser.java">
+<violation beginline="43" endline="254" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.zlibrary.core.xml" class="ZLDTDParser" method="doIt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/xml/ZLXMLParser.java">
+<violation beginline="211" endline="751" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.zlibrary.core.xml" class="ZLXMLParser" method="doIt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/xml/ZLXMLReader.java">
+<violation beginline="24" endline="41" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.core.xml" class="ZLXMLReader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/core/xml/ZLXMLReaderAdapter.java">
+<violation beginline="27" endline="163" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.core.xml" class="ZLXMLReaderAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/text/model/ZLTextMetrics.java">
+<violation beginline="22" endline="54" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.zlibrary.text.model" class="ZLTextMetrics" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ZLTextMetrics' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/text/model/ZLTextPlainModel.java">
+<violation beginline="140" endline="298" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.zlibrary.text.model" class="ZLTextPlainModel$EntryIteratorImpl" method="next" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="301" endline="315" begincolumn="32" endcolumn="9" rule="ExcessiveParameterList" ruleset="Design" package="org.geometerplus.zlibrary.text.model" class="ZLTextPlainModel" method="ZLTextPlainModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/text/view/ZLTextElementArea.java">
+<violation beginline="37" endline="37" begincolumn="26" endcolumn="265" rule="ExcessiveParameterList" ruleset="Design" package="org.geometerplus.zlibrary.text.view" class="ZLTextElementArea" method="ZLTextElementArea" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/text/view/ZLTextFixedPosition.java">
+<violation beginline="22" endline="64" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.zlibrary.text.view" class="ZLTextFixedPosition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ZLTextFixedPosition' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=3, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/text/view/ZLTextView.java">
+<violation beginline="36" endline="1811" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.geometerplus.zlibrary.text.view" class="ZLTextView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="36" endline="1811" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.text.view" class="ZLTextView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="420" endline="527" begincolumn="29" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.zlibrary.text.view" class="ZLTextView" method="paint" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1013" endline="1244" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.zlibrary.text.view" class="ZLTextView" method="processTextLineInternal" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1246" endline="1352" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.zlibrary.text.view" class="ZLTextView" method="prepareTextLine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1402" endline="1519" begincolumn="30" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.zlibrary.text.view" class="ZLTextView" method="preparePaintInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/text/view/ZLTextViewBase.java">
+<violation beginline="33" endline="370" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.text.view" class="ZLTextViewBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/text/view/ZLTextWordCursor.java">
+<violation beginline="25" endline="226" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.text.view" class="ZLTextWordCursor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/ui/android/view/ZLAndroidPaintContext.java">
+<violation beginline="37" endline="462" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.ui.android.view" class="ZLAndroidPaintContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="101" endline="218" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.zlibrary.ui.android.view" class="ZLAndroidPaintContext" method="clear" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/ui/android/view/ZLAndroidWidget.java">
+<violation beginline="41" endline="569" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.ui.android.view" class="ZLAndroidWidget" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/ui/android/view/animation/AnimationProvider.java">
+<violation beginline="31" endline="283" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.ui.android.view.animation" class="AnimationProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/fbreader/app/src/main/java/org/geometerplus/zlibrary/ui/android/view/animation/CurlAnimationProvider.java">
+<violation beginline="80" endline="209" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.geometerplus.zlibrary.ui.android.view.animation" class="CurlAnimationProvider" method="drawInternalNoHack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/swing/src/org/geometerplus/zlibrary/ui/swing/view/ZLSwingPaintContext.java">
+<violation beginline="32" endline="198" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.zlibrary.ui.swing.view" class="ZLSwingPaintContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/fbreader/formats/fb2/TestFB2Reader.java">
+<violation beginline="25" endline="339" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.fbreader.formats.fb2" class="TestFB2Reader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLBoolean3OptionTests1.java">
+<violation beginline="7" endline="59" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLBoolean3OptionTests1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLBoolean3OptionTests2.java">
+<violation beginline="7" endline="219" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLBoolean3OptionTests2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLBooleanOptionTests1.java">
+<violation beginline="6" endline="59" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLBooleanOptionTests1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLBooleanOptionTests2.java">
+<violation beginline="6" endline="192" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLBooleanOptionTests2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLColorOptionTests1.java">
+<violation beginline="7" endline="80" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLColorOptionTests1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLColorOptionTests2.java">
+<violation beginline="7" endline="536" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLColorOptionTests2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLIntegerOptionTests2.java">
+<violation beginline="6" endline="192" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLIntegerOptionTests2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLIntegerRangeOptionTests1.java">
+<violation beginline="6" endline="116" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLIntegerRangeOptionTests1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLIntegerRangeOptionTests2.java">
+<violation beginline="6" endline="931" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLIntegerRangeOptionTests2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLStringOptionTests1.java">
+<violation beginline="6" endline="55" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLStringOptionTests1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/obsolete/test/org/test/zlibrary/options/ZLStringOptionTests2.java">
+<violation beginline="6" endline="248" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.test.zlibrary.options" class="ZLStringOptionTests2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/third-party/AmbilWarna/src/yuku/ambilwarna/AmbilWarnaDialog.java">
+<violation beginline="40" endline="147" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="yuku.ambilwarna" class="AmbilWarnaDialog" method="AmbilWarnaDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/third-party/SuperToasts/src/com/github/johnpersano/supertoasts/SuperActivityToast.java">
+<violation beginline="49" endline="1702" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.github.johnpersano.supertoasts" class="SuperActivityToast" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/third-party/SuperToasts/src/com/github/johnpersano/supertoasts/SuperCardToast.java">
+<violation beginline="53" endline="2194" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.github.johnpersano.supertoasts" class="SuperCardToast" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="53" endline="2194" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.github.johnpersano.supertoasts" class="SuperCardToast" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/third-party/SuperToasts/src/com/github/johnpersano/supertoasts/util/SwipeDismissListener.java">
+<violation beginline="73" endline="203" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.johnpersano.supertoasts.util" class="SwipeDismissListener" method="onTouch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/third-party/android-filechooser/code/src/group/pals/android/lib/ui/filechooser/FileChooserActivity.java">
+<violation beginline="96" endline="1958" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="group.pals.android.lib.ui.filechooser" class="FileChooserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="96" endline="1958" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="group.pals.android.lib.ui.filechooser" class="FileChooserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="307" endline="408" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="group.pals.android.lib.ui.filechooser" class="FileChooserActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="517" endline="631" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="group.pals.android.lib.ui.filechooser" class="FileChooserActivity" method="bindService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1271" endline="1395" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="group.pals.android.lib.ui.filechooser" class="FileChooserActivity" method="setLocation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1798" endline="1898" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="group.pals.android.lib.ui.filechooser" class="FileChooserActivity" method="initGestureDetector" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/third-party/android-filechooser/code/src/group/pals/android/lib/ui/filechooser/utils/history/History.java">
+<violation beginline="23" endline="141" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="group.pals.android.lib.ui.filechooser.utils.history" class="History" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/third-party/android-filechooser/code/src/group/pals/android/lib/ui/filechooser/utils/history/HistoryStore.java">
+<violation beginline="26" endline="186" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="group.pals.android.lib.ui.filechooser.utils.history" class="HistoryStore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/third-party/android-filechooser/code/src/group/pals/android/lib/ui/filechooser/utils/ui/Dlg.java">
+<violation beginline="22" endline="206" begincolumn="18" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="group.pals.android.lib.ui.filechooser.utils.ui" class="Dlg" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/third-party/drag-sort-listview/library/src/com/mobeta/android/dslv/DragSortController.java">
+<violation beginline="22" endline="468" begincolumn="131" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mobeta.android.dslv" class="DragSortController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ/third-party/drag-sort-listview/library/src/com/mobeta/android/dslv/DragSortListView.java">
+<violation beginline="59" endline="3073" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.mobeta.android.dslv" class="DragSortListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="59" endline="3073" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mobeta.android.dslv" class="DragSortListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="441" endline="569" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mobeta.android.dslv" class="DragSortListView" method="DragSortListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="973" endline="1120" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mobeta.android.dslv" class="DragSortListView" method="updatePositions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

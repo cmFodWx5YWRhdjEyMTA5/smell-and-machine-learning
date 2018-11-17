@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:26:57.142">
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/androidTest/java/de/westnordost/streetcomplete/data/AQuestDaoTest.java">
+<violation beginline="19" endline="197" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data" class="AQuestDaoTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/androidTest/java/de/westnordost/streetcomplete/data/osm/persist/OsmQuestDaoTest.java">
+<violation beginline="33" endline="249" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.persist" class="OsmQuestDaoTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/androidTest/java/de/westnordost/streetcomplete/data/visiblequests/QuestTypeOrderListTest.java">
+<violation beginline="22" endline="188" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.visiblequests" class="QuestTypeOrderListTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/androidTest/java/de/westnordost/streetcomplete/quests/AddCyclewayTest.java">
+<violation beginline="11" endline="195" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.quests" class="AddCyclewayTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/androidTest/java/de/westnordost/streetcomplete/quests/add_housenumber/AddHousenumberIntegrationTest.java">
+<violation beginline="13" endline="149" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.quests.add_housenumber" class="AddHousenumberIntegrationTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/ApplicationComponent.java">
+<violation beginline="36" endline="71" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete" class="ApplicationComponent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/ApplicationModule.java">
+<violation beginline="36" endline="113" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete" class="ApplicationModule" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/MainActivity.java">
+<violation beginline="104" endline="1051" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/AQuestDao.java">
+<violation beginline="16" endline="266" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data" class="AQuestDao" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/OsmModule.java">
+<violation beginline="32" endline="116" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data" class="OsmModule" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/QuestController.java">
+<violation beginline="47" endline="424" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data" class="QuestController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/meta/CountryInfo.java">
+<violation beginline="9" endline="121" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.westnordost.streetcomplete.data.meta" class="CountryInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CountryInfo' is suspected to be a Data Class (WOC=31.250%, NOPA=1, NOAM=11, WMC=22)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/osm/OsmQuest.java">
+<violation beginline="15" endline="121" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.westnordost.streetcomplete.data.osm" class="OsmQuest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OsmQuest' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=4, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/osm/tql/BooleanExpression.java">
+<violation beginline="10" endline="366" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.tql" class="BooleanExpression" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/osm/tql/FiltersParser.java">
+<violation beginline="16" endline="298" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.tql" class="FiltersParser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/osm/tql/StringWithCursor.java">
+<violation beginline="7" endline="122" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.tql" class="StringWithCursor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/osm/upload/AOsmQuestChangesUpload.java">
+<violation beginline="49" endline="508" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.upload" class="AOsmQuestChangesUpload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="71" endline="76" begincolumn="38" endcolumn="49" rule="ExcessiveParameterList" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.upload" class="AOsmQuestChangesUpload" method="AOsmQuestChangesUpload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/osm/upload/OsmQuestChangesUpload.java">
+<violation beginline="21" endline="26" begincolumn="45" endcolumn="52" rule="ExcessiveParameterList" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.upload" class="OsmQuestChangesUpload" method="OsmQuestChangesUpload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/osm/upload/UndoOsmQuestChangesUpload.java">
+<violation beginline="21" endline="26" begincolumn="49" endcolumn="52" rule="ExcessiveParameterList" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.upload" class="UndoOsmQuestChangesUpload" method="UndoOsmQuestChangesUpload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/data/osmnotes/OsmNoteQuest.java">
+<violation beginline="13" endline="145" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.westnordost.streetcomplete.data.osmnotes" class="OsmNoteQuest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OsmNoteQuest' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=6, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/location/LocationRequestFragment.java">
+<violation beginline="28" endline="219" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.location" class="LocationRequestFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/location/LocationStateButton.java">
+<violation beginline="18" endline="183" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.westnordost.streetcomplete.location" class="LocationStateButton" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LocationStateButton' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/oauth/OsmOAuthDialogFragment.java">
+<violation beginline="41" endline="293" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.oauth" class="OsmOAuthDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/quests/AbstractQuestAnswerFragment.java">
+<violation beginline="42" endline="309" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.quests" class="AbstractQuestAnswerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/quests/housenumber/AddHousenumberForm.java">
+<violation beginline="27" endline="290" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.quests.housenumber" class="AddHousenumberForm" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/quests/max_speed/AddMaxSpeedForm.java">
+<violation beginline="29" endline="364" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.quests.max_speed" class="AddMaxSpeedForm" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/quests/opening_hours/adapter/AddOpeningHoursAdapter.java">
+<violation beginline="29" endline="400" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.quests.opening_hours.adapter" class="AddOpeningHoursAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/settings/NumberPickerPreference.java">
+<violation beginline="13" endline="103" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.westnordost.streetcomplete.settings" class="NumberPickerPreference" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NumberPickerPreference' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/tangram/MapControlsFragment.java">
+<violation beginline="42" endline="363" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.tangram" class="MapControlsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/tangram/MapFragment.java">
+<violation beginline="56" endline="663" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.tangram" class="MapFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/tangram/QuestsMapFragment.java">
+<violation beginline="43" endline="501" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.tangram" class="QuestsMapFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/util/SphericalEarthMath.java">
+<violation beginline="16" endline="441" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.util" class="SphericalEarthMath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/view/Item.java">
+<violation beginline="7" endline="81" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.westnordost.streetcomplete.view" class="Item" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Item' is suspected to be a Data Class (WOC=22.222%, NOPA=4, NOAM=1, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/main/java/de/westnordost/streetcomplete/view/SlidingRelativeLayout.java">
+<violation beginline="8" endline="75" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.westnordost.streetcomplete.view" class="SlidingRelativeLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SlidingRelativeLayout' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/data/meta/AbbreviationsTest.java">
+<violation beginline="10" endline="103" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.meta" class="AbbreviationsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/data/osm/persist/MergedElementDaoTest.java">
+<violation beginline="24" endline="170" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.persist" class="MergedElementDaoTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/data/osm/tql/BooleanExpressionBuilderTest.java">
+<violation beginline="6" endline="108" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.tql" class="BooleanExpressionBuilderTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/data/osm/tql/BooleanExpressionTest.java">
+<violation beginline="8" endline="163" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.tql" class="BooleanExpressionTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/data/osm/tql/FiltersParserTest.java">
+<violation beginline="11" endline="254" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.tql" class="FiltersParserTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/data/osm/tql/TagFilterValueTest.java">
+<violation beginline="12" endline="104" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.tql" class="TagFilterValueTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/data/osm/upload/OsmQuestChangesUploadTest.java">
+<violation beginline="51" endline="310" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osm.upload" class="OsmQuestChangesUploadTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/data/osmnotes/CreateNoteUploadTest.java">
+<violation beginline="28" endline="286" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.data.osmnotes" class="CreateNoteUploadTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/quests/opening_hours/adapter/OpeningHoursModelCreatorTest.java">
+<violation beginline="17" endline="176" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.quests.opening_hours.adapter" class="OpeningHoursModelCreatorTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/quests/opening_hours/model/NumberSystemTest.java">
+<violation beginline="14" endline="145" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.quests.opening_hours.model" class="NumberSystemTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/StreetComplete/app/src/test/java/de/westnordost/streetcomplete/util/SphericalEarthMathTest.java">
+<violation beginline="16" endline="709" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.westnordost.streetcomplete.util" class="SphericalEarthMathTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:20:42.075">
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/product/business/ProductService.java">
+<violation beginline="17" endline="57" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.business" class="ProductService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/product/business/domain/ProductItem.java">
+<violation beginline="15" endline="292" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.business.domain" class="ProductItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProductItem' is suspected to be a Data Class (WOC=16.000%, NOPA=0, NOAM=21, WMC=37)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/product/business/domain/TotalItem.java">
+<violation beginline="11" endline="82" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.business.domain" class="TotalItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TotalItem' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=8, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/product/business/impl/ProductServiceImpl.java">
+<violation beginline="42" endline="556" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.business.impl" class="ProductServiceImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/product/persistence/entity/ProductItemEntity.java">
+<violation beginline="13" endline="164" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.persistence.entity" class="ProductItemEntity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProductItemEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=21)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/shoppingList/business/domain/ListItem.java">
+<violation beginline="13" endline="277" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.shoppingList.business.domain" class="ListItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ListItem' is suspected to be a Data Class (WOC=3.704%, NOPA=0, NOAM=26, WMC=32)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/shoppingList/persistence/entity/ShoppingListEntity.java">
+<violation beginline="16" endline="178" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.shoppingList.persistence.entity" class="ShoppingListEntity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ShoppingListEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=22, WMC=22)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/statistics/business/domain/StatisticEntryItem.java">
+<violation beginline="8" endline="94" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.statistics.business.domain" class="StatisticEntryItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StatisticEntryItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/statistics/business/domain/StatisticsChartData.java">
+<violation beginline="12" endline="73" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.statistics.business.domain" class="StatisticsChartData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StatisticsChartData' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/statistics/business/domain/StatisticsQuery.java">
+<violation beginline="10" endline="73" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.statistics.business.domain" class="StatisticsQuery" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StatisticsQuery' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/statistics/business/domain/StatsRangeItem.java">
+<violation beginline="8" endline="32" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.statistics.business.domain" class="StatsRangeItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StatsRangeItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/logic/statistics/persistence/entity/StatisticEntryEntity.java">
+<violation beginline="13" endline="105" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.statistics.persistence.entity" class="StatisticEntryEntity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StatisticEntryEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/deleteproducts/DeleteProductsCache.java">
+<violation beginline="18" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.deleteproducts" class="DeleteProductsCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DeleteProductsCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/deleteproducts/listadapter/DeleteProductItemCache.java">
+<violation beginline="14" endline="48" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.deleteproducts.listadapter" class="DeleteProductItemCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DeleteProductItemCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/main/ShoppingListActivityCache.java">
+<violation beginline="20" endline="70" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.main" class="ShoppingListActivityCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ShoppingListActivityCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/main/sort/SortListsDialogCache.java">
+<violation beginline="12" endline="46" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.main.sort" class="SortListsDialogCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SortListsDialogCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/products/ProductActivityCache.java">
+<violation beginline="27" endline="152" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products" class="ProductActivityCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProductActivityCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=15, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/products/ProductsActivity.java">
+<violation beginline="38" endline="282" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products" class="ProductsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/products/dialog/ProductDialogCache.java">
+<violation beginline="14" endline="147" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.dialog" class="ProductDialogCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProductDialogCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/products/dialog/ProductDialogFragment.java">
+<violation beginline="51" endline="540" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.dialog" class="ProductDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="134" endline="425" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.dialog" class="ProductDialogFragment" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/products/listadapter/ProductItemCache.java">
+<violation beginline="13" endline="107" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.listadapter" class="ProductItemCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProductItemCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=13, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/products/listadapter/ProductsItemViewHolder.java">
+<violation beginline="49" endline="170" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.listadapter" class="ProductsItemViewHolder" method="processItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/products/sort/SortProductsDialogCache.java">
+<violation beginline="12" endline="67" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.sort" class="SortProductsDialogCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SortProductsDialogCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/shoppinglist/ListDialogCache.java">
+<violation beginline="15" endline="140" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.shoppinglist" class="ListDialogCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ListDialogCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=17, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/shoppinglist/ListDialogFragment.java">
+<violation beginline="103" endline="439" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.shoppinglist" class="ListDialogFragment" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/shoppinglist/listadapter/ListItemCache.java">
+<violation beginline="18" endline="109" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.shoppinglist.listadapter" class="ListItemCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ListItemCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-shopping-list/app/src/main/java/privacyfriendlyshoppinglist/secuso/org/privacyfriendlyshoppinglist/ui/statistics/StatisticsCache.java">
+<violation beginline="18" endline="133" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.statistics" class="StatisticsCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StatisticsCache' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=15, WMC=16)
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:25:41.245">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/about/model/AppObject.java">
+<violation beginline="12" endline="30" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.about.model" class="AppObject" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AppObject' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/about/model/LibraryObject.java">
+<violation beginline="12" endline="30" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.about.model" class="LibraryObject" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LibraryObject' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/about/model/TranslatorObject.java">
+<violation beginline="12" endline="32" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.about.model" class="TranslatorObject" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TranslatorObject' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/about/presenter/CreateAboutModelImplementor.java">
+<violation beginline="27" endline="145" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.wangdaye.mysplash.about.presenter" class="CreateAboutModelImplementor" method="createModelList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/collection/view/activity/CollectionActivity.java">
+<violation beginline="86" endline="616" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.collection.view.activity" class="CollectionActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/collection/view/widget/CollectionPhotosView.java">
+<violation beginline="69" endline="491" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.collection.view.widget" class="CollectionPhotosView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/basic/activity/MysplashActivity.java">
+<violation beginline="27" endline="267" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.basic.activity" class="MysplashActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="44" endline="108" begincolumn="28" endcolumn="5" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.basic.activity" class="MysplashActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BaseSavedStateFragment' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/Badge.java">
+<violation beginline="10" endline="59" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="Badge" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Badge' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/Category.java">
+<violation beginline="12" endline="104" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="Category" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Category' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/Collection.java">
+<violation beginline="14" endline="116" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="Collection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Collection' is suspected to be a Data Class (WOC=0.000%, NOPA=17, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/CollectionLinks.java">
+<violation beginline="10" endline="63" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="CollectionLinks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CollectionLinks' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/Exif.java">
+<violation beginline="10" endline="67" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="Exif" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Exif' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/Location.java">
+<violation beginline="10" endline="64" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="Location" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Location' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/Photo.java">
+<violation beginline="81" endline="118" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="Photo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RelatedPhotos' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+<violation beginline="120" endline="157" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="Photo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RelatedCollections' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/PhotoLinks.java">
+<violation beginline="10" endline="59" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="PhotoLinks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PhotoLinks' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/PhotoUrls.java">
+<violation beginline="10" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="PhotoUrls" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PhotoUrls' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/ProfileImage.java">
+<violation beginline="10" endline="59" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="ProfileImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProfileImage' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/Stats.java">
+<violation beginline="10" endline="159" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="Stats" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Stats' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/Story.java">
+<violation beginline="10" endline="54" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="Story" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Story' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/entity/unsplash/UserLinks.java">
+<violation beginline="10" endline="72" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.data.entity.unsplash" class="UserLinks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserLinks' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/service/CollectionService.java">
+<violation beginline="29" endline="397" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.data.service" class="CollectionService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/data/service/PhotoService.java">
+<violation beginline="29" endline="393" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.data.service" class="PhotoService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/activity/CustomApiActivity.java">
+<violation beginline="37" endline="197" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.activity" class="CustomApiActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/activity/DownloadManageActivity.java">
+<violation beginline="48" endline="442" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.activity" class="DownloadManageActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/activity/IntroduceActivity.java">
+<violation beginline="48" endline="356" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.activity" class="IntroduceActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/activity/LoginActivity.java">
+<violation beginline="47" endline="257" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.activity" class="LoginActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/activity/MuzeiConfigurationActivity.java">
+<violation beginline="46" endline="242" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.activity" class="MuzeiConfigurationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/activity/PreviewActivity.java">
+<violation beginline="34" endline="280" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.activity" class="PreviewActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/activity/SetWallpaperActivity.java">
+<violation beginline="59" endline="608" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.activity" class="SetWallpaperActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="387" endline="496" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.wangdaye.mysplash.common.ui.activity" class="SetWallpaperActivity" method="setWallpaper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/activity/SettingsActivity.java">
+<violation beginline="32" endline="175" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.activity" class="SettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/activity/UpdateMeActivity.java">
+<violation beginline="51" endline="390" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.activity" class="UpdateMeActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/adapter/FollowingAdapter.java">
+<violation beginline="69" endline="583" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.adapter" class="FollowingAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="787" endline="984" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.adapter" class="PhotoHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/adapter/PhotoAdapter.java">
+<violation beginline="58" endline="533" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.adapter" class="PhotoAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/dialog/SelectCollectionDialog.java">
+<violation beginline="63" endline="616" begincolumn="108" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.dialog" class="SelectCollectionDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/dialog/UpdateCollectionDialog.java">
+<violation beginline="44" endline="286" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.dialog" class="UpdateCollectionDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/fragment/SettingsFragment.java">
+<violation beginline="46" endline="320" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.fragment" class="SettingsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/widget/SwipeBackCoordinatorLayout.java">
+<violation beginline="22" endline="310" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget" class="SwipeBackCoordinatorLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/widget/SwipeSwitchLayout.java">
+<violation beginline="23" endline="445" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget" class="SwipeSwitchLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SwipeSwitchLayout' is suspected to be a Data Class (WOC=16.667%, NOPA=2, NOAM=2, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/widget/coordinatorView/StatusBarView.java">
+<violation beginline="26" endline="198" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget.coordinatorView" class="StatusBarView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StatusBarView' is suspected to be a Data Class (WOC=30.000%, NOPA=3, NOAM=4, WMC=28)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/widget/nestedScrollView/NestedScrollAppBarLayout.java">
+<violation beginline="25" endline="353" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget.nestedScrollView" class="NestedScrollAppBarLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/widget/nestedScrollView/NestedScrollFrameLayout.java">
+<violation beginline="27" endline="260" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget.nestedScrollView" class="NestedScrollFrameLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/widget/photoView/PhotoView.java">
+<violation beginline="27" endline="1399" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget.photoView" class="PhotoView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="27" endline="1399" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget.photoView" class="PhotoView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="987" endline="1200" begincolumn="49" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget.photoView" class="PhotoView$Transform" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/widget/rippleButton/RippleButton.java">
+<violation beginline="47" endline="490" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget.rippleButton" class="RippleButton" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/ui/widget/swipeRefreshView/BothWaySwipeRefreshLayout.java">
+<violation beginline="35" endline="1132" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget.swipeRefreshView" class="BothWaySwipeRefreshLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="36" endline="1132" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.ui.widget.swipeRefreshView" class="BothWaySwipeRefreshLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/utils/helper/DatabaseHelper.java">
+<violation beginline="24" endline="117" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.utils.helper" class="DatabaseHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/utils/helper/DownloadHelper.java">
+<violation beginline="35" endline="477" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.utils.helper" class="DownloadHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/utils/helper/ImageHelper.java">
+<violation beginline="49" endline="533" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.utils.helper" class="ImageHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/utils/helper/IntentHelper.java">
+<violation beginline="57" endline="405" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.utils.helper" class="IntentHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/utils/manager/AuthManager.java">
+<violation beginline="37" endline="382" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.utils.manager" class="AuthManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/utils/manager/SettingsOptionManager.java">
+<violation beginline="16" endline="126" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.common.utils.manager" class="SettingsOptionManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SettingsOptionManager' is suspected to be a Data Class (WOC=13.333%, NOPA=0, NOAM=13, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/common/utils/manager/UserNotificationManager.java">
+<violation beginline="34" endline="399" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.utils.manager" class="UserNotificationManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/activity/MainActivity.java">
+<violation beginline="83" endline="736" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.activity" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="144" endline="233" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.main.view.activity" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SavedStateFragment' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/activity/NotificationActivity.java">
+<violation beginline="37" endline="220" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.activity" class="NotificationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/fragment/CategoryFragment.java">
+<violation beginline="56" endline="319" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.fragment" class="CategoryFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/fragment/CollectionFragment.java">
+<violation beginline="55" endline="370" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.fragment" class="CollectionFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/fragment/FollowingFragment.java">
+<violation beginline="39" endline="269" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.fragment" class="FollowingFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/fragment/HomeFragment.java">
+<violation beginline="66" endline="546" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.fragment" class="HomeFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/fragment/MultiFilterFragment.java">
+<violation beginline="66" endline="548" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.fragment" class="MultiFilterFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/widget/CategoryPhotosView.java">
+<violation beginline="69" endline="556" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.widget" class="CategoryPhotosView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/widget/CollectionsView.java">
+<violation beginline="68" endline="497" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.widget" class="CollectionsView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/widget/FollowingFeedView.java">
+<violation beginline="72" endline="683" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.widget" class="FollowingFeedView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/widget/HomePhotosView.java">
+<violation beginline="74" endline="573" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.widget" class="HomePhotosView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/widget/HomeTrendingView.java">
+<violation beginline="74" endline="541" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.widget" class="HomeTrendingView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/widget/MultiFilterPhotosView.java">
+<violation beginline="70" endline="591" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.widget" class="MultiFilterPhotosView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/main/view/widget/NotificationsView.java">
+<violation beginline="59" endline="364" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.main.view.widget" class="NotificationsView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/me/view/activity/MeActivity.java">
+<violation beginline="84" endline="731" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.me.view.activity" class="MeActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="139" endline="168" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.me.view.activity" class="MeActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SavedStateFragment' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/me/view/activity/MyFollowActivity.java">
+<violation beginline="59" endline="368" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.me.view.activity" class="MyFollowActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/me/view/widget/MeCollectionsView.java">
+<violation beginline="68" endline="518" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.me.view.widget" class="MeCollectionsView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/me/view/widget/MePhotosView.java">
+<violation beginline="70" endline="539" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.me.view.widget" class="MePhotosView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/me/view/widget/MyFollowUserView.java">
+<violation beginline="72" endline="439" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.me.view.widget" class="MyFollowUserView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/photo2/view/activity/PhotoActivity2.java">
+<violation beginline="104" endline="1054" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.photo2.view.activity" class="PhotoActivity2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/search/view/activity/SearchActivity.java">
+<violation beginline="81" endline="688" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.search.view.activity" class="SearchActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="126" endline="155" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.search.view.activity" class="SearchActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SavedStateFragment' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/search/view/widget/SearchPageView.java">
+<violation beginline="86" endline="773" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.search.view.widget" class="SearchPageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/user/view/activity/UserActivity.java">
+<violation beginline="90" endline="745" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.user.view.activity" class="UserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="151" endline="180" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.wangdaye.mysplash.user.view.activity" class="UserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SavedStateFragment' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/user/view/widget/UserCollectionsView.java">
+<violation beginline="70" endline="492" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.user.view.widget" class="UserCollectionsView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/user/view/widget/UserPhotosView.java">
+<violation beginline="69" endline="535" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.user.view.widget" class="UserPhotosView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/app/src/main/java/com/wangdaye/mysplash/user/view/widget/UserProfileView.java">
+<violation beginline="61" endline="320" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.user.view.widget" class="UserProfileView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/work/code/DownloadHelper.java">
+<violation beginline="227" endline="468" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.utils.helper" class="OnDownloadListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mysplash/work/code/NotificationHelper.java">
+<violation beginline="35" endline="372" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.wangdaye.mysplash.common.utils.helper" class="NotificationHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

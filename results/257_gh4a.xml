@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:04:15.154">
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/BaseActivity.java">
+<violation beginline="88" endline="854" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a" class="BaseActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/BasePagerActivity.java">
+<violation beginline="22" endline="282" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a" class="BasePagerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/ServiceFactory.java">
+<violation beginline="316" endline="334" begincolumn="9" endcolumn="9" rule="DataClass" ruleset="Design" package="com.gh4a" class="ServiceFactory$LoginService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AuthorizationResponse' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/CommitActivity.java">
+<violation beginline="45" endline="236" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="CommitActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/CommitDiffViewerActivity.java">
+<violation beginline="40" endline="43" begincolumn="36" endcolumn="60" rule="ExcessiveParameterList" ruleset="Design" package="com.gh4a.activities" class="CommitDiffViewerActivity" method="makeIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/DiffViewerActivity.java">
+<violation beginline="51" endline="555" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="DiffViewerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="52" endline="55" begincolumn="75" endcolumn="86" rule="ExcessiveParameterList" ruleset="Design" package="com.gh4a.activities" class="DiffViewerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="217" endline="337" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.gh4a.activities" class="DiffViewerActivity" method="generateHtml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/EditDiffCommentActivity.java">
+<violation beginline="20" endline="22" begincolumn="36" endcolumn="33" rule="ExcessiveParameterList" ruleset="Design" package="com.gh4a.activities" class="EditDiffCommentActivity" method="makeIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/EditPullRequestDiffCommentActivity.java">
+<violation beginline="20" endline="22" begincolumn="36" endcolumn="79" rule="ExcessiveParameterList" ruleset="Design" package="com.gh4a.activities" class="EditPullRequestDiffCommentActivity" method="makeIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/FileViewerActivity.java">
+<violation beginline="53" endline="353" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="FileViewerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/GistActivity.java">
+<violation beginline="48" endline="234" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="GistActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/IssueActivity.java">
+<violation beginline="59" endline="392" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="IssueActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/IssueEditActivity.java">
+<violation beginline="77" endline="701" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="IssueEditActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/IssueLabelListActivity.java">
+<violation beginline="46" endline="326" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="IssueLabelListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/IssueListActivity.java">
+<violation beginline="62" endline="693" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="IssueListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/IssueMilestoneEditActivity.java">
+<violation beginline="68" endline="459" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="IssueMilestoneEditActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/IssueMilestoneListActivity.java">
+<violation beginline="35" endline="168" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="IssueMilestoneListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/PullRequestActivity.java">
+<violation beginline="75" endline="591" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="PullRequestActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/PullRequestDiffViewerActivity.java">
+<violation beginline="40" endline="135" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="PullRequestDiffViewerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="41" endline="44" begincolumn="36" endcolumn="60" rule="ExcessiveParameterList" ruleset="Design" package="com.gh4a.activities" class="PullRequestDiffViewerActivity" method="makeIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/ReleaseInfoActivity.java">
+<violation beginline="57" endline="299" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="ReleaseInfoActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/RepositoryActivity.java">
+<violation beginline="54" endline="597" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="RepositoryActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/UserActivity.java">
+<violation beginline="25" endline="177" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="UserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/WebViewerActivity.java">
+<violation beginline="59" endline="519" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities" class="WebViewerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/home/FragmentFactory.java">
+<violation beginline="12" endline="68" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities.home" class="FragmentFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/activities/home/HomeActivity.java">
+<violation beginline="55" endline="639" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.activities.home" class="HomeActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/adapter/EventAdapter.java">
+<violation beginline="125" endline="293" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.gh4a.adapter" class="EventAdapter" method="formatDescription" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="306" endline="497" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.gh4a.adapter" class="EventAdapter" method="formatTitle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/adapter/timeline/DiffViewHolder.java">
+<violation beginline="267" endline="268" begincolumn="35" endcolumn="76" rule="ExcessiveParameterList" ruleset="Design" package="com.gh4a.adapter.timeline" class="DiffViewHolder$DiffLineSpan" method="drawBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/adapter/timeline/EventViewHolder.java">
+<violation beginline="110" endline="274" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.gh4a.adapter.timeline" class="EventViewHolder" method="formatEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/CommitFragment.java">
+<violation beginline="41" endline="335" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="CommitFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/CommitListFragment.java">
+<violation beginline="47" endline="174" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="CommitListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/CommitNoteFragment.java">
+<violation beginline="40" endline="319" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="CommitNoteFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/ContentListContainerFragment.java">
+<violation beginline="47" endline="386" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="ContentListContainerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/ContentListFragment.java">
+<violation beginline="53" endline="229" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="ContentListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/EventListFragment.java">
+<violation beginline="117" endline="323" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.gh4a.fragment" class="EventListFragment" method="onItemClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="326" endline="459" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.gh4a.fragment" class="EventListFragment" method="onCreateContextMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/IssueFragmentBase.java">
+<violation beginline="75" endline="595" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="IssueFragmentBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/ListDataBaseFragment.java">
+<violation beginline="13" endline="83" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="ListDataBaseFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/LoadingFragmentBase.java">
+<violation beginline="25" endline="146" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="LoadingFragmentBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/NotificationListFragment.java">
+<violation beginline="41" endline="306" begincolumn="110" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="NotificationListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/PagedDataBaseFragment.java">
+<violation beginline="43" endline="169" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="PagedDataBaseFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/PullRequestFragment.java">
+<violation beginline="78" endline="498" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="PullRequestFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="192" endline="325" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.gh4a.fragment" class="PullRequestFragment" method="onCreateDataSingle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/RepositoryFragment.java">
+<violation beginline="59" endline="399" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="RepositoryFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/RepositoryListContainerFragment.java">
+<violation beginline="28" endline="449" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="RepositoryListContainerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/ReviewFragment.java">
+<violation beginline="52" endline="478" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="ReviewFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/SearchFragment.java">
+<violation beginline="56" endline="452" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="SearchFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/fragment/UserFragment.java">
+<violation beginline="60" endline="422" begincolumn="87" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.fragment" class="UserFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/job/NotificationsJob.java">
+<violation beginline="49" endline="384" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.job" class="NotificationsJob" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/model/Feed.java">
+<violation beginline="32" endline="160" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.gh4a.model" class="Feed" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Feed' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/model/Trend.java">
+<violation beginline="20" endline="63" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.gh4a.model" class="Trend" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Trend' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/resolver/DiffHighlightId.java">
+<violation beginline="3" endline="15" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.gh4a.resolver" class="DiffHighlightId" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DiffHighlightId' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/resolver/LinkParser.java">
+<violation beginline="32" endline="441" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.resolver" class="LinkParser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/utils/AvatarHandler.java">
+<violation beginline="40" endline="495" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.utils" class="AvatarHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/utils/HtmlUtils.java">
+<violation beginline="87" endline="89" begincolumn="38" endcolumn="65" rule="ExcessiveParameterList" ruleset="Design" package="com.gh4a.utils" class="HtmlUtils$ReplySpan" method="drawLeadingMargin" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="111" endline="112" begincolumn="35" endcolumn="76" rule="ExcessiveParameterList" ruleset="Design" package="com.gh4a.utils" class="HtmlUtils$CodeBlockSpan" method="drawBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="130" endline="131" begincolumn="35" endcolumn="95" rule="ExcessiveParameterList" ruleset="Design" package="com.gh4a.utils" class="HtmlUtils$HorizontalLineSpan" method="drawBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="214" endline="1000" begincolumn="75" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.gh4a.utils" class="HtmlUtils$HtmlToSpannedConverter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="345" endline="449" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.gh4a.utils" class="HtmlUtils$HtmlToSpannedConverter" method="handleStartTag" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/utils/HttpImageGetter.java">
+<violation beginline="66" endline="619" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.utils" class="HttpImageGetter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/utils/IntentUtils.java">
+<violation beginline="35" endline="283" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.utils" class="IntentUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/utils/RxUtils.java">
+<violation beginline="32" endline="198" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.utils" class="RxUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/utils/StringUtils.java">
+<violation beginline="38" endline="181" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.utils" class="StringUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/utils/UiUtils.java">
+<violation beginline="58" endline="488" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.utils" class="UiUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/widget/CommitStatusBox.java">
+<violation beginline="58" endline="163" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.gh4a.widget" class="CommitStatusBox" method="fillStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/widget/EditorBottomSheet.java">
+<violation beginline="45" endline="526" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.widget" class="EditorBottomSheet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/widget/EllipsizeLineSpan.java">
+<violation beginline="21" endline="22" begincolumn="31" endcolumn="86" rule="ExcessiveParameterList" ruleset="Design" package="com.gh4a.widget" class="EllipsizeLineSpan" method="drawBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/widget/MarkdownPreviewWebView.java">
+<violation beginline="21" endline="217" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.widget" class="MarkdownPreviewWebView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/widget/NestedCoordinatorLayout.java">
+<violation beginline="12" endline="113" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.widget" class="NestedCoordinatorLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/main/java/com/gh4a/widget/SwipeRefreshLayout.java">
+<violation beginline="12" endline="160" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.widget" class="SwipeRefreshLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gh4a/app/src/test/java/com/gh4a/resolver/LinkParserTest.java">
+<violation beginline="41" endline="805" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.gh4a.resolver" class="LinkParserTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

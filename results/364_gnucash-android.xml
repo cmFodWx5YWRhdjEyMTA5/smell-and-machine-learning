@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:33:52.477">
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/androidTest/java/org/gnucash/android/test/ui/AccountsActivityTest.java">
+<violation beginline="99" endline="559" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.test.ui" class="AccountsActivityTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/androidTest/java/org/gnucash/android/test/ui/TransactionsActivityTest.java">
+<violation beginline="83" endline="902" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.test.ui" class="TransactionsActivityTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/db/MigrationHelper.java">
+<violation beginline="93" endline="1631" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.gnucash.android.db" class="MigrationHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="93" endline="1631" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.db" class="MigrationHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="497" endline="847" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.db" class="MigrationHelper" method="upgradeDbToVersion8" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="863" endline="1085" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.db" class="MigrationHelper" method="upgradeDbToVersion9" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1243" endline="1475" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.db" class="MigrationHelper" method="upgradeDbToVersion13" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/db/adapter/AccountsDbAdapter.java">
+<violation beginline="61" endline="1317" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.gnucash.android.db.adapter" class="AccountsDbAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="61" endline="1317" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.db.adapter" class="AccountsDbAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/db/adapter/DatabaseAdapter.java">
+<violation beginline="46" endline="803" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.db.adapter" class="DatabaseAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="88" endline="195" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.db.adapter" class="DatabaseAdapter" method="createTempView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/db/adapter/TransactionsDbAdapter.java">
+<violation beginline="56" endline="668" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.db.adapter" class="TransactionsDbAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/export/ExportAsyncTask.java">
+<violation beginline="87" endline="577" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.export" class="ExportAsyncTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/export/qif/QifExporter.java">
+<violation beginline="79" endline="265" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.export.qif" class="QifExporter" method="generateExport" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/export/xml/GncXmlExporter.java">
+<violation beginline="78" endline="911" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.export.xml" class="GncXmlExporter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="272" endline="494" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.export.xml" class="GncXmlExporter" method="exportTransactions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="501" endline="605" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.export.xml" class="GncXmlExporter" method="exportScheduledTransactions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/importer/CommoditiesXmlHandler.java">
+<violation beginline="34" endline="87" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.gnucash.android.importer" class="CommoditiesXmlHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CommoditiesXmlHandler' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/importer/GncXmlHandler.java">
+<violation beginline="79" endline="1138" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.gnucash.android.importer" class="GncXmlHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="408" endline="869" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.importer" class="GncXmlHandler" method="endElement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/model/Money.java">
+<violation beginline="45" endline="516" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.model" class="Money" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/account/AccountFormFragment.java">
+<violation beginline="86" endline="853" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.account" class="AccountFormFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="731" endline="833" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.ui.account" class="AccountFormFragment" method="saveAccount" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/account/AccountsActivity.java">
+<violation beginline="79" endline="538" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.account" class="AccountsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/account/AccountsListFragment.java">
+<violation beginline="83" endline="618" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.account" class="AccountsListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/budget/BudgetAmountEditorFragment.java">
+<violation beginline="60" endline="276" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.budget" class="BudgetAmountEditorFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/budget/BudgetFormFragment.java">
+<violation beginline="80" endline="362" begincolumn="168" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.budget" class="BudgetFormFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/budget/BudgetListFragment.java">
+<violation beginline="72" endline="327" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.budget" class="BudgetListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/common/BaseDrawerActivity.java">
+<violation beginline="77" endline="357" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.common" class="BaseDrawerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/export/ExportFormFragment.java">
+<violation beginline="95" endline="610" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.export" class="ExportFormFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="350" endline="520" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.ui.export" class="ExportFormFragment" method="bindViewListeners" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/report/BaseReportFragment.java">
+<violation beginline="66" endline="346" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.report" class="BaseReportFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/report/ReportsActivity.java">
+<violation beginline="66" endline="428" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.report" class="ReportsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/settings/BackupPreferenceFragment.java">
+<violation beginline="70" endline="483" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.settings" class="BackupPreferenceFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java">
+<violation beginline="67" endline="311" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.settings" class="BookManagerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/transaction/ScheduledActionsListFragment.java">
+<violation beginline="75" endline="644" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.transaction" class="ScheduledActionsListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/transaction/SplitEditorFragment.java">
+<violation beginline="80" endline="503" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.transaction" class="SplitEditorFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/transaction/TransactionFormFragment.java">
+<violation beginline="105" endline="1088" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.transaction" class="TransactionFormFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/transaction/TransactionsActivity.java">
+<violation beginline="76" endline="544" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.transaction" class="TransactionsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/transaction/TransactionsListFragment.java">
+<violation beginline="76" endline="386" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.transaction" class="TransactionsListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/main/java/org/gnucash/android/ui/wizard/FirstRunWizardActivity.java">
+<violation beginline="66" endline="397" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.ui.wizard" class="FirstRunWizardActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="86" endline="191" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.gnucash.android.ui.wizard" class="FirstRunWizardActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/test/java/org/gnucash/android/test/unit/db/AccountsDbAdapterTest.java">
+<violation beginline="69" endline="537" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.test.unit.db" class="AccountsDbAdapterTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/test/java/org/gnucash/android/test/unit/model/MoneyTest.java">
+<violation beginline="39" endline="177" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.test.unit.model" class="MoneyTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/gnucash-android/app/src/test/java/org/gnucash/android/test/unit/service/ScheduledActionServiceTest.java">
+<violation beginline="80" endline="491" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.gnucash.android.test.unit.service" class="ScheduledActionServiceTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

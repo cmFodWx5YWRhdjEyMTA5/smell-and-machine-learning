@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:41:37.975">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Blockinger/src/org/blockinger/game/activities/GameActivity.java">
+<violation beginline="76" endline="223" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.blockinger.game.activities" class="GameActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Blockinger/src/org/blockinger/game/activities/HelpActivity.java">
+<violation beginline="35" endline="135" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.blockinger.game.activities" class="HelpActivity" method="onPostCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Blockinger/src/org/blockinger/game/activities/MainActivity.java">
+<violation beginline="64" endline="290" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.blockinger.game.activities" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Blockinger/src/org/blockinger/game/components/Controls.java">
+<violation beginline="51" endline="473" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.blockinger.game.components" class="Controls" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="240" endline="415" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.blockinger.game.components" class="Controls" method="cycle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Blockinger/src/org/blockinger/game/components/GameState.java">
+<violation beginline="53" endline="545" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.blockinger.game.components" class="GameState" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Blockinger/src/org/blockinger/game/components/Sound.java">
+<violation beginline="53" endline="418" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.blockinger.game.components" class="Sound" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Blockinger/src/org/blockinger/game/db/HighscoreOpenHelper.java">
+<violation beginline="45" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.blockinger.game.db" class="HighscoreOpenHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HighscoreOpenHelper' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Blockinger/src/org/blockinger/game/pieces/Piece.java">
+<violation beginline="48" endline="311" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.blockinger.game.pieces" class="Piece" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

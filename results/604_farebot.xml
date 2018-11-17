@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:19:21.443">
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-base/src/main/java/com/codebutler/farebot/base/util/ArrayUtils.java">
+<violation beginline="7" endline="1046" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.codebutler.farebot.base.util" class="ArrayUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="7" endline="1046" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.codebutler.farebot.base.util" class="ArrayUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-base/src/main/java/com/codebutler/farebot/base/util/ByteUtils.java">
+<violation beginline="5" endline="162" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.codebutler.farebot.base.util" class="ByteUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-base/src/main/java/com/codebutler/farebot/base/util/IOUtils.java">
+<violation beginline="17" endline="773" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.codebutler.farebot.base.util" class="IOUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-card-cepas/src/main/java/com/codebutler/farebot/card/cepas/CEPASPurse.java">
+<violation beginline="36" endline="53" begincolumn="36" endcolumn="49" rule="ExcessiveParameterList" ruleset="Design" package="com.codebutler.farebot.card.cepas" class="CEPASPurse" method="create" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-card-desfire/src/main/java/com/codebutler/farebot/card/desfire/DesfireCard.java">
+<violation beginline="78" endline="184" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.codebutler.farebot.card.desfire" class="DesfireCard" method="getAdvancedUi" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-card-desfire/src/main/java/com/codebutler/farebot/card/desfire/DesfireManufacturingData.java">
+<violation beginline="133" endline="172" begincolumn="42" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.codebutler.farebot.card.desfire" class="DesfireManufacturingData$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-card-felica/src/main/java/com/codebutler/farebot/card/felica/FelicaDBUtil.java">
+<violation beginline="29" endline="87" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.codebutler.farebot.card.felica" class="FelicaDBUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FelicaDBUtil' is suspected to be a Data Class (WOC=0.000%, NOPA=16, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-card-felica/src/main/java/com/codebutler/farebot/card/felica/FelicaTagReader.java">
+<violation beginline="67" endline="173" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.codebutler.farebot.card.felica" class="FelicaTagReader" method="readTag" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-transit-hsl/src/main/java/com/codebutler/farebot/transit/hsl/HSLTransitFactory.java">
+<violation beginline="66" endline="230" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.codebutler.farebot.transit.hsl" class="HSLTransitFactory" method="parseInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-transit-hsl/src/main/java/com/codebutler/farebot/transit/hsl/HSLTransitInfo.java">
+<violation beginline="200" endline="269" begincolumn="35" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.codebutler.farebot.transit.hsl" class="HSLTransitInfo$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-transit-ovc/src/main/java/com/codebutler/farebot/transit/ovc/OVChipSubscription.java">
+<violation beginline="74" endline="174" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.codebutler.farebot.transit.ovc" class="OVChipSubscription" method="create" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="247" endline="279" begincolumn="35" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.codebutler.farebot.transit.ovc" class="OVChipSubscription$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-transit-ovc/src/main/java/com/codebutler/farebot/transit/ovc/OVChipTransaction.java">
+<violation beginline="44" endline="196" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.codebutler.farebot.transit.ovc" class="OVChipTransaction" method="create" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="262" endline="296" begincolumn="35" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.codebutler.farebot.transit.ovc" class="OVChipTransaction$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-transit-ovc/src/main/java/com/codebutler/farebot/transit/ovc/OVChipTrip.java">
+<violation beginline="318" endline="357" begincolumn="35" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.codebutler.farebot.transit.ovc" class="OVChipTrip$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-transit-seqgo/src/main/java/com/codebutler/farebot/transit/seq_go/SeqGoDBUtil.java">
+<violation beginline="33" endline="68" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.codebutler.farebot.transit.seq_go" class="SeqGoDBUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SeqGoDBUtil' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-transit-seqgo/src/main/java/com/codebutler/farebot/transit/seq_go/SeqGoTransitFactory.java">
+<violation beginline="81" endline="194" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.codebutler.farebot.transit.seq_go" class="SeqGoTransitFactory" method="parseInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/farebot/farebot-transit-suica/src/main/java/com/codebutler/farebot/transit/suica/SuicaTrip.java">
+<violation beginline="310" endline="347" begincolumn="35" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.codebutler.farebot.transit.suica" class="SuicaTrip$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

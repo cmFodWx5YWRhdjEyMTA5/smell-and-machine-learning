@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:20:50.651">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/backend/ClementineLibraryDownloader.java">
+<violation beginline="43" endline="279" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend" class="ClementineLibraryDownloader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="145" endline="256" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.backend" class="ClementineLibraryDownloader" method="startDownloading" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/backend/ClementinePlayerConnection.java">
+<violation beginline="42" endline="359" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend" class="ClementinePlayerConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/backend/downloader/ClementineSongDownloader.java">
+<violation beginline="45" endline="498" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.downloader" class="ClementineSongDownloader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="173" endline="310" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.backend.downloader" class="ClementineSongDownloader" method="startDownloading" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/backend/pb/ClementineMessageFactory.java">
+<violation beginline="44" endline="313" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineMessageFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/backend/pb/ClementinePbParser.java">
+<violation beginline="51" endline="327" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementinePbParser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/backend/pb/ClementineRemoteProtocolBuffer.java">
+<violation beginline="6" endline="30905" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1147" endline="1447" begincolumn="52" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$SongMetadataOrBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1455" endline="4381" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1457" endline="4381" begincolumn="40" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$SongMetadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1480" endline="1630" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$SongMetadata" method="SongMetadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2815" endline="4373" begincolumn="25" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$SongMetadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="2817" endline="4373" begincolumn="110" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$SongMetadata$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="4450" endline="5184" begincolumn="36" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Playlist" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="4818" endline="5176" begincolumn="106" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Playlist$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="5204" endline="5580" begincolumn="44" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestPlaylists" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="5425" endline="5572" begincolumn="114" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestPlaylists$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="5604" endline="5984" begincolumn="48" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestPlaylistSongs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="5829" endline="5976" begincolumn="118" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestPlaylistSongs$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6034" endline="6533" begincolumn="45" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestChangeSong" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6304" endline="6525" begincolumn="115" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestChangeSong$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6557" endline="6937" begincolumn="44" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestSetVolume" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6782" endline="6929" begincolumn="114" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestSetVolume$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6961" endline="7350" begincolumn="34" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Repeat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="7192" endline="7342" begincolumn="104" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Repeat$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="7370" endline="7755" begincolumn="35" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Shuffle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="7597" endline="7747" begincolumn="105" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Shuffle$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="7795" endline="8326" begincolumn="50" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseClementineInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="8083" endline="8318" begincolumn="120" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseClementineInfo$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="8354" endline="8841" begincolumn="51" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseCurrentMetadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="8593" endline="8833" begincolumn="121" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseCurrentMetadata$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="8880" endline="9523" begincolumn="45" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponsePlaylists" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="9130" endline="9515" begincolumn="115" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponsePlaylists$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="9596" endline="10512" begincolumn="49" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponsePlaylistSongs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="9910" endline="10504" begincolumn="119" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponsePlaylistSongs$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="10536" endline="10925" begincolumn="54" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseEngineStateChanged" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="10767" endline="10917" begincolumn="124" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseEngineStateChanged$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="10949" endline="11329" begincolumn="55" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseUpdateTrackPosition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="11174" endline="11321" begincolumn="125" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseUpdateTrackPosition$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="11373" endline="11895" begincolumn="42" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestConnect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="11656" endline="11887" begincolumn="112" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestConnect$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="11915" endline="12300" begincolumn="46" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseDisconnect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12142" endline="12292" begincolumn="116" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseDisconnect$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12320" endline="12696" begincolumn="49" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseActiveChanged" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12541" endline="12688" begincolumn="119" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseActiveChanged$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12721" endline="13102" begincolumn="51" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestSetTrackPosition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12947" endline="13094" begincolumn="121" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestSetTrackPosition$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="13203" endline="14320" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="13205" endline="14320" begincolumn="45" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestInsertUrls" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="13630" endline="14312" begincolumn="115" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestInsertUrls$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="14378" endline="14965" begincolumn="46" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestRemoveSongs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="14683" endline="14957" begincolumn="116" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestRemoveSongs$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="14989" endline="15369" begincolumn="47" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestOpenPlaylist" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="15214" endline="15361" begincolumn="117" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestOpenPlaylist$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="15389" endline="15765" begincolumn="48" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestClosePlaylist" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="15610" endline="15757" begincolumn="118" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestClosePlaylist$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="15804" endline="16447" begincolumn="42" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseLyrics" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="16054" endline="16439" begincolumn="112" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseLyrics$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="16502" endline="17230" begincolumn="33" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Lyric" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="16862" endline="17222" begincolumn="103" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Lyric$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="17280" endline="17901" begincolumn="48" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestDownloadSongs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="17590" endline="17893" begincolumn="118" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestDownloadSongs$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="18005" endline="19041" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="18007" endline="19041" begincolumn="49" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseSongFileChunk" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="18457" endline="19033" begincolumn="119" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseSongFileChunk$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="19101" endline="19767" begincolumn="48" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseLibraryChunk" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="19438" endline="19759" begincolumn="118" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseLibraryChunk$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="19795" endline="20195" begincolumn="45" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseSongOffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="20024" endline="20187" begincolumn="115" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseSongOffer$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="20223" endline="20623" begincolumn="43" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestRateSong" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="20452" endline="20615" begincolumn="113" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestRateSong$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="20653" endline="21100" begincolumn="53" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseDownloadTotalSize" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="20903" endline="21092" begincolumn="123" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseDownloadTotalSize$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="21125" endline="21571" begincolumn="47" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestGlobalSearch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="21373" endline="21563" begincolumn="117" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$RequestGlobalSearch$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="21654" endline="22725" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="21656" endline="22725" begincolumn="48" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseGlobalSearch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="22073" endline="22717" begincolumn="118" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseGlobalSearch$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="22755" endline="23202" begincolumn="52" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseTranscoderStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="23005" endline="23194" begincolumn="122" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseTranscoderStatus$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="23247" endline="23844" begincolumn="54" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseGlobalSearchStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="23559" endline="23836" begincolumn="124" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$ResponseGlobalSearchStatus$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="23847" endline="24310" begincolumn="52" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$MessageOrBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="24318" endline="30328" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="24320" endline="30328" begincolumn="35" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Message" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="24343" endline="24797" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Message" method="Message" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="25593" endline="25696" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Message" method="writeTo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="25699" endline="25839" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Message" method="getSerializedSize" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="25921" endline="30320" begincolumn="25" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Message" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="25923" endline="30320" begincolumn="105" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Message$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="25985" endline="26178" begincolumn="14" endcolumn="7" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Message$Builder" method="clear" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="26201" endline="26467" begincolumn="14" endcolumn="7" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Message$Builder" method="buildPartial" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="26478" endline="26581" begincolumn="14" endcolumn="7" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer$Message$Builder" method="mergeFrom" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="30682" endline="30896" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.backend.pb" class="ClementineRemoteProtocolBuffer" method="assignDescriptors" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/backend/player/PlaylistManager.java">
+<violation beginline="30" endline="180" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.backend.player" class="PlaylistManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/ui/ConnectActivity.java">
+<violation beginline="84" endline="595" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.ui" class="ConnectActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/ui/MainActivity.java">
+<violation beginline="73" endline="540" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.ui" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="107" endline="209" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.ui" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/ui/adapter/PreferenceHeaderAdapter.java">
+<violation beginline="18" endline="36" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="de.qspool.clementineremote.ui.adapter" class="PreferenceHeaderAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PreferenceHeader' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/ui/fragments/GlobalSearchFragment.java">
+<violation beginline="69" endline="435" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.ui.fragments" class="GlobalSearchFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="98" endline="224" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.ui.fragments" class="GlobalSearchFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/ui/fragments/LibraryFragment.java">
+<violation beginline="75" endline="566" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.ui.fragments" class="LibraryFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="138" endline="268" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.ui.fragments" class="LibraryFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/ui/fragments/PlaylistFragment.java">
+<violation beginline="68" endline="578" begincolumn="99" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.ui.fragments" class="PlaylistFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="195" endline="317" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.ui.fragments" class="PlaylistFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/ui/fragments/playerpages/PlayerPageFragment.java">
+<violation beginline="63" endline="606" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.ui.fragments.playerpages" class="PlayerPageFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/ui/fragments/playerpages/SongDetailFragment.java">
+<violation beginline="272" endline="410" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.qspool.clementineremote.ui.fragments.playerpages" class="SongDetailFragment" method="zoomImageFromThumb" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Remote/app/src/main/java/de/qspool/clementineremote/utils/IabHelper.java">
+<violation beginline="72" endline="1094" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.qspool.clementineremote.utils" class="IabHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="72" endline="1094" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.qspool.clementineremote.utils" class="IabHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

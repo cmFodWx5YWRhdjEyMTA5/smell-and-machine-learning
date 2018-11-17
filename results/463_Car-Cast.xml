@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:57:06.678">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/PrestoClient/src/com/aocate/media/MediaPlayer.java">
+<violation beginline="35" endline="1323" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.aocate.media" class="MediaPlayer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="35" endline="1323" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.aocate.media" class="MediaPlayer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="328" endline="443" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.aocate.media" class="MediaPlayer" method="setupMpi" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="445" endline="598" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.aocate.media" class="MediaPlayer" method="switchMediaPlayerImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/PrestoClient/src/com/aocate/media/MediaPlayerImpl.java">
+<violation beginline="24" endline="118" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.aocate.media" class="MediaPlayerImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/PrestoClient/src/com/aocate/media/ServiceBackedMediaPlayer.java">
+<violation beginline="52" endline="1170" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.aocate.media" class="ServiceBackedMediaPlayer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="52" endline="1170" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.aocate.media" class="ServiceBackedMediaPlayer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/cc/app/src/androidTest/java/com/jadn/cc/test/PodcastTest.java">
+<violation beginline="16" endline="285" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jadn.cc.test" class="PodcastTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/cc/app/src/main/java/com/jadn/cc/core/Subscription.java">
+<violation beginline="6" endline="72" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.jadn.cc.core" class="Subscription" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Subscription' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/cc/app/src/main/java/com/jadn/cc/services/ContentService.java">
+<violation beginline="50" endline="1328" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.jadn.cc.services" class="ContentService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="50" endline="1328" begincolumn="105" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jadn.cc.services" class="ContentService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="559" endline="663" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.jadn.cc.services" class="ContentService" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/cc/app/src/main/java/com/jadn/cc/services/DownloadHelper.java">
+<violation beginline="67" endline="238" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.jadn.cc.services" class="DownloadHelper" method="downloadNewPodCasts" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/cc/app/src/main/java/com/jadn/cc/services/EnclosureHandler.java">
+<violation beginline="21" endline="213" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.jadn.cc.services" class="EnclosureHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EnclosureHandler' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=4, WMC=23)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/cc/app/src/main/java/com/jadn/cc/services/ExternalReceiver.java">
+<violation beginline="8" endline="39" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.jadn.cc.services" class="ExternalReceiver" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExternalReceiver' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/cc/app/src/main/java/com/jadn/cc/services/FileSubscriptionHelper.java">
+<violation beginline="24" endline="312" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jadn.cc.services" class="FileSubscriptionHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/cc/app/src/main/java/com/jadn/cc/services/MetaHolder.java">
+<violation beginline="20" endline="271" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jadn.cc.services" class="MetaHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="54" endline="157" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.jadn.cc.services" class="MetaHolder" method="loadMeta" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/cc/app/src/main/java/com/jadn/cc/ui/CarCast.java">
+<violation beginline="35" endline="442" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jadn.cc.ui" class="CarCast" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="104" endline="242" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.jadn.cc.ui" class="CarCast" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Car-Cast/cctest/src/com/jadn/cc/test/PodcastTest.java">
+<violation beginline="16" endline="285" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jadn.cc.test" class="PodcastTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

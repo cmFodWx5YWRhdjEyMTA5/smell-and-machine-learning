@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:24:58.120">
+<file name="/home/matheus/smell-and-machine-learning/repositories/HexGame_Android/app/src/main/java/android/support/v4/util/ArrayMap.java">
+<violation beginline="25" endline="189" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.v4.util" class="ArrayMap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HexGame_Android/app/src/main/java/android/support/v4/util/ArraySet.java">
+<violation beginline="25" endline="161" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.v4.util" class="ArraySet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HexGame_Android/app/src/main/java/com/sam/hex/BaseGameActivity.java">
+<violation beginline="24" endline="138" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sam.hex" class="BaseGameActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HexGame_Android/app/src/main/java/com/sam/hex/MainActivity.java">
+<violation beginline="170" endline="207" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.sam.hex" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Stat' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HexGame_Android/app/src/main/java/com/sam/hex/compat/NetworkPlayer.java">
+<violation beginline="28" endline="321" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sam.hex.compat" class="NetworkPlayer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HexGame_Android/app/src/main/java/com/sam/hex/fragment/GameFragment.java">
+<violation beginline="44" endline="587" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sam.hex.fragment" class="GameFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="235" endline="381" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sam.hex.fragment" class="GameFragment" method="createGameListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HexGame_Android/app/src/main/java/com/sam/hex/fragment/HexFragment.java">
+<violation beginline="27" endline="197" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sam.hex.fragment" class="HexFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HexGame_Android/app/src/main/java/com/sam/hex/view/HexDialogView.java">
+<violation beginline="451" endline="603" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.sam.hex.view" class="HexDialogView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Button' is suspected to be a Data Class (WOC=6.667%, NOPA=0, NOAM=13, WMC=34)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HexGame_Android/app/src/main/java/com/sam/hex/view/HexagonLayout.java">
+<violation beginline="683" endline="777" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.sam.hex.view" class="HexagonLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Button' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=11, WMC=21)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HexGame_Android/app/src/main/java/com/sam/hex/view/SelectorLayout.java">
+<violation beginline="360" endline="445" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.sam.hex.view" class="SelectorLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Button' is suspected to be a Data Class (WOC=9.091%, NOPA=0, NOAM=9, WMC=18)
+</violation>
+</file>
+</pmd>

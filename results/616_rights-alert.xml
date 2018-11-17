@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:21:25.995">
+<file name="/home/matheus/smell-and-machine-learning/repositories/rights-alert/src/fr/keuse/rightsalert/entity/ApplicationEntity.java">
+<violation beginline="8" endline="49" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.keuse.rightsalert.entity" class="ApplicationEntity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ApplicationEntity' is suspected to be a Data Class (WOC=10.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+</file>
+</pmd>

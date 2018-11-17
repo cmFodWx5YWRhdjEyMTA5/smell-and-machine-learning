@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:16:02.743">
+<file name="/home/matheus/smell-and-machine-learning/repositories/SpeedMeter/app/src/main/java/fly/speedmeter/grub/MainActivity.java">
+<violation beginline="34" endline="373" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fly.speedmeter.grub" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="57" endline="165" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="fly.speedmeter.grub" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

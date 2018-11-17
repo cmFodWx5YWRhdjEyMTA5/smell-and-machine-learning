@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:54:46.121">
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ-plugin-tts/src/org/geometerplus/android/fbreader/api/ApiClientImplementation.java">
+<violation beginline="12" endline="455" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.android.fbreader.api" class="ApiClientImplementation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ-plugin-tts/src/org/geometerplus/android/fbreader/api/TextPosition.java">
+<violation beginline="10" endline="45" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="org.geometerplus.android.fbreader.api" class="TextPosition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TextPosition' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FBReaderJ-plugin-tts/src/org/geometerplus/fbreader/plugin/tts/SpeakActivity.java">
+<violation beginline="38" endline="430" begincolumn="171" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.geometerplus.fbreader.plugin.tts" class="SpeakActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

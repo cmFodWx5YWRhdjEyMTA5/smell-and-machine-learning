@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:14:32.715">
+<file name="/home/matheus/smell-and-machine-learning/repositories/network-monitor/networkmonitor/src/main/java/ca/rmen/android/networkmonitor/app/dbops/backend/DBOpIntentService.java">
+<violation beginline="59" endline="324" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.rmen.android.networkmonitor.app.dbops.backend" class="DBOpIntentService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/network-monitor/networkmonitor/src/main/java/ca/rmen/android/networkmonitor/app/email/Emailer.java">
+<violation beginline="63" endline="67" begincolumn="26" endcolumn="61" rule="ExcessiveParameterList" ruleset="Design" package="ca.rmen.android.networkmonitor.app.email" class="Emailer" method="sendEmail" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/network-monitor/networkmonitor/src/main/java/ca/rmen/android/networkmonitor/app/log/LogActivity.java">
+<violation beginline="74" endline="425" begincolumn="125" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.rmen.android.networkmonitor.app.log" class="LogActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="196" endline="314" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ca.rmen.android.networkmonitor.app.log" class="LogActivity" method="loadHTMLFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/network-monitor/networkmonitor/src/main/java/ca/rmen/android/networkmonitor/app/main/MainActivity.java">
+<violation beginline="68" endline="262" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.rmen.android.networkmonitor.app.main" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/network-monitor/networkmonitor/src/main/java/ca/rmen/android/networkmonitor/app/prefs/AdvancedPreferencesActivity.java">
+<violation beginline="59" endline="311" begincolumn="122" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.rmen.android.networkmonitor.app.prefs" class="AdvancedPreferencesActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/network-monitor/networkmonitor/src/main/java/ca/rmen/android/networkmonitor/app/prefs/SelectFieldsActivity.java">
+<violation beginline="62" endline="226" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.rmen.android.networkmonitor.app.prefs" class="SelectFieldsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/network-monitor/networkmonitor/src/main/java/ca/rmen/android/networkmonitor/app/speedtest/SpeedTestExecutionDecider.java">
+<violation beginline="50" endline="261" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.rmen.android.networkmonitor.app.speedtest" class="SpeedTestExecutionDecider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

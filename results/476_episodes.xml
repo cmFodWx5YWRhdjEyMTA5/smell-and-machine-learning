@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:59:44.580">
+<file name="/home/matheus/smell-and-machine-learning/repositories/episodes/app/src/main/java/org/jamienicol/episodes/SeasonsListFragment.java">
+<violation beginline="144" endline="176" begincolumn="24" endcolumn="9" rule="DataClass" ruleset="Design" package="org.jamienicol.episodes" class="SeasonsListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/episodes/app/src/main/java/org/jamienicol/episodes/ShowActivity.java">
+<violation beginline="59" endline="388" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.jamienicol.episodes" class="ShowActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/episodes/app/src/main/java/org/jamienicol/episodes/ShowsListFragment.java">
+<violation beginline="60" endline="495" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.jamienicol.episodes" class="ShowsListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="393" endline="493" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="org.jamienicol.episodes" class="ShowsListFragment$ShowsListAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/episodes/app/src/main/java/org/jamienicol/episodes/tvdb/Episode.java">
+<violation beginline="22" endline="87" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.jamienicol.episodes.tvdb" class="Episode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Episode' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/episodes/app/src/main/java/org/jamienicol/episodes/tvdb/GetShowParser.java">
+<violation beginline="51" endline="244" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.jamienicol.episodes.tvdb" class="GetShowParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/episodes/app/src/main/java/org/jamienicol/episodes/tvdb/Show.java">
+<violation beginline="23" endline="117" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.jamienicol.episodes.tvdb" class="Show" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Show' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=19)
+</violation>
+</file>
+</pmd>

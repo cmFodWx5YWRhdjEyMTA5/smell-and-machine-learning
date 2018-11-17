@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:54:31.635">
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShaderEditor/app/src/main/java/de/markusfisch/android/shadereditor/activity/MainActivity.java">
+<violation beginline="43" endline="1048" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.markusfisch.android.shadereditor.activity" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="45" endline="1048" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.shadereditor.activity" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShaderEditor/app/src/main/java/de/markusfisch/android/shadereditor/adapter/PresetUniformAdapter.java">
+<violation beginline="52" endline="172" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.markusfisch.android.shadereditor.adapter" class="PresetUniformAdapter" method="PresetUniformAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShaderEditor/app/src/main/java/de/markusfisch/android/shadereditor/database/Database.java">
+<violation beginline="24" endline="594" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.shadereditor.database" class="Database" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShaderEditor/app/src/main/java/de/markusfisch/android/shadereditor/opengl/ShaderRenderer.java">
+<violation beginline="51" endline="1466" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.markusfisch.android.shadereditor.opengl" class="ShaderRenderer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="51" endline="1466" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.shadereditor.opengl" class="ShaderRenderer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="371" endline="720" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.markusfisch.android.shadereditor.opengl" class="ShaderRenderer" method="onDrawFrame" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShaderEditor/app/src/main/java/de/markusfisch/android/shadereditor/preference/Preferences.java">
+<violation beginline="13" endline="245" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.shadereditor.preference" class="Preferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShaderEditor/app/src/main/java/de/markusfisch/android/shadereditor/widget/CubeMapView.java">
+<violation beginline="24" endline="533" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.shadereditor.widget" class="CubeMapView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="34" endline="91" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="de.markusfisch.android.shadereditor.widget" class="CubeMapView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Face' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=3, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShaderEditor/app/src/main/java/de/markusfisch/android/shadereditor/widget/ScalingImageView.java">
+<violation beginline="16" endline="420" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.shadereditor.widget" class="ScalingImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShaderEditor/app/src/main/java/de/markusfisch/android/shadereditor/widget/ShaderEditor.java">
+<violation beginline="28" endline="574" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.markusfisch.android.shadereditor.widget" class="ShaderEditor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

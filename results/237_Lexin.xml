@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:58:29.409">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/example/android/swipedismiss/SwipeDismissListViewTouchListener.java">
+<violation beginline="184" endline="303" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.example.android.swipedismiss" class="SwipeDismissListViewTouchListener" method="onTouch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/jcraft/jzlib/Deflate.java">
+<violation beginline="38" endline="1623" begincolumn="7" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.jcraft.jzlib" class="Deflate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="38" endline="1623" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jzlib" class="Deflate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1002" endline="1102" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="Deflate" method="deflate_fast" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1107" endline="1234" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="Deflate" method="deflate_slow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1481" endline="1622" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="Deflate" method="deflate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/jcraft/jzlib/InfBlocks.java">
+<violation beginline="126" endline="533" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="InfBlocks" method="proc" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/jcraft/jzlib/InfCodes.java">
+<violation beginline="107" endline="390" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="InfCodes" method="proc" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="401" endline="604" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="InfCodes" method="inflate_fast" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/jcraft/jzlib/InfTree.java">
+<violation beginline="229" endline="240" begincolumn="25" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="com.jcraft.jzlib" class="InfTree" method="huft_build" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="229" endline="417" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="InfTree" method="huft_build" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/jcraft/jzlib/Inflate.java">
+<violation beginline="140" endline="288" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="Inflate" method="inflate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/jcraft/jzlib/ZStream.java">
+<violation beginline="37" endline="211" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jzlib" class="ZStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/mykola/lexinproject/providers/TranslationManager.java">
+<violation beginline="36" endline="243" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mykola.lexinproject.providers" class="TranslationManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/mykola/lexinproject/ui/AttachmentsFragment.java">
+<violation beginline="41" endline="230" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mykola.lexinproject.ui" class="AttachmentsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/mykola/lexinproject/ui/HistoryFragment.java">
+<violation beginline="42" endline="231" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mykola.lexinproject.ui" class="HistoryFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/mykola/lexinproject/ui/LexinActivity.java">
+<violation beginline="41" endline="323" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mykola.lexinproject.ui" class="LexinActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lexin/src/com/mykola/lexinproject/ui/PreviewFragment.java">
+<violation beginline="49" endline="483" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mykola.lexinproject.ui" class="PreviewFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="160" endline="262" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.mykola.lexinproject.ui" class="PreviewFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

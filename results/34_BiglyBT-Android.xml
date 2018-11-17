@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:12:27.622">
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/coreFlavor/java/com/biglybt/android/client/CoreProxyPreferences.java">
+<violation beginline="19" endline="58" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.biglybt.android.client" class="CoreProxyPreferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CoreProxyPreferences' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/coreFlavor/java/com/biglybt/android/client/fragment/PrefFragmentHandlerCore.java">
+<violation beginline="52" endline="676" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.fragment" class="PrefFragmentHandlerCore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="98" endline="295" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="PrefFragmentHandlerCore" method="onPreferenceTreeClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="330" endline="431" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="PrefFragmentHandlerCore" method="updateWidgetsOnUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/coreFlavor/java/com/biglybt/android/client/service/BiglyBTService.java">
+<violation beginline="114" endline="1566" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.client.service" class="BiglyBTService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="117" endline="1566" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.service" class="BiglyBTService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="779" endline="928" begincolumn="22" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.service" class="BiglyBTService" method="startCore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/coreFlavor/java/com/biglybt/android/core/az/BiglyBTManager.java">
+<violation beginline="135" endline="390" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.core.az" class="BiglyBTManager" method="BiglyBTManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="558" endline="684" begincolumn="9" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.core.az" class="BiglyBTManager$OurLoggerImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/coreFlavor/java/com/biglybt/android/core/az/PlatformManagerImpl.java">
+<violation beginline="39" endline="330" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.core.az" class="PlatformManagerImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/adapter/FlexibleRecyclerAdapter.java">
+<violation beginline="53" endline="1597" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.adapter" class="FlexibleRecyclerAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="57" endline="1597" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.adapter" class="FlexibleRecyclerAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="743" endline="850" begincolumn="27" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.adapter" class="FlexibleRecyclerAdapter$SetItemsAsyncTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/adapter/FlexibleRecyclerView.java">
+<violation beginline="38" endline="509" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.adapter" class="FlexibleRecyclerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/adapter/GroupedSortDefinition.java">
+<violation beginline="25" endline="62" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.biglybt.android.adapter" class="GroupedSortDefinition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GroupedSortDefinition' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/AnalyticsTrackerBare.java">
+<violation beginline="45" endline="414" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client" class="AnalyticsTrackerBare" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/AndroidUtils.java">
+<violation beginline="70" endline="1339" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.client" class="AndroidUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="71" endline="1339" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client" class="AndroidUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/AndroidUtilsUI.java">
+<violation beginline="77" endline="1187" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.client" class="AndroidUtilsUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="78" endline="1187" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client" class="AndroidUtilsUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="373" endline="508" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client" class="AndroidUtilsUI" method="createTextBoxDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/AppCompatActivityM.java">
+<violation beginline="42" endline="264" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client" class="AppCompatActivityM" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/AppPreferences.java">
+<violation beginline="49" endline="759" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client" class="AppPreferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/BiglyBTApp.java">
+<violation beginline="102" endline="303" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client" class="BiglyBTApp" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/IAnalyticsTracker.java">
+<violation beginline="25" endline="65" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client" class="IAnalyticsTracker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/activity/IntentHandler.java">
+<violation beginline="55" endline="488" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.activity" class="IntentHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="157" endline="286" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.activity" class="IntentHandler" method="handleIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/activity/LoginActivity.java">
+<violation beginline="60" endline="422" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.activity" class="LoginActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/activity/MetaSearchActivity.java">
+<violation beginline="77" endline="1040" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.activity" class="MetaSearchActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="152" endline="471" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.activity" class="MetaSearchActivity" method="onCreateWithSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="271" endline="381" begincolumn="32" endcolumn="25" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.activity" class="MetaSearchActivity" method="downloadResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/activity/RcmActivity.java">
+<violation beginline="67" endline="1143" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.client.activity" class="RcmActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="75" endline="1143" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.activity" class="RcmActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="948" endline="1129" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.activity" class="RcmActivity" method="updateFilterTexts" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/activity/SubscriptionListActivity.java">
+<violation beginline="76" endline="858" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.activity" class="SubscriptionListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="152" endline="375" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.activity" class="SubscriptionListActivity" method="onCreateWithSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/activity/SubscriptionResultsActivity.java">
+<violation beginline="79" endline="1282" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.client.activity" class="SubscriptionResultsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="85" endline="1282" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.activity" class="SubscriptionResultsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="167" endline="373" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.activity" class="SubscriptionResultsActivity" method="onCreateWithSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/activity/TorrentDetailsActivity.java">
+<violation beginline="55" endline="339" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.activity" class="TorrentDetailsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/activity/TorrentOpenOptionsActivity.java">
+<violation beginline="65" endline="309" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.biglybt.android.client.activity" class="TorrentOpenOptionsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TorrentOpenOptionsActivity' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=5, WMC=15)
+</violation>
+<violation beginline="68" endline="309" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.activity" class="TorrentOpenOptionsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/activity/TorrentViewActivity.java">
+<violation beginline="74" endline="953" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.activity" class="TorrentViewActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="376" endline="476" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.activity" class="TorrentViewActivity" method="handleMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/adapter/FilesTreeFilter.java">
+<violation beginline="38" endline="758" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.adapter" class="FilesTreeFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="263" endline="379" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.adapter" class="FilesTreeFilter" method="performTreeFiltering" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/adapter/MetaSearchEnginesInfo.java">
+<violation beginline="27" endline="56" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.biglybt.android.client.adapter" class="MetaSearchEnginesInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MetaSearchEnginesInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/adapter/RcmAdapterFilter.java">
+<violation beginline="38" endline="390" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.adapter" class="RcmAdapterFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/adapter/SubscriptionListAdapterFilter.java">
+<violation beginline="35" endline="244" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.biglybt.android.client.adapter" class="SubscriptionListAdapterFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubscriptionListAdapterFilter' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/adapter/TorrentListFilter.java">
+<violation beginline="40" endline="920" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.biglybt.android.client.adapter" class="TorrentListFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TorrentListFilter' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=1, WMC=22)
+</violation>
+<violation beginline="409" endline="910" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.adapter" class="TorrentListFilter" method="createSortDefinitions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/adapter/TorrentListRowFiller.java">
+<violation beginline="80" endline="361" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.adapter" class="TorrentListRowFiller" method="fillHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/dialog/DialogFragmentDateRange.java">
+<violation beginline="177" endline="327" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.dialog" class="DialogFragmentDateRange" method="setupPickers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/dialog/DialogFragmentMoveData.java">
+<violation beginline="267" endline="438" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.dialog" class="DialogFragmentMoveData" method="setupWidgets" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/dialog/DialogFragmentNumberPicker.java">
+<violation beginline="89" endline="324" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.dialog" class="DialogFragmentNumberPicker" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/dialog/DialogFragmentRefreshInterval.java">
+<violation beginline="65" endline="211" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.dialog" class="DialogFragmentRefreshInterval" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/fragment/FilesFragment.java">
+<violation beginline="76" endline="1740" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="FilesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="81" endline="1740" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.fragment" class="FilesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="594" endline="838" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="FilesFragment" method="prepareContextMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="842" endline="989" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="FilesFragment" method="handleMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1154" endline="1320" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="FilesFragment" method="reallyStreamFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/fragment/PrefFragmentHandler.java">
+<violation beginline="138" endline="294" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="PrefFragmentHandler" method="onPreferenceTreeClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="308" endline="484" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="PrefFragmentHandler" method="updateWidgetsOnUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/fragment/TorrentDetailPage.java">
+<violation beginline="47" endline="373" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.fragment" class="TorrentDetailPage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/fragment/TorrentDetailsFragment.java">
+<violation beginline="58" endline="372" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.fragment" class="TorrentDetailsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/fragment/TorrentListFragment.java">
+<violation beginline="67" endline="1500" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="TorrentListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="73" endline="1500" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.fragment" class="TorrentListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="248" endline="367" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="TorrentListFragment" method="onCreateViewWithSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="370" endline="474" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="TorrentListFragment" method="onActivityCreated" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1006" endline="1150" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.fragment" class="TorrentListFragment" method="setupActionModeCallback" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/fragment/TorrentTagsFragment.java">
+<violation beginline="46" endline="345" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.fragment" class="TorrentTagsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/rpc/RestJsonClientOkHttp.java">
+<violation beginline="83" endline="320" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.rpc" class="RestJsonClientOkHttp" method="connect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/rpc/TransmissionRPC.java">
+<violation beginline="39" endline="1336" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.client.rpc" class="TransmissionRPC" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="40" endline="1336" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.rpc" class="TransmissionRPC" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="378" endline="593" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.rpc" class="TransmissionRPC" method="getTorrents" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="602" endline="710" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.rpc" class="TransmissionRPC" method="sendRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/session/Session.java">
+<violation beginline="53" endline="1104" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.client.session" class="Session" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="55" endline="1104" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.session" class="Session" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/session/SessionManager.java">
+<violation beginline="37" endline="333" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.session" class="SessionManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/session/Session_Torrent.java">
+<violation beginline="53" endline="894" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.session" class="Session_Torrent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="144" endline="254" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.session" class="Session_Torrent" method="addRemoveTorrents" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/sidelist/SideListActivity.java">
+<violation beginline="45" endline="205" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.sidelist" class="SideListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/sidelist/SideListHelper.java">
+<violation beginline="71" endline="1623" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.android.client.sidelist" class="SideListHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="76" endline="1623" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.android.client.sidelist" class="SideListHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="181" endline="315" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.sidelist" class="SideListHelper" method="SideListHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="613" endline="729" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.sidelist" class="SideListHelper$SideListEntry" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/spanbubbles/DrawableTag.java">
+<violation beginline="34" endline="592" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.biglybt.android.client.spanbubbles" class="DrawableTag" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DrawableTag' is suspected to be a Data Class (WOC=16.667%, NOPA=2, NOAM=4, WMC=18)
+</violation>
+<violation beginline="178" endline="522" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.spanbubbles" class="DrawableTag" method="draw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/client/spanbubbles/SpanTags.java">
+<violation beginline="183" endline="315" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.client.spanbubbles" class="SpanTags" method="setTagBubbles" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/android/util/PaulBurkeFileUtils.java">
+<violation beginline="57" endline="202" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.biglybt.android.util" class="PaulBurkeFileUtils" method="getPath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/BiglyBT/src/main/java/com/biglybt/util/DisplayFormatters.java">
+<violation beginline="54" endline="1266" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.biglybt.util" class="DisplayFormatters" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="55" endline="1266" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.biglybt.util" class="DisplayFormatters" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/jiechic-tray-version/jiechic-tray/src/androidTest/java/net/grandcentrix/tray/TrayTest.java">
+<violation beginline="34" endline="215" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.grandcentrix.tray" class="TrayTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/jiechic-tray-version/jiechic-tray/src/androidTest/java/net/grandcentrix/tray/core/PreferenceTest.java">
+<violation beginline="33" endline="316" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.grandcentrix.tray.core" class="PreferenceTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/jiechic-tray-version/jiechic-tray/src/androidTest/java/net/grandcentrix/tray/core/SharedPreferencesImportTest.java">
+<violation beginline="30" endline="173" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.grandcentrix.tray.core" class="SharedPreferencesImportTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/jiechic-tray-version/jiechic-tray/src/androidTest/java/net/grandcentrix/tray/provider/ContentProviderStorageTest.java">
+<violation beginline="39" endline="675" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.grandcentrix.tray.provider" class="ContentProviderStorageTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/jiechic-tray-version/jiechic-tray/src/androidTest/java/net/grandcentrix/tray/provider/TrayProviderHelperTest.java">
+<violation beginline="44" endline="626" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.grandcentrix.tray.provider" class="TrayProviderHelperTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/jiechic-tray-version/jiechic-tray/src/androidTest/java/net/grandcentrix/tray/provider/TrayProviderTest.java">
+<violation beginline="32" endline="255" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.grandcentrix.tray.provider" class="TrayProviderTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/jiechic-tray-version/jiechic-tray/src/main/java/net/grandcentrix/tray/core/Preferences.java">
+<violation beginline="37" endline="312" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.grandcentrix.tray.core" class="Preferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/jiechic-tray-version/jiechic-tray/src/main/java/net/grandcentrix/tray/provider/TrayDBHelper.java">
+<violation beginline="35" endline="164" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.grandcentrix.tray.provider" class="TrayDBHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TrayDBHelper' is suspected to be a Data Class (WOC=0.000%, NOPA=13, NOAM=0, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/jiechic-tray-version/jiechic-tray/src/main/java/net/grandcentrix/tray/provider/TrayProviderHelper.java">
+<violation beginline="40" endline="278" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.grandcentrix.tray.provider" class="TrayProviderHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/jiechic-tray-version/sample/src/main/java/net/grandcentrix/tray/sample/SampleActivity.java">
+<violation beginline="48" endline="342" begincolumn="87" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.grandcentrix.tray.sample" class="SampleActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BiglyBT-Android/pagerSlidingTabStrip/src/main/java/com/astuetz/PagerSlidingTabStrip.java">
+<violation beginline="46" endline="828" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.astuetz" class="PagerSlidingTabStrip" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="118" endline="224" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.astuetz" class="PagerSlidingTabStrip" method="PagerSlidingTabStrip" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:36:55.902">
+<file name="/home/matheus/smell-and-machine-learning/repositories/dscautorename/src/ro/ciubex/dscautorename/DSCApplication.java">
+<violation beginline="85" endline="2089" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ro.ciubex.dscautorename" class="DSCApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="85" endline="2089" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ro.ciubex.dscautorename" class="DSCApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/dscautorename/src/ro/ciubex/dscautorename/activity/RenameDlgActivity.java">
+<violation beginline="51" endline="307" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ro.ciubex.dscautorename.activity" class="RenameDlgActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/dscautorename/src/ro/ciubex/dscautorename/activity/SettingsActivity.java">
+<violation beginline="98" endline="1723" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ro.ciubex.dscautorename.activity" class="SettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="101" endline="1723" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ro.ciubex.dscautorename.activity" class="SettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="238" endline="370" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ro.ciubex.dscautorename.activity" class="SettingsActivity" method="initCommands" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/dscautorename/src/ro/ciubex/dscautorename/dialog/FileNamePatternEditorDialog.java">
+<violation beginline="53" endline="424" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ro.ciubex.dscautorename.dialog" class="FileNamePatternEditorDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/dscautorename/src/ro/ciubex/dscautorename/dialog/SelectFoldersListDialog.java">
+<violation beginline="48" endline="259" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ro.ciubex.dscautorename.dialog" class="SelectFoldersListDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/dscautorename/src/ro/ciubex/dscautorename/model/FileItem.java">
+<violation beginline="29" endline="124" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="ro.ciubex.dscautorename.model" class="FileItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FileItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/dscautorename/src/ro/ciubex/dscautorename/service/CameraRenameService.java">
+<violation beginline="45" endline="244" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ro.ciubex.dscautorename.service" class="CameraRenameService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/dscautorename/src/ro/ciubex/dscautorename/task/FileRenameThread.java">
+<violation beginline="61" endline="1308" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ro.ciubex.dscautorename.task" class="FileRenameThread" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="61" endline="1308" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ro.ciubex.dscautorename.task" class="FileRenameThread" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/dscautorename/src/ro/ciubex/dscautorename/task/SettingsFileUtilAsyncTask.java">
+<violation beginline="53" endline="402" begincolumn="87" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ro.ciubex.dscautorename.task" class="SettingsFileUtilAsyncTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/dscautorename/src/ro/ciubex/dscautorename/util/Utilities.java">
+<violation beginline="56" endline="742" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ro.ciubex.dscautorename.util" class="Utilities" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

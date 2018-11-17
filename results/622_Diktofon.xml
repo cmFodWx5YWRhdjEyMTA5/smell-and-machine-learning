@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:22:22.306">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Diktofon/app/src/kaljurand_at_gmail_dot_com/diktofon/Recording.java">
+<violation beginline="42" endline="644" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="kaljurand_at_gmail_dot_com.diktofon" class="Recording" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Diktofon/app/src/kaljurand_at_gmail_dot_com/diktofon/activity/RecorderActivity.java">
+<violation beginline="51" endline="390" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="kaljurand_at_gmail_dot_com.diktofon.activity" class="RecorderActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Diktofon/app/src/kaljurand_at_gmail_dot_com/diktofon/activity/RecordingListActivity.java">
+<violation beginline="79" endline="620" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="kaljurand_at_gmail_dot_com.diktofon.activity" class="RecordingListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Diktofon/app/src/kaljurand_at_gmail_dot_com/diktofon/activity/TransActivity.java">
+<violation beginline="82" endline="660" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="kaljurand_at_gmail_dot_com.diktofon.activity" class="TransActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Diktofon/app/src/kaljurand_at_gmail_dot_com/diktofon/service/PlayerService.java">
+<violation beginline="38" endline="259" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="kaljurand_at_gmail_dot_com.diktofon.service" class="PlayerService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:41:06.594">
+<file name="/home/matheus/smell-and-machine-learning/repositories/TraductorSoftcatalaAndroid/app/src/main/java/org/softcatala/traductor/Speech/SpeechAndroid.java">
+<violation beginline="32" endline="156" begincolumn="110" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.softcatala.traductor.Speech" class="SpeechAndroid" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TraductorSoftcatalaAndroid/app/src/main/java/org/softcatala/traductor/Speech/SpeechRemote.java">
+<violation beginline="31" endline="162" begincolumn="112" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.softcatala.traductor.Speech" class="SpeechRemote" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TraductorSoftcatalaAndroid/app/src/main/java/org/softcatala/traductor/TraductorSoftcatalaActivity.java">
+<violation beginline="53" endline="329" begincolumn="106" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.softcatala.traductor" class="TraductorSoftcatalaActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:46:26.580">
+<file name="/home/matheus/smell-and-machine-learning/repositories/mosmetro-android/app/src/main/java/pw/thedrhax/mosmetro/activities/SettingsActivity.java">
+<violation beginline="383" endline="501" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="pw.thedrhax.mosmetro.activities" class="SettingsActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mosmetro-android/app/src/main/java/pw/thedrhax/mosmetro/authenticator/providers/MosMetroV1.java">
+<violation beginline="50" endline="153" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="pw.thedrhax.mosmetro.authenticator.providers" class="MosMetroV1" method="MosMetroV1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mosmetro-android/app/src/main/java/pw/thedrhax/mosmetro/authenticator/providers/MosMetroV2.java">
+<violation beginline="60" endline="351" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="pw.thedrhax.mosmetro.authenticator.providers" class="MosMetroV2" method="MosMetroV2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mosmetro-android/app/src/main/java/pw/thedrhax/mosmetro/authenticator/providers/MosMetroV3.java">
+<violation beginline="52" endline="248" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="pw.thedrhax.mosmetro.authenticator.providers" class="MosMetroV3" method="MosMetroV3" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mosmetro-android/app/src/main/java/pw/thedrhax/mosmetro/httpclient/Client.java">
+<violation beginline="37" endline="239" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pw.thedrhax.mosmetro.httpclient" class="Client" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mosmetro-android/app/src/main/java/pw/thedrhax/mosmetro/services/ConnectionService.java">
+<violation beginline="316" endline="416" begincolumn="13" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="pw.thedrhax.mosmetro.services" class="ConnectionService" method="main" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mosmetro-android/app/src/main/java/pw/thedrhax/util/Logger.java">
+<violation beginline="44" endline="261" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pw.thedrhax.util" class="Logger" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/mosmetro-android/app/src/main/java/pw/thedrhax/util/Notify.java">
+<violation beginline="31" endline="143" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pw.thedrhax.util" class="Notify" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

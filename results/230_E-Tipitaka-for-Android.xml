@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:56:43.196">
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/biz/source_code/base64Coder/Base64Coder.java">
+<violation beginline="29" endline="226" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="biz.source_code.base64Coder" class="Base64Coder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/BookmarkEnglishActivity.java">
+<violation beginline="35" endline="441" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.yuttadhammo.tipitaka" class="BookmarkEnglishActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/BookmarkItem.java">
+<violation beginline="3" endline="96" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.yuttadhammo.tipitaka" class="BookmarkItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BookmarkItem' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=10, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/BookmarkPaliActivity.java">
+<violation beginline="36" endline="542" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.yuttadhammo.tipitaka" class="BookmarkPaliActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="57" endline="196" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="BookmarkPaliActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/BookmarkThaiActivity.java">
+<violation beginline="34" endline="524" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.yuttadhammo.tipitaka" class="BookmarkThaiActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="254" endline="387" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="BookmarkThaiActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/DictionaryActivity.java">
+<violation beginline="42" endline="488" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.yuttadhammo.tipitaka" class="DictionaryActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/EnglishActivity.java">
+<violation beginline="66" endline="521" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.yuttadhammo.tipitaka" class="EnglishActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/QuizButton.java">
+<violation beginline="3" endline="29" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.yuttadhammo.tipitaka" class="QuizButton" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'QuizButton' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/ReadBookActivity.java">
+<violation beginline="66" endline="1098" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="ReadBookActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="66" endline="1098" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.yuttadhammo.tipitaka" class="ReadBookActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="136" endline="315" begincolumn="12" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="ReadBookActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/SearchActivity.java">
+<violation beginline="47" endline="1450" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SearchActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="47" endline="1450" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SearchActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="125" endline="487" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SearchActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="659" endline="803" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SearchActivity" method="showResults" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="968" endline="1095" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SearchActivity" method="convertToCursor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/SearchDialog.java">
+<violation beginline="45" endline="963" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SearchDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="79" endline="301" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SearchDialog" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/SearchHistoryDBAdapter.java">
+<violation beginline="271" endline="457" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SearchHistoryDBAdapter$SearchHistoryDBHelper" method="onUpgrade" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/SearchHistoryItem.java">
+<violation beginline="3" endline="204" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SearchHistoryItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SearchHistoryItem' is suspected to be a Data Class (WOC=24.000%, NOPA=0, NOAM=14, WMC=30)
+</violation>
+<violation beginline="57" endline="58" begincolumn="33" endcolumn="96" rule="ExcessiveParameterList" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SearchHistoryItem" method="SearchHistoryItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/SelectBookActivity.java">
+<violation beginline="47" endline="201" begincolumn="16" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SelectBookActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/SettingsActivity.java">
+<violation beginline="35" endline="162" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.tipitaka" class="SettingsActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/E-Tipitaka-for-Android/src/org/yuttadhammo/tipitaka/eBookmarkItem.java">
+<violation beginline="3" endline="45" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.yuttadhammo.tipitaka" class="eBookmarkItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'eBookmarkItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=8)
+</violation>
+</file>
+</pmd>

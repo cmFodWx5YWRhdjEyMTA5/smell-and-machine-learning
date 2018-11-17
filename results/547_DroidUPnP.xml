@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:10:22.599">
+<file name="/home/matheus/smell-and-machine-learning/repositories/DroidUPnP/src/main/java/fi/iki/elonen/NanoHTTPD.java">
+<violation beginline="58" endline="1127" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="fi.iki.elonen" class="NanoHTTPD" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="58" endline="1127" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fi.iki.elonen" class="NanoHTTPD" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="451" endline="623" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="fi.iki.elonen" class="NanoHTTPD" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Response' is suspected to be a Data Class (WOC=8.333%, NOPA=0, NOAM=8, WMC=30)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/DroidUPnP/src/main/java/org/droidupnp/controller/cling/RendererCommand.java">
+<violation beginline="60" endline="565" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.droidupnp.controller.cling" class="RendererCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/DroidUPnP/src/main/java/org/droidupnp/model/cling/RendererState.java">
+<violation beginline="30" endline="245" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.droidupnp.model.cling" class="RendererState" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RendererState' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=5, WMC=21)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/DroidUPnP/src/main/java/org/droidupnp/model/mediaserver/ContentDirectoryService.java">
+<violation beginline="49" endline="313" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.droidupnp.model.mediaserver" class="ContentDirectoryService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ContentDirectoryService' is suspected to be a Data Class (WOC=25.000%, NOPA=16, NOAM=1, WMC=4)
+</violation>
+<violation beginline="104" endline="312" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.droidupnp.model.mediaserver" class="ContentDirectoryService" method="browse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/DroidUPnP/src/main/java/org/droidupnp/model/upnp/IRendererCommand.java">
+<violation beginline="24" endline="62" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.droidupnp.model.upnp" class="IRendererCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/DroidUPnP/src/main/java/org/droidupnp/view/ContentDirectoryFragment.java">
+<violation beginline="63" endline="578" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.droidupnp.view" class="ContentDirectoryFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/DroidUPnP/src/main/java/org/droidupnp/view/RendererFragment.java">
+<violation beginline="50" endline="508" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.droidupnp.view" class="RendererFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="376" endline="501" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.droidupnp.view" class="RendererFragment" method="SetupButtonListeners" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/DroidUPnP/src/main/java/org/droidupnp/view/UpnpDeviceListFragment.java">
+<violation beginline="40" endline="198" begincolumn="103" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.droidupnp.view" class="UpnpDeviceListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

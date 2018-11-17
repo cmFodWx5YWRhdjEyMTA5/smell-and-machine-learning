@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:13:01.052">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/androidTest/java/com.ichi2.anki.tests/ContentProviderTest.java">
+<violation beginline="69" endline="971" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki.tests" class="ContentProviderTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java">
+<violation beginline="109" endline="2823" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ichi2.anki" class="AbstractFlashcardViewer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="109" endline="2823" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="AbstractFlashcardViewer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1292" endline="1417" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="AbstractFlashcardViewer" method="initLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1421" endline="1537" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="AbstractFlashcardViewer" method="createWebView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/AnkiActivity.java">
+<violation beginline="40" endline="470" begincolumn="112" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="AnkiActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java">
+<violation beginline="89" endline="1830" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ichi2.anki" class="CardBrowser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="90" endline="1830" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="CardBrowser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="366" endline="546" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="CardBrowser" method="onCollectionLoaded" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="717" endline="867" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="CardBrowser" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java">
+<violation beginline="360" endline="775" begincolumn="62" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="CardTemplateEditor$CardTemplateFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/DeckOptions.java">
+<violation beginline="75" endline="865" begincolumn="106" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="DeckOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="151" endline="493" begincolumn="65" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="DeckOptions$DeckPreferenceHack$Editor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="165" endline="388" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="DeckOptions$DeckPreferenceHack$Editor" method="commit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java">
+<violation beginline="119" endline="2346" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ichi2.anki" class="DeckPicker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="122" endline="2346" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="DeckPicker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="895" endline="1038" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="DeckPicker" method="showStartupScreensAndDialogs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1503" endline="1650" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="DeckPicker" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/MetaDB.java">
+<violation beginline="25" endline="456" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="MetaDB" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java">
+<violation beginline="61" endline="677" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="ModelBrowser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/ModelFieldEditor.java">
+<violation beginline="46" endline="568" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="ModelFieldEditor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/NavigationDrawerActivity.java">
+<violation beginline="41" endline="359" begincolumn="128" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="NavigationDrawerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java">
+<violation beginline="102" endline="1733" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ichi2.anki" class="NoteEditor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="102" endline="1733" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="NoteEditor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="330" endline="543" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="NoteEditor" method="onCollectionLoaded" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java">
+<violation beginline="90" endline="785" begincolumn="125" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="Preferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="184" endline="335" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="Preferences" method="initSubscreen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="423" endline="557" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="Preferences" method="updatePreference" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java">
+<violation beginline="55" endline="666" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="Reviewer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="161" endline="263" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="Reviewer" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsActivity.java">
+<violation beginline="32" endline="149" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="StudyOptionsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java">
+<violation beginline="48" endline="679" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="StudyOptionsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="504" endline="674" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="StudyOptionsFragment" method="getDeckTaskListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="512" endline="662" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki" class="StudyOptionsFragment" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/Whiteboard.java">
+<violation beginline="42" endline="415" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki" class="Whiteboard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/CustomStudyDialog.java">
+<violation beginline="199" endline="321" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki.dialogs" class="CustomStudyDialog" method="buildInputDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java">
+<violation beginline="53" endline="276" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki.dialogs" class="DatabaseErrorDialog" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/SyncErrorDialog.java">
+<violation beginline="51" endline="157" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki.dialogs" class="SyncErrorDialog" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/LoadPronounciationActivity.java">
+<violation beginline="55" endline="452" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki.multimediacard.activity" class="LoadPronounciationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity.java">
+<violation beginline="52" endline="312" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki.multimediacard.activity" class="MultimediaEditFieldActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/TranslationActivity.java">
+<violation beginline="60" endline="435" begincolumn="120" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki.multimediacard.activity" class="TranslationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java">
+<violation beginline="51" endline="382" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki.multimediacard.fields" class="BasicTextFieldController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/glosbe/json/Meaning.java">
+<violation beginline="25" endline="48" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.ichi2.anki.multimediacard.glosbe.json" class="Meaning" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Meaning' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/glosbe/json/Phrase.java">
+<violation beginline="25" endline="48" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.ichi2.anki.multimediacard.glosbe.json" class="Phrase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Phrase' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/glosbe/json/Response.java">
+<violation beginline="28" endline="84" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.ichi2.anki.multimediacard.glosbe.json" class="Response" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Response' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/glosbe/json/Tuc.java">
+<violation beginline="27" endline="72" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.ichi2.anki.multimediacard.glosbe.json" class="Tuc" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Tuc' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java">
+<violation beginline="89" endline="1376" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ichi2.anki.provider" class="CardContentProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="89" endline="1376" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki.provider" class="CardContentProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="208" endline="405" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki.provider" class="CardContentProvider" method="query" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="416" endline="684" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki.provider" class="CardContentProvider" method="update" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="826" endline="1042" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.anki.provider" class="CardContentProvider" method="insert" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/stats/StatsMetaInfo.java">
+<violation beginline="24" endline="189" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.ichi2.anki.stats" class="StatsMetaInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StatsMetaInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=36, WMC=36)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/anki/widgets/DeckAdapter.java">
+<violation beginline="76" endline="95" begincolumn="12" endcolumn="5" rule="DataClass" ruleset="Design" package="com.ichi2.anki.widgets" class="DeckAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/async/Connection.java">
+<violation beginline="50" endline="534" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.async" class="Connection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="263" endline="463" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.async" class="Connection" method="doInBackgroundSync" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="508" endline="523" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.ichi2.async" class="Connection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Payload' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/async/DeckTask.java">
+<violation beginline="69" endline="1770" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ichi2.async" class="DeckTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="69" endline="1770" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.async" class="DeckTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="209" endline="353" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.async" class="DeckTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="628" endline="770" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.async" class="DeckTask" method="doInBackgroundDismissNotes" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="949" endline="1070" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.async" class="DeckTask" method="doInBackgroundImportReplace" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/compat/Compat.java">
+<violation beginline="59" endline="91" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.compat" class="Compat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/compat/CompatV15.java">
+<violation beginline="58" endline="244" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.compat" class="CompatV15" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Card.java">
+<violation beginline="65" endline="651" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Card" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Collection.java">
+<violation beginline="68" endline="1802" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Collection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/DB.java">
+<violation beginline="45" endline="343" begincolumn="17" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="DB" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Decks.java">
+<violation beginline="52" endline="1031" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Decks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Finder.java">
+<violation beginline="50" endline="1118" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Finder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Media.java">
+<violation beginline="76" endline="979" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Media" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Models.java">
+<violation beginline="46" endline="1431" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Models" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Note.java">
+<violation beginline="37" endline="397" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Note" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Sched.java">
+<violation beginline="58" endline="2568" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Sched" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2511" endline="2567" begincolumn="12" endcolumn="5" rule="DataClass" ruleset="Design" package="com.ichi2.libanki" class="Sched" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DeckDueTreeNode' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Sound.java">
+<violation beginline="55" endline="462" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Sound" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Stats.java">
+<violation beginline="46" endline="1295" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Stats" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Storage.java">
+<violation beginline="38" endline="366" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Storage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Tags.java">
+<violation beginline="52" endline="406" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Tags" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/Utils.java">
+<violation beginline="78" endline="975" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/hooks/AdvancedStatistics.java">
+<violation beginline="402" endline="502" begincolumn="13" endcolumn="5" rule="DataClass" ruleset="Design" package="com.ichi2.libanki.hooks" class="AdvancedStatistics" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Card' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=11, WMC=17)
+</violation>
+<violation beginline="539" endline="570" begincolumn="13" endcolumn="5" rule="DataClass" ruleset="Design" package="com.ichi2.libanki.hooks" class="AdvancedStatistics" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Deck' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/importer/Anki2Importer.java">
+<violation beginline="53" endline="786" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki.importer" class="Anki2Importer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/sync/HttpSyncer.java">
+<violation beginline="70" endline="429" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki.sync" class="HttpSyncer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/sync/RemoteServer.java">
+<violation beginline="35" endline="144" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki.sync" class="RemoteServer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/libanki/sync/Syncer.java">
+<violation beginline="51" endline="920" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.libanki.sync" class="Syncer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/utils/Base64.java">
+<violation beginline="45" endline="1883" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ichi2.utils" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="45" endline="1883" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.utils" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="730" endline="841" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.utils" class="Base64" method="encodeBytesToBytes" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/ichi2/utils/DiffEngine.java">
+<violation beginline="43" endline="1166" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ichi2.utils" class="DiffEngine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="43" endline="1166" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.utils" class="DiffEngine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="159" endline="276" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.utils" class="DiffEngine" method="diff_compute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="366" endline="482" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.utils" class="DiffEngine" method="diff_map" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="931" endline="1066" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ichi2.utils" class="DiffEngine" method="diff_cleanupMerge" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/wildplot/android/rendering/PlotSheet.java">
+<violation beginline="187" endline="293" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.wildplot.android.rendering" class="PlotSheet" method="paint" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/wildplot/android/rendering/graphics/wrapper/ColorWrap.java">
+<violation beginline="18" endline="90" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wildplot.android.rendering.graphics.wrapper" class="ColorWrap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ColorWrap' is suspected to be a Data Class (WOC=10.000%, NOPA=9, NOAM=3, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/AnkiDroid/src/main/java/com/wildplot/android/rendering/graphics/wrapper/RectangleWrap.java">
+<violation beginline="20" endline="49" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.wildplot.android.rendering.graphics.wrapper" class="RectangleWrap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RectangleWrap' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=2, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/api/src/main/java/com/ichi2/anki/FlashCardsContract.java">
+<violation beginline="109" endline="1188" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ichi2.anki" class="FlashCardsContract" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Anki-Android/api/src/main/java/com/ichi2/anki/api/AddContentApi.java">
+<violation beginline="57" endline="743" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ichi2.anki.api" class="AddContentApi" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

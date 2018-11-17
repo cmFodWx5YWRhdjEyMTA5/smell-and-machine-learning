@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:12:39.187">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/activity/AddServerActivity.java">
+<violation beginline="67" endline="573" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="indrora.atomic.activity" class="AddServerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="91" endline="198" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="indrora.atomic.activity" class="AddServerActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/activity/ConversationActivity.java">
+<violation beginline="106" endline="1426" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="indrora.atomic.activity" class="ConversationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="108" endline="1426" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="indrora.atomic.activity" class="ConversationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="219" endline="396" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="indrora.atomic.activity" class="ConversationActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="487" endline="589" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="indrora.atomic.activity" class="ConversationActivity" method="onResume" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="662" endline="894" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="indrora.atomic.activity" class="ConversationActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1192" endline="1304" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="indrora.atomic.activity" class="ConversationActivity" method="doNickCompletion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/activity/ServersActivity.java">
+<violation beginline="76" endline="450" begincolumn="147" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="indrora.atomic.activity" class="ServersActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/db/Database.java">
+<violation beginline="45" endline="660" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="indrora.atomic.db" class="Database" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/indicator/ConversationTitlePageIndicator.java">
+<violation beginline="55" endline="833" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="indrora.atomic.indicator" class="ConversationTitlePageIndicator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="332" endline="499" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="indrora.atomic.indicator" class="ConversationTitlePageIndicator" method="onDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/irc/IRCConnection.java">
+<violation beginline="61" endline="1376" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="indrora.atomic.irc" class="IRCConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="61" endline="1376" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="indrora.atomic.irc" class="IRCConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/irc/IRCService.java">
+<violation beginline="80" endline="848" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="indrora.atomic.irc" class="IRCService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="639" endline="761" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="indrora.atomic.irc" class="IRCService" method="connect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="649" endline="759" begincolumn="14" endcolumn="7" rule="ExcessiveMethodLength" ruleset="Design" package="indrora.atomic.irc" class="IRCService" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/model/Authentication.java">
+<violation beginline="28" endline="116" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="indrora.atomic.model" class="Authentication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Authentication' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=6, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/model/Identity.java">
+<violation beginline="33" endline="111" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="indrora.atomic.model" class="Identity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Identity' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=7, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/model/Message.java">
+<violation beginline="49" endline="560" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="indrora.atomic.model" class="Message" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="331" endline="439" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="indrora.atomic.model" class="Message" method="render" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/indrora/atomic/model/Settings.java">
+<violation beginline="42" endline="455" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="indrora.atomic.model" class="Settings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/org/jibble/pircbot/DccFileTransfer.java">
+<violation beginline="39" endline="39" begincolumn="18" endcolumn="159" rule="ExcessiveParameterList" ruleset="Design" package="org.jibble.pircbot" class="DccFileTransfer" method="DccFileTransfer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="168" endline="269" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.jibble.pircbot" class="DccFileTransfer" method="doSend" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/application/src/main/java/org/jibble/pircbot/PircBot.java">
+<violation beginline="94" endline="3295" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.jibble.pircbot" class="PircBot" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="94" endline="3295" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.jibble.pircbot" class="PircBot" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="156" endline="278" begincolumn="29" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.jibble.pircbot" class="PircBot" method="connect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="922" endline="1195" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.jibble.pircbot" class="PircBot" method="handleLine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1634" endline="1751" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.jibble.pircbot" class="PircBot" method="processMode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/colorPickerView/src/main/java/afzkl/development/colorpickerview/view/ColorPickerView.java">
+<violation beginline="62" endline="1082" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="afzkl.development.colorpickerview.view" class="ColorPickerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="62" endline="1082" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="afzkl.development.colorpickerview.view" class="ColorPickerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/memorizingTrustManager/src/main/java/de/duenndns/ssl/MemorizingTrustManager.java">
+<violation beginline="71" endline="678" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.duenndns.ssl" class="MemorizingTrustManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/viewPagerIndicator/src/main/java/com/viewpagerindicator/CirclePageIndicator.java">
+<violation beginline="43" endline="546" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.viewpagerindicator" class="CirclePageIndicator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/viewPagerIndicator/src/main/java/com/viewpagerindicator/LinePageIndicator.java">
+<violation beginline="38" endline="439" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.viewpagerindicator" class="LinePageIndicator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Atomic/viewPagerIndicator/src/main/java/com/viewpagerindicator/TitlePageIndicator.java">
+<violation beginline="46" endline="808" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.viewpagerindicator" class="TitlePageIndicator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="318" endline="482" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.viewpagerindicator" class="TitlePageIndicator" method="onDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

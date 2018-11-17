@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:21:14.548">
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/net/micode/fileexplorer/FTPServerService.java">
+<violation beginline="55" endline="639" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.micode.fileexplorer" class="FTPServerService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="290" endline="428" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="net.micode.fileexplorer" class="FTPServerService" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/net/micode/fileexplorer/FavoriteItem.java">
+<violation beginline="22" endline="43" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.micode.fileexplorer" class="FavoriteItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FavoriteItem' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/net/micode/fileexplorer/FileCategoryActivity.java">
+<violation beginline="37" endline="620" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.micode.fileexplorer" class="FileCategoryActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/net/micode/fileexplorer/FileOperationHelper.java">
+<violation beginline="31" endline="305" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.micode.fileexplorer" class="FileOperationHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/net/micode/fileexplorer/FileViewActivity.java">
+<violation beginline="50" endline="478" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.micode.fileexplorer" class="FileViewActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/net/micode/fileexplorer/FileViewInteractionHub.java">
+<violation beginline="65" endline="1099" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="net.micode.fileexplorer" class="FileViewInteractionHub" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="65" endline="1099" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.micode.fileexplorer" class="FileViewInteractionHub" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/net/micode/fileexplorer/IFileInteractionListener.java">
+<violation beginline="28" endline="73" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.micode.fileexplorer" class="IFileInteractionListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/net/micode/fileexplorer/Util.java">
+<violation beginline="48" endline="424" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.micode.fileexplorer" class="Util" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/org/swiftp/CmdAbstractStore.java">
+<violation beginline="42" endline="211" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.swiftp" class="CmdAbstractStore" method="doStorOrAppe" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/org/swiftp/CmdRETR.java">
+<violation beginline="38" endline="147" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.swiftp" class="CmdRETR" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/org/swiftp/ProxyConnector.java">
+<violation beginline="45" endline="795" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.swiftp" class="ProxyConnector" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/org/swiftp/ProxyDataSocketInfo.java">
+<violation beginline="24" endline="49" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.swiftp" class="ProxyDataSocketInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProxyDataSocketInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FileExplorer/src/org/swiftp/SessionThread.java">
+<violation beginline="38" endline="440" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.swiftp" class="SessionThread" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

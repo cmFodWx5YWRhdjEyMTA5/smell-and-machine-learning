@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:17:27.241">
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/com/tortel/syslog/FragmentMainActivity.java">
+<violation beginline="31" endline="169" begincolumn="108" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tortel.syslog" class="FragmentMainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/com/tortel/syslog/Result.java">
+<violation beginline="28" endline="94" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.tortel.syslog" class="Result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Result' is suspected to be a Data Class (WOC=30.769%, NOPA=0, NOAM=8, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/com/tortel/syslog/RunCommand.java">
+<violation beginline="26" endline="222" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.tortel.syslog" class="RunCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RunCommand' is suspected to be a Data Class (WOC=6.897%, NOPA=1, NOAM=26, WMC=36)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/com/tortel/syslog/fragment/MainFragment.java">
+<violation beginline="169" endline="278" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tortel.syslog.fragment" class="MainFragment" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/com/tortel/syslog/utils/GrabLogThread.java">
+<violation beginline="95" endline="235" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tortel.syslog.utils" class="GrabLogThread" method="runCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/jackpal/androidterm/emulatorview/Bitmap4x8FontRenderer.java">
+<violation beginline="65" endline="68" begincolumn="28" endcolumn="95" rule="ExcessiveParameterList" ruleset="Design" package="jackpal.androidterm.emulatorview" class="Bitmap4x8FontRenderer" method="drawTextRun" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/jackpal/androidterm/emulatorview/ColorScheme.java">
+<violation beginline="34" endline="145" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jackpal.androidterm.emulatorview" class="ColorScheme" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ColorScheme' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/jackpal/androidterm/emulatorview/EmulatorView.java">
+<violation beginline="66" endline="1713" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="EmulatorView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="66" endline="1713" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jackpal.androidterm.emulatorview" class="EmulatorView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="271" endline="420" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="EmulatorView" method="createLinks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="629" endline="917" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="EmulatorView" method="onCreateInputConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/jackpal/androidterm/emulatorview/PaintRenderer.java">
+<violation beginline="39" endline="42" begincolumn="28" endcolumn="95" rule="ExcessiveParameterList" ruleset="Design" package="jackpal.androidterm.emulatorview" class="PaintRenderer" method="drawTextRun" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/jackpal/androidterm/emulatorview/TermKeyListener.java">
+<violation beginline="20" endline="750" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TermKeyListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="40" endline="180" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TermKeyListener" method="initKeyCodes" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="511" endline="631" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TermKeyListener" method="keyDown" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/jackpal/androidterm/emulatorview/TermSession.java">
+<violation beginline="59" endline="450" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TermSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/jackpal/androidterm/emulatorview/TerminalEmulator.java">
+<violation beginline="36" endline="2011" begincolumn="1" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="jackpal.androidterm.emulatorview" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="36" endline="2011" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TerminalEmulator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="436" endline="609" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TerminalEmulator" method="updateSize" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="684" endline="811" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TerminalEmulator" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1167" endline="1393" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TerminalEmulator" method="doEscLeftSquareBracket" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/jackpal/androidterm/emulatorview/TextRenderer.java">
+<violation beginline="59" endline="62" begincolumn="21" endcolumn="95" rule="ExcessiveParameterList" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TextRenderer" method="drawTextRun" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/jackpal/androidterm/emulatorview/TranscriptScreen.java">
+<violation beginline="166" endline="167" begincolumn="31" endcolumn="96" rule="ExcessiveParameterList" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TranscriptScreen" method="drawText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="166" endline="295" begincolumn="18" endcolumn="6" rule="ExcessiveMethodLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TranscriptScreen" method="drawText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="331" endline="431" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="TranscriptScreen" method="internalGetTranscriptText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SysLog/app/src/main/java/jackpal/androidterm/emulatorview/UnicodeTranscript.java">
+<violation beginline="45" endline="863" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jackpal.androidterm.emulatorview" class="UnicodeTranscript" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="940" endline="1139" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jackpal.androidterm.emulatorview" class="FullUnicodeLine" method="setChar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

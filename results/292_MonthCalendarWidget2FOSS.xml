@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:17:12.591">
+<file name="/home/matheus/smell-and-machine-learning/repositories/MonthCalendarWidget2FOSS/gen/com/android/vending/billing/IInAppBillingService.java">
+<violation beginline="62" endline="174" begincolumn="18" endcolumn="1" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.vending.billing" class="IInAppBillingService$Stub" method="onTransact" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MonthCalendarWidget2FOSS/src/com/tobiaskuban/android/monthcalendarwidgetfoss/MonthCalendarWidget.java">
+<violation beginline="119" endline="250" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tobiaskuban.android.monthcalendarwidgetfoss" class="MonthCalendarWidget" method="drawWidget" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MonthCalendarWidget2FOSS/src/com/tobiaskuban/android/monthcalendarwidgetfoss/donation/DonationsFragment.java">
+<violation beginline="111" endline="114" begincolumn="48" endcolumn="90" rule="ExcessiveParameterList" ruleset="Design" package="com.tobiaskuban.android.monthcalendarwidgetfoss.donation" class="DonationsFragment" method="newInstance" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="406" endline="528" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tobiaskuban.android.monthcalendarwidgetfoss.donation" class="DonationsFragment" method="buildFlattrView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MonthCalendarWidget2FOSS/src/com/tobiaskuban/android/monthcalendarwidgetfoss/donation/util/Base64.java">
+<violation beginline="42" endline="571" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tobiaskuban.android.monthcalendarwidgetfoss.donation.util" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MonthCalendarWidget2FOSS/src/com/tobiaskuban/android/monthcalendarwidgetfoss/donation/util/IabHelper.java">
+<violation beginline="72" endline="990" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tobiaskuban.android.monthcalendarwidgetfoss.donation.util" class="IabHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

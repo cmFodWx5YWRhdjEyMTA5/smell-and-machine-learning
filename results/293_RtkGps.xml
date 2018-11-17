@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:17:20.178">
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtkgps/MainActivity.java">
+<violation beginline="37" endline="382" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru0xdc.rtkgps" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtkgps/MapFragment.java">
+<violation beginline="49" endline="412" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru0xdc.rtkgps" class="MapFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtkgps/RtkNaviService.java">
+<violation beginline="28" endline="351" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru0xdc.rtkgps" class="RtkNaviService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtkgps/StatusFragment.java">
+<violation beginline="43" endline="555" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru0xdc.rtkgps" class="StatusFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtkgps/settings/InputRoverFragment.java">
+<violation beginline="31" endline="267" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru0xdc.rtkgps.settings" class="InputRoverFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtkgps/settings/SolutionOutputSettingsFragment.java">
+<violation beginline="72" endline="186" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru0xdc.rtkgps.settings" class="SolutionOutputSettingsFragment" method="readPrefs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtkgps/settings/StationPositionActivity.java">
+<violation beginline="35" endline="464" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru0xdc.rtkgps.settings" class="StationPositionActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtkgps/usb/UsbAcmController.java">
+<violation beginline="46" endline="169" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="ru0xdc.rtkgps.usb" class="UsbAcmController$AcmConfig" method="AcmConfig" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtkgps/view/SnrView.java">
+<violation beginline="183" endline="325" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru0xdc.rtkgps.view" class="SnrView" method="drawSnr" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtkgps/view/SolutionView.java">
+<violation beginline="183" endline="300" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru0xdc.rtkgps.view" class="SolutionView" method="updateCoordinates" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtklib/RtkCommon.java">
+<violation beginline="11" endline="404" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru0xdc.rtklib" class="RtkCommon" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtklib/RtkControlResult.java">
+<violation beginline="57" endline="61" begincolumn="20" endcolumn="13" rule="ExcessiveParameterList" ruleset="Design" package="ru0xdc.rtklib" class="RtkControlResult" method="setStatus1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtklib/RtkServer.java">
+<violation beginline="11" endline="231" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru0xdc.rtklib" class="RtkServer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="214" endline="229" begincolumn="40" endcolumn="13" rule="ExcessiveParameterList" ruleset="Design" package="ru0xdc.rtklib" class="RtkServer" method="_rtksvrstart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtklib/Solution.java">
+<violation beginline="149" endline="159" begincolumn="21" endcolumn="13" rule="ExcessiveParameterList" ruleset="Design" package="ru0xdc.rtklib" class="Solution" method="setSolution" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="238" endline="249" begincolumn="25" endcolumn="17" rule="ExcessiveParameterList" ruleset="Design" package="ru0xdc.rtklib" class="Solution$SolutionBuffer" method="setSolution" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/RtkGps/src/ru0xdc/rtklib/SolutionOptions.java">
+<violation beginline="92" endline="110" begincolumn="19" endcolumn="13" rule="ExcessiveParameterList" ruleset="Design" package="ru0xdc.rtklib" class="SolutionOptions" method="setValues" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+</pmd>

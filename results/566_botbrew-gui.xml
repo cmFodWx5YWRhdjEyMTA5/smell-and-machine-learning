@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:13:03.137">
+<file name="/home/matheus/smell-and-machine-learning/repositories/botbrew-gui/src/com/botbrew/basil/BootstrapActivity.java">
+<violation beginline="53" endline="76" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="com.botbrew.basil" class="BootstrapActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DialogState' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/botbrew-gui/src/com/botbrew/basil/BotBrewApp.java">
+<violation beginline="37" endline="276" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.botbrew.basil" class="BotBrewApp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/botbrew-gui/src/com/botbrew/basil/DatabaseOpenHelper.java">
+<violation beginline="8" endline="36" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.botbrew.basil" class="DatabaseOpenHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DatabaseOpenHelper' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/botbrew-gui/src/com/botbrew/basil/DebianPackageManager.java">
+<violation beginline="23" endline="349" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.botbrew.basil" class="DebianPackageManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/botbrew-gui/src/com/botbrew/basil/MountFs.java">
+<violation beginline="14" endline="40" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="com.botbrew.basil" class="MountFs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MountEntry' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/botbrew-gui/src/com/botbrew/basil/PackageManagerActivity.java">
+<violation beginline="106" endline="215" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.botbrew.basil" class="PackageManagerActivity" method="doInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/botbrew-gui/src/com/botbrew/basil/ServiceListFragment.java">
+<violation beginline="32" endline="126" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="com.botbrew.basil" class="ServiceListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ServiceListEntry' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/botbrew-gui/src/com/botbrew/basil/Shell.java">
+<violation beginline="13" endline="125" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.botbrew.basil" class="Shell" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/botbrew-gui/src/com/botbrew/basil/SupervisorActivity.java">
+<violation beginline="26" endline="197" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.botbrew.basil" class="SupervisorActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

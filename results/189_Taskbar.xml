@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:50:12.499">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/activity/ContextMenuActivity.java">
+<violation beginline="92" endline="226" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.activity" class="ContextMenuActivity" method="onPostCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="229" endline="338" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.activity" class="ContextMenuActivity" method="generateMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="395" endline="660" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.activity" class="ContextMenuActivity" method="onPreferenceClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/activity/HomeActivityDelegate.java">
+<violation beginline="50" endline="403" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.farmerbb.taskbar.activity" class="HomeActivityDelegate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="81" endline="229" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.activity" class="HomeActivityDelegate" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/activity/MainActivity.java">
+<violation beginline="160" endline="294" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.activity" class="MainActivity" method="proceedWithAppLaunch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/fragment/AdvancedFragment.java">
+<violation beginline="148" endline="290" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.fragment" class="AdvancedFragment" method="onPreferenceClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/fragment/AppearanceFragment.java">
+<violation beginline="174" endline="319" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.fragment" class="AppearanceFragment" method="showColorPicker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/fragment/RecentAppsFragment.java">
+<violation beginline="92" endline="202" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.fragment" class="RecentAppsFragment" method="onPreferenceClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/service/DashboardService.java">
+<violation beginline="73" endline="628" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.farmerbb.taskbar.service" class="DashboardService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="190" endline="311" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.service" class="DashboardService" method="drawDashboard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/service/StartMenuService.java">
+<violation beginline="82" endline="742" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.farmerbb.taskbar.service" class="StartMenuService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="191" endline="438" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.service" class="StartMenuService" method="drawStartMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="444" endline="593" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.service" class="StartMenuService" method="refreshApps" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/service/TaskbarService.java">
+<violation beginline="90" endline="1346" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.farmerbb.taskbar.service" class="TaskbarService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="90" endline="1346" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.farmerbb.taskbar.service" class="TaskbarService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="210" endline="542" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.service" class="TaskbarService" method="drawTaskbar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="595" endline="937" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.service" class="TaskbarService" method="updateRecentApps" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/util/AppEntry.java">
+<violation beginline="31" endline="107" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.farmerbb.taskbar.util" class="AppEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AppEntry' is suspected to be a Data Class (WOC=18.182%, NOPA=0, NOAM=8, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/util/FreeformHackHelper.java">
+<violation beginline="18" endline="57" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.farmerbb.taskbar.util" class="FreeformHackHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FreeformHackHelper' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=6, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/util/MenuHelper.java">
+<violation beginline="18" endline="48" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.farmerbb.taskbar.util" class="MenuHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MenuHelper' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/main/java/com/farmerbb/taskbar/util/U.java">
+<violation beginline="83" endline="1506" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.farmerbb.taskbar.util" class="U" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="83" endline="1506" begincolumn="16" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.farmerbb.taskbar.util" class="U" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="627" endline="736" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.util" class="U" method="getTaskbarPosition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/playstore/java/com/farmerbb/taskbar/receiver/ReceiveSettingsReceiver.java">
+<violation beginline="43" endline="162" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.receiver" class="ReceiveSettingsReceiver" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Taskbar/app/src/playstore/java/com/farmerbb/taskbar/receiver/SendSettingsReceiver.java">
+<violation beginline="41" endline="161" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.farmerbb.taskbar.receiver" class="SendSettingsReceiver" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

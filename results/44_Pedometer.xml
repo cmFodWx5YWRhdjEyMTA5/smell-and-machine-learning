@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:15:00.205">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pedometer/src/main/java/de/j4velin/pedometer/Database.java">
+<violation beginline="34" endline="383" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.j4velin.pedometer" class="Database" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pedometer/src/main/java/de/j4velin/pedometer/SensorListener.java">
+<violation beginline="54" endline="249" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.j4velin.pedometer" class="SensorListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pedometer/src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java">
+<violation beginline="60" endline="349" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.j4velin.pedometer.ui" class="Fragment_Overview" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pedometer/src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java">
+<violation beginline="60" endline="422" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.j4velin.pedometer.ui" class="Fragment_Settings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pedometer/src/play/java/de/j4velin/pedometer/ui/Activity_Main.java">
+<violation beginline="56" endline="275" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.j4velin.pedometer.ui" class="Activity_Main" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pedometer/src/play/java/de/j4velin/pedometer/util/GoogleFit.java">
+<violation beginline="52" endline="153" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.j4velin.pedometer.util" class="GoogleFit$Sync" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Pedometer/src/play/java/de/j4velin/pedometer/util/PlayServices.java">
+<violation beginline="82" endline="250" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.j4velin.pedometer.util" class="PlayServices" method="achievementsAndLeaderboard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

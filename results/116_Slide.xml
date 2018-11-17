@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:32:28.457">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/AlbumPager.java">
+<violation beginline="87" endline="785" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Activities" class="AlbumPager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="512" endline="637" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="AlbumPager$ImageFullNoSubmission" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/BaseActivity.java">
+<violation beginline="43" endline="484" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Activities" class="BaseActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/CommentsScreen.java">
+<violation beginline="47" endline="377" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Activities" class="CommentsScreen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="125" endline="258" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="CommentsScreen" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/Crosspost.java">
+<violation beginline="46" endline="159" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Crosspost" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/EditCardsLayout.java">
+<violation beginline="26" endline="373" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="EditCardsLayout" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/Gallery.java">
+<violation beginline="228" endline="328" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Gallery$OverviewPagerAdapter" method="getItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/Inbox.java">
+<violation beginline="140" endline="247" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Inbox" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/LiveThread.java">
+<violation beginline="192" endline="425" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="LiveThread" method="doLiveThreadUpdates" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="199" endline="421" begincolumn="27" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="LiveThread" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/MainActivity.java">
+<violation beginline="187" endline="5254" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="188" endline="5254" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="597" endline="908" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="911" endline="1300" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="969" endline="1082" begincolumn="28" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1479" endline="2173" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="doDrawer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2294" endline="2798" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="doSubOnlyStuff" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2332" endline="2436" begincolumn="28" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2550" endline="2650" begincolumn="25" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="doSubscribe" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2802" endline="3274" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="doSubSidebar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3067" endline="3264" begincolumn="31" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3079" endline="3261" begincolumn="40" endcolumn="33" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3084" endline="3258" begincolumn="56" endcolumn="49" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="onSelection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3860" endline="3991" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="setDrawerSubList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4033" endline="4154" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="updateSubs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4373" endline="4579" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="setupSubredditSearchToolbar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4405" endline="4574" begincolumn="32" endcolumn="25" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MainActivity" method="onLongClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/MediaView.java">
+<violation beginline="88" endline="1339" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MediaView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="89" endline="1339" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MediaView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="590" endline="709" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MediaView" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1036" endline="1273" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MediaView" method="displayImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/MultiredditOverview.java">
+<violation beginline="64" endline="823" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MultiredditOverview" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="135" endline="363" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="MultiredditOverview" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/NewsActivity.java">
+<violation beginline="65" endline="670" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Activities" class="NewsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/Profile.java">
+<violation beginline="503" endline="932" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Profile" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/Search.java">
+<violation beginline="210" endline="327" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Search" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/SendMessage.java">
+<violation beginline="65" endline="176" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SendMessage" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/Settings.java">
+<violation beginline="67" endline="672" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Settings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="325" endline="659" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Settings" method="setSettingItems" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="501" endline="620" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Settings" method="onSingleClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/SettingsFilter.java">
+<violation beginline="136" endline="297" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SettingsFilter" method="updateFilters" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/SettingsSubreddit.java">
+<violation beginline="63" endline="187" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SettingsSubreddit" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/SettingsSynccit.java">
+<violation beginline="31" endline="134" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SettingsSynccit" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/Shadowbox.java">
+<violation beginline="157" endline="265" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Shadowbox$OverviewPagerAdapter" method="getItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/Submit.java">
+<violation beginline="110" endline="356" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Submit" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="423" endline="546" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Submit$AsyncDo" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/SubredditView.java">
+<violation beginline="98" endline="2182" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="98" endline="2182" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="286" endline="463" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="502" endline="974" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" method="doSubSidebar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="770" endline="965" begincolumn="31" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="782" endline="962" begincolumn="40" endcolumn="33" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="787" endline="959" begincolumn="56" endcolumn="49" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" method="onSelection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1254" endline="1782" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" method="doSubOnlyStuff" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1299" endline="1402" begincolumn="28" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1420" endline="1522" begincolumn="29" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" method="doSubscribe" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1535" endline="1639" begincolumn="29" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SubredditView" method="doUnsubscribe" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/TumblrPager.java">
+<violation beginline="90" endline="754" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Activities" class="TumblrPager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="491" endline="607" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="TumblrPager$ImageFullNoSubmission" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Activities/Tutorial.java">
+<violation beginline="125" endline="330" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="Tutorial$Personalize" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/CommentAdapter.java">
+<violation beginline="97" endline="2517" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="97" endline="2517" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="301" endline="655" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1061" endline="1578" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapter" method="setCommentStateHighlighted" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1336" endline="1451" begincolumn="28" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapter" method="onSingleClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2102" endline="2303" begincolumn="12" endcolumn="5" rule="DataClass" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AsyncLoadMore' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+<violation beginline="2163" endline="2302" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapter$AsyncLoadMore" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/CommentAdapterHelper.java">
+<violation beginline="81" endline="1699" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="81" endline="1699" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="82" endline="324" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" method="showOverflowBottomSheet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="138" endline="321" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="444" endline="618" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" method="categorizeComment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="473" endline="616" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="479" endline="607" begincolumn="40" endcolumn="33" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" method="onSelection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="620" endline="737" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" method="showModBottomSheet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="739" endline="893" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" method="showBan" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="777" endline="886" begincolumn="36" endcolumn="29" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1176" endline="1408" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterHelper" method="getScoreString" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/CommentAdapterSearch.java">
+<violation beginline="95" endline="270" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentAdapterSearch" method="doScoreText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/CommentUrlObject.java">
+<violation beginline="8" endline="27" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentUrlObject" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CommentUrlObject' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=2, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/CommentViewHolder.java">
+<violation beginline="17" endline="44" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="CommentViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CommentViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=11, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/ContributionAdapter.java">
+<violation beginline="196" endline="516" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="ContributionAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="207" endline="335" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="ContributionAdapter" method="onLongClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/GalleryView.java">
+<violation beginline="66" endline="287" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="GalleryView" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/InboxAdapter.java">
+<violation beginline="146" endline="420" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="InboxAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="253" endline="354" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="InboxAdapter" method="onLongClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/MessageViewHolder.java">
+<violation beginline="15" endline="34" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="MessageViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MessageViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/ModLogAdapter.java">
+<violation beginline="106" endline="246" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="ModLogAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/ModeratorAdapter.java">
+<violation beginline="195" endline="513" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="ModeratorAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="205" endline="333" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="ModeratorAdapter" method="onLongClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/MultiredditPosts.java">
+<violation beginline="83" endline="248" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="MultiredditPosts" method="loadPhotos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/NewsViewHolder.java">
+<violation beginline="15" endline="32" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="NewsViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NewsViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/ProfileCommentViewHolder.java">
+<violation beginline="14" endline="31" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="ProfileCommentViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProfileCommentViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/SettingsSubAdapter.java">
+<violation beginline="120" endline="440" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="SettingsSubAdapter" method="showSubThemeEditor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/SideArrayAdapter.java">
+<violation beginline="85" endline="282" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="SideArrayAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/SubmissionAdapter.java">
+<violation beginline="191" endline="395" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="SubmissionAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="209" endline="332" begincolumn="59" endcolumn="52" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="SubmissionAdapter" method="onSingleClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/SubmissionNewsAdapter.java">
+<violation beginline="195" endline="396" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="SubmissionNewsAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="213" endline="335" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="SubmissionNewsAdapter" method="onSingleClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/SubmissionViewHolder.java">
+<violation beginline="16" endline="63" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="SubmissionViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubmissionViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=21, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/SubredditPosts.java">
+<violation beginline="93" endline="258" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="SubredditPosts" method="loadPhotos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/SubredditPostsRealm.java">
+<violation beginline="94" endline="259" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="SubredditPostsRealm" method="loadPhotos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Adapters/SubredditViewHolder.java">
+<violation beginline="14" endline="31" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="me.ccrama.redditslide.Adapters" class="SubredditViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubredditViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Authentication.java">
+<violation beginline="122" endline="246" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="Authentication$UpdateToken" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/ColorPreferences.java">
+<violation beginline="31" endline="264" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="ColorPreferences" method="getColors" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="266" endline="457" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="ColorPreferences" method="getIconName" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/CommentCacheAsync.java">
+<violation beginline="79" endline="258" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="CommentCacheAsync" method="loadPhotos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="261" endline="414" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="CommentCacheAsync" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/DragSort/ReorderSubreddits.java">
+<violation beginline="77" endline="1137" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.DragSort" class="ReorderSubreddits" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="277" endline="549" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.DragSort" class="ReorderSubreddits" method="doShowSubs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="851" endline="1067" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.DragSort" class="ReorderSubreddits$CustomAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="947" endline="1064" begincolumn="28" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.DragSort" class="ReorderSubreddits$CustomAdapter" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/ForceTouch/util/GestureDetectorCompat.java">
+<violation beginline="225" endline="408" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.ForceTouch.util" class="GestureDetectorCompat$GestureDetectorCompatImplBase" method="onTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/AlbumFull.java">
+<violation beginline="47" endline="166" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="AlbumFull" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/AlbumFullComments.java">
+<violation beginline="52" endline="179" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="AlbumFullComments" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/CommentPage.java">
+<violation beginline="123" endline="2328" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="CommentPage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="123" endline="2328" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="CommentPage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="307" endline="746" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="CommentPage" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="460" endline="597" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="CommentPage" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="748" endline="1069" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="CommentPage" method="onMenuItemClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1078" endline="1697" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="CommentPage$AsyncGetSubreddit" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1282" endline="1399" begincolumn="40" endcolumn="33" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="CommentPage$AsyncGetSubreddit" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1417" endline="1529" begincolumn="41" endcolumn="33" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="CommentPage$AsyncGetSubreddit" method="doSubscribe" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1542" endline="1655" begincolumn="41" endcolumn="33" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="CommentPage$AsyncGetSubreddit" method="doUnsubscribe" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/ManageOfflineContentFragment.java">
+<violation beginline="44" endline="217" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="ManageOfflineContentFragment" method="Bind" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/MediaFragment.java">
+<violation beginline="73" endline="987" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="MediaFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="138" endline="280" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="MediaFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="329" endline="442" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="MediaFragment" method="addClickFunctions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="334" endline="440" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="MediaFragment" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="789" endline="986" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="MediaFragment" method="displayImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/MediaFragmentComment.java">
+<violation beginline="63" endline="731" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="MediaFragmentComment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="536" endline="730" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="MediaFragmentComment" method="displayImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/MultiredditView.java">
+<violation beginline="54" endline="435" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="MultiredditView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="92" endline="334" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="MultiredditView" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/NewsView.java">
+<violation beginline="58" endline="664" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="NewsView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="94" endline="305" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="NewsView" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/SettingsCommentsFragment.java">
+<violation beginline="18" endline="221" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="SettingsCommentsFragment" method="Bind" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/SettingsDataFragment.java">
+<violation beginline="20" endline="197" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="SettingsDataFragment" method="Bind" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/SettingsFontFragment.java">
+<violation beginline="46" endline="328" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="SettingsFontFragment" method="Bind" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/SettingsGeneralFragment.java">
+<violation beginline="68" endline="192" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="SettingsGeneralFragment" method="setupNotificationSettings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="195" endline="701" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="SettingsGeneralFragment" method="Bind" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="818" endline="933" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="SettingsGeneralFragment" method="showSelectDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/SettingsThemeFragment.java">
+<violation beginline="55" endline="581" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="SettingsThemeFragment" method="Bind" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="385" endline="579" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="SettingsThemeFragment" method="onSingleClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/SubmissionsView.java">
+<violation beginline="57" endline="716" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="SubmissionsView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="92" endline="364" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="SubmissionsView" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Fragments/TumblrFull.java">
+<violation beginline="49" endline="157" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Fragments" class="TumblrFull" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Notifications/CheckForMail.java">
+<violation beginline="77" endline="228" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Notifications" class="CheckForMail$AsyncGetMail" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Notifications/CheckForMailSingle.java">
+<violation beginline="53" endline="196" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Notifications" class="CheckForMailSingle$AsyncGetMailSingle" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Notifications/ImageDownloadNotificationService.java">
+<violation beginline="219" endline="321" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Notifications" class="ImageDownloadNotificationService$PollTask" method="showNotifPhoto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/OfflineSubreddit.java">
+<violation beginline="31" endline="383" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide" class="OfflineSubreddit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/OpenRedditLink.java">
+<violation beginline="26" endline="265" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="OpenRedditLink" method="openUrl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/PostMatch.java">
+<violation beginline="84" endline="212" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="PostMatch" method="doesMatch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Reddit.java">
+<violation beginline="58" endline="683" begincolumn="99" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide" class="Reddit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="258" endline="413" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="Reddit" method="setDefaultErrorHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="265" endline="409" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="Reddit" method="uncaughtException" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/SettingValues.java">
+<violation beginline="246" endline="398" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="SettingValues" method="setAllValues" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/SpoilerRobotoTextView.java">
+<violation beginline="57" endline="808" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide" class="SpoilerRobotoTextView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="350" endline="467" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="SpoilerRobotoTextView" method="onLinkClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="470" endline="601" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="SpoilerRobotoTextView" method="onLinkLongClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/SubmissionCache.java">
+<violation beginline="155" endline="401" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="SubmissionCache" method="getInfoSpannable" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="403" endline="531" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide" class="SubmissionCache" method="getTitleSpannable" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/SubmissionViews/HeaderImageLinkView.java">
+<violation beginline="98" endline="500" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="HeaderImageLinkView" method="doImageAndText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="515" endline="635" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="HeaderImageLinkView" method="onLinkLongClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/SubmissionViews/PopulateNewsViewHolder.java">
+<violation beginline="91" endline="1257" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateNewsViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="103" endline="267" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateNewsViewHolder" method="addClickFunctions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="108" endline="265" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateNewsViewHolder" method="onSingleClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="420" endline="1031" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateNewsViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="519" endline="1028" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateNewsViewHolder" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="616" endline="773" begincolumn="52" endcolumn="45" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateNewsViewHolder" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1121" endline="1125" begincolumn="64" endcolumn="73" rule="ExcessiveParameterList" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateNewsViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="1121" endline="1226" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateNewsViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/SubmissionViews/PopulateShadowboxInfo.java">
+<violation beginline="59" endline="269" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateShadowboxInfo" method="doActionbar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="271" endline="476" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateShadowboxInfo" method="doActionbar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="478" endline="640" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateShadowboxInfo" method="showBottomSheet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="518" endline="635" begincolumn="28" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateShadowboxInfo" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/SubmissionViews/PopulateSubmissionViewHolder.java">
+<violation beginline="108" endline="3577" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="108" endline="3577" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="120" endline="289" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="addClickFunctions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="125" endline="287" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onSingleClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="355" endline="455" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="openGif" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="471" endline="1095" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="574" endline="1092" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="671" endline="828" begincolumn="52" endcolumn="45" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1160" endline="1337" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="categorizeSaved" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1191" endline="1335" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1197" endline="1326" begincolumn="40" endcolumn="33" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onSelection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1397" endline="1627" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1516" endline="1622" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2366" endline="2527" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="showBan" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2404" endline="2520" begincolumn="36" endcolumn="29" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2530" endline="2534" begincolumn="70" endcolumn="73" rule="ExcessiveParameterList" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="2530" endline="3481" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2998" endline="3466" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onSingleClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3024" endline="3464" begincolumn="32" endcolumn="25" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3081" endline="3462" begincolumn="40" endcolumn="33" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3259" endline="3442" begincolumn="72" endcolumn="65" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SubmissionViews" class="PopulateSubmissionViewHolder" method="onSelection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/SwipeLayout/SwipeBackLayout.java">
+<violation beginline="21" endline="652" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.SwipeLayout" class="SwipeBackLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/SwipeLayout/ViewDragHelper.java">
+<violation beginline="38" endline="1617" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.SwipeLayout" class="ViewDragHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="38" endline="1617" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.SwipeLayout" class="ViewDragHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1066" endline="1166" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SwipeLayout" class="ViewDragHelper" method="shouldInterceptTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1175" endline="1331" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.SwipeLayout" class="ViewDragHelper" method="processTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/UserSubscriptions.java">
+<violation beginline="39" endline="816" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide" class="UserSubscriptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/CanvasView.java">
+<violation beginline="38" endline="888" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Views" class="CanvasView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/CommentOverflow.java">
+<violation beginline="166" endline="309" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Views" class="CommentOverflow" method="formatTable" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/CreateCardView.java">
+<violation beginline="29" endline="498" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Views" class="CreateCardView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/CustomQuoteSpan.java">
+<violation beginline="31" endline="32" begincolumn="34" endcolumn="102" rule="ExcessiveParameterList" ruleset="Design" package="me.ccrama.redditslide.Views" class="CustomQuoteSpan" method="drawLeadingMargin" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="46" endline="46" begincolumn="31" endcolumn="154" rule="ExcessiveParameterList" ruleset="Design" package="me.ccrama.redditslide.Views" class="CustomQuoteSpan" method="drawBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/DoEditorActions.java">
+<violation beginline="81" endline="1190" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.Views" class="DoEditorActions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="83" endline="541" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Views" class="DoEditorActions" method="doActions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/HTMLLinkExtractor.java">
+<violation beginline="60" endline="95" begincolumn="12" endcolumn="5" rule="DataClass" ruleset="Design" package="me.ccrama.redditslide.Views" class="HTMLLinkExtractor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HtmlLink' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/ImageSource.java">
+<violation beginline="18" endline="233" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Views" class="ImageSource" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/MediaVideoView.java">
+<violation beginline="370" endline="610" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Views" class="SlideVideoControls" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/MediaVideoViewOld.java">
+<violation beginline="33" endline="746" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Views" class="MediaVideoViewOld" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/NestedWebView.java">
+<violation beginline="25" endline="377" begincolumn="99" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Views" class="NestedWebView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="141" endline="254" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Views" class="NestedWebView" method="onTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/PeekMediaView.java">
+<violation beginline="65" endline="653" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Views" class="PeekMediaView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="520" endline="644" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Views" class="PeekMediaView" method="displayImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/RedditItemView.java">
+<violation beginline="349" endline="483" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Views" class="RedditItemView" method="doComment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Views/SubsamplingScaleImageView.java">
+<violation beginline="83" endline="2946" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.Views" class="SubsamplingScaleImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="83" endline="2946" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.Views" class="SubsamplingScaleImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="651" endline="889" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Views" class="SubsamplingScaleImageView" method="onTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="925" endline="1086" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Views" class="SubsamplingScaleImageView" method="onDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Visuals/GetClosestColor.java">
+<violation beginline="22" endline="197" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Visuals" class="GetClosestColor" method="getClosestColor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/Widget/ListViewWidgetService.java">
+<violation beginline="61" endline="187" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Widget" class="ListViewRemoteViewsFactory" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="69" endline="171" begincolumn="27" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Widget" class="ListViewRemoteViewsFactory" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/util/Base64.java">
+<violation beginline="41" endline="577" begincolumn="14" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.util" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/util/GifDecoder.java">
+<violation beginline="11" endline="541" begincolumn="18" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.util" class="GifDecoder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/util/GifUtils.java">
+<violation beginline="69" endline="1269" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="me.ccrama.redditslide.util" class="GifUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="209" endline="1005" begincolumn="76" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.util" class="GifUtils$AsyncLoadGif" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="241" endline="244" begincolumn="28" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="me.ccrama.redditslide.util" class="GifUtils$AsyncLoadGif" method="AsyncLoadGif" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="409" endline="652" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.util" class="GifUtils$AsyncLoadGif" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="782" endline="950" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.util" class="GifUtils$AsyncLoadGif" method="WriteGifMuxed" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1152" endline="1265" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.util" class="GifUtils" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/util/IabHelper.java">
+<violation beginline="74" endline="993" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.util" class="IabHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/main/java/me/ccrama/redditslide/util/LinkUtil.java">
+<violation beginline="37" endline="303" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.util" class="LinkUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/noGPlay/java/me/ccrama/redditslide/Activities/SettingsBackup.java">
+<violation beginline="56" endline="170" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SettingsBackup" method="onActivityResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="248" endline="365" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SettingsBackup" method="backupToDir" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/test/java/me/ccrama/redditslide/test/ContentTypeTest.java">
+<violation beginline="18" endline="155" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.test" class="ContentTypeTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/test/java/me/ccrama/redditslide/test/OpenRedditLinkTest.java">
+<violation beginline="12" endline="133" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.ccrama.redditslide.test" class="OpenRedditLinkTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Slide/app/src/withGPlay/java/me.ccrama.redditslide/Activities/SettingsBackup.java">
+<violation beginline="88" endline="211" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SettingsBackup" method="onResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="244" endline="367" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SettingsBackup" method="onActivityResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="375" endline="571" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SettingsBackup" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="575" endline="693" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="me.ccrama.redditslide.Activities" class="SettingsBackup" method="backupToDir" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:58:12.523">
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CAlphIO.java">
+<violation beginline="49" endline="728" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher" class="CAlphIO" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="57" endline="272" begincolumn="38" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="dasher" class="CAlphIO$AlphInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="306" endline="485" begincolumn="26" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="dasher" class="CAlphIO" method="startElement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CAlphabetManager.java">
+<violation beginline="49" endline="694" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher" class="CAlphabetManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="199" endline="296" begincolumn="50" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="dasher" class="CAlphabetManager$CAlphNode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="390" endline="527" begincolumn="53" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="dasher" class="CAlphabetManager$CSymbolNode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CAlphabetMap.java">
+<violation beginline="225" endline="327" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="dasher" class="CAlphabetMap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CColourIO.java">
+<violation beginline="227" endline="501" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="dasher" class="CColourIO" method="CreateDefault" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CDasherInterfaceBase.java">
+<violation beginline="72" endline="1076" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="dasher" class="CDasherInterfaceBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="72" endline="1076" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher" class="CDasherInterfaceBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CDasherModel.java">
+<violation beginline="44" endline="818" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher" class="CDasherModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CDasherNode.java">
+<violation beginline="50" endline="484" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher" class="CDasherNode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CDasherView.java">
+<violation beginline="53" endline="482" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher" class="CDasherView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="86" endline="109" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="dasher" class="CDasherView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DRect' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CDasherViewSquare.java">
+<violation beginline="48" endline="753" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher" class="CDasherViewSquare" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="271" endline="381" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="dasher" class="CDasherViewSquare" method="RecursiveRender" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CPPMLanguageModel.java">
+<violation beginline="40" endline="318" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher" class="CPPMLanguageModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/CSettingsStore.java">
+<violation beginline="49" endline="299" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher" class="CSettingsStore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/android/ADasherInterface.java">
+<violation beginline="34" endline="532" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher.android" class="ADasherInterface" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="228" endline="344" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="dasher.android" class="ADasherInterface" method="CreateModules" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/android/DasherCanvas.java">
+<violation beginline="23" endline="258" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher.android" class="DasherCanvas" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/android/DasherInputMethod.java">
+<violation beginline="28" endline="284" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher.android" class="DasherInputMethod" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/android/SeekBarPreference.java">
+<violation beginline="25" endline="155" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher.android" class="SeekBarPreference" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/applet/JDasherApplet.java">
+<violation beginline="66" endline="658" begincolumn="139" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher.applet" class="JDasherApplet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="176" endline="392" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="dasher.applet" class="JDasherApplet" method="init" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/applet/JDasherMenuBar.java">
+<violation beginline="116" endline="250" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="dasher.applet" class="JDasherMenuBar" method="JDasherMenuBar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AndroidDasher/src/dasher/applet/JDasherPanel.java">
+<violation beginline="33" endline="323" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="dasher.applet" class="JDasherPanel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

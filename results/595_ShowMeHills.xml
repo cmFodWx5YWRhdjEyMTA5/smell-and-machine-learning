@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:18:29.591">
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShowMeHills/ShowMe/Archive/ShowMeX/src/com/showmehills/HillDatabase.java">
+<violation beginline="186" endline="308" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.showmehills" class="HillDatabase" method="SetDirections" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShowMeHills/ShowMe/Archive/ShowMeX/src/com/showmehills/ShowMeHillsActivity.java">
+<violation beginline="63" endline="995" begincolumn="121" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.showmehills" class="ShowMeHillsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShowMeHills/ShowMe/ShowMeHills/app/src/main/java/com/showmehills/HillDatabase.java">
+<violation beginline="193" endline="326" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.showmehills" class="HillDatabase" method="SetDirections" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShowMeHills/ShowMe/ShowMeHills/app/src/main/java/com/showmehills/MapsActivity.java">
+<violation beginline="33" endline="260" begincolumn="125" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.showmehills" class="MapsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ShowMeHills/ShowMe/ShowMeHills/app/src/main/java/com/showmehills/ShowMeHillsActivity.java">
+<violation beginline="65" endline="1113" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.showmehills" class="ShowMeHillsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="65" endline="1113" begincolumn="121" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.showmehills" class="ShowMeHillsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

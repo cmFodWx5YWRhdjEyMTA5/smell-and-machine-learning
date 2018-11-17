@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:00:12.824">
+<file name="/home/matheus/smell-and-machine-learning/repositories/ham.android/src/com/smerty/ham/Geo.java">
+<violation beginline="32" endline="218" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.smerty.ham" class="Geo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ham.android/src/com/smerty/ham/QRZ.java">
+<violation beginline="194" endline="480" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.smerty.ham" class="QRZ$GetProfileTask" method="onPostExecute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ham.android/src/com/smerty/ham/Solar.java">
+<violation beginline="103" endline="384" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.smerty.ham" class="Solar" method="allTogether" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ham.android/src/org/smerty/ham/qrz/QrzQueryParam.java">
+<violation beginline="3" endline="30" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.smerty.ham.qrz" class="QrzQueryParam" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'QrzQueryParam' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ham.android/src/org/smerty/ham/solar/Calculatedconditions.java">
+<violation beginline="3" endline="31" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.smerty.ham.solar" class="Calculatedconditions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Calculatedconditions' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ham.android/src/org/smerty/ham/solar/Phenomenon.java">
+<violation beginline="3" endline="31" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.smerty.ham.solar" class="Phenomenon" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Phenomenon' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ham.android/src/org/smerty/ham/solar/Solardata.java">
+<violation beginline="5" endline="197" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.smerty.ham.solar" class="Solardata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Solardata' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=42, WMC=42)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ham.android/src/org/smerty/ham/solar/Source.java">
+<violation beginline="3" endline="22" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.smerty.ham.solar" class="Source" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Source' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+</pmd>

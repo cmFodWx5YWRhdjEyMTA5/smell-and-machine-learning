@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:12:01.603">
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/Bootloader.java">
+<violation beginline="58" endline="247" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist" class="Bootloader" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/models/Item.java">
+<violation beginline="25" endline="997" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="budo.budoist.models" class="Item" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="422" endline="569" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.models" class="Item" method="calculateRecurringDate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="578" endline="697" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.models" class="Item" method="calculateRealDate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/services/TodoistClient.java">
+<violation beginline="65" endline="1802" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="budo.budoist.services" class="TodoistClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="65" endline="1802" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="budo.budoist.services" class="TodoistClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1245" endline="1349" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.services" class="TodoistClient" method="syncUpdateLocalToRemote" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/services/TodoistOfflineStorage.java">
+<violation beginline="47" endline="2976" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="budo.budoist.services" class="TodoistOfflineStorage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="47" endline="2976" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="budo.budoist.services" class="TodoistOfflineStorage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1581" endline="1785" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.services" class="TodoistOfflineStorage" method="getItemsBySubQuery" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/services/TodoistServer.java">
+<violation beginline="22" endline="871" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="budo.budoist.services" class="TodoistServer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/views/EditItemView.java">
+<violation beginline="158" endline="350" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.views" class="EditItemView" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/views/ItemListView.java">
+<violation beginline="59" endline="909" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="budo.budoist.views" class="ItemListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="143" endline="245" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.views" class="ItemListView" method="loadTopToolbar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="708" endline="836" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.views" class="ItemListView" method="onActivityResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/views/LabelListView.java">
+<violation beginline="59" endline="591" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="budo.budoist.views" class="LabelListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/views/LoginView.java">
+<violation beginline="158" endline="396" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.views" class="LoginView" method="syncNow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="189" endline="393" begincolumn="32" endcolumn="25" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.views" class="LoginView" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/views/NoteListView.java">
+<violation beginline="45" endline="467" begincolumn="99" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="budo.budoist.views" class="NoteListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/views/ProjectListView.java">
+<violation beginline="60" endline="620" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="budo.budoist.views" class="ProjectListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/views/QueryListView.java">
+<violation beginline="50" endline="445" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="budo.budoist.views" class="QueryListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/views/SettingsView.java">
+<violation beginline="82" endline="537" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.views" class="SettingsView" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/src/budo/budoist/views/adapters/ItemTreeItemAdapter.java">
+<violation beginline="122" endline="300" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="budo.budoist.views.adapters" class="ItemTreeItemAdapter" method="updateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/tree-view-list-android/src/pl/polidea/treeview/AbstractTreeViewAdapter.java">
+<violation beginline="27" endline="316" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pl.polidea.treeview" class="AbstractTreeViewAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/tree-view-list-android/src/pl/polidea/treeview/InMemoryTreeStateManager.java">
+<violation beginline="20" endline="386" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pl.polidea.treeview" class="InMemoryTreeStateManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/tree-view-list-android/src/pl/polidea/treeview/TreeNodeInfo.java">
+<violation beginline="9" endline="69" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="pl.polidea.treeview" class="TreeNodeInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TreeNodeInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/budoist/tree-view-list-android/src/pl/polidea/treeview/TreeViewList.java">
+<violation beginline="27" endline="198" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="pl.polidea.treeview" class="TreeViewList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TreeViewList' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=24)
+</violation>
+</file>
+</pmd>

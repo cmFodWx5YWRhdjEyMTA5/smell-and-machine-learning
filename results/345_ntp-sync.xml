@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:29:47.242">
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/NTPSync/src/main/java/org/apache/commons/net/SocketClient.java">
+<violation beginline="56" endline="870" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net" class="SocketClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/NTPSync/src/main/java/org/apache/commons/net/io/CopyStreamEvent.java">
+<violation beginline="34" endline="111" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.apache.commons.net.io" class="CopyStreamEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CopyStreamEvent' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=3, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/NTPSync/src/main/java/org/apache/commons/net/ntp/TimeInfo.java">
+<violation beginline="31" endline="298" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.apache.commons.net.ntp" class="TimeInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TimeInfo' is suspected to be a Data Class (WOC=18.182%, NOPA=0, NOAM=5, WMC=29)
+</violation>
+<violation beginline="133" endline="245" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.commons.net.ntp" class="TimeInfo" method="computeDetails" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/NTPSync/src/main/java/org/apache/commons/net/ntp/TimeStamp.java">
+<violation beginline="46" endline="452" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.ntp" class="TimeStamp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/NTPSync/src/main/java/org/apache/commons/net/util/Base64.java">
+<violation beginline="51" endline="1048" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.util" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/NTPSync/src/main/java/org/ntpsync/service/NtpSyncService.java">
+<violation beginline="48" endline="301" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ntpsync.service" class="NtpSyncService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NtpSyncService' is suspected to be a Data Class (WOC=0.000%, NOPA=13, NOAM=0, WMC=13)
+</violation>
+<violation beginline="103" endline="219" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.ntpsync.service" class="NtpSyncService" method="onHandleIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/NTPSync/src/main/java/org/ntpsync/ui/BaseActivity.java">
+<violation beginline="86" endline="360" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.ntpsync.ui" class="BaseActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/NTPSync/src/main/java/org/ntpsync/util/Log.java">
+<violation beginline="28" endline="86" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ntpsync.util" class="Log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/NTPSync/src/main/java/org/ntpsync/util/NtpSyncUtils.java">
+<violation beginline="56" endline="168" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.ntpsync.util" class="NtpSyncUtils" method="processResponse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/Resources/commons-net-3.1-src/src/main/java/org/apache/commons/net/SocketClient.java">
+<violation beginline="54" endline="788" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net" class="SocketClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/Resources/commons-net-3.1-src/src/main/java/org/apache/commons/net/io/CopyStreamEvent.java">
+<violation beginline="34" endline="111" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.apache.commons.net.io" class="CopyStreamEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CopyStreamEvent' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=3, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/Resources/commons-net-3.1-src/src/main/java/org/apache/commons/net/ntp/TimeInfo.java">
+<violation beginline="31" endline="298" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.apache.commons.net.ntp" class="TimeInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TimeInfo' is suspected to be a Data Class (WOC=18.182%, NOPA=0, NOAM=5, WMC=29)
+</violation>
+<violation beginline="133" endline="245" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.commons.net.ntp" class="TimeInfo" method="computeDetails" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/Resources/commons-net-3.1-src/src/main/java/org/apache/commons/net/ntp/TimeStamp.java">
+<violation beginline="46" endline="451" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.ntp" class="TimeStamp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/Resources/commons-net-3.1-src/src/main/java/org/apache/commons/net/util/Base64.java">
+<violation beginline="51" endline="1046" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.util" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/libraries/RootCommands/src/main/java/org/sufficientlysecure/rootcommands/Shell.java">
+<violation beginline="33" endline="346" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.rootcommands" class="Shell" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/libraries/RootCommands/src/main/java/org/sufficientlysecure/rootcommands/Toolbox.java">
+<violation beginline="46" endline="824" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.rootcommands" class="Toolbox" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ntp-sync/libraries/RootCommands/src/main/java/org/sufficientlysecure/rootcommands/util/Log.java">
+<violation beginline="25" endline="83" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.rootcommands.util" class="Log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

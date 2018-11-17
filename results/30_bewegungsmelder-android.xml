@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:12:03.382">
+<file name="/home/matheus/smell-and-machine-learning/repositories/bewegungsmelder-android/src/main/java/de/arnefeil/bewegungsmelder/MainActivity.java">
+<violation beginline="38" endline="279" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.arnefeil.bewegungsmelder" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bewegungsmelder-android/src/main/java/de/arnefeil/bewegungsmelder/adapter/EventAdapter.java">
+<violation beginline="41" endline="165" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.arnefeil.bewegungsmelder.adapter" class="EventAdapter" method="eventsView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bewegungsmelder-android/src/main/java/de/arnefeil/bewegungsmelder/models/Band.java">
+<violation beginline="8" endline="60" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.arnefeil.bewegungsmelder.models" class="Band" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Band' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bewegungsmelder-android/src/main/java/de/arnefeil/bewegungsmelder/models/Event.java">
+<violation beginline="8" endline="144" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.arnefeil.bewegungsmelder.models" class="Event" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Event' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=30, WMC=30)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bewegungsmelder-android/src/main/java/de/arnefeil/bewegungsmelder/models/Link.java">
+<violation beginline="6" endline="38" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.arnefeil.bewegungsmelder.models" class="Link" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Link' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/bewegungsmelder-android/src/main/java/de/arnefeil/bewegungsmelder/models/Location.java">
+<violation beginline="8" endline="70" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.arnefeil.bewegungsmelder.models" class="Location" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Location' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+</pmd>

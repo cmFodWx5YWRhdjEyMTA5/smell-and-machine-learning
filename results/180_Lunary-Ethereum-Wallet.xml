@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:48:16.463">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/activities/AppLockActivity.java">
+<violation beginline="35" endline="278" begincolumn="120" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="rehanced.com.simpleetherwallet.activities" class="AppLockActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/activities/MainActivity.java">
+<violation beginline="51" endline="517" begincolumn="92" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="rehanced.com.simpleetherwallet.activities" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="63" endline="188" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="rehanced.com.simpleetherwallet.activities" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="257" endline="388" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="rehanced.com.simpleetherwallet.activities" class="MainActivity" method="onActivityResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/data/CurrencyEntry.java">
+<violation beginline="3" endline="38" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="rehanced.com.simpleetherwallet.data" class="CurrencyEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CurrencyEntry' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/data/FullWallet.java">
+<violation beginline="7" endline="43" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="rehanced.com.simpleetherwallet.data" class="FullWallet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FullWallet' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/data/TokenDisplay.java">
+<violation beginline="8" endline="147" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="rehanced.com.simpleetherwallet.data" class="TokenDisplay" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TokenDisplay' is suspected to be a Data Class (WOC=9.524%, NOPA=0, NOAM=18, WMC=21)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/data/TransactionDisplay.java">
+<violation beginline="6" endline="170" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="rehanced.com.simpleetherwallet.data" class="TransactionDisplay" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TransactionDisplay' is suspected to be a Data Class (WOC=3.571%, NOPA=2, NOAM=26, WMC=28)
+</violation>
+<violation beginline="25" endline="25" begincolumn="30" endcolumn="236" rule="ExcessiveParameterList" ruleset="Design" package="rehanced.com.simpleetherwallet.data" class="TransactionDisplay" method="TransactionDisplay" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/data/WalletDisplay.java">
+<violation beginline="10" endline="75" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="rehanced.com.simpleetherwallet.data" class="WalletDisplay" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WalletDisplay' is suspected to be a Data Class (WOC=9.091%, NOPA=3, NOAM=8, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/data/WatchWallet.java">
+<violation beginline="7" endline="33" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="rehanced.com.simpleetherwallet.data" class="WatchWallet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WatchWallet' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/fragments/FragmentDetailOverview.java">
+<violation beginline="74" endline="211" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="rehanced.com.simpleetherwallet.fragments" class="FragmentDetailOverview" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/fragments/FragmentSend.java">
+<violation beginline="78" endline="261" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="rehanced.com.simpleetherwallet.fragments" class="FragmentSend" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/fragments/FragmentTransactionsAbstract.java">
+<violation beginline="48" endline="293" begincolumn="135" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="rehanced.com.simpleetherwallet.fragments" class="FragmentTransactionsAbstract" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/fragments/FragmentWalletsAbstract.java">
+<violation beginline="75" endline="543" begincolumn="130" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="rehanced.com.simpleetherwallet.fragments" class="FragmentWalletsAbstract" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="90" endline="212" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="rehanced.com.simpleetherwallet.fragments" class="FragmentWalletsAbstract" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/utils/Blockies.java">
+<violation beginline="13" endline="225" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="rehanced.com.simpleetherwallet.utils" class="Blockies" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/utils/Dialogs.java">
+<violation beginline="46" endline="520" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="rehanced.com.simpleetherwallet.utils" class="Dialogs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/utils/ExchangeCalculator.java">
+<violation beginline="20" endline="236" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="rehanced.com.simpleetherwallet.utils" class="ExchangeCalculator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/utils/WalletStorage.java">
+<violation beginline="33" endline="274" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="rehanced.com.simpleetherwallet.utils" class="WalletStorage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lunary-Ethereum-Wallet/app/src/main/java/rehanced/com/simpleetherwallet/utils/qr/QREncoder.java">
+<violation beginline="82" endline="190" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="rehanced.com.simpleetherwallet.utils.qr" class="QREncoder" method="encodeQRCodeContents" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

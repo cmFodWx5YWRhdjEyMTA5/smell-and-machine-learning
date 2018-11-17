@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:30:58.762">
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/BaseActivity.java">
+<violation beginline="32" endline="366" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid" class="BaseActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/BaseFragment.java">
+<violation beginline="28" endline="298" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.fragments" class="BaseFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/BoardFragment.java">
+<violation beginline="43" endline="486" begincolumn="132" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.fragments" class="BoardFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="324" endline="348" begincolumn="16" endcolumn="9" rule="DataClass" ruleset="Design" package="com.mde.potdroid.fragments" class="BoardFragment$TopicListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=1)
+</violation>
+<violation beginline="371" endline="477" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.mde.potdroid.fragments" class="BoardFragment$TopicListAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/BookmarkFragment.java">
+<violation beginline="159" endline="176" begincolumn="16" endcolumn="9" rule="DataClass" ruleset="Design" package="com.mde.potdroid.fragments" class="BookmarkFragment$BookmarkListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/EditorFragment.java">
+<violation beginline="42" endline="606" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.fragments" class="EditorFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/ForumFragment.java">
+<violation beginline="35" endline="304" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.fragments" class="ForumFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/MediaFragment.java">
+<violation beginline="27" endline="404" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.fragments" class="MediaFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="178" endline="281" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mde.potdroid.fragments" class="MediaFragment" method="onActivityCreated" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/MessageFragment.java">
+<violation beginline="33" endline="312" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.fragments" class="MessageFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/MessageListFragment.java">
+<violation beginline="37" endline="325" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.fragments" class="MessageListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="184" endline="200" begincolumn="16" endcolumn="9" rule="DataClass" ruleset="Design" package="com.mde.potdroid.fragments" class="MessageListFragment$MessageListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/PaginateFragment.java">
+<violation beginline="21" endline="342" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.fragments" class="PaginateFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/SettingsFragment.java">
+<violation beginline="173" endline="292" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mde.potdroid.fragments" class="SettingsFragment" method="onPreferenceTreeClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/SidebarBoardsFragment.java">
+<violation beginline="157" endline="171" begincolumn="16" endcolumn="9" rule="DataClass" ruleset="Design" package="com.mde.potdroid.fragments" class="SidebarBoardsFragment$BoardListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/fragments/TopicFragment.java">
+<violation beginline="56" endline="915" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.fragments" class="TopicFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/helpers/BBCodeParser.java">
+<violation beginline="102" endline="282" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mde.potdroid.helpers" class="BBCodeParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="450" endline="492" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.mde.potdroid.helpers" class="BBCodeParser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Token' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/helpers/SettingsWrapper.java">
+<violation beginline="20" endline="425" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.helpers" class="SettingsWrapper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/helpers/TopicBuilder.java">
+<violation beginline="343" endline="640" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mde.potdroid.helpers" class="TopicBuilder" method="getBBCodeParserInstance" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/helpers/TopicJSInterface.java">
+<violation beginline="19" endline="509" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.helpers" class="TopicJSInterface" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/helpers/cache/DiskLruCache.java">
+<violation beginline="18" endline="850" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.helpers.cache" class="DiskLruCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/helpers/ptr/SwipyRefreshLayout.java">
+<violation beginline="60" endline="1227" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.mde.potdroid.helpers.ptr" class="SwipyRefreshLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="60" endline="1227" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mde.potdroid.helpers.ptr" class="SwipyRefreshLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="872" endline="1048" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mde.potdroid.helpers.ptr" class="SwipyRefreshLayout" method="onTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/parsers/BoardParser.java">
+<violation beginline="52" endline="333" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mde.potdroid.parsers" class="BoardParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/parsers/ForumParser.java">
+<violation beginline="36" endline="186" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mde.potdroid.parsers" class="ForumParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/parsers/TopicParser.java">
+<violation beginline="98" endline="379" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mde.potdroid.parsers" class="TopicParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pOT-Droid/src/main/java/com/mde/potdroid/views/SwipeProgressBar.java">
+<violation beginline="137" endline="239" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mde.potdroid.views" class="SwipeProgressBar" method="draw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

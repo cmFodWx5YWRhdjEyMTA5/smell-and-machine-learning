@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:53:30.781">
+<file name="/home/matheus/smell-and-machine-learning/repositories/criticalmaps-android/app/src/main/java/de/stephanlindauer/criticalmaps/AppComponent.java">
+<violation beginline="20" endline="41" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.stephanlindauer.criticalmaps" class="AppComponent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/criticalmaps-android/app/src/main/java/de/stephanlindauer/criticalmaps/Main.java">
+<violation beginline="42" endline="246" begincolumn="104" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.stephanlindauer.criticalmaps" class="Main" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/criticalmaps-android/app/src/main/java/de/stephanlindauer/criticalmaps/fragments/ChatFragment.java">
+<violation beginline="54" endline="242" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.stephanlindauer.criticalmaps.fragments" class="ChatFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/criticalmaps-android/app/src/main/java/de/stephanlindauer/criticalmaps/fragments/MapFragment.java">
+<violation beginline="54" endline="438" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.stephanlindauer.criticalmaps.fragments" class="MapFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/criticalmaps-android/app/src/main/java/de/stephanlindauer/criticalmaps/managers/LocationUpdateManager.java">
+<violation beginline="31" endline="259" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.stephanlindauer.criticalmaps.managers" class="LocationUpdateManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

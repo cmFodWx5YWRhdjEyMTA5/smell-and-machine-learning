@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:42:06.613">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lightning-Browser/app/src/main/java/acr/browser/lightning/browser/fragment/anim/HorizontalItemAnimator.java">
+<violation beginline="43" endline="694" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="acr.browser.lightning.browser.fragment.anim" class="HorizontalItemAnimator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lightning-Browser/app/src/main/java/acr/browser/lightning/browser/fragment/anim/VerticalItemAnimator.java">
+<violation beginline="43" endline="693" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="acr.browser.lightning.browser.fragment.anim" class="VerticalItemAnimator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lightning-Browser/app/src/main/java/acr/browser/lightning/download/DownloadHandler.java">
+<violation beginline="169" endline="306" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="acr.browser.lightning.download" class="DownloadHandler" method="onDownloadStartNoStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lightning-Browser/app/src/main/java/acr/browser/lightning/reading/ArticleTextExtractor.java">
+<violation beginline="34" endline="1246" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="acr.browser.lightning.reading" class="ArticleTextExtractor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="34" endline="1246" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="acr.browser.lightning.reading" class="ArticleTextExtractor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="221" endline="342" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="acr.browser.lightning.reading" class="ArticleTextExtractor" method="extractContent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="398" endline="528" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="acr.browser.lightning.reading" class="ArticleTextExtractor" method="extractDate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lightning-Browser/app/src/main/java/acr/browser/lightning/reading/HtmlFetcher.java">
+<violation beginline="46" endline="493" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="acr.browser.lightning.reading" class="HtmlFetcher" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HtmlFetcher' is suspected to be a Data Class (WOC=5.556%, NOPA=0, NOAM=16, WMC=42)
+</violation>
+<violation beginline="46" endline="493" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="acr.browser.lightning.reading" class="HtmlFetcher" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lightning-Browser/app/src/main/java/acr/browser/lightning/reading/JResult.java">
+<violation beginline="36" endline="291" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="acr.browser.lightning.reading" class="JResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'JResult' is suspected to be a Data Class (WOC=8.000%, NOPA=0, NOAM=22, WMC=36)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lightning-Browser/app/src/main/java/acr/browser/lightning/reading/SHelper.java">
+<violation beginline="46" endline="460" begincolumn="15" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="acr.browser.lightning.reading" class="SHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Lightning-Browser/app/src/main/java/acr/browser/lightning/utils/Utils.java">
+<violation beginline="45" endline="326" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="acr.browser.lightning.utils" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

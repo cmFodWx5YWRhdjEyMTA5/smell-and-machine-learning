@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:40:24.044">
+<file name="/home/matheus/smell-and-machine-learning/repositories/MifareClassicTool/Mifare Classic Tool/app/src/main/java/de/syss/MifareClassicTool/Activities/DumpEditor.java">
+<violation beginline="79" endline="993" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.syss.MifareClassicTool.Activities" class="DumpEditor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MifareClassicTool/Mifare Classic Tool/app/src/main/java/de/syss/MifareClassicTool/Activities/KeyMapCreator.java">
+<violation beginline="74" endline="636" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.syss.MifareClassicTool.Activities" class="KeyMapCreator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="516" endline="622" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.syss.MifareClassicTool.Activities" class="KeyMapCreator" method="onChangeSectorRange" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MifareClassicTool/Mifare Classic Tool/app/src/main/java/de/syss/MifareClassicTool/Activities/MainMenu.java">
+<violation beginline="73" endline="951" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.syss.MifareClassicTool.Activities" class="MainMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="144" endline="270" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.syss.MifareClassicTool.Activities" class="MainMenu" method="runSartUpNode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MifareClassicTool/Mifare Classic Tool/app/src/main/java/de/syss/MifareClassicTool/Activities/TagInfoTool.java">
+<violation beginline="118" endline="278" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.syss.MifareClassicTool.Activities" class="TagInfoTool" method="updateTagInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MifareClassicTool/Mifare Classic Tool/app/src/main/java/de/syss/MifareClassicTool/Activities/WriteTag.java">
+<violation beginline="64" endline="1391" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.syss.MifareClassicTool.Activities" class="WriteTag" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="64" endline="1391" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.syss.MifareClassicTool.Activities" class="WriteTag" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="674" endline="780" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.syss.MifareClassicTool.Activities" class="WriteTag" method="checkDumpAndShowSectorChooserDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="891" endline="1105" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.syss.MifareClassicTool.Activities" class="WriteTag" method="checkTag" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MifareClassicTool/Mifare Classic Tool/app/src/main/java/de/syss/MifareClassicTool/Common.java">
+<violation beginline="71" endline="1640" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.syss.MifareClassicTool" class="Common" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="71" endline="1640" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.syss.MifareClassicTool" class="Common" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="868" endline="991" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.syss.MifareClassicTool" class="Common" method="getOperationInfoForBlock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MifareClassicTool/Mifare Classic Tool/app/src/main/java/de/syss/MifareClassicTool/MCReader.java">
+<violation beginline="48" endline="1083" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.syss.MifareClassicTool" class="MCReader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="48" endline="1083" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.syss.MifareClassicTool" class="MCReader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="515" endline="625" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.syss.MifareClassicTool" class="MCReader" method="buildNextKeyMapPart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="725" endline="838" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.syss.MifareClassicTool" class="MCReader" method="isWritableOnPositions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

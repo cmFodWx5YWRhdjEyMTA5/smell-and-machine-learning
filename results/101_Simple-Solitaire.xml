@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:29:52.861">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/SharedData.java">
+<violation beginline="59" endline="367" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire" class="SharedData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/classes/Card.java">
+<violation beginline="35" endline="414" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.classes" class="Card" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/classes/HelperCardMovement.java">
+<violation beginline="42" endline="174" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.classes" class="HelperCardMovement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/classes/Stack.java">
+<violation beginline="35" endline="723" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.classes" class="Stack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Calculation.java">
+<violation beginline="36" endline="311" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Calculation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Canfield.java">
+<violation beginline="44" endline="561" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Canfield" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="211" endline="327" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Canfield" method="onMainStackTouch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/FortyEight.java">
+<violation beginline="40" endline="330" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="FortyEight" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Game.java">
+<violation beginline="50" endline="1302" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Game" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="50" endline="1302" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Game" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Golf.java">
+<violation beginline="45" endline="218" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Golf" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/GrandfathersClock.java">
+<violation beginline="40" endline="401" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="GrandfathersClock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Klondike.java">
+<violation beginline="43" endline="579" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Klondike" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="147" endline="262" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Klondike" method="onMainStackTouch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="474" endline="578" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Klondike" method="checkEmptyDiscardStack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Maze.java">
+<violation beginline="14" endline="245" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Maze" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Mod3.java">
+<violation beginline="36" endline="254" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Mod3" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/NapoleonsTomb.java">
+<violation beginline="49" endline="349" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="NapoleonsTomb" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Pyramid.java">
+<violation beginline="39" endline="323" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Pyramid" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Spider.java">
+<violation beginline="41" endline="389" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Spider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Spiderette.java">
+<violation beginline="50" endline="400" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Spiderette" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/TriPeaks.java">
+<violation beginline="42" endline="265" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="TriPeaks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/games/Yukon.java">
+<violation beginline="39" endline="260" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.games" class="Yukon" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/helper/Animate.java">
+<violation beginline="48" endline="409" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.helper" class="Animate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/helper/AutoComplete.java">
+<violation beginline="41" endline="178" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.helper" class="AutoComplete" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/helper/GameLogic.java">
+<violation beginline="37" endline="403" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.helper" class="GameLogic" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/helper/Preferences.java">
+<violation beginline="24" endline="1660" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.tobiasbielefeld.solitaire.helper" class="Preferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="24" endline="1660" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.helper" class="Preferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="278" endline="498" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.tobiasbielefeld.solitaire.helper" class="Preferences" method="loadStrings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/helper/RecordList.java">
+<violation beginline="35" endline="468" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.helper" class="RecordList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/helper/Scores.java">
+<violation beginline="35" endline="350" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.helper" class="Scores" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/ui/GameManager.java">
+<violation beginline="79" endline="1036" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.ui" class="GameManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="102" endline="288" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.tobiasbielefeld.solitaire.ui" class="GameManager" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/ui/settings/AppCompatPreferenceActivity.java">
+<violation beginline="35" endline="203" begincolumn="140" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.ui.settings" class="AppCompatPreferenceActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Solitaire/app/src/main/java/de/tobiasbielefeld/solitaire/ui/settings/Settings.java">
+<violation beginline="60" endline="542" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.tobiasbielefeld.solitaire.ui.settings" class="Settings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="136" endline="296" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.tobiasbielefeld.solitaire.ui.settings" class="Settings" method="onSharedPreferenceChanged" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

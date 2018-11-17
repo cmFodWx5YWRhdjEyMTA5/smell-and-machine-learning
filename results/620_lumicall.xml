@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:21:54.617">
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/lumicall/android/db/LumicallDataSource.java">
+<violation beginline="10" endline="108" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.lumicall.android.db" class="LumicallDataSource" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/lumicall/android/db/SIP5060ProvisioningRequest.java">
+<violation beginline="12" endline="221" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.lumicall.android.db" class="SIP5060ProvisioningRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SIP5060ProvisioningRequest' is suspected to be a Data Class (WOC=26.667%, NOPA=1, NOAM=10, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/lumicall/android/db/UserMessage.java">
+<violation beginline="17" endline="365" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.lumicall.android.db" class="UserMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserMessage' is suspected to be a Data Class (WOC=13.793%, NOPA=1, NOAM=24, WMC=34)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/lumicall/android/reg/EnrolmentService.java">
+<violation beginline="367" endline="549" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.lumicall.android.reg" class="EnrolmentService" method="getEnrolmentBodyXml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/lumicall/android/sip/CountryData.java">
+<violation beginline="3" endline="44" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.lumicall.android.sip" class="CountryData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CountryData' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/codecs/Codec.java">
+<violation beginline="31" endline="148" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.codecs" class="Codec" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/codecs/CodecBase.java">
+<violation beginline="34" endline="215" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.codecs" class="CodecBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/codecs/Codecs.java">
+<violation beginline="226" endline="335" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.codecs" class="Codecs" method="getCodec" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/media/JAudioLauncher.java">
+<violation beginline="97" endline="97" begincolumn="25" endcolumn="268" rule="ExcessiveParameterList" ruleset="Design" package="org.sipdroid.media" class="JAudioLauncher" method="JAudioLauncher" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/media/RtpStreamReceiver.java">
+<violation beginline="63" endline="877" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.media" class="RtpStreamReceiver" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="604" endline="841" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.media" class="RtpStreamReceiver" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/media/RtpStreamSender.java">
+<violation beginline="62" endline="742" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.media" class="RtpStreamSender" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="162" endline="165" begincolumn="31" endcolumn="85" rule="ExcessiveParameterList" ruleset="Design" package="org.sipdroid.media" class="RtpStreamSender" method="RtpStreamSender" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="332" endline="617" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.media" class="RtpStreamSender" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/net/impl/OSNetworkSystem.java">
+<violation beginline="44" endline="748" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.net.impl" class="OSNetworkSystem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/net/impl/PlainDatagramSocketImpl.java">
+<violation beginline="43" endline="422" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.net.impl" class="PlainDatagramSocketImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/MediaStream.java">
+<violation beginline="18" endline="163" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.sipdroid.sipua" class="MediaStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MediaStream' is suspected to be a Data Class (WOC=9.091%, NOPA=0, NOAM=9, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/MessageAgent.java">
+<violation beginline="49" endline="290" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua" class="MessageAgent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/PublishAgent.java">
+<violation beginline="49" endline="201" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua" class="PublishAgent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/RegisterAgent.java">
+<violation beginline="66" endline="714" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua" class="RegisterAgent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="142" endline="145" begincolumn="29" endcolumn="100" rule="ExcessiveParameterList" ruleset="Design" package="org.sipdroid.sipua" class="RegisterAgent" method="RegisterAgent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/SipdroidEngine.java">
+<violation beginline="69" endline="836" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua" class="SipdroidEngine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="198" endline="332" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua" class="SipdroidEngine" method="StartEngine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/UserAgent.java">
+<violation beginline="107" endline="1867" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.sipdroid.sipua" class="UserAgent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="107" endline="1867" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua" class="UserAgent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="823" endline="1001" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua" class="UserAgent" method="launchMediaApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1085" endline="1217" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua" class="UserAgent" method="handleRemoteSDPforICE" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/UserAgentProfile.java">
+<violation beginline="252" endline="416" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua" class="UserAgentProfile" method="parseLine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/phone/CallCard.java">
+<violation beginline="60" endline="992" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua.phone" class="CallCard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="246" endline="383" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua.phone" class="CallCard" method="displayMainCallStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="771" endline="873" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua.phone" class="CallCard" method="updatePhotoForCallState" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/phone/PhoneUtils.java">
+<violation beginline="62" endline="173" begincolumn="8" endcolumn="1" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua.phone" class="PhoneUtils" method="startGetCallerInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/phone/SlidingCardManager.java">
+<violation beginline="42" endline="674" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua.phone" class="SlidingCardManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/ui/CallScreen.java">
+<violation beginline="53" endline="308" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua.ui" class="CallScreen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/ui/Caller.java">
+<violation beginline="98" endline="312" begincolumn="24" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua.ui" class="Caller" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/ui/InCallScreen.java">
+<violation beginline="62" endline="541" begincolumn="99" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua.ui" class="InCallScreen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/ui/Receiver.java">
+<violation beginline="78" endline="858" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua.ui" class="Receiver" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="153" endline="282" begincolumn="31" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua.ui" class="Receiver" method="onState" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="727" endline="857" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua.ui" class="Receiver" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/ui/SIPUri.java">
+<violation beginline="262" endline="365" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua.ui" class="SIPUri" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/ui/Settings.java">
+<violation beginline="56" endline="632" begincolumn="111" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua.ui" class="Settings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/ui/Sipdroid.java">
+<violation beginline="107" endline="846" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua.ui" class="Sipdroid" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="243" endline="363" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua.ui" class="Sipdroid" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lumicall/src/org/sipdroid/sipua/ui/VideoCamera.java">
+<violation beginline="70" endline="667" begincolumn="148" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sipdroid.sipua.ui" class="VideoCamera" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="440" endline="582" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua.ui" class="VideoCamera" method="startVideoRecording" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="458" endline="579" begincolumn="40" endcolumn="33" rule="ExcessiveMethodLength" ruleset="Design" package="org.sipdroid.sipua.ui" class="VideoCamera" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

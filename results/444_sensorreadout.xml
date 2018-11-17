@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:53:00.839">
+<file name="/home/matheus/smell-and-machine-learning/repositories/sensorreadout/src/org/achartengine/GraphicalView.java">
+<violation beginline="46" endline="351" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.achartengine" class="GraphicalView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sensorreadout/src/org/achartengine/chart/AbstractChart.java">
+<violation beginline="98" endline="99" begincolumn="27" endcolumn="94" rule="ExcessiveParameterList" ruleset="Design" package="org.achartengine.chart" class="AbstractChart" method="drawLegend" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="456" endline="459" begincolumn="27" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="org.achartengine.chart" class="AbstractChart" method="drawLabel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sensorreadout/src/org/achartengine/chart/DialChart.java">
+<violation beginline="172" endline="174" begincolumn="25" endcolumn="21" rule="ExcessiveParameterList" ruleset="Design" package="org.achartengine.chart" class="DialChart" method="drawTicks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sensorreadout/src/org/achartengine/chart/LineChart.java">
+<violation beginline="81" endline="186" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.achartengine.chart" class="LineChart" method="drawSeries" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sensorreadout/src/org/achartengine/chart/TimeChart.java">
+<violation beginline="92" endline="93" begincolumn="29" endcolumn="98" rule="ExcessiveParameterList" ruleset="Design" package="org.achartengine.chart" class="TimeChart" method="drawXLabels" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sensorreadout/src/org/achartengine/chart/XYChart.java">
+<violation beginline="54" endline="1008" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.achartengine.chart" class="XYChart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="107" endline="476" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.achartengine.chart" class="XYChart" method="draw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="688" endline="689" begincolumn="29" endcolumn="98" rule="ExcessiveParameterList" ruleset="Design" package="org.achartengine.chart" class="XYChart" method="drawXLabels" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="803" endline="805" begincolumn="33" endcolumn="18" rule="ExcessiveParameterList" ruleset="Design" package="org.achartengine.chart" class="XYChart" method="drawXTextLabels" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sensorreadout/src/org/achartengine/renderer/XYMultipleSeriesRenderer.java">
+<violation beginline="31" endline="1279" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.achartengine.renderer" class="XYMultipleSeriesRenderer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="31" endline="1279" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.achartengine.renderer" class="XYMultipleSeriesRenderer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

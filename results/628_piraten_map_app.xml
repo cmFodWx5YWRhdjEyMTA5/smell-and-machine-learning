@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:23:28.985">
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/boombuler/piraten/map/PirateMap.java">
+<violation beginline="28" endline="223" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map" class="PirateMap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/boombuler/piraten/map/SyncController.java">
+<violation beginline="40" endline="373" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map" class="SyncController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/boombuler/piraten/map/data/DBAdapter.java">
+<violation beginline="15" endline="287" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.data" class="DBAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/boombuler/piraten/map/proto/Api.java">
+<violation beginline="6" endline="6058" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="48" endline="926" begincolumn="34" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$Plakat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="440" endline="918" begincolumn="71" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$Plakat$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="949" endline="1467" begincolumn="39" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$BoundingBox" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1181" endline="1459" begincolumn="76" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$BoundingBox$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1483" endline="1997" begincolumn="39" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$ViewRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1694" endline="1989" begincolumn="76" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$ViewRequest$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2020" endline="2625" begincolumn="41" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$ChangeRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2306" endline="2617" begincolumn="78" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$ChangeRequest$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2636" endline="2971" begincolumn="41" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$DeleteRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2802" endline="2963" begincolumn="78" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$DeleteRequest$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2998" endline="3672" begincolumn="38" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$AddRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="3310" endline="3664" begincolumn="75" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$AddRequest$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="3720" endline="5167" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="3722" endline="5167" begincolumn="35" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$Request" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="4084" endline="5159" begincolumn="25" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$Request" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="4086" endline="5159" begincolumn="72" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$Request$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="5196" endline="5904" begincolumn="36" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$Response" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="5429" endline="5896" begincolumn="73" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.boombuler.piraten.map.proto" class="Api$Response$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/AbstractMessage.java">
+<violation beginline="241" endline="763" begincolumn="34" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="AbstractMessage$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="333" endline="480" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.protobuf" class="AbstractMessage$Builder" method="mergeFieldFrom" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="483" endline="589" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.protobuf" class="AbstractMessage$Builder" method="mergeMessageSetExtensionFromCodedStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/AbstractMessageLite.java">
+<violation beginline="101" endline="324" begincolumn="38" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="AbstractMessageLite$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/ByteString.java">
+<violation beginline="47" endline="403" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="ByteString" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/CodedInputStream.java">
+<violation beginline="50" endline="885" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="CodedInputStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/CodedOutputStream.java">
+<violation beginline="52" endline="1081" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="CodedOutputStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="52" endline="1081" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="CodedOutputStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/DescriptorProtos.java">
+<violation beginline="6" endline="17063" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="26" endline="572" begincolumn="45" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FileDescriptorSet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="204" endline="564" begincolumn="83" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FileDescriptorSet$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="640" endline="2590" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="642" endline="2590" begincolumn="47" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FileDescriptorProto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1079" endline="2582" begincolumn="25" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FileDescriptorProto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1081" endline="2582" begincolumn="85" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FileDescriptorProto$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1277" endline="1407" begincolumn="14" endcolumn="7" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FileDescriptorProto$Builder" method="mergeFrom" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2654" endline="4928" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="2656" endline="4928" begincolumn="43" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$DescriptorProto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2695" endline="3075" begincolumn="44" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$DescriptorProto$ExtensionRange" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2875" endline="3067" begincolumn="98" endcolumn="7" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$DescriptorProto$ExtensionRange$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="3429" endline="4920" begincolumn="25" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$DescriptorProto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="3431" endline="4920" begincolumn="81" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$DescriptorProto$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="3614" endline="3754" begincolumn="14" endcolumn="7" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$DescriptorProto$Builder" method="mergeFrom" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4966" endline="6118" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="4968" endline="6118" begincolumn="48" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FieldDescriptorProto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="5542" endline="6110" begincolumn="86" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FieldDescriptorProto$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6144" endline="6933" begincolumn="47" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$EnumDescriptorProto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6390" endline="6925" begincolumn="85" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$EnumDescriptorProto$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6953" endline="7520" begincolumn="52" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$EnumValueDescriptorProto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="7182" endline="7512" begincolumn="90" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$EnumValueDescriptorProto$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="7546" endline="8335" begincolumn="50" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$ServiceDescriptorProto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="7792" endline="8327" begincolumn="88" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$ServiceDescriptorProto$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="8359" endline="9053" begincolumn="49" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$MethodDescriptorProto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="8650" endline="9045" begincolumn="87" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$MethodDescriptorProto$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="9101" endline="10245" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="9103" endline="10245" begincolumn="54" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FileOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="9551" endline="10237" begincolumn="139" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FileOptions$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="10271" endline="10940" begincolumn="60" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$MessageOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="10495" endline="10932" begincolumn="145" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$MessageOptions$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="10974" endline="11867" begincolumn="56" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FieldOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="11328" endline="11859" begincolumn="141" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$FieldOptions$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="11885" endline="12445" begincolumn="54" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$EnumOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12072" endline="12437" begincolumn="139" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$EnumOptions$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12463" endline="13023" begincolumn="64" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$EnumValueOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12650" endline="13015" begincolumn="149" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$EnumValueOptions$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="13041" endline="13601" begincolumn="60" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$ServiceOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="13228" endline="13593" begincolumn="145" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$ServiceOptions$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="13619" endline="14179" begincolumn="58" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$MethodOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="13806" endline="14171" begincolumn="143" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$MethodOptions$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="14218" endline="15612" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="14220" endline="15612" begincolumn="47" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$UninterpretedOption" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="14259" endline="14692" begincolumn="38" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$UninterpretedOption$NamePart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="14469" endline="14684" begincolumn="96" endcolumn="7" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$UninterpretedOption$NamePart$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="14999" endline="15604" begincolumn="85" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$UninterpretedOption$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="15627" endline="16677" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="15629" endline="16677" begincolumn="42" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$SourceCodeInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="15670" endline="16167" begincolumn="38" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$SourceCodeInfo$Location" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="15887" endline="16159" begincolumn="91" endcolumn="7" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$SourceCodeInfo$Location$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="16315" endline="16669" begincolumn="80" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos$SourceCodeInfo$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="16890" endline="17054" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.protobuf" class="DescriptorProtos" method="assignDescriptors" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/Descriptors.java">
+<violation beginline="60" endline="1887" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="Descriptors" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="943" endline="1126" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.protobuf" class="Descriptors$FieldDescriptor" method="crossLink" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/DynamicMessage.java">
+<violation beginline="46" endline="438" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DynamicMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="252" endline="437" begincolumn="78" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="DynamicMessage$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/FieldSet.java">
+<violation beginline="49" endline="788" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="FieldSet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/GeneratedMessage.java">
+<violation beginline="57" endline="1834" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="GeneratedMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="209" endline="477" begincolumn="52" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="GeneratedMessage$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="803" endline="1109" begincolumn="58" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="GeneratedMessage$ExtendableBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/GeneratedMessageLite.java">
+<violation beginline="263" endline="518" begincolumn="58" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="GeneratedMessageLite$ExtendableBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="402" endline="512" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.protobuf" class="GeneratedMessageLite$ExtendableBuilder" method="parseUnknownField" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/Message.java">
+<violation beginline="101" endline="214" begincolumn="67" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="Message$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/MessageLite.java">
+<violation beginline="142" endline="324" begincolumn="61" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="MessageLite$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/RepeatedFieldBuilder.java">
+<violation beginline="70" endline="696" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="RepeatedFieldBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/SmallSortedMap.java">
+<violation beginline="87" endline="618" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="SmallSortedMap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/TextFormat.java">
+<violation beginline="55" endline="1476" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.protobuf" class="TextFormat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="55" endline="1476" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="TextFormat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="527" endline="897" begincolumn="40" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="TextFormat$Tokenizer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="987" endline="1158" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.protobuf" class="TextFormat" method="mergeField" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/piraten_map_app/src/com/google/protobuf/UnknownFieldSet.java">
+<violation beginline="59" endline="953" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="UnknownFieldSet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="280" endline="635" begincolumn="68" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.protobuf" class="UnknownFieldSet$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

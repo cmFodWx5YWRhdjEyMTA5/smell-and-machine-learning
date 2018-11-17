@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:33:27.766">
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter-preprocessing/src/main/java/com/nolanlawson/japanesenamegenerator/v3/data/Condition.java">
+<violation beginline="9" endline="54" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.nolanlawson.japanesenamegenerator.v3.data" class="Condition" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Condition' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter-preprocessing/src/main/java/com/nolanlawson/japanesenamegenerator/v3/data/Rule.java">
+<violation beginline="111" endline="256" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.nolanlawson.japanesenamegenerator.v3.data" class="Rule" method="conditionMet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter-preprocessing/src/main/java/com/nolanlawson/japanesenamegenerator/v3/kanji/KanjiResult.java">
+<violation beginline="7" endline="94" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.nolanlawson.japanesenamegenerator.v3.kanji" class="KanjiResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'KanjiResult' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=6, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter-preprocessing/src/main/java/com/nolanlawson/japanesenamegenerator/v3/kanji/SubstringNode.java">
+<violation beginline="7" endline="50" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.nolanlawson.japanesenamegenerator.v3.kanji" class="SubstringNode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubstringNode' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=8, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter-preprocessing/src/main/java/com/nolanlawson/japanesenamegenerator/v3/katakana/KatakanaConverter.java">
+<violation beginline="15" endline="152" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.nolanlawson.japanesenamegenerator.v3.katakana" class="KatakanaConverter" method="convertToKatakana" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter-preprocessing/src/main/java/com/nolanlawson/japanesenamegenerator/v3/training/Trainer.java">
+<violation beginline="48" endline="169" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.nolanlawson.japanesenamegenerator.v3.training" class="Trainer" method="trainModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter-preprocessing/src/main/java/com/nolanlawson/japanesenamegenerator/v3/util/Pair.java">
+<violation beginline="7" endline="70" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.nolanlawson.japanesenamegenerator.v3.util" class="Pair" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Pair' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter/src/com/nolanlawson/jnameconverter/JNameConverterActivity.java">
+<violation beginline="33" endline="262" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nolanlawson.jnameconverter" class="JNameConverterActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter/src/com/nolanlawson/jnameconverter/KanjiDialogActivity.java">
+<violation beginline="30" endline="401" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nolanlawson.jnameconverter" class="KanjiDialogActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter/src/com/nolanlawson/jnameconverter/NameDisplayActivity.java">
+<violation beginline="26" endline="323" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nolanlawson.jnameconverter" class="NameDisplayActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/JapaneseNameConverterRoot/JapaneseNameConverter/src/com/nolanlawson/jnameconverter/data/db/KanjiEntry.java">
+<violation beginline="5" endline="59" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.nolanlawson.jnameconverter.data.db" class="KanjiEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'KanjiEntry' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=10, WMC=12)
+</violation>
+</file>
+</pmd>

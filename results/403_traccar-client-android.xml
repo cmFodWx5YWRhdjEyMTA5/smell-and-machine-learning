@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:41:01.447">
+<file name="/home/matheus/smell-and-machine-learning/repositories/traccar-client-android/app/src/main/java/org/traccar/client/MainFragment.java">
+<violation beginline="50" endline="270" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.traccar.client" class="MainFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/traccar-client-android/app/src/main/java/org/traccar/client/Position.java">
+<violation beginline="24" endline="156" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.traccar.client" class="Position" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Position' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=22, WMC=27)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/traccar-client-android/app/src/main/java/org/traccar/client/TrackingController.java">
+<violation beginline="25" endline="217" begincolumn="109" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.traccar.client" class="TrackingController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

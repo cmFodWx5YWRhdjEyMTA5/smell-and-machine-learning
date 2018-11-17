@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:15:45.044">
+<file name="/home/matheus/smell-and-machine-learning/repositories/nounours-android/common/src/main/java/ca/rmen/nounours/android/common/nounours/AndroidNounours.java">
+<violation beginline="77" endline="86" begincolumn="27" endcolumn="54" rule="ExcessiveParameterList" ruleset="Design" package="ca.rmen.nounours.android.common.nounours" class="AndroidNounours" method="AndroidNounours" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/nounours-android/handheld/src/main/java/android/support/v4/content/FileProvider.java">
+<violation beginline="323" endline="808" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.v4.content" class="FileProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/nounours-android/handheld/src/main/java/ca/rmen/nounours/android/handheld/MainActivity.java">
+<violation beginline="77" endline="429" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.rmen.nounours.android.handheld" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/nounours-android/handheld/src/main/java/com/external/nbadal/AnimatedGifEncoder.java">
+<violation beginline="17" endline="493" begincolumn="33" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.external.nbadal" class="AnimatedGifEncoder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

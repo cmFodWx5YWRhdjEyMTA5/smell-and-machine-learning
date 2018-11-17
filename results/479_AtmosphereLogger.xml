@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:00:03.550">
+<file name="/home/matheus/smell-and-machine-learning/repositories/AtmosphereLogger/app/src/main/java/org/tamanegi/atmosphere/AtmosphereFragment.java">
+<violation beginline="35" endline="652" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tamanegi.atmosphere" class="AtmosphereFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AtmosphereLogger/app/src/main/java/org/tamanegi/atmosphere/LoggerService.java">
+<violation beginline="12" endline="78" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.tamanegi.atmosphere" class="LoggerService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LoggerService' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AtmosphereLogger/app/src/main/java/org/tamanegi/atmosphere/PlotView.java">
+<violation beginline="101" endline="221" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.tamanegi.atmosphere" class="PlotView" method="onDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

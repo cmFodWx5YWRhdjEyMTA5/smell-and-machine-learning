@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:05:06.993">
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/db/DatabaseHelper.java">
+<violation beginline="47" endline="160" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="cz.romario.opensudoku.db" class="DatabaseHelper" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/db/SudokuDatabase.java">
+<violation beginline="49" endline="483" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cz.romario.opensudoku.db" class="SudokuDatabase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/game/CellCollection.java">
+<violation beginline="35" endline="474" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cz.romario.opensudoku.game" class="CellCollection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/game/SudokuGame.java">
+<violation beginline="32" endline="331" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cz.romario.opensudoku.game" class="SudokuGame" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/game/command/CommandStack.java">
+<violation beginline="9" endline="111" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cz.romario.opensudoku.game.command" class="CommandStack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/gui/FolderListActivity.java">
+<violation beginline="58" endline="403" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cz.romario.opensudoku.gui" class="FolderListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/gui/SudokuBoardView.java">
+<violation beginline="46" endline="753" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cz.romario.opensudoku.gui" class="SudokuBoardView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="396" endline="525" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="cz.romario.opensudoku.gui" class="SudokuBoardView" method="onDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/gui/SudokuListActivity.java">
+<violation beginline="65" endline="611" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cz.romario.opensudoku.gui" class="SudokuListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="487" endline="590" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="cz.romario.opensudoku.gui" class="SudokuListActivity$SudokuListViewBinder" method="setViewValue" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/gui/SudokuPlayActivity.java">
+<violation beginline="54" endline="482" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cz.romario.opensudoku.gui" class="SudokuPlayActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/gui/exporting/FileExportTask.java">
+<violation beginline="66" endline="168" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="cz.romario.opensudoku.gui.exporting" class="FileExportTask" method="saveToFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/gui/importing/AbstractImportTask.java">
+<violation beginline="34" endline="237" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cz.romario.opensudoku.gui.importing" class="AbstractImportTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/opensudoku/OpenSudoku/src/cz/romario/opensudoku/gui/inputmethod/InputMethod.java">
+<violation beginline="40" endline="175" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="cz.romario.opensudoku.gui.inputmethod" class="InputMethod" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

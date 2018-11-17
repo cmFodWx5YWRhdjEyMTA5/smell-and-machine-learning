@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:54:52.214">
+<file name="/home/matheus/smell-and-machine-learning/repositories/HallMonitor/src/afzkl/development/colorpickerview/view/ColorPickerView.java">
+<violation beginline="63" endline="1083" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="afzkl.development.colorpickerview.view" class="ColorPickerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="63" endline="1083" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="afzkl.development.colorpickerview.view" class="ColorPickerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HallMonitor/src/eu/chainfire/libsuperuser/Shell.java">
+<violation beginline="43" endline="1353" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="eu.chainfire.libsuperuser" class="Shell" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="473" endline="673" begincolumn="33" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="eu.chainfire.libsuperuser" class="Shell$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="724" endline="1352" begincolumn="37" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="eu.chainfire.libsuperuser" class="Shell$Interactive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HallMonitor/src/org/durka/hallmonitor/DefaultActivity.java">
+<violation beginline="43" endline="494" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.durka.hallmonitor" class="DefaultActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="177" endline="303" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.durka.hallmonitor" class="DefaultActivity" method="refreshDisplay" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/HallMonitor/src/org/durka/hallmonitor/Functions.java">
+<violation beginline="94" endline="515" begincolumn="37" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="org.durka.hallmonitor" class="Functions$Actions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

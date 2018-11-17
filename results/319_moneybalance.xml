@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:24:18.638">
+<file name="/home/matheus/smell-and-machine-learning/repositories/moneybalance/src/ivl/android/moneybalance/CalculationListActivity.java">
+<violation beginline="49" endline="232" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ivl.android.moneybalance" class="CalculationListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/moneybalance/src/ivl/android/moneybalance/ExpenseEditorActivity.java">
+<violation beginline="68" endline="510" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ivl.android.moneybalance" class="ExpenseEditorActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="106" endline="210" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="ivl.android.moneybalance" class="ExpenseEditorActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/moneybalance/src/ivl/android/moneybalance/ExpenseListActivity.java">
+<violation beginline="55" endline="467" begincolumn="92" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ivl.android.moneybalance" class="ExpenseListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/moneybalance/src/ivl/android/moneybalance/dao/DataBaseHelper.java">
+<violation beginline="26" endline="157" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="ivl.android.moneybalance.dao" class="DataBaseHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DataBaseHelper' is suspected to be a Data Class (WOC=0.000%, NOPA=19, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/moneybalance/src/ivl/android/moneybalance/data/Expense.java">
+<violation beginline="24" endline="128" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="ivl.android.moneybalance.data" class="Expense" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Expense' is suspected to be a Data Class (WOC=22.222%, NOPA=0, NOAM=13, WMC=24)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/moneybalance/src/ivl/android/moneybalance/filter/CsvOutput.java">
+<violation beginline="19" endline="271" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ivl.android.moneybalance.filter" class="CsvOutput" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

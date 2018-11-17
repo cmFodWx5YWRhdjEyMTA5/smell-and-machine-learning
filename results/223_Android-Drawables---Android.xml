@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:56:01.672">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Drawables---Android/gen/aws/apps/androidDrawables/R.java">
+<violation beginline="10" endline="2971" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="aws.apps.androidDrawables" class="R" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1139" endline="2970" begincolumn="25" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="aws.apps.androidDrawables" class="R" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-Drawables---Android/src/aws/apps/androidDrawables/activities/Main.java">
+<violation beginline="38" endline="376" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="aws.apps.androidDrawables.activities" class="Main" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

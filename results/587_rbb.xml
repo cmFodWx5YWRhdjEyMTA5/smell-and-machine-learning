@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:17:14.719">
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/AbstractBrowserActivity.java">
+<violation beginline="53" endline="903" begincolumn="17" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="AbstractBrowserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/AbstractListFragment.java">
+<violation beginline="39" endline="150" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="AbstractListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/AccountListFragment.java">
+<violation beginline="53" endline="194" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="AccountListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/AddAccountFragment.java">
+<violation beginline="41" endline="275" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="AddAccountFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/AddSubredditFragment.java">
+<violation beginline="41" endline="207" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="AddSubredditFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/BrowserActivity.java">
+<violation beginline="41" endline="273" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="BrowserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/CaptchaFragment.java">
+<violation beginline="40" endline="173" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="CaptchaFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/CommentListController.java">
+<violation beginline="46" endline="487" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="CommentListController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/CommentListFragment.java">
+<violation beginline="43" endline="248" begincolumn="16" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="CommentListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/ComposeFormFragment.java">
+<violation beginline="82" endline="816" begincolumn="17" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="ComposeFormFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="193" endline="331" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.btmura.android.reddit.app" class="ComposeFormFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/ControlFragment.java">
+<violation beginline="22" endline="187" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="ControlFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/GlobalMenuFragment.java">
+<violation beginline="36" endline="163" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="GlobalMenuFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/MenuHelper.java">
+<violation beginline="44" endline="344" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="MenuHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/MessageThingActionModeController.java">
+<violation beginline="34" endline="238" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="MessageThingActionModeController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/MessageThreadListController.java">
+<violation beginline="37" endline="220" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="MessageThreadListController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/NavigationFragment.java">
+<violation beginline="66" endline="686" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="NavigationFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/SearchActivity.java">
+<violation beginline="40" endline="206" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="SearchActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/SidebarActivity.java">
+<violation beginline="38" endline="185" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="SidebarActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/SidebarFragment.java">
+<violation beginline="38" endline="163" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="SidebarFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/SubredditActionModeController.java">
+<violation beginline="35" endline="220" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="SubredditActionModeController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/ThingBundle.java">
+<violation beginline="40" endline="485" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="ThingBundle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="95" endline="113" begincolumn="44" endcolumn="17" rule="ExcessiveParameterList" ruleset="Design" package="com.btmura.android.reddit.app" class="ThingBundle" method="newLinkInstance" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="136" endline="156" begincolumn="47" endcolumn="17" rule="ExcessiveParameterList" ruleset="Design" package="com.btmura.android.reddit.app" class="ThingBundle" method="newCommentInstance" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="358" endline="484" begincolumn="53" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="ThingBundle$ThingBundleParser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/ThingFragment.java">
+<violation beginline="47" endline="412" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="ThingFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/ThingListFragment.java">
+<violation beginline="54" endline="298" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="ThingListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/ThingTableActionModeController.java">
+<violation beginline="38" endline="433" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="ThingTableActionModeController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/app/UserProfileActivity.java">
+<violation beginline="45" endline="212" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.app" class="UserProfileActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/content/CommentLoader.java">
+<violation beginline="29" endline="119" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.btmura.android.reddit.content" class="CommentLoader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CommentLoader' is suspected to be a Data Class (WOC=0.000%, NOPA=24, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/content/MessageThingLoader.java">
+<violation beginline="26" endline="88" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.btmura.android.reddit.content" class="MessageThingLoader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MessageThingLoader' is suspected to be a Data Class (WOC=0.000%, NOPA=13, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/content/MessageThreadLoader.java">
+<violation beginline="25" endline="73" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.btmura.android.reddit.content" class="MessageThreadLoader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MessageThreadLoader' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/database/DbHelper.java">
+<violation beginline="23" endline="225" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.database" class="DbHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/net/RedditApi.java">
+<violation beginline="49" endline="526" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.net" class="RedditApi" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/net/Urls.java">
+<violation beginline="35" endline="669" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.net" class="Urls" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/provider/CommentListing.java">
+<violation beginline="50" endline="462" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.provider" class="CommentListing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/provider/MessageListing.java">
+<violation beginline="48" endline="341" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.provider" class="MessageListing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/provider/Provider.java">
+<violation beginline="35" endline="243" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.provider" class="Provider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/provider/ThingListing.java">
+<violation beginline="53" endline="694" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.provider" class="ThingListing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="254" endline="264" begincolumn="23" endcolumn="16" rule="ExcessiveParameterList" ruleset="Design" package="com.btmura.android.reddit.provider" class="ThingListing" method="ThingListing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/provider/ThingProvider.java">
+<violation beginline="77" endline="1398" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.btmura.android.reddit.provider" class="ThingProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="77" endline="1398" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.provider" class="ThingProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="915" endline="1019" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.btmura.android.reddit.provider" class="ThingProvider" method="insertComment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/util/JsonParser.java">
+<violation beginline="27" endline="452" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.util" class="JsonParser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/widget/AbstractThingListAdapter.java">
+<violation beginline="29" endline="149" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.btmura.android.reddit.widget" class="AbstractThingListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AbstractThingListAdapter' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=9, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/widget/ThingListAdapter.java">
+<violation beginline="32" endline="237" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.btmura.android.reddit.widget" class="ThingListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ThingListAdapter' is suspected to be a Data Class (WOC=28.571%, NOPA=1, NOAM=4, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/src/com/btmura/android/reddit/widget/ThingView.java">
+<violation beginline="47" endline="1076" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.btmura.android.reddit.widget" class="ThingView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="47" endline="1076" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.widget" class="ThingView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="242" endline="268" begincolumn="22" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="com.btmura.android.reddit.widget" class="ThingView" method="setData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="369" endline="379" begincolumn="29" endcolumn="23" rule="ExcessiveParameterList" ruleset="Design" package="com.btmura.android.reddit.widget" class="ThingView" method="setStatusText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="510" endline="688" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.btmura.android.reddit.widget" class="ThingView" method="onMeasure" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/tests/src/com/btmura/android/reddit/database/DbHelperTest.java">
+<violation beginline="27" endline="232" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.database" class="DbHelperTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/tests/src/com/btmura/android/reddit/net/UrlsTest.java">
+<violation beginline="24" endline="156" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.net" class="UrlsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/tests/src/com/btmura/android/reddit/text/AbstractFormatterTest.java">
+<violation beginline="38" endline="193" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.text" class="AbstractFormatterTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/rbb/tests/src/com/btmura/android/reddit/text/MarkdownFormatter_EscapedTest.java">
+<violation beginline="19" endline="69" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.btmura.android.reddit.text" class="MarkdownFormatter_EscapedTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

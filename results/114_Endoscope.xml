@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:32:12.284">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/app/src/main/java/pl/hypeapp/endoscope/presenter/QrCodeScannerPresenter.java">
+<violation beginline="15" endline="96" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pl.hypeapp.endoscope.presenter" class="QrCodeScannerPresenter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/app/src/main/java/pl/hypeapp/endoscope/presenter/SettingsPresenter.java">
+<violation beginline="8" endline="82" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pl.hypeapp.endoscope.presenter" class="SettingsPresenter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/app/src/main/java/pl/hypeapp/endoscope/presenter/StartStreamPresenter.java">
+<violation beginline="17" endline="122" begincolumn="111" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pl.hypeapp.endoscope.presenter" class="StartStreamPresenter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/app/src/main/java/pl/hypeapp/endoscope/ui/activity/ConnectToStreamActivity.java">
+<violation beginline="29" endline="123" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pl.hypeapp.endoscope.ui.activity" class="ConnectToStreamActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/app/src/main/java/pl/hypeapp/endoscope/ui/activity/SettingsActivity.java">
+<violation beginline="27" endline="159" begincolumn="107" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pl.hypeapp.endoscope.ui.activity" class="SettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/app/src/main/java/pl/hypeapp/endoscope/ui/activity/StartStreamActivity.java">
+<violation beginline="46" endline="257" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pl.hypeapp.endoscope.ui.activity" class="StartStreamActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/app/src/main/java/pl/hypeapp/endoscope/ui/fragment/QrCodeScannerFragment.java">
+<violation beginline="26" endline="126" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pl.hypeapp.endoscope.ui.fragment" class="QrCodeScannerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/app/src/main/java/pl/hypeapp/endoscope/view/StartStreamView.java">
+<violation beginline="6" endline="46" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pl.hypeapp.endoscope.view" class="StartStreamView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/libstreaming/src/main/java/net/majorkernelpanic/streaming/Session.java">
+<violation beginline="65" endline="745" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.majorkernelpanic.streaming" class="Session" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/libstreaming/src/main/java/net/majorkernelpanic/streaming/hw/EncoderDebugger.java">
+<violation beginline="55" endline="851" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.majorkernelpanic.streaming.hw" class="EncoderDebugger" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="163" endline="316" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="net.majorkernelpanic.streaming.hw" class="EncoderDebugger" method="debug" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/libstreaming/src/main/java/net/majorkernelpanic/streaming/rtsp/RtspClient.java">
+<violation beginline="53" endline="620" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.majorkernelpanic.streaming.rtsp" class="RtspClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/libstreaming/src/main/java/net/majorkernelpanic/streaming/rtsp/RtspServer.java">
+<violation beginline="60" endline="704" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.majorkernelpanic.streaming.rtsp" class="RtspServer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="444" endline="592" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="net.majorkernelpanic.streaming.rtsp" class="RtspServer$WorkerThread" method="processRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/libstreaming/src/main/java/net/majorkernelpanic/streaming/rtsp/UriParser.java">
+<violation beginline="65" endline="220" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="net.majorkernelpanic.streaming.rtsp" class="UriParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/libstreaming/src/main/java/net/majorkernelpanic/streaming/video/H264Stream.java">
+<violation beginline="143" endline="278" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="net.majorkernelpanic.streaming.video" class="H264Stream" method="testMediaRecorderAPI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Endoscope/libstreaming/src/main/java/net/majorkernelpanic/streaming/video/VideoStream.java">
+<violation beginline="59" endline="744" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.majorkernelpanic.streaming.video" class="VideoStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

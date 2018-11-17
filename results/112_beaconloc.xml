@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:31:56.208">
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/BeaconLocatorApp.java">
+<violation beginline="65" endline="318" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.samebits.beacon.locator" class="BeaconLocatorApp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/data/DbStoreService.java">
+<violation beginline="39" endline="537" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.samebits.beacon.locator.data" class="DbStoreService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/model/ActionBeacon.java">
+<violation beginline="27" endline="225" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.samebits.beacon.locator.model" class="ActionBeacon" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ActionBeacon' is suspected to be a Data Class (WOC=5.556%, NOPA=1, NOAM=15, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/model/NotificationAction.java">
+<violation beginline="27" endline="98" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.samebits.beacon.locator.model" class="NotificationAction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NotificationAction' is suspected to be a Data Class (WOC=22.222%, NOPA=1, NOAM=6, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/model/TrackedBeacon.java">
+<violation beginline="31" endline="275" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.samebits.beacon.locator.model" class="TrackedBeacon" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TrackedBeacon' is suspected to be a Data Class (WOC=28.571%, NOPA=1, NOAM=8, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/ui/activity/MainNavigationActivity.java">
+<violation beginline="73" endline="454" begincolumn="116" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.samebits.beacon.locator.ui.activity" class="MainNavigationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/ui/fragment/DetectedBeaconsFragment.java">
+<violation beginline="58" endline="247" begincolumn="110" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.samebits.beacon.locator.ui.fragment" class="DetectedBeaconsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/ui/fragment/ScanFragment.java">
+<violation beginline="45" endline="207" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.samebits.beacon.locator.ui.fragment" class="ScanFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/ui/fragment/ScanRadarFragment.java">
+<violation beginline="43" endline="159" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.samebits.beacon.locator.ui.fragment" class="ScanRadarFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/ui/fragment/TrackedBeaconsFragment.java">
+<violation beginline="59" endline="318" begincolumn="149" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.samebits.beacon.locator.ui.fragment" class="TrackedBeaconsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/ui/view/RadarScanView.java">
+<violation beginline="52" endline="396" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.samebits.beacon.locator.ui.view" class="RadarScanView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/com/samebits/beacon/locator/ui/view/WrapLinearLayoutManager.java">
+<violation beginline="124" endline="227" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.samebits.beacon.locator.ui.view" class="WrapLinearLayoutManager" method="onMeasure" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/beaconloc/app/src/main/java/net/dinglisch/android/tasker/TaskerIntent.java">
+<violation beginline="34" endline="433" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.dinglisch.android.tasker" class="TaskerIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

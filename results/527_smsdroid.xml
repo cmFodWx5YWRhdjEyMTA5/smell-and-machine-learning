@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:08:18.211">
+<file name="/home/matheus/smell-and-machine-learning/repositories/smsdroid/SMSdroid/src/main/java/de/ub0r/android/smsdroid/ConversationListActivity.java">
+<violation beginline="73" endline="687" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.smsdroid" class="ConversationListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/smsdroid/SMSdroid/src/main/java/de/ub0r/android/smsdroid/MessageAdapter.java">
+<violation beginline="222" endline="386" begincolumn="18" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.smsdroid" class="MessageAdapter" method="bindView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/smsdroid/SMSdroid/src/main/java/de/ub0r/android/smsdroid/MessageListActivity.java">
+<violation beginline="76" endline="866" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.smsdroid" class="MessageListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="638" endline="782" begincolumn="18" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.smsdroid" class="MessageListActivity" method="onItemLongClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="671" endline="778" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.smsdroid" class="MessageListActivity" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/smsdroid/SMSdroid/src/main/java/de/ub0r/android/smsdroid/SmsReceiver.java">
+<violation beginline="431" endline="605" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.smsdroid" class="SmsReceiver" method="updateNewMessageNotification" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/smsdroid/SMSdroid/src/main/java/yuku/ambilwarna/AmbilWarnaDialog.java">
+<violation beginline="44" endline="171" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="yuku.ambilwarna" class="AmbilWarnaDialog" method="AmbilWarnaDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:13:39.117">
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/LauncherActivity.java">
+<violation beginline="56" endline="568" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher" class="LauncherActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="213" endline="349" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher" class="LauncherActivity" method="finishOnCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/UIManager.java">
+<violation beginline="76" endline="1139" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ohi.andre.consolelauncher" class="UIManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="76" endline="1139" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher" class="UIManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="660" endline="976" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher" class="UIManager" method="UIManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/commands/CommandTuils.java">
+<violation beginline="31" endline="515" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.commands" class="CommandTuils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="501" endline="513" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="ohi.andre.consolelauncher.commands" class="CommandTuils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ArgInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/commands/main/MainPack.java">
+<violation beginline="71" endline="72" begincolumn="20" endcolumn="133" rule="ExcessiveParameterList" ruleset="Design" package="ohi.andre.consolelauncher.commands.main" class="MainPack" method="MainPack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/commands/main/raw/search.java">
+<violation beginline="18" endline="237" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.commands.main.raw" class="search" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/commands/tuixt/TuixtActivity.java">
+<violation beginline="63" endline="262" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.commands.tuixt" class="TuixtActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/AppsManager.java">
+<violation beginline="58" endline="1564" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="AppsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="58" endline="1564" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="AppsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="168" endline="379" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="AppsManager" method="fill" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/ContactManager.java">
+<violation beginline="303" endline="342" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="ContactManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Contact' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=2, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/FileManager.java">
+<violation beginline="162" endline="183" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="FileManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WildcardInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/NotesManager.java">
+<violation beginline="75" endline="185" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="NotesManager" method="NotesManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/RssManager.java">
+<violation beginline="54" endline="1190" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="RssManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="54" endline="1190" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="RssManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="142" endline="344" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="RssManager" method="refresh" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="158" endline="342" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="RssManager" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="789" endline="905" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="RssManager" method="showItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="933" endline="934" begincolumn="19" endcolumn="150" rule="ExcessiveParameterList" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="RssManager$Rss" method="Rss" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="991" endline="992" begincolumn="28" endcolumn="159" rule="ExcessiveParameterList" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="RssManager$Rss" method="setAll" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/TerminalManager.java">
+<violation beginline="51" endline="563" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="TerminalManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="111" endline="112" begincolumn="27" endcolumn="117" rule="ExcessiveParameterList" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="TerminalManager" method="TerminalManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="111" endline="291" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers" class="TerminalManager" method="TerminalManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/music/MusicManager2.java">
+<violation beginline="32" endline="366" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.managers.music" class="MusicManager2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/music/MusicService.java">
+<violation beginline="32" endline="279" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.managers.music" class="MusicService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/notifications/KeeperService.java">
+<violation beginline="141" endline="256" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers.notifications" class="KeeperService" method="buildNotification" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/notifications/NotificationManager.java">
+<violation beginline="76" endline="230" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers.notifications" class="NotificationManager" method="NotificationManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/notifications/NotificationService.java">
+<violation beginline="78" endline="305" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers.notifications" class="NotificationService" method="init" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="95" endline="267" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers.notifications" class="NotificationService" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="376" endline="419" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="ohi.andre.consolelauncher.managers.notifications" class="NotificationService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Notification' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/notifications/reply/ReplyManager.java">
+<violation beginline="48" endline="429" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.managers.notifications.reply" class="ReplyManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/suggestions/SuggestionsManager.java">
+<violation beginline="61" endline="1221" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ohi.andre.consolelauncher.managers.suggestions" class="SuggestionsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="61" endline="1221" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.managers.suggestions" class="SuggestionsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="132" endline="238" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers.suggestions" class="SuggestionsManager" method="SuggestionsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="307" endline="450" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers.suggestions" class="SuggestionsManager" method="requestSuggestion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="454" endline="595" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.managers.suggestions" class="SuggestionsManager" method="getSuggestions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1121" endline="1220" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="ohi.andre.consolelauncher.managers.suggestions" class="SuggestionsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Suggestion' is suspected to be a Data Class (WOC=0.000%, NOPA=17, NOAM=1, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/managers/xml/XMLPrefsManager.java">
+<violation beginline="40" endline="822" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.managers.xml" class="XMLPrefsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/tuils/Compare.java">
+<violation beginline="15" endline="408" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.tuils" class="Compare" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="45" endline="147" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils" class="Compare" method="compare" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="149" endline="252" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils" class="Compare" method="compare" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/tuils/PrivateIOReceiver.java">
+<violation beginline="27" endline="149" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="ohi.andre.consolelauncher.tuils" class="PrivateIOReceiver" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PrivateIOReceiver' is suspected to be a Data Class (WOC=0.000%, NOPA=14, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/tuils/Tuils.java">
+<violation beginline="89" endline="1280" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils" class="Tuils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="89" endline="1280" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.tuils" class="Tuils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/tuils/html_escape/Html4EscapeSymbolsInitializer.java">
+<violation beginline="37" endline="348" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="Html4EscapeSymbolsInitializer" method="initializeHtml4" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/tuils/html_escape/Html5EscapeSymbolsInitializer.java">
+<violation beginline="34" endline="2319" begincolumn="7" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="37" endline="2311" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="Html5EscapeSymbolsInitializer" method="initializeHtml5" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/tuils/html_escape/HtmlEscape.java">
+<violation beginline="148" endline="1282" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="HtmlEscape" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="148" endline="1282" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="HtmlEscape" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/tuils/html_escape/HtmlEscapeSymbols.java">
+<violation beginline="195" endline="320" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="HtmlEscapeSymbols" method="HtmlEscapeSymbols" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/tuils/html_escape/HtmlEscapeUtil.java">
+<violation beginline="36" endline="1367" begincolumn="7" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="97" endline="236" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="HtmlEscapeUtil" method="escape" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="249" endline="362" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="HtmlEscapeUtil" method="escape" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="371" endline="496" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="HtmlEscapeUtil" method="escape" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="616" endline="840" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="HtmlEscapeUtil" method="unescape" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="856" endline="1127" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="HtmlEscapeUtil" method="unescape" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1139" endline="1349" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.html_escape" class="HtmlEscapeUtil" method="unescape" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TUI-ConsoleLauncher/app/src/main/java/ohi/andre/consolelauncher/tuils/libsuperuser/Shell.java">
+<violation beginline="46" endline="1747" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.libsuperuser" class="Shell" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="617" endline="897" begincolumn="33" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.tuils.libsuperuser" class="Shell$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="963" endline="1746" begincolumn="37" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="ohi.andre.consolelauncher.tuils.libsuperuser" class="Shell$Interactive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1443" endline="1550" begincolumn="30" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="ohi.andre.consolelauncher.tuils.libsuperuser" class="Shell$Interactive" method="open" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

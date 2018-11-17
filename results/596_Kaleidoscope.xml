@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:18:38.210">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Kaleidoscope/Kaleidoscope/src/main/java/vnd/blueararat/kaleidoscope6/KCamera.java">
+<violation beginline="31" endline="516" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="vnd.blueararat.kaleidoscope6" class="KCamera" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Kaleidoscope/Kaleidoscope/src/main/java/vnd/blueararat/kaleidoscope6/KView.java">
+<violation beginline="32" endline="731" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="vnd.blueararat.kaleidoscope6" class="KView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="265" endline="369" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="vnd.blueararat.kaleidoscope6" class="KView" method="exportImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Kaleidoscope/Kaleidoscope/src/main/java/vnd/blueararat/kaleidoscope6/Kaleidoscope.java">
+<violation beginline="41" endline="527" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="vnd.blueararat.kaleidoscope6" class="Kaleidoscope" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

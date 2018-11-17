@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:47:19.039">
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/PhotoPhaseRenderer.java">
+<violation beginline="69" endline="990" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase" class="PhotoPhaseRenderer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="410" endline="520" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ruesga.android.wallpapers.photophase" class="PhotoPhaseRenderer" method="onTouch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/PhotoViewerActivity.java">
+<violation beginline="82" endline="820" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase" class="PhotoViewerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="573" endline="782" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ruesga.android.wallpapers.photophase" class="PhotoViewerActivity" method="updateDetailsInformation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/cast/CastServer.java">
+<violation beginline="60" endline="496" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.cast" class="CastServer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/cast/CastService.java">
+<violation beginline="77" endline="1099" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.cast" class="CastService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="77" endline="1099" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.cast" class="CastService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/cast/mdsn/MDNSDiscover.java">
+<violation beginline="42" endline="428" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.cast.mdsn" class="MDNSDiscover" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/effects/Effects.java">
+<violation beginline="259" endline="429" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.effects" class="Effects" method="getEffect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/preferences/CastPreferenceFragment.java">
+<violation beginline="81" endline="182" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.preferences" class="CastPreferenceFragment" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/preferences/ChoosePicturesFragment.java">
+<violation beginline="91" endline="1197" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.preferences" class="ChoosePicturesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="93" endline="1197" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.preferences" class="ChoosePicturesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/preferences/DispositionFragment.java">
+<violation beginline="53" endline="439" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.preferences" class="DispositionFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/preferences/GeneralPreferenceFragment.java">
+<violation beginline="179" endline="348" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.preferences" class="GeneralPreferenceFragment" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/utils/BitmapUtils.java">
+<violation beginline="40" endline="391" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.utils" class="BitmapUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/utils/GLESUtil.java">
+<violation beginline="49" endline="665" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.utils" class="GLESUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="67" endline="183" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.utils" class="GLESUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GLColor' is suspected to be a Data Class (WOC=20.000%, NOPA=4, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/widgets/AlbumInfoView.java">
+<violation beginline="52" endline="417" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.widgets" class="AlbumInfoView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/PhotoPhase/app/src/main/java/com/ruesga/android/wallpapers/photophase/widgets/DispositionView.java">
+<violation beginline="65" endline="969" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.widgets" class="DispositionView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="255" endline="367" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.ruesga.android.wallpapers.photophase.widgets" class="DispositionView" method="deleteCurrentFrame" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

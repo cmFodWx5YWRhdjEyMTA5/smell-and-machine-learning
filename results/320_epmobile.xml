@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:24:25.677">
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/main/java/org/epstudios/epmobile/Brugada.java">
+<violation beginline="31" endline="220" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.epstudios.epmobile" class="Brugada" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/main/java/org/epstudios/epmobile/BrugadaMorphologyCriteria.java">
+<violation beginline="38" endline="267" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.epstudios.epmobile" class="BrugadaMorphologyCriteria" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/main/java/org/epstudios/epmobile/CmsIcdModel.java">
+<violation beginline="27" endline="351" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.epstudios.epmobile" class="CmsIcdModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="49" endline="54" begincolumn="23" endcolumn="95" rule="ExcessiveParameterList" ruleset="Design" package="org.epstudios.epmobile" class="CmsIcdModel" method="CmsIcdModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/main/java/org/epstudios/epmobile/CmsIcdViewModel.java">
+<violation beginline="38" endline="45" begincolumn="27" endcolumn="72" rule="ExcessiveParameterList" ruleset="Design" package="org.epstudios.epmobile" class="CmsIcdViewModel" method="CmsIcdViewModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/main/java/org/epstudios/epmobile/DiagnosisList.java">
+<violation beginline="12" endline="144" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.epstudios.epmobile" class="DiagnosisList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/main/java/org/epstudios/epmobile/IbwCalculator.java">
+<violation beginline="22" endline="367" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.epstudios.epmobile" class="IbwCalculator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/main/java/org/epstudios/epmobile/QtcCalculator.java">
+<violation beginline="21" endline="103" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.epstudios.epmobile" class="QtcCalculator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/main/java/org/epstudios/epmobile/QtcIvcdResults.java">
+<violation beginline="31" endline="186" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.epstudios.epmobile" class="QtcIvcdResults" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/main/java/org/epstudios/epmobile/RiskScoreList.java">
+<violation beginline="12" endline="122" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.epstudios.epmobile" class="RiskScoreList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/main/java/org/epstudios/epmobile/Warfarin.java">
+<violation beginline="35" endline="436" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.epstudios.epmobile" class="Warfarin" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/test/java/QtcCalculatorTest.java">
+<violation beginline="24" endline="105" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" class="QtcCalculatorTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/epmobile/app/src/test/java/org/epstudios/epmobile/CmsIcdResultTest.java">
+<violation beginline="30" endline="141" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.epstudios.epmobile" class="CmsIcdResultTest" method="testResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

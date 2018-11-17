@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:21:34.770">
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit-integration-tests/src/main/java/com/madgag/agit/GitAsyncTaskTest.java">
+<violation beginline="69" endline="293" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.agit" class="GitAsyncTaskTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/main/java/com/madgag/agit/CloneLauncherActivity.java">
+<violation beginline="78" endline="376" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.agit" class="CloneLauncherActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/main/java/com/madgag/agit/CommitViewerActivity.java">
+<violation beginline="70" endline="228" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.agit" class="CommitViewerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/main/java/com/madgag/agit/GitIntentBuilder.java">
+<violation beginline="38" endline="122" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.agit" class="GitIntentBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/main/java/com/madgag/agit/GitIntents.java">
+<violation beginline="35" endline="118" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.agit" class="GitIntents" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/main/java/com/madgag/agit/RepoScopedActivityBase.java">
+<violation beginline="42" endline="120" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.agit" class="RepoScopedActivityBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/main/java/com/madgag/agit/RepositoryViewerActivity.java">
+<violation beginline="66" endline="231" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.agit" class="RepositoryViewerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/main/java/com/madgag/agit/diff/LineContextDiffer.java">
+<violation beginline="56" endline="348" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.agit.diff" class="LineContextDiffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/main/java/com/madgag/agit/git/Repos.java">
+<violation beginline="58" endline="191" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.agit.git" class="Repos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/main/java/com/madgag/agit/git/model/RepoDomainType.java">
+<violation beginline="32" endline="86" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.agit.git.model" class="RepoDomainType" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/main/java/com/madgag/android/jgit/HarmonyFixInflater.java">
+<violation beginline="49" endline="178" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.madgag.android.jgit" class="HarmonyFixInflater" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/agit/agit/src/test/java/com/madgag/agit/shadow/ShadowSherlockActivity.java">
+<violation beginline="39" endline="325" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.madgag.agit.shadow" class="ShadowSherlockActivity" method="getSupportActionBar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:15:01.564">
+<file name="/home/matheus/smell-and-machine-learning/repositories/tickmate/app/src/main/java/de/smasi/tickmate/TickAdapter.java">
+<violation beginline="183" endline="290" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.smasi.tickmate" class="TickAdapter" method="buildRow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/tickmate/app/src/main/java/de/smasi/tickmate/Tickmate.java">
+<violation beginline="54" endline="374" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.smasi.tickmate" class="Tickmate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/tickmate/app/src/main/java/de/smasi/tickmate/database/DataSource.java">
+<violation beginline="24" endline="877" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.smasi.tickmate.database" class="DataSource" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/tickmate/app/src/main/java/de/smasi/tickmate/models/Tick.java">
+<violation beginline="5" endline="40" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.smasi.tickmate.models" class="Tick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Tick' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/tickmate/app/src/main/java/de/smasi/tickmate/views/ShowTrackActivity.java">
+<violation beginline="147" endline="336" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.smasi.tickmate.views" class="ShowTrackActivity" method="retrieveGraphData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="387" endline="491" begincolumn="17" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.smasi.tickmate.views" class="ShowTrackActivity" method="fillTrackUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/tickmate/app/src/main/java/de/smasi/tickmate/views/TickHeader.java">
+<violation beginline="28" endline="237" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.smasi.tickmate.views" class="TickHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/tickmate/app/src/main/java/lab/prada/android/ui/infinitescroll/InfiniteScrollAdapter.java">
+<violation beginline="19" endline="209" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="lab.prada.android.ui.infinitescroll" class="InfiniteScrollAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

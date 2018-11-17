@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:33:21.684">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mandelbrot-Maps-on-Android/MandelbrotMapsAndroid/src/uk/ac/ed/inf/mandelbrotmaps/AbstractFractalView.java">
+<violation beginline="29" endline="942" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="uk.ac.ed.inf.mandelbrotmaps" class="AbstractFractalView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="846" endline="859" begincolumn="27" endcolumn="17" rule="ExcessiveParameterList" ruleset="Design" package="uk.ac.ed.inf.mandelbrotmaps" class="AbstractFractalView" method="computePixels" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mandelbrot-Maps-on-Android/MandelbrotMapsAndroid/src/uk/ac/ed/inf/mandelbrotmaps/FractalActivity.java">
+<violation beginline="39" endline="988" begincolumn="166" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="uk.ac.ed.inf.mandelbrotmaps" class="FractalActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Mandelbrot-Maps-on-Android/MandelbrotMapsAndroid/src/uk/ac/ed/inf/mandelbrotmaps/MandelbrotJuliaLocation.java">
+<violation beginline="6" endline="98" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="uk.ac.ed.inf.mandelbrotmaps" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MandelbrotJuliaLocation' is suspected to be a Data Class (WOC=20.000%, NOPA=3, NOAM=3, WMC=13)
+</violation>
+</file>
+</pmd>

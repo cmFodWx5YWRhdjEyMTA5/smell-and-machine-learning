@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:15:38.350">
+<file name="/home/matheus/smell-and-machine-learning/repositories/GTFSOffline/GTFSOffline/src/com/wbrenna/gtfsoffline/FavFragmentHelper.java">
+<violation beginline="137" endline="260" begincolumn="27" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.wbrenna.gtfsoffline" class="FavFragmentHelper$ProcessBusStops" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/GTFSOffline/GTFSOffline/src/com/wbrenna/gtfsoffline/LocationFragmentHelper.java">
+<violation beginline="145" endline="307" begincolumn="27" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.wbrenna.gtfsoffline" class="LocationFragmentHelper$ProcessBusStops" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/GTFSOffline/GTFSOffline/src/com/wbrenna/gtfsoffline/MainActivity.java">
+<violation beginline="89" endline="207" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.wbrenna.gtfsoffline" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="210" endline="323" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.wbrenna.gtfsoffline" class="MainActivity" method="onResume" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/GTFSOffline/GTFSOffline/src/com/wbrenna/gtfsoffline/ServiceCalendar.java">
+<violation beginline="239" endline="389" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.wbrenna.gtfsoffline" class="ServiceCalendar" method="getNextDepartureTimesGen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="392" endline="518" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.wbrenna.gtfsoffline" class="ServiceCalendar" method="getNextDepartureTimes" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="760" endline="865" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.wbrenna.gtfsoffline" class="ServiceCalendar" method="formattedDepartureTime" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

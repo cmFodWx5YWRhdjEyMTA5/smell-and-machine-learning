@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:18:23.522">
+<file name="/home/matheus/smell-and-machine-learning/repositories/osmgpxuploader/upload/src/main/java/net/anzix/osm/upload/data/Gpx.java">
+<violation beginline="8" endline="118" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.anzix.osm.upload.data" class="Gpx" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Gpx' is suspected to be a Data Class (WOC=13.333%, NOPA=0, NOAM=10, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/osmgpxuploader/upload/src/main/java/net/anzix/osm/upload/data/Source.java">
+<violation beginline="7" endline="82" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.anzix.osm.upload.data" class="Source" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Source' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/osmgpxuploader/upload/src/main/java/net/anzix/osm/upload/service/Uploader.java">
+<violation beginline="41" endline="174" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.anzix.osm.upload.service" class="Uploader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Uploader' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+<violation beginline="72" endline="173" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="net.anzix.osm.upload.service" class="Uploader" method="onHandleIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

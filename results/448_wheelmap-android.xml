@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:53:58.112">
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/oak/Base64.java">
+<violation beginline="246" endline="425" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="oak" class="Base64$Decoder" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="588" endline="733" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="oak" class="Base64$Encoder" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/osmdroid/mapsforge/wrapper/MapController.java">
+<violation beginline="13" endline="95" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.osmdroid.mapsforge.wrapper" class="MapController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/activity/DashboardActivity.java">
+<violation beginline="37" endline="340" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.activity" class="DashboardActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="44" endline="203" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.wheelmap.android.activity" class="DashboardActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/activity/MainMultiPaneActivity.java">
+<violation beginline="98" endline="781" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.activity" class="MainMultiPaneActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/activity/MainSinglePaneActivity.java">
+<violation beginline="80" endline="542" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.activity" class="MainSinglePaneActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/activity/MapActivity.java">
+<violation beginline="47" endline="271" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.activity" class="MapActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/activity/POIDetailActivity.java">
+<violation beginline="54" endline="317" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.activity" class="POIDetailActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/activity/POIDetailEditableActivity.java">
+<violation beginline="46" endline="278" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.activity" class="POIDetailEditableActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/activity/StartupActivity.java">
+<violation beginline="59" endline="319" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.activity" class="StartupActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/adapter/HorizontalView.java">
+<violation beginline="23" endline="361" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.adapter" class="HorizontalView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/app/WheelmapApp.java">
+<violation beginline="59" endline="335" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.app" class="WheelmapApp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WheelmapApp' is suspected to be a Data Class (WOC=29.412%, NOPA=0, NOAM=24, WMC=43)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/fragment/CombinedWorkerFragment.java">
+<violation beginline="43" endline="524" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.fragment" class="CombinedWorkerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="383" endline="508" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.wheelmap.android.fragment" class="CombinedWorkerFragment" method="onReceiveResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/fragment/EditPositionFragment.java">
+<violation beginline="70" endline="385" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.fragment" class="EditPositionFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/fragment/POIDetailEditableFragment.java">
+<violation beginline="87" endline="840" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.fragment" class="POIDetailEditableFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/fragment/POIDetailFragment.java">
+<violation beginline="139" endline="1457" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.wheelmap.android.fragment" class="POIDetailFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="140" endline="1457" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.fragment" class="POIDetailFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="445" endline="628" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.wheelmap.android.fragment" class="POIDetailFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="864" endline="1073" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.wheelmap.android.fragment" class="POIDetailFragment" method="load" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/fragment/POIsListFragment.java">
+<violation beginline="65" endline="445" begincolumn="99" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.fragment" class="POIsListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/fragment/POIsListWorkerFragment.java">
+<violation beginline="62" endline="338" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.fragment" class="POIsListWorkerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/fragment/POIsMapWorkerFragment.java">
+<violation beginline="53" endline="273" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.fragment" class="POIsMapWorkerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/fragment/POIsOsmdroidFragment.java">
+<violation beginline="83" endline="835" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.fragment" class="POIsOsmdroidFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="179" endline="287" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.wheelmap.android.fragment" class="POIsOsmdroidFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/fragment/SearchDialogFragment.java">
+<violation beginline="50" endline="198" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.fragment" class="SearchDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/manager/SupportManager.java">
+<violation beginline="71" endline="829" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.manager" class="SupportManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="107" endline="154" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="org.wheelmap.android.manager" class="SupportManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AccessFilterAttributes' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/Meta.java">
+<violation beginline="32" endline="118" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping" class="Meta" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Meta' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/apikey/User.java">
+<violation beginline="32" endline="54" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.apikey" class="User" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/categories/Categories.java">
+<violation beginline="30" endline="72" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.categories" class="Categories" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Categories' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/categories/Category.java">
+<violation beginline="32" endline="99" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.categories" class="Category" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Category' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/categories/Conditions.java">
+<violation beginline="33" endline="116" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.categories" class="Conditions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Conditions' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/locale/Locales.java">
+<violation beginline="34" endline="77" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.locale" class="Locales" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Locales' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/node/Category.java">
+<violation beginline="31" endline="76" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.node" class="Category" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Category' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/node/Conditions.java">
+<violation beginline="33" endline="136" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.node" class="Conditions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Conditions' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/node/Image.java">
+<violation beginline="17" endline="83" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.node" class="Image" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Image' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/node/Node.java">
+<violation beginline="34" endline="358" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.node" class="Node" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Node' is suspected to be a Data Class (WOC=6.250%, NOPA=0, NOAM=30, WMC=32)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/node/NodeType.java">
+<violation beginline="31" endline="76" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.node" class="NodeType" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NodeType' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/node/Nodes.java">
+<violation beginline="32" endline="74" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.node" class="Nodes" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Nodes' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/node/Photo.java">
+<violation beginline="34" endline="74" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.node" class="Photo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Photo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/node/Photos.java">
+<violation beginline="32" endline="75" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.node" class="Photos" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Photos' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/nodetype/Conditions.java">
+<violation beginline="33" endline="116" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.nodetype" class="Conditions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Conditions' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/mapping/nodetype/NodeType.java">
+<violation beginline="34" endline="112" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.mapping.nodetype" class="NodeType" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NodeType' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/model/Info.java">
+<violation beginline="25" endline="120" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.model" class="Info" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Info' is suspected to be a Data Class (WOC=30.769%, NOPA=0, NOAM=4, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/model/POIsProvider.java">
+<violation beginline="45" endline="638" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.model" class="POIsProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="341" endline="472" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.wheelmap.android.model" class="POIsProvider" method="bulkInsert" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/model/PrepareDatabaseHelper.java">
+<violation beginline="37" endline="313" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.model" class="PrepareDatabaseHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/net/AbstractExecutor.java">
+<violation beginline="209" endline="371" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.wheelmap.android.net" class="AbstractExecutor" method="executeRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/net/request/NodeUpdateOrNewAllRequestBuilder.java">
+<violation beginline="71" endline="76" begincolumn="44" endcolumn="41" rule="ExcessiveParameterList" ruleset="Design" package="org.wheelmap.android.net.request" class="NodeUpdateOrNewAllRequestBuilder" method="NodeUpdateOrNewAllRequestBuilder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/service/RestService.java">
+<violation beginline="49" endline="148" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.wheelmap.android.service" class="RestService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RestService' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/tango/TangoMeasureActivity.java">
+<violation beginline="430" endline="565" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.wheelmap.android.tango" class="TangoMeasureActivity" method="connectRenderer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/utils/UtilsMisc.java">
+<violation beginline="54" endline="258" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.utils" class="UtilsMisc" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/wheelmap-android/app/src/main/java/org/wheelmap/android/view/progress/CircularProgressView.java">
+<violation beginline="25" endline="444" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.wheelmap.android.view.progress" class="CircularProgressView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

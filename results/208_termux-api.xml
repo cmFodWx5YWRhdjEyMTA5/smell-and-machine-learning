@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:53:48.137">
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-api/app/src/main/java/com/termux/api/LocationAPI.java">
+<violation beginline="26" endline="135" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.api" class="LocationAPI" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="29" endline="133" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.api" class="LocationAPI" method="writeJson" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-api/app/src/main/java/com/termux/api/NotificationAPI.java">
+<violation beginline="38" endline="206" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.api" class="NotificationAPI" method="onReceiveShowNotification" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-api/app/src/main/java/com/termux/api/SpeechToTextAPI.java">
+<violation beginline="42" endline="147" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.api" class="SpeechToTextAPI$SpeechToTextService" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-api/app/src/main/java/com/termux/api/TelephonyAPI.java">
+<violation beginline="112" endline="296" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.api" class="TelephonyAPI" method="onReceiveTelephonyDeviceInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="116" endline="294" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.api" class="TelephonyAPI" method="writeJson" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-api/app/src/main/java/com/termux/api/TermuxApiReceiver.java">
+<violation beginline="18" endline="193" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.api" class="TermuxApiReceiver" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/termux-api/app/src/main/java/com/termux/api/TextToSpeechAPI.java">
+<violation beginline="48" endline="191" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.termux.api" class="TextToSpeechAPI$TextToSpeechService" method="onHandleIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

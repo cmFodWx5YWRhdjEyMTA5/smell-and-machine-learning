@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:22:59.363">
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/commons-gallery/src/main/java/net/dahanne/gallery/commons/model/Album.java">
+<violation beginline="25" endline="246" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.dahanne.gallery.commons.model" class="Album" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Album' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=32, WMC=35)
+</violation>
+<violation beginline="51" endline="53" begincolumn="21" endcolumn="67" rule="ExcessiveParameterList" ruleset="Design" package="net.dahanne.gallery.commons.model" class="Album" method="Album" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/commons-gallery/src/main/java/net/dahanne/gallery/commons/model/Picture.java">
+<violation beginline="23" endline="364" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.dahanne.gallery.commons.model" class="Picture" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Picture' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=42, WMC=42)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/g2-java-client/src/main/java/net/dahanne/gallery/g2/java/client/business/G2Client.java">
+<violation beginline="83" endline="689" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.dahanne.gallery.g2.java.client.business" class="G2Client" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="372" endline="482" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="net.dahanne.gallery.g2.java.client.business" class="G2Client" method="sendCommandToGallery" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/g2-java-client/src/main/java/net/dahanne/gallery/g2/java/client/model/G2Album.java">
+<violation beginline="25" endline="220" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.dahanne.gallery.g2.java.client.model" class="G2Album" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'G2Album' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=25, WMC=28)
+</violation>
+<violation beginline="48" endline="50" begincolumn="23" endcolumn="67" rule="ExcessiveParameterList" ruleset="Design" package="net.dahanne.gallery.g2.java.client.model" class="G2Album" method="G2Album" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/g2-java-client/src/main/java/net/dahanne/gallery/g2/java/client/model/G2Picture.java">
+<violation beginline="23" endline="256" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.dahanne.gallery.g2.java.client.model" class="G2Picture" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'G2Picture' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=36, WMC=36)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/g2-java-client/src/test/java/net/dahanne/gallery/g2/java/client/business/G2ClientTest.java">
+<violation beginline="43" endline="305" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.dahanne.gallery.g2.java.client.business" class="G2ClientTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/g3-java-client/src/main/java/net/dahanne/gallery3/client/business/G3Client.java">
+<violation beginline="228" endline="345" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="net.dahanne.gallery3.client.business" class="G3Client" method="requestToResponseEntity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/g3-java-client/src/main/java/net/dahanne/gallery3/client/model/Item.java">
+<violation beginline="25" endline="73" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.dahanne.gallery3.client.model" class="Item" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Item' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/g3-java-client/src/main/java/net/dahanne/gallery3/client/model/RelationShips.java">
+<violation beginline="24" endline="43" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.dahanne.gallery3.client.model" class="RelationShips" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RelationShips' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/g3-java-client/src/main/java/net/dahanne/gallery3/client/utils/ItemUtils.java">
+<violation beginline="82" endline="184" begincolumn="24" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="net.dahanne.gallery3.client.utils" class="ItemUtils" method="parseJSONToEntity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/g3-java-client/src/test/java/net/dahanne/gallery3/client/utils/ItemUtilsTest.java">
+<violation beginline="41" endline="352" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.dahanne.gallery3.client.utils" class="ItemUtilsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/jiwigo-ws-api/src/main/java/fr/mael/jiwigo/om/Category.java">
+<violation beginline="28" endline="173" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.mael.jiwigo.om" class="Category" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Category' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=24, WMC=25)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/jiwigo-ws-api/src/main/java/fr/mael/jiwigo/om/Comment.java">
+<violation beginline="24" endline="110" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.mael.jiwigo.om" class="Comment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Comment' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/jiwigo-ws-api/src/main/java/fr/mael/jiwigo/om/Image.java">
+<violation beginline="27" endline="206" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.mael.jiwigo.om" class="Image" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Image' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=26, WMC=26)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/jiwigo-ws-api/src/main/java/fr/mael/jiwigo/om/Tag.java">
+<violation beginline="24" endline="56" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="fr.mael.jiwigo.om" class="Tag" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Tag' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/jiwigo-ws-api/src/main/java/fr/mael/jiwigo/transverse/util/Tools.java">
+<violation beginline="60" endline="441" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.mael.jiwigo.transverse.util" class="Tools" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/regalandroid/src/main/java/net/dahanne/android/regalandroid/RegalAndroidApplication.java">
+<violation beginline="29" endline="63" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.dahanne.android.regalandroid" class="RegalAndroidApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RegalAndroidApplication' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/regalandroid/src/main/java/net/dahanne/android/regalandroid/activity/FullImage.java">
+<violation beginline="64" endline="519" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.dahanne.android.regalandroid.activity" class="FullImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/ReGalAndroid/regalandroid/src/main/java/net/dahanne/android/regalandroid/activity/ShowGallery.java">
+<violation beginline="71" endline="495" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.dahanne.android.regalandroid.activity" class="ShowGallery" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

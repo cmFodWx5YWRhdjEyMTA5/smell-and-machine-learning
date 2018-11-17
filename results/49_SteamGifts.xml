@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:16:29.502">
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/jp/wasabeef/picasso/transformations/RoundedCornersTransformation.java">
+<violation beginline="27" endline="235" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jp.wasabeef.picasso.transformations" class="RoundedCornersTransformation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/sgtools/Giveaway.java">
+<violation beginline="9" endline="47" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="net.mabako.sgtools" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Giveaway' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=7, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/activities/Navbar.java">
+<violation beginline="54" endline="206" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="net.mabako.steamgifts.activities" class="Navbar" method="Navbar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/activities/SettingsActivity.java">
+<violation beginline="29" endline="132" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="net.mabako.steamgifts.activities" class="SettingsActivity$SettingsFragment" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/adapters/EndlessAdapter.java">
+<violation beginline="21" endline="569" begincolumn="116" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.mabako.steamgifts.adapters" class="EndlessAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/adapters/viewholder/CustomHtmlTagHandler.java">
+<violation beginline="279" endline="279" begincolumn="38" endcolumn="176" rule="ExcessiveParameterList" ruleset="Design" package="net.mabako.steamgifts.adapters.viewholder" class="CustomHtmlTagHandler$CustomQuoteSpan" method="drawLeadingMargin" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/adapters/viewholder/GiveawayCardViewHolder.java">
+<violation beginline="81" endline="214" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="net.mabako.steamgifts.adapters.viewholder" class="GiveawayCardViewHolder" method="setFrom" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/data/Comment.java">
+<violation beginline="17" endline="188" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.data" class="Comment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Comment' is suspected to be a Data Class (WOC=32.000%, NOPA=1, NOAM=16, WMC=28)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/data/Discussion.java">
+<violation beginline="10" endline="89" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.data" class="Discussion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Discussion' is suspected to be a Data Class (WOC=18.750%, NOPA=1, NOAM=12, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/data/DiscussionExtras.java">
+<violation beginline="7" endline="70" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.data" class="DiscussionExtras" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DiscussionExtras' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/data/Game.java">
+<violation beginline="8" endline="84" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.data" class="Game" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Game' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/data/GiveawayExtras.java">
+<violation beginline="7" endline="102" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.data" class="GiveawayExtras" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GiveawayExtras' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/data/Poll.java">
+<violation beginline="13" endline="195" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.data" class="Poll" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Poll' is suspected to be a Data Class (WOC=30.000%, NOPA=0, NOAM=7, WMC=11)
+</violation>
+<violation beginline="83" endline="155" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.data" class="Poll" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Answer' is suspected to be a Data Class (WOC=20.000%, NOPA=1, NOAM=8, WMC=10)
+</violation>
+<violation beginline="167" endline="194" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.data" class="Poll" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Header' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/data/TradeComment.java">
+<violation beginline="3" endline="36" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.data" class="TradeComment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TradeComment' is suspected to be a Data Class (WOC=28.571%, NOPA=0, NOAM=4, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/fragments/DetailFragment.java">
+<violation beginline="31" endline="348" begincolumn="107" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.mabako.steamgifts.fragments" class="DetailFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="278" endline="347" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.fragments" class="DetailFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CommentContextInfo' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=8, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/fragments/DiscussionDetailFragment.java">
+<violation beginline="41" endline="365" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.mabako.steamgifts.fragments" class="DiscussionDetailFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/fragments/GiveawayDetailFragment.java">
+<violation beginline="54" endline="408" begincolumn="117" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.mabako.steamgifts.fragments" class="GiveawayDetailFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/fragments/GiveawayListFragment.java">
+<violation beginline="53" endline="475" begincolumn="180" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.mabako.steamgifts.fragments" class="GiveawayListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/fragments/ListFragment.java">
+<violation beginline="32" endline="331" begincolumn="150" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.mabako.steamgifts.fragments" class="ListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/fragments/SavedGiveawaysFragment.java">
+<violation beginline="39" endline="281" begincolumn="154" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.mabako.steamgifts.fragments" class="SavedGiveawaysFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/fragments/UserDetailFragment.java">
+<violation beginline="55" endline="519" begincolumn="107" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.mabako.steamgifts.fragments" class="UserDetailFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="411" endline="518" begincolumn="144" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="net.mabako.steamgifts.fragments" class="UserDetailFragment$UserTradeFeedbackListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/fragments/profile/MessageListFragment.java">
+<violation beginline="33" endline="168" begincolumn="119" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.mabako.steamgifts.fragments.profile" class="MessageListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/fragments/util/DiscussionDetailsCard.java">
+<violation beginline="10" endline="37" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.fragments.util" class="DiscussionDetailsCard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DiscussionDetailsCard' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/SteamGifts/core/src/main/java/net/mabako/steamgifts/fragments/util/GiveawayDetailsCard.java">
+<violation beginline="10" endline="37" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.mabako.steamgifts.fragments.util" class="GiveawayDetailsCard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GiveawayDetailsCard' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=4)
+</violation>
+</file>
+</pmd>

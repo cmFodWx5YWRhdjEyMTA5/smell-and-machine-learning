@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:20:56.024">
+<file name="/home/matheus/smell-and-machine-learning/repositories/tinc_gui/app/src/main/java/org/poirsouille/tinc_gui/TincActivity.java">
+<violation beginline="49" endline="363" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.poirsouille.tinc_gui" class="TincActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/tinc_gui/app/src/main/java/org/poirsouille/tinc_gui/TincdService.java">
+<violation beginline="54" endline="541" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.poirsouille.tinc_gui" class="TincdService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

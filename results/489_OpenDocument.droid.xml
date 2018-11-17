@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:01:12.524">
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenDocument.droid/app/src/main/java/at/tomtasche/reader/background/Document.java">
+<violation beginline="10" endline="78" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="at.tomtasche.reader.background" class="Document" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Document' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=4, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenDocument.droid/app/src/main/java/at/tomtasche/reader/background/DocumentLoader.java">
+<violation beginline="35" endline="267" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="at.tomtasche.reader.background" class="DocumentLoader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DocumentLoader' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=4, WMC=5)
+</violation>
+<violation beginline="128" endline="262" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="at.tomtasche.reader.background" class="DocumentLoader" method="loadInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenDocument.droid/app/src/main/java/at/tomtasche/reader/ui/EditActionModeCallback.java">
+<violation beginline="70" endline="179" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="at.tomtasche.reader.ui" class="EditActionModeCallback" method="onActionItemClicked" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenDocument.droid/app/src/main/java/at/tomtasche/reader/ui/FindActionModeCallback.java">
+<violation beginline="43" endline="275" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="at.tomtasche.reader.ui" class="FindActionModeCallback" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenDocument.droid/app/src/main/java/at/tomtasche/reader/ui/TtsActionModeCallback.java">
+<violation beginline="18" endline="187" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="at.tomtasche.reader.ui" class="TtsActionModeCallback" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenDocument.droid/app/src/main/java/at/tomtasche/reader/ui/activity/DocumentActivity.java">
+<violation beginline="43" endline="403" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="at.tomtasche.reader.ui.activity" class="DocumentActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenDocument.droid/app/src/main/java/at/tomtasche/reader/ui/activity/MainActivity.java">
+<violation beginline="62" endline="799" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="at.tomtasche.reader.ui.activity" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="307" endline="474" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="at.tomtasche.reader.ui.activity" class="MainActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenDocument.droid/payme/src/main/java/com/github/jberkel/pay/me/IabHelper.java">
+<violation beginline="87" endline="762" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.github.jberkel.pay.me" class="IabHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

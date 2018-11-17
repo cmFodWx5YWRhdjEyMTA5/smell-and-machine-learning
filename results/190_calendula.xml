@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:50:27.219">
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/DailyAgendaRecyclerAdapter.java">
+<violation beginline="64" endline="525" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula" class="DailyAgendaRecyclerAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/HomePagerActivity.java">
+<violation beginline="102" endline="673" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula" class="HomePagerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/AllergiesActivity.java">
+<violation beginline="91" endline="683" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="AllergiesActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/CaldroidSampleCustomAdapter.java">
+<violation beginline="66" endline="181" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="CaldroidSampleCustomAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/CalendarActivity.java">
+<violation beginline="83" endline="540" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="CalendarActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/ConfirmActivity.java">
+<violation beginline="93" endline="760" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="ConfirmActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/ConfirmSchedulesActivity.java">
+<violation beginline="80" endline="671" begincolumn="107" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="ConfirmSchedulesActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="427" endline="538" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="ConfirmSchedulesActivity" method="saveSchedules" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/LeftDrawerMgr.java">
+<violation beginline="59" endline="376" begincolumn="111" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="LeftDrawerMgr" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/MedicineInfoActivity.java">
+<violation beginline="69" endline="330" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="MedicineInfoActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/MedicinesActivity.java">
+<violation beginline="69" endline="409" begincolumn="121" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="MedicinesActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/MedicinesSearchActivity.java">
+<violation beginline="70" endline="402" begincolumn="133" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="MedicinesSearchActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="207" endline="322" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="MedicinesSearchActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/PatientDetailActivity.java">
+<violation beginline="79" endline="590" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="PatientDetailActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/ReminderNotification.java">
+<violation beginline="64" endline="388" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="ReminderNotification" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/ScheduleCreationActivity.java">
+<violation beginline="73" endline="516" begincolumn="107" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="ScheduleCreationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/WebViewActivity.java">
+<violation beginline="66" endline="524" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="WebViewActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/activities/WebViewRequest.java">
+<violation beginline="18" endline="258" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.activities" class="WebViewRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WebViewRequest' is suspected to be a Data Class (WOC=4.000%, NOPA=1, NOAM=23, WMC=27)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/adapters/items/allergensearch/AllergenItem.java">
+<violation beginline="41" endline="129" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.adapters.items.allergensearch" class="AllergenItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AllergenItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/adherence/AdherenceSummaryItem.java">
+<violation beginline="34" endline="79" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.adherence" class="AdherenceSummaryItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AdherenceSummaryItem' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/allergies/AllergenGroupWrapper.java">
+<violation beginline="25" endline="81" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.allergies" class="AllergenGroupWrapper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AllergenGroupWrapper' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/allergies/AllergenVO.java">
+<violation beginline="29" endline="140" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.allergies" class="AllergenVO" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AllergenVO' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=6, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/database/DB.java">
+<violation beginline="31" endline="167" begincolumn="17" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.database" class="DB" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/database/DailyScheduleItemDao.java">
+<violation beginline="40" endline="231" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.database" class="DailyScheduleItemDao" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/database/DatabaseHelper.java">
+<violation beginline="68" endline="475" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.database" class="DatabaseHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DatabaseHelper' is suspected to be a Data Class (WOC=25.000%, NOPA=2, NOAM=8, WMC=28)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/database/GenericDao.java">
+<violation beginline="51" endline="505" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.database" class="GenericDao" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/database/ScheduleDao.java">
+<violation beginline="41" endline="154" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.database" class="ScheduleDao" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/drugdb/PrescriptionDBMgr.java">
+<violation beginline="29" endline="74" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb" class="PrescriptionDBMgr" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PrescriptionDBMgr' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/drugdb/model/persistence/ActiveIngredient.java">
+<violation beginline="30" endline="92" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb.model.persistence" class="ActiveIngredient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ActiveIngredient' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/drugdb/model/persistence/ContentUnit.java">
+<violation beginline="30" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb.model.persistence" class="ContentUnit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ContentUnit' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/drugdb/model/persistence/Excipient.java">
+<violation beginline="30" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb.model.persistence" class="Excipient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Excipient' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/drugdb/model/persistence/HomogeneousGroup.java">
+<violation beginline="30" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb.model.persistence" class="HomogeneousGroup" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HomogeneousGroup' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/drugdb/model/persistence/PackageType.java">
+<violation beginline="30" endline="81" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb.model.persistence" class="PackageType" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PackageType' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/drugdb/model/persistence/Prescription.java">
+<violation beginline="34" endline="283" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb.model.persistence" class="Prescription" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Prescription' is suspected to be a Data Class (WOC=3.226%, NOPA=15, NOAM=28, WMC=36)
+</violation>
+<violation beginline="89" endline="89" begincolumn="24" endcolumn="259" rule="ExcessiveParameterList" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb.model.persistence" class="Prescription" method="Prescription" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/drugdb/model/persistence/PrescriptionActiveIngredient.java">
+<violation beginline="30" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb.model.persistence" class="PrescriptionActiveIngredient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PrescriptionActiveIngredient' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/drugdb/model/persistence/PrescriptionExcipient.java">
+<violation beginline="30" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb.model.persistence" class="PrescriptionExcipient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PrescriptionExcipient' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/drugdb/model/persistence/PresentationForm.java">
+<violation beginline="30" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.drugdb.model.persistence" class="PresentationForm" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PresentationForm' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/DailyAgendaFragment.java">
+<violation beginline="76" endline="504" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.fragments" class="DailyAgendaFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="129" endline="257" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="es.usc.citius.servando.calendula.fragments" class="DailyAgendaFragment" method="buildItems" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment.java">
+<violation beginline="94" endline="728" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.fragments" class="MedicineCreateOrEditFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/MedicinesListFragment.java">
+<violation beginline="71" endline="361" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.fragments" class="MedicinesListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleImportFragment.java">
+<violation beginline="91" endline="1488" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="es.usc.citius.servando.calendula.fragments" class="ScheduleImportFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="93" endline="1488" begincolumn="114" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.fragments" class="ScheduleImportFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java">
+<violation beginline="96" endline="1407" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="es.usc.citius.servando.calendula.fragments" class="ScheduleTimetableFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="98" endline="1407" begincolumn="114" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.fragments" class="ScheduleTimetableFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="327" endline="447" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="es.usc.citius.servando.calendula.fragments" class="ScheduleTimetableFragment" method="setupStartEndDatePickers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/persistence/AllergyGroup.java">
+<violation beginline="28" endline="120" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.persistence" class="AllergyGroup" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AllergyGroup' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/persistence/DailyScheduleItem.java">
+<violation beginline="34" endline="183" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.persistence" class="DailyScheduleItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DailyScheduleItem' is suspected to be a Data Class (WOC=21.739%, NOPA=8, NOAM=15, WMC=25)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/persistence/HtmlCacheEntry.java">
+<violation beginline="28" endline="108" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.persistence" class="HtmlCacheEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HtmlCacheEntry' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=10, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/persistence/Medicine.java">
+<violation beginline="41" endline="236" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.persistence" class="Medicine" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/persistence/Patient.java">
+<violation beginline="32" endline="124" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.persistence" class="Patient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Patient' is suspected to be a Data Class (WOC=20.000%, NOPA=5, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/persistence/PatientAllergen.java">
+<violation beginline="31" endline="163" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.persistence" class="PatientAllergen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PatientAllergen' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=12, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/persistence/PickupInfo.java">
+<violation beginline="32" endline="117" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.persistence" class="PickupInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PickupInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/persistence/PrescriptionAllergen.java">
+<violation beginline="31" endline="136" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.persistence" class="PrescriptionAllergen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PrescriptionAllergen' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=10, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/persistence/Schedule.java">
+<violation beginline="50" endline="410" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.persistence" class="Schedule" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/persistence/ScheduleItem.java">
+<violation beginline="27" endline="129" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.persistence" class="ScheduleItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ScheduleItem' is suspected to be a Data Class (WOC=21.429%, NOPA=4, NOAM=8, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/scheduling/AlarmIntentParams.java">
+<violation beginline="36" endline="178" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.scheduling" class="AlarmIntentParams" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/scheduling/AlarmScheduler.java">
+<violation beginline="52" endline="473" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.scheduling" class="AlarmScheduler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/util/LogUtil.java">
+<violation beginline="26" endline="94" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="es.usc.citius.servando.calendula.util" class="LogUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/calendula/Calendula/src/main/java/es/usc/citius/servando/calendula/util/ScheduleHelper.java">
+<violation beginline="35" endline="163" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="es.usc.citius.servando.calendula.util" class="ScheduleHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ScheduleHelper' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=12, WMC=22)
+</violation>
+</file>
+</pmd>

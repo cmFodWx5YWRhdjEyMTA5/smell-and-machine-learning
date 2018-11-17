@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:30:27.299">
+<file name="/home/matheus/smell-and-machine-learning/repositories/websms/WebSMS/src/main/java/de/ub0r/android/websms/MobilePhoneAdapter.java">
+<violation beginline="38" endline="142" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.ub0r.android.websms" class="MobilePhoneAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MobilePhoneAdapter' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/websms/WebSMS/src/main/java/de/ub0r/android/websms/WebSMS.java">
+<violation beginline="117" endline="2447" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.ub0r.android.websms" class="WebSMS" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="118" endline="2447" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.websms" class="WebSMS" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="422" endline="548" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.websms" class="WebSMS" method="parseIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="624" endline="783" begincolumn="22" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.websms" class="WebSMS" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2196" endline="2309" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.websms" class="WebSMS" method="addConnector" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/websms/WebSMS/src/main/java/de/ub0r/android/websms/WebSMSReceiver.java">
+<violation beginline="58" endline="702" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.websms" class="WebSMSReceiver" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="522" endline="650" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.websms" class="WebSMSReceiver" method="saveMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/websms/WebSMS/src/main/java/de/ub0r/android/websms/rules/EditRuleFragment.java">
+<violation beginline="34" endline="357" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.websms.rules" class="EditRuleFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="104" endline="220" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.websms.rules" class="EditRuleFragment" method="onViewCreated" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/websms/WebSMS/src/main/java/de/ub0r/android/websms/rules/Rule.java">
+<violation beginline="7" endline="69" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.ub0r.android.websms.rules" class="Rule" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Rule' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/websms/WebSMS/src/main/java/de/ub0r/android/websms/rules/RulesEditorFragment.java">
+<violation beginline="33" endline="312" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.websms.rules" class="RulesEditorFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

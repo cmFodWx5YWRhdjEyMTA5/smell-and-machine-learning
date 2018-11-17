@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:11:48.124">
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/androidTest/java/org/sufficientlysecure/keychain/remote/OpenPgpServiceTest.java">
+<violation beginline="59" endline="165" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.remote" class="OpenPgpServiceTest" method="testStuff" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/androidTest/java/org/sufficientlysecure/keychain/ui/CreateKeyActivityTest.java">
+<violation beginline="64" endline="203" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="CreateKeyActivityTest" method="testCreateMyKey" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/android/support/v4/widget/FlingNestedScrollView.java">
+<violation beginline="64" endline="1358" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="android.support.v4.widget" class="FlingNestedScrollView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="64" endline="1358" begincolumn="111" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.v4.widget" class="FlingNestedScrollView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="477" endline="611" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="android.support.v4.widget" class="FlingNestedScrollView" method="onTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/KeychainDatabase.java">
+<violation beginline="135" endline="359" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain" class="KeychainDatabase" method="onUpgrade" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/daos/KeyWritableRepository.java">
+<violation beginline="81" endline="1024" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.daos" class="KeyWritableRepository" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="171" endline="545" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.daos" class="KeyWritableRepository" method="saveCanonicalizedPublicKeyRing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="693" endline="815" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.daos" class="KeyWritableRepository" method="savePublicKeyRing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="834" endline="957" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.daos" class="KeyWritableRepository" method="saveSecretKeyRing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/keyimport/HkpKeyserverClient.java">
+<violation beginline="153" endline="303" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.keyimport" class="HkpKeyserverClient" method="search" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/model/SubKey.java">
+<violation beginline="32" endline="35" begincolumn="32" endcolumn="27" rule="ExcessiveParameterList" ruleset="Design" package="org.sufficientlysecure.keychain.model" class="SubKey" method="create" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/model/UserPacket.java">
+<violation beginline="22" endline="23" begincolumn="36" endcolumn="88" rule="ExcessiveParameterList" ruleset="Design" package="org.sufficientlysecure.keychain.model" class="UserPacket" method="create" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/operations/CertifyOperation.java">
+<violation beginline="75" endline="268" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.operations" class="CertifyOperation" method="execute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/operations/EditKeyOperation.java">
+<violation beginline="79" endline="191" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.operations" class="EditKeyOperation" method="execute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/operations/ImportOperation.java">
+<violation beginline="150" endline="336" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.operations" class="ImportOperation" method="serialKeyRingImport" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/operations/InputDataOperation.java">
+<violation beginline="83" endline="444" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.operations" class="InputDataOperation" method="execute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/operations/KeybaseVerificationOperation.java">
+<violation beginline="67" endline="179" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.operations" class="KeybaseVerificationOperation" method="execute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/operations/results/InputDataResult.java">
+<violation beginline="30" endline="96" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.sufficientlysecure.keychain.operations.results" class="InputDataResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'InputDataResult' is suspected to be a Data Class (WOC=25.000%, NOPA=4, NOAM=0, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/operations/results/KeybaseVerificationResult.java">
+<violation beginline="28" endline="87" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.sufficientlysecure.keychain.operations.results" class="KeybaseVerificationResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'KeybaseVerificationResult' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/operations/results/OperationResult.java">
+<violation beginline="51" endline="1081" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.sufficientlysecure.keychain.operations.results" class="OperationResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="114" endline="197" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="org.sufficientlysecure.keychain.operations.results" class="OperationResult" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LogEntryParcel' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/pgp/PgpDecryptVerifyOperation.java">
+<violation beginline="90" endline="1124" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpDecryptVerifyOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="90" endline="1124" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpDecryptVerifyOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="302" endline="591" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpDecryptVerifyOperation" method="decryptVerify" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="593" endline="877" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpDecryptVerifyOperation" method="handleEncryptedPacket" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/pgp/PgpKeyOperation.java">
+<violation beginline="110" endline="1779" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpKeyOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="110" endline="1779" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpKeyOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="171" endline="296" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpKeyOperation" method="createKey" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="533" endline="1161" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpKeyOperation" method="internal" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/pgp/PgpSignEncryptOperation.java">
+<violation beginline="174" endline="648" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpSignEncryptOperation" method="executeInternal" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/pgp/PgpSignatureChecker.java">
+<violation beginline="50" endline="386" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpSignatureChecker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/pgp/UncachedKeyRing.java">
+<violation beginline="93" endline="1397" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="UncachedKeyRing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="93" endline="1397" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="UncachedKeyRing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="363" endline="1114" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="UncachedKeyRing" method="canonicalize" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1127" endline="1287" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="UncachedKeyRing" method="merge" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/pgp/WrappedSignature.java">
+<violation beginline="51" endline="278" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="WrappedSignature" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/provider/TemporaryFileProvider.java">
+<violation beginline="69" endline="341" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.provider" class="TemporaryFileProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/remote/ApiPendingIntentFactory.java">
+<violation beginline="48" endline="241" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.remote" class="ApiPendingIntentFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/remote/AutocryptInteractor.java">
+<violation beginline="30" endline="247" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.remote" class="AutocryptInteractor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/remote/OpenPgpService.java">
+<violation beginline="89" endline="1129" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.sufficientlysecure.keychain.remote" class="OpenPgpService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="89" endline="1129" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.remote" class="OpenPgpService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/remote/SshAuthenticationService.java">
+<violation beginline="62" endline="430" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.remote" class="SshAuthenticationService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/remote/ui/AppSettingsActivity.java">
+<violation beginline="46" endline="229" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.remote.ui" class="AppSettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/remote/ui/RemoteSecurityProblemDialogActivity.java">
+<violation beginline="154" endline="322" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.remote.ui" class="RemoteSecurityProblemDialogActivity$RemoteRegisterDialogFragment" method="createMvpView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/remote/ui/SecurityProblemPresenter.java">
+<violation beginline="43" endline="259" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.remote.ui" class="SecurityProblemPresenter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="236" endline="258" begincolumn="41" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.remote.ui" class="SecurityProblemPresenter$RemoteSecurityProblemView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/remote/ui/dialog/RemoteDeduplicateActivity.java">
+<violation beginline="96" endline="126" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="org.sufficientlysecure.keychain.remote.ui.dialog" class="RemoteDeduplicateActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DeduplicateViewModel' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/remote/ui/dialog/RemoteSelectIdKeyActivity.java">
+<violation beginline="244" endline="411" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.remote.ui.dialog" class="RemoteSelectIdKeyActivity$RemoteSelectIdentityKeyDialogFragment" method="createMvpView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/remote/ui/dialog/RemoteSelectIdentityKeyPresenter.java">
+<violation beginline="49" endline="276" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.remote.ui.dialog" class="RemoteSelectIdentityKeyPresenter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="248" endline="275" begincolumn="43" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.remote.ui.dialog" class="RemoteSelectIdentityKeyPresenter$RemoteSelectIdentityKeyView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/securitytoken/OpenPgpCapabilities.java">
+<violation beginline="118" endline="250" begincolumn="35" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.securitytoken" class="OpenPgpCapabilities$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/securitytoken/OpenPgpCommandApduFactory.java">
+<violation beginline="30" endline="247" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.securitytoken" class="OpenPgpCommandApduFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/securitytoken/SCP11bSecureMessaging.java">
+<violation beginline="277" endline="501" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.securitytoken" class="SCP11bSecureMessaging" method="establish" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="609" endline="709" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.securitytoken" class="SCP11bSecureMessaging" method="verifyAndDecrypt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/securitytoken/SecurityTokenConnection.java">
+<violation beginline="42" endline="443" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.securitytoken" class="SecurityTokenConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/service/PassphraseCacheService.java">
+<violation beginline="80" endline="608" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.service" class="PassphraseCacheService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="340" endline="454" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.service" class="PassphraseCacheService" method="onStartCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/service/SaveKeyringParcel.java">
+<violation beginline="112" endline="240" begincolumn="42" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.service" class="SaveKeyringParcel$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/service/input/CryptoInputParcel.java">
+<violation beginline="38" endline="152" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.service.input" class="CryptoInputParcel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/service/input/RequiredInputParcel.java">
+<violation beginline="32" endline="398" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.service.input" class="RequiredInputParcel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ssh/AuthenticationOperation.java">
+<violation beginline="82" endline="246" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ssh" class="AuthenticationOperation" method="executeInternal" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/BackupRestoreFragment.java">
+<violation beginline="61" endline="350" begincolumn="103" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="BackupRestoreFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/CreateKeyFinalFragment.java">
+<violation beginline="64" endline="545" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="CreateKeyFinalFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/DecryptActivity.java">
+<violation beginline="68" endline="197" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="DecryptActivity" method="handleActions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/DecryptFragment.java">
+<violation beginline="60" endline="448" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="DecryptFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/DecryptListFragment.java">
+<violation beginline="116" endline="1288" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="DecryptListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="118" endline="1288" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="DecryptListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1169" endline="1183" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="DecryptListFragment$ViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/EncryptFilesFragment.java">
+<violation beginline="85" endline="973" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="EncryptFilesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="828" endline="841" begincolumn="9" endcolumn="9" rule="DataClass" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="EncryptFilesFragment$FilesAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/EncryptTextFragment.java">
+<violation beginline="58" endline="392" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="EncryptTextFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/ImportKeysActivity.java">
+<violation beginline="58" endline="437" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="ImportKeysActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="120" endline="280" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="ImportKeysActivity" method="handleActions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/ImportKeysListFragment.java">
+<violation beginline="60" endline="350" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="ImportKeysListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/ImportKeysProxyActivity.java">
+<violation beginline="59" endline="295" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="ImportKeysProxyActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/KeyListFragment.java">
+<violation beginline="87" endline="703" begincolumn="111" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="KeyListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/MainActivity.java">
+<violation beginline="50" endline="295" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="69" endline="181" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/PassphraseDialogActivity.java">
+<violation beginline="170" endline="374" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="PassphraseDialogActivity$PassphraseDialogFragment" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/SecurityTokenOperationActivity.java">
+<violation beginline="63" endline="386" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="SecurityTokenOperationActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="190" endline="313" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="SecurityTokenOperationActivity" method="doSecurityTokenInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/SettingsActivity.java">
+<violation beginline="217" endline="392" begincolumn="41" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="SettingsActivity$ProxyPrefsFragment$Initializer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/SettingsKeyserverFragment.java">
+<violation beginline="57" endline="352" begincolumn="114" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="SettingsKeyserverFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/SubKeyItem.java">
+<violation beginline="76" endline="267" begincolumn="69" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="SubKeyItem$SubkeyViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/ViewKeyAdvActivity.java">
+<violation beginline="60" endline="313" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="ViewKeyAdvActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/ViewKeyAdvSubkeysFragment.java">
+<violation beginline="65" endline="322" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="ViewKeyAdvSubkeysFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/ViewKeyAdvUserIdsFragment.java">
+<violation beginline="58" endline="317" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="ViewKeyAdvUserIdsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/ViewKeyKeybaseFragment.java">
+<violation beginline="62" endline="465" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui" class="ViewKeyKeybaseFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/adapter/SubkeysAddedAdapter.java">
+<violation beginline="68" endline="176" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.adapter" class="SubkeysAddedAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/adapter/UserIdsAdapter.java">
+<violation beginline="80" endline="181" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.adapter" class="UserIdsAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/base/BaseSecurityTokenActivity.java">
+<violation beginline="58" endline="497" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.base" class="BaseSecurityTokenActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="224" endline="377" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.base" class="BaseSecurityTokenActivity" method="handleSecurityTokenError" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/base/RecyclerFragment.java">
+<violation beginline="45" endline="418" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.base" class="RecyclerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/dialog/AddEditKeyserverDialogFragment.java">
+<violation beginline="64" endline="458" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.dialog" class="AddEditKeyserverDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="119" endline="220" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.dialog" class="AddEditKeyserverDialogFragment" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/dialog/AddSubkeyDialogFragment.java">
+<violation beginline="103" endline="220" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.dialog" class="AddSubkeyDialogFragment" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="223" endline="336" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.dialog" class="AddSubkeyDialogFragment" method="onStart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/dialog/EditSubkeyExpiryDialogFragment.java">
+<violation beginline="78" endline="203" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.dialog" class="EditSubkeyExpiryDialogFragment" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/keyview/ViewKeyActivity.java">
+<violation beginline="114" endline="931" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.keyview" class="ViewKeyActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="168" endline="302" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.keyview" class="ViewKeyActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="689" endline="860" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.keyview" class="ViewKeyActivity" method="onLoadUnifiedKeyInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/keyview/ViewKeyFragment.java">
+<violation beginline="67" endline="359" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.keyview" class="ViewKeyFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/token/ManageSecurityTokenContract.java">
+<violation beginline="31" endline="69" begincolumn="47" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.token" class="ManageSecurityTokenContract$ManageSecurityTokenMvpPresenter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="71" endline="103" begincolumn="42" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.token" class="ManageSecurityTokenContract$ManageSecurityTokenMvpView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/token/ManageSecurityTokenFragment.java">
+<violation beginline="78" endline="539" begincolumn="114" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.token" class="ManageSecurityTokenFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/token/ManageSecurityTokenPresenter.java">
+<violation beginline="38" endline="413" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.token" class="ManageSecurityTokenPresenter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/transfer/presenter/TransferPresenter.java">
+<violation beginline="67" endline="477" begincolumn="117" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.transfer.presenter" class="TransferPresenter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="439" endline="476" begincolumn="38" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.transfer.presenter" class="TransferPresenter$TransferMvpView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/transfer/view/TransferFragment.java">
+<violation beginline="76" endline="446" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.transfer.view" class="TransferFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/ui/util/KeyFormattingUtils.java">
+<violation beginline="53" endline="816" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.ui.util" class="KeyFormattingUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="467" endline="632" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.util" class="KeyFormattingUtils" method="setStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="638" endline="814" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.ui.util" class="KeyFormattingUtils" method="setStatusImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/util/ContactHelper.java">
+<violation beginline="56" endline="850" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.util" class="ContactHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/util/FileHelper.java">
+<violation beginline="84" endline="392" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.util" class="FileHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/main/java/org/sufficientlysecure/keychain/util/ParcelableFileCache.java">
+<violation beginline="118" endline="218" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.util" class="ParcelableFileCache" method="readCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/test/java/org/sufficientlysecure/keychain/pgp/PgpEncryptDecryptTest.java">
+<violation beginline="74" endline="1135" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpEncryptDecryptTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="74" endline="1135" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpEncryptDecryptTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="166" endline="289" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpEncryptDecryptTest" method="testSymmetricEncryptDecrypt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="564" endline="668" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpEncryptDecryptTest" method="testMultiSubkeyEncryptSkipStripOrBadFlag" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="728" endline="853" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpEncryptDecryptTest" method="testMultiAsymmetricEncryptDecrypt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/test/java/org/sufficientlysecure/keychain/pgp/PgpKeyOperationTest.java">
+<violation beginline="94" endline="1398" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpKeyOperationTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="94" endline="1398" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpKeyOperationTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="447" endline="550" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpKeyOperationTest" method="testSubkeyModify" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="553" endline="672" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="PgpKeyOperationTest" method="testMasterModify" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/test/java/org/sufficientlysecure/keychain/pgp/SplitUserIdTest.java">
+<violation beginline="27" endline="133" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="SplitUserIdTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/test/java/org/sufficientlysecure/keychain/pgp/UncachedKeyringCanonicalizeTest.java">
+<violation beginline="83" endline="765" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.pgp" class="UncachedKeyringCanonicalizeTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/test/java/org/sufficientlysecure/keychain/provider/InteropTest.java">
+<violation beginline="56" endline="247" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.provider" class="InteropTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/test/java/org/sufficientlysecure/keychain/remote/KeychainExternalProviderTest.java">
+<violation beginline="47" endline="348" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.remote" class="KeychainExternalProviderTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/test/java/org/sufficientlysecure/keychain/securitytoken/usb/CcidTransceiverTest.java">
+<violation beginline="39" endline="321" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.securitytoken.usb" class="CcidTransceiverTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/OpenKeychain/src/test/java/org/sufficientlysecure/keychain/support/KeyringTestingHelper.java">
+<violation beginline="44" endline="370" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.keychain.support" class="KeyringTestingHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/extern/MaterialChipsInput/src/main/java/org/sufficientlysecure/materialchips/adapter/ChipsAdapter.java">
+<violation beginline="27" endline="294" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.materialchips.adapter" class="ChipsAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/open-keychain/extern/MaterialChipsInput/src/main/java/org/sufficientlysecure/materialchips/util/DelegateWindowCallback.java">
+<violation beginline="20" endline="147" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.materialchips.util" class="DelegateWindowCallback" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:27:43.338">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Counter/src/main/java/me/tsukanov/counter/ui/CounterFragment.java">
+<violation beginline="33" endline="275" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.tsukanov.counter.ui" class="CounterFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Counter/src/main/java/me/tsukanov/counter/ui/MainActivity.java">
+<violation beginline="22" endline="188" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.tsukanov.counter.ui" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Simple-Counter/src/main/java/me/tsukanov/counter/ui/SettingsActivity.java">
+<violation beginline="36" endline="299" begincolumn="148" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="me.tsukanov.counter.ui" class="SettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

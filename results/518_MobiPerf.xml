@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:06:33.394">
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/DeviceProperty.java">
+<violation beginline="24" endline="72" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.mobiperf" class="DeviceProperty" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DeviceProperty' is suspected to be a Data Class (WOC=0.000%, NOPA=14, NOAM=0, WMC=1)
+</violation>
+<violation beginline="41" endline="45" begincolumn="24" endcolumn="32" rule="ExcessiveParameterList" ruleset="Design" package="com.mobiperf" class="DeviceProperty" method="DeviceProperty" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/MeasurementCreationActivity.java">
+<violation beginline="219" endline="356" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mobiperf" class="MeasurementCreationActivity$ButtonOnClickListener" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/MeasurementScheduler.java">
+<violation beginline="80" endline="1444" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.mobiperf" class="MeasurementScheduler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="80" endline="1444" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mobiperf" class="MeasurementScheduler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/SpeedometerApp.java">
+<violation beginline="50" endline="458" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mobiperf" class="SpeedometerApp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/SpeedometerPreferenceActivity.java">
+<violation beginline="35" endline="155" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.mobiperf" class="SpeedometerPreferenceActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/measurements/HttpTask.java">
+<violation beginline="54" endline="345" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.mobiperf.measurements" class="HttpTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HttpTask' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+<violation beginline="143" endline="301" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.mobiperf.measurements" class="HttpTask" method="call" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/measurements/PingTask.java">
+<violation beginline="83" endline="131" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="com.mobiperf.measurements" class="PingTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PingDesc' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/measurements/RRCTask.java">
+<violation beginline="77" endline="1671" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.mobiperf.measurements" class="RRCTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="77" endline="1671" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mobiperf.measurements" class="RRCTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="234" endline="350" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.mobiperf.measurements" class="RRCTask$RRCDesc" method="initializeParams" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="931" endline="1044" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.mobiperf.measurements" class="RRCTask" method="runHTTPTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/measurements/TCPThroughputTask.java">
+<violation beginline="42" endline="642" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.mobiperf.measurements" class="TCPThroughputTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TCPThroughputTask' is suspected to be a Data Class (WOC=0.000%, NOPA=13, NOAM=0, WMC=41)
+</violation>
+<violation beginline="42" endline="642" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mobiperf.measurements" class="TCPThroughputTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/measurements/TracerouteTask.java">
+<violation beginline="46" endline="477" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.mobiperf.measurements" class="TracerouteTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TracerouteTask' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=29)
+</violation>
+<violation beginline="168" endline="316" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.mobiperf.measurements" class="TracerouteTask" method="call" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/measurements/UDPBurstTask.java">
+<violation beginline="103" endline="187" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="com.mobiperf.measurements" class="UDPBurstTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UDPBurstDesc' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/android/src/com/mobiperf/util/PhoneUtils.java">
+<violation beginline="72" endline="883" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.mobiperf.util" class="PhoneUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/MobiPerf/measurement_server/src/com/udpmeasurement/UDPReceiver.java">
+<violation beginline="101" endline="250" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.udpmeasurement" class="UDPReceiver" method="processPacket" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

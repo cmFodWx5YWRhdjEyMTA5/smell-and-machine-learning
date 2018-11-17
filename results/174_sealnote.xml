@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:46:35.128">
+<file name="/home/matheus/smell-and-machine-learning/repositories/sealnote/Sealnote/src/main/java/com/twistedplane/sealnote/NoteActivity.java">
+<violation beginline="42" endline="672" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.twistedplane.sealnote" class="NoteActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sealnote/Sealnote/src/main/java/com/twistedplane/sealnote/SealnoteActivity.java">
+<violation beginline="41" endline="501" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.twistedplane.sealnote" class="SealnoteActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="144" endline="251" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.twistedplane.sealnote" class="SealnoteActivity" method="initNavigationDrawer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sealnote/Sealnote/src/main/java/com/twistedplane/sealnote/data/DatabaseHandler.java">
+<violation beginline="19" endline="619" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.twistedplane.sealnote.data" class="DatabaseHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sealnote/aFileChooser/src/com/ipaulpro/afilechooser/FileChooserActivity.java">
+<violation beginline="46" endline="218" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.ipaulpro.afilechooser" class="FileChooserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

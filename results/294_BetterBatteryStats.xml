@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:17:35.556">
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/androidTest/java/com/asksven/betterbatterystats/ClickThroughTest.java">
+<violation beginline="49" endline="204" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats" class="ClickThroughTest" method="clickThroughTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/kernelutils/AlarmsDumpsys.java">
+<violation beginline="75" endline="221" begincolumn="26" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.kernelutils" class="AlarmsDumpsys" method="getAlarmsPriorTo_4_2_2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="223" endline="338" begincolumn="26" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.kernelutils" class="AlarmsDumpsys" method="getAlarmsFrom_4_2_2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="339" endline="454" begincolumn="26" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.kernelutils" class="AlarmsDumpsys" method="getAlarmsFrom_4_3" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="456" endline="571" begincolumn="26" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.kernelutils" class="AlarmsDumpsys" method="getAlarmsFrom_5" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="573" endline="715" begincolumn="26" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.kernelutils" class="AlarmsDumpsys" method="getAlarmsFrom_6" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/kernelutils/NativeKernelWakelock.java">
+<violation beginline="133" endline="133" begincolumn="36" endcolumn="206" rule="ExcessiveParameterList" ruleset="Design" package="com.asksven.android.common.kernelutils" class="NativeKernelWakelock" method="NativeKernelWakelock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/kernelutils/OtherStatsDumpsys.java">
+<violation beginline="36" endline="180" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.kernelutils" class="OtherStatsDumpsys" method="getOtherStats" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/kernelutils/ProcessStatsDumpsys.java">
+<violation beginline="144" endline="269" begincolumn="26" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.kernelutils" class="ProcessStatsDumpsys" method="getProcesses" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/kernelutils/Wakelocks.java">
+<violation beginline="46" endline="157" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.kernelutils" class="Wakelocks" method="parseProcWakelocks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/kernelutils/WakeupSources.java">
+<violation beginline="70" endline="204" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.kernelutils" class="WakeupSources" method="parseWakeupSources" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/kernelutils/WakeupSourcesLg.java">
+<violation beginline="40" endline="176" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.kernelutils" class="WakeupSourcesLg" method="parseWakeupSources" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/privateapiproxies/BatteryStatsProxy.java">
+<violation beginline="78" endline="3780" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="79" endline="3780" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="137" endline="291" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" method="BatteryStatsProxy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="318" endline="451" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" method="BatteryStatsProxy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1344" endline="1479" begincolumn="12" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" method="getSensorOnTime" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1491" endline="1698" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" method="getSensorStats" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2423" endline="2583" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" method="getWakelockStats" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2592" endline="2758" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" method="getKernelWakelockStats" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2768" endline="2880" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" method="getProcessStats" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3193" endline="3330" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" method="getNetworkUsageStats" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3362" endline="3596" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="BatteryStatsProxy" method="getHistory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/privateapiproxies/HistoryItem.java">
+<violation beginline="86" endline="89" begincolumn="23" endcolumn="58" rule="ExcessiveParameterList" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="HistoryItem" method="HistoryItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="444" endline="466" begincolumn="29" endcolumn="9" rule="DataClass" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="HistoryItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BitDescription' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/privateapiproxies/HistoryItemIcs.java">
+<violation beginline="75" endline="78" begincolumn="26" endcolumn="58" rule="ExcessiveParameterList" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="HistoryItemIcs" method="HistoryItemIcs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/privateapiproxies/HistoryItemJellyBean.java">
+<violation beginline="77" endline="80" begincolumn="32" endcolumn="58" rule="ExcessiveParameterList" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="HistoryItemJellyBean" method="HistoryItemJellyBean" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/privateapiproxies/HistoryItemKitKat.java">
+<violation beginline="78" endline="81" begincolumn="29" endcolumn="58" rule="ExcessiveParameterList" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="HistoryItemKitKat" method="HistoryItemKitKat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/privateapiproxies/HistoryItemLolipop.java">
+<violation beginline="90" endline="93" begincolumn="30" endcolumn="58" rule="ExcessiveParameterList" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="HistoryItemLolipop" method="HistoryItemLolipop" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/privateapiproxies/HistoryItemMarshmallow.java">
+<violation beginline="97" endline="100" begincolumn="34" endcolumn="74" rule="ExcessiveParameterList" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="HistoryItemMarshmallow" method="HistoryItemMarshmallow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/privateapiproxies/HistoryItemNougat.java">
+<violation beginline="101" endline="104" begincolumn="29" endcolumn="82" rule="ExcessiveParameterList" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="HistoryItemNougat" method="HistoryItemNougat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/privateapiproxies/HistoryItemOreo.java">
+<violation beginline="100" endline="103" begincolumn="27" endcolumn="74" rule="ExcessiveParameterList" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="HistoryItemOreo" method="HistoryItemOreo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/privateapiproxies/NativeKernelWakelock.java">
+<violation beginline="130" endline="130" begincolumn="36" endcolumn="206" rule="ExcessiveParameterList" ruleset="Design" package="com.asksven.android.common.privateapiproxies" class="NativeKernelWakelock" method="NativeKernelWakelock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/common/utils/DateUtils.java">
+<violation beginline="28" endline="391" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.asksven.android.common.utils" class="DateUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/android/contrib/Shell.java">
+<violation beginline="41" endline="1734" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.asksven.android.contrib" class="Shell" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="607" endline="900" begincolumn="33" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.asksven.android.contrib" class="Shell$Builder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="966" endline="1733" begincolumn="37" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.asksven.android.contrib" class="Shell$Interactive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/StatsActivity.java">
+<violation beginline="100" endline="1303" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.asksven.betterbatterystats" class="StatsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="102" endline="1303" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.asksven.betterbatterystats" class="StatsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="154" endline="462" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats" class="StatsActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="466" endline="618" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats" class="StatsActivity" method="onResume" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="757" endline="863" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats" class="StatsActivity" method="onItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1138" endline="1301" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats" class="StatsActivity" method="getShareDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/SystemAppActivity.java">
+<violation beginline="133" endline="290" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats" class="SystemAppActivity" method="onResume" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/adapters/StatsAdapter.java">
+<violation beginline="188" endline="376" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.adapters" class="StatsAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/data/GraphSeriesFactory.java">
+<violation beginline="47" endline="168" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="GraphSeriesFactory" method="GraphSeriesFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/data/Reading.java">
+<violation beginline="106" endline="321" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="Reading" method="Reading" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="332" endline="473" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="Reading" method="toStringText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/data/ReferenceDBHelper.java">
+<violation beginline="47" endline="451" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.asksven.betterbatterystats.data" class="ReferenceDBHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/data/StatsProvider.java">
+<violation beginline="91" endline="3418" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="StatsProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="92" endline="3418" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.asksven.betterbatterystats.data" class="StatsProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="235" endline="339" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="StatsProvider" method="getAlarmsStatList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="487" endline="589" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="StatsProvider" method="getSensorStatList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="654" endline="761" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="StatsProvider" method="getProcessStatList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="833" endline="966" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="StatsProvider" method="getWakelockStatList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1051" endline="1170" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="StatsProvider" method="getKernelWakelockStatList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1252" endline="1363" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="StatsProvider" method="getNetworkUsageStatList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1788" endline="2199" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="StatsProvider" method="getCurrentOtherUsageStatList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2584" endline="2765" begincolumn="30" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.data" class="StatsProvider" method="populateReference" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/services/UpdateLargeWidgetService.java">
+<violation beginline="58" endline="313" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.services" class="UpdateLargeWidgetService" method="onStart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/services/UpdateMediumWidgetService.java">
+<violation beginline="56" endline="293" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.services" class="UpdateMediumWidgetService" method="onStart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/services/UpdateSmallWidgetService.java">
+<violation beginline="56" endline="224" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.services" class="UpdateSmallWidgetService" method="onStart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/services/UpdateWidgetService.java">
+<violation beginline="62" endline="298" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.services" class="UpdateWidgetService" method="onStart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/services/WatchdogProcessingService.java">
+<violation beginline="59" endline="206" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.asksven.betterbatterystats.services" class="WatchdogProcessingService" method="onHandleIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BetterBatteryStats/app/src/main/java/com/asksven/betterbatterystats/widgets/WidgetSummary.java">
+<violation beginline="36" endline="255" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.asksven.betterbatterystats.widgets" class="WidgetSummary" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WidgetSummary' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=7, WMC=12)
+</violation>
+</file>
+</pmd>

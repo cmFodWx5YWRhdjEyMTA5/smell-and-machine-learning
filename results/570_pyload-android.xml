@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:13:23.584">
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/commons/codec/binary/Base64.java">
+<violation beginline="53" endline="1055" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.commons.codec.binary" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="53" endline="1055" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.codec.binary" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/TBaseHelper.java">
+<violation beginline="31" endline="306" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.thrift" class="TBaseHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/TDeserializer.java">
+<violation beginline="38" endline="346" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.thrift" class="TDeserializer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/TUnion.java">
+<violation beginline="38" endline="280" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.thrift" class="TUnion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/async/TAsyncMethodCall.java">
+<violation beginline="42" endline="270" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.thrift.async" class="TAsyncMethodCall" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/protocol/TBinaryProtocol.java">
+<violation beginline="32" endline="398" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.thrift.protocol" class="TBinaryProtocol" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/protocol/TCompactProtocol.java">
+<violation beginline="39" endline="816" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.thrift.protocol" class="TCompactProtocol" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/protocol/TJSONProtocol.java">
+<violation beginline="39" endline="936" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.thrift.protocol" class="TJSONProtocol" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/protocol/TProtocol.java">
+<violation beginline="33" endline="162" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.thrift.protocol" class="TProtocol" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/protocol/TProtocolException.java">
+<violation beginline="28" endline="81" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.apache.thrift.protocol" class="TProtocolException" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TProtocolException' is suspected to be a Data Class (WOC=11.111%, NOPA=6, NOAM=0, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/protocol/TSimpleJSONProtocol.java">
+<violation beginline="37" endline="385" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.thrift.protocol" class="TSimpleJSONProtocol" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/transport/TFileTransport.java">
+<violation beginline="39" endline="628" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.thrift.transport" class="TFileTransport" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/apache/thrift/transport/TTransportException.java">
+<violation beginline="28" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.apache.thrift.transport" class="TTransportException" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TTransportException' is suspected to be a Data Class (WOC=11.111%, NOPA=5, NOAM=0, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/android/client/fragments/AbstractPackageFragment.java">
+<violation beginline="41" endline="322" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.android.client.fragments" class="AbstractPackageFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="103" endline="231" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.android.client.fragments" class="AbstractPackageFragment" method="onContextItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/android/client/fragments/OverviewFragment.java">
+<violation beginline="45" endline="342" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.android.client.fragments" class="OverviewFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/android/client/module/GuiTask.java">
+<violation beginline="5" endline="73" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.pyload.android.client.module" class="GuiTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GuiTask' is suspected to be a Data Class (WOC=27.273%, NOPA=1, NOAM=5, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/android/client/pyLoadApp.java">
+<violation beginline="46" endline="335" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.android.client" class="pyLoadApp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/AccountInfo.java">
+<violation beginline="30" endline="1155" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.pyload.thrift" class="AccountInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="30" endline="1155" begincolumn="128" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="AccountInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="858" endline="963" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="AccountInfo$AccountInfoStandardScheme" method="read" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/CaptchaTask.java">
+<violation beginline="30" endline="691" begincolumn="128" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="CaptchaTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/ConfigItem.java">
+<violation beginline="30" endline="681" begincolumn="125" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="ConfigItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/ConfigSection.java">
+<violation beginline="30" endline="738" begincolumn="134" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="ConfigSection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/DownloadInfo.java">
+<violation beginline="30" endline="1854" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.pyload.thrift" class="DownloadInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="30" endline="1854" begincolumn="131" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="DownloadInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="236" endline="252" begincolumn="22" endcolumn="18" rule="ExcessiveParameterList" ruleset="Design" package="org.pyload.thrift" class="DownloadInfo" method="DownloadInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="737" endline="868" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="DownloadInfo" method="setFieldValue" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="976" endline="1125" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="DownloadInfo" method="equals" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1132" endline="1301" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="DownloadInfo" method="compareTo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1316" endline="1417" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="DownloadInfo" method="toString" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1449" endline="1596" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="DownloadInfo$DownloadInfoStandardScheme" method="read" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1681" endline="1781" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="DownloadInfo$DownloadInfoTupleScheme" method="write" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/Event.java">
+<violation beginline="29" endline="610" begincolumn="92" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Event" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/EventInfo.java">
+<violation beginline="30" endline="718" begincolumn="122" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="EventInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/FileData.java">
+<violation beginline="30" endline="1378" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.pyload.thrift" class="FileData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="30" endline="1378" begincolumn="119" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="FileData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="197" endline="208" begincolumn="18" endcolumn="16" rule="ExcessiveParameterList" ruleset="Design" package="org.pyload.thrift" class="FileData" method="FileData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="726" endline="830" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="FileData" method="equals" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="837" endline="956" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="FileData" method="compareTo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1080" endline="1187" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="FileData$FileDataStandardScheme" method="read" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/FileDoesNotExists.java">
+<violation beginline="30" endline="380" begincolumn="164" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="FileDoesNotExists" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/OnlineCheck.java">
+<violation beginline="30" endline="545" begincolumn="128" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="OnlineCheck" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/OnlineStatus.java">
+<violation beginline="30" endline="796" begincolumn="131" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="OnlineStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/PackageData.java">
+<violation beginline="30" endline="1681" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.pyload.thrift" class="PackageData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="30" endline="1681" begincolumn="128" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="PackageData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="651" endline="758" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="PackageData" method="setFieldValue" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="851" endline="973" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="PackageData" method="equals" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="980" endline="1119" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="PackageData" method="compareTo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1263" endline="1407" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.pyload.thrift" class="PackageData$PackageDataStandardScheme" method="read" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/PackageDoesNotExists.java">
+<violation beginline="30" endline="380" begincolumn="173" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="PackageDoesNotExists" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/Pyload.java">
+<violation beginline="30" endline="54706" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.pyload.thrift" class="Pyload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="32" endline="174" begincolumn="26" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$Iface" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="176" endline="318" begincolumn="31" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$AsyncIface" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="320" endline="1891" begincolumn="17" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="org.pyload.thrift" class="Pyload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="320" endline="1891" begincolumn="88" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$Client" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1892" endline="4152" begincolumn="17" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="org.pyload.thrift" class="Pyload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1892" endline="4152" begincolumn="102" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$AsyncClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="4154" endline="5389" begincolumn="17" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="org.pyload.thrift" class="Pyload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="5391" endline="5942" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getConfigValue_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="5944" endline="6295" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getConfigValue_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6297" endline="6948" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$setConfigValue_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6950" endline="7193" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$setConfigValue_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="7195" endline="7438" begincolumn="148" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getConfig_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="7440" endline="7856" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getConfig_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="7858" endline="8101" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getPluginConfig_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="8103" endline="8519" begincolumn="172" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getPluginConfig_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="8521" endline="8764" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$pauseServer_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="8766" endline="9009" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$pauseServer_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="9011" endline="9254" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$unpauseServer_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="9256" endline="9499" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$unpauseServer_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="9501" endline="9744" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$togglePause_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="9746" endline="10094" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$togglePause_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="10096" endline="10339" begincolumn="157" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$statusServer_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="10341" endline="10694" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$statusServer_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="10696" endline="10939" begincolumn="148" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$freeSpace_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="10941" endline="11289" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$freeSpace_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="11291" endline="11534" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getServerVersion_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="11536" endline="11887" begincolumn="175" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getServerVersion_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="11889" endline="12132" begincolumn="133" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$kill_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12134" endline="12377" begincolumn="139" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$kill_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12379" endline="12622" begincolumn="142" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$restart_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12624" endline="12867" begincolumn="148" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$restart_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12869" endline="13219" begincolumn="139" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getLog_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="13221" endline="13624" begincolumn="145" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getLog_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="13626" endline="13869" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$isTimeDownload_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="13871" endline="14219" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$isTimeDownload_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="14221" endline="14464" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$isTimeReconnect_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="14466" endline="14814" begincolumn="172" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$isTimeReconnect_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="14816" endline="15059" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$toggleReconnect_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="15061" endline="15409" begincolumn="172" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$toggleReconnect_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="15411" endline="15809" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$generatePackages_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="15811" endline="16257" begincolumn="175" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$generatePackages_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="16259" endline="16657" begincolumn="148" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$checkURLs_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="16659" endline="17105" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$checkURLs_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="17107" endline="17558" begincolumn="148" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$parseURLs_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="17560" endline="18006" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$parseURLs_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="18008" endline="18406" begincolumn="172" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$checkOnlineStatus_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="18408" endline="18761" begincolumn="178" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$checkOnlineStatus_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="18763" endline="19372" begincolumn="199" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$checkOnlineStatusContainer_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="19374" endline="19727" begincolumn="205" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$checkOnlineStatusContainer_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="19729" endline="20079" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$pollResults_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="20081" endline="20434" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$pollResults_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="20436" endline="20679" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$statusDownloads_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="20681" endline="21086" begincolumn="172" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$statusDownloads_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="21088" endline="21438" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getPackageData_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="21440" endline="21895" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getPackageData_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="21897" endline="22247" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getPackageInfo_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="22249" endline="22704" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getPackageInfo_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="22706" endline="23056" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getFileData_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="23058" endline="23513" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getFileData_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="23515" endline="23758" begincolumn="145" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getQueue_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="23760" endline="24165" begincolumn="151" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getQueue_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="24167" endline="24410" begincolumn="157" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getCollector_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="24412" endline="24817" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getCollector_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="24819" endline="25062" begincolumn="157" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getQueueData_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="25064" endline="25469" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getQueueData_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="25471" endline="25714" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getCollectorData_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="25716" endline="26121" begincolumn="175" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getCollectorData_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="26123" endline="26490" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getPackageOrder_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="26492" endline="26906" begincolumn="172" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getPackageOrder_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="26908" endline="27258" begincolumn="157" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getFileOrder_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="27260" endline="27674" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getFileOrder_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="27676" endline="28190" begincolumn="187" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$generateAndAddPackages_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="28192" endline="28595" begincolumn="193" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$generateAndAddPackages_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="28597" endline="29211" begincolumn="151" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$addPackage_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="29213" endline="29561" begincolumn="157" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$addPackage_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="29563" endline="30060" begincolumn="145" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$addFiles_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="30062" endline="30305" begincolumn="151" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$addFiles_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="30307" endline="30769" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$uploadContainer_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="30771" endline="31014" begincolumn="172" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$uploadContainer_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="31016" endline="31419" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$deleteFiles_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="31421" endline="31664" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$deleteFiles_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="31666" endline="32069" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$deletePackages_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="32071" endline="32314" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$deletePackages_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="32316" endline="32666" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$pushToQueue_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="32668" endline="32911" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$pushToQueue_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="32913" endline="33263" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$pullFromQueue_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="33265" endline="33508" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$pullFromQueue_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="33510" endline="33860" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$restartPackage_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="33862" endline="34105" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$restartPackage_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="34107" endline="34457" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$restartFile_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="34459" endline="34702" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$restartFile_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="34704" endline="35054" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$recheckPackage_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="35056" endline="35299" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$recheckPackage_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="35301" endline="35544" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$stopAllDownloads_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="35546" endline="35789" begincolumn="175" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$stopAllDownloads_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="35791" endline="36194" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$stopDownloads_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="36196" endline="36439" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$stopDownloads_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="36441" endline="36891" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$setPackageName_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="36893" endline="37136" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$setPackageName_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="37138" endline="37604" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$movePackage_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="37606" endline="37849" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$movePackage_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="37851" endline="38353" begincolumn="148" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$moveFiles_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="38355" endline="38598" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$moveFiles_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="38600" endline="39044" begincolumn="157" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$orderPackage_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="39046" endline="39289" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$orderPackage_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="39291" endline="39735" begincolumn="148" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$orderFile_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="39737" endline="39980" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$orderFile_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="39982" endline="40495" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$setPackageData_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="40497" endline="40850" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$setPackageData_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="40852" endline="41095" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$deleteFinished_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="41097" endline="41500" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$deleteFinished_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="41502" endline="41745" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$restartFailed_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="41747" endline="41990" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$restartFailed_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="41992" endline="42235" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$isCaptchaWaiting_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="42237" endline="42585" begincolumn="175" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$isCaptchaWaiting_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="42587" endline="42937" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getCaptchaTask_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="42939" endline="43292" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getCaptchaTask_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="43294" endline="43644" begincolumn="181" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getCaptchaTaskStatus_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="43646" endline="43997" begincolumn="187" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getCaptchaTaskStatus_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="43999" endline="44449" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$setCaptchaResult_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="44451" endline="44694" begincolumn="175" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$setCaptchaResult_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="44696" endline="45047" begincolumn="148" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getEvents_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="45049" endline="45454" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getEvents_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="45456" endline="45806" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getAccounts_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="45808" endline="46213" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getAccounts_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="46215" endline="46458" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getAccountTypes_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="46460" endline="46863" begincolumn="172" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getAccountTypes_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="46865" endline="47579" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$updateAccount_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="47581" endline="47824" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$updateAccount_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="47826" endline="48277" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$removeAccount_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="48279" endline="48522" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$removeAccount_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="48524" endline="48975" begincolumn="136" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$login_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="48977" endline="49325" begincolumn="142" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$login_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="49327" endline="49778" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getUserData_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="49780" endline="50133" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getUserData_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="50135" endline="50378" begincolumn="163" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getAllUserData_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="50380" endline="50796" begincolumn="169" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getAllUserData_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="50798" endline="51041" begincolumn="154" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getServices_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="51043" endline="51508" begincolumn="160" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getServices_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="51510" endline="51961" begincolumn="151" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$hasService_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="51963" endline="52311" begincolumn="157" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$hasService_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="52313" endline="52666" begincolumn="133" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$call_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="52668" endline="53223" begincolumn="139" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$call_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="53225" endline="53468" begincolumn="151" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getAllInfo_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="53470" endline="53935" begincolumn="157" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getAllInfo_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="53937" endline="54288" begincolumn="166" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getInfoByPlugin_args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="54290" endline="54704" begincolumn="172" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="Pyload$getInfoByPlugin_result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/ServerStatus.java">
+<violation beginline="30" endline="944" begincolumn="131" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="ServerStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/ServiceCall.java">
+<violation beginline="30" endline="736" begincolumn="128" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="ServiceCall" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/ServiceDoesNotExists.java">
+<violation beginline="30" endline="481" begincolumn="173" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="ServiceDoesNotExists" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/ServiceException.java">
+<violation beginline="30" endline="381" begincolumn="161" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="ServiceException" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/pyload-android/app/src/main/java/org/pyload/thrift/UserData.java">
+<violation beginline="30" endline="774" begincolumn="119" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.pyload.thrift" class="UserData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

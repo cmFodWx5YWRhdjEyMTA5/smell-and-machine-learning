@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:14:48.740">
+<file name="/home/matheus/smell-and-machine-learning/repositories/BodhiTimer/app/src/main/java/org/yuttadhammo/BodhiTimer/ANumberPicker.java">
+<violation beginline="73" endline="251" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.BodhiTimer" class="ANumberPicker" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BodhiTimer/app/src/main/java/org/yuttadhammo/BodhiTimer/Animation/CircleAnimation.java">
+<violation beginline="221" endline="322" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.BodhiTimer.Animation" class="CircleAnimation" method="updateImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BodhiTimer/app/src/main/java/org/yuttadhammo/BodhiTimer/TimerActivity.java">
+<violation beginline="89" endline="1185" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.yuttadhammo.BodhiTimer" class="TimerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="90" endline="1185" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.yuttadhammo.BodhiTimer" class="TimerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="299" endline="443" begincolumn="12" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.BodhiTimer" class="TimerActivity" method="onResume" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BodhiTimer/app/src/main/java/org/yuttadhammo/BodhiTimer/TimerPrefActivity.java">
+<violation beginline="84" endline="551" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.BodhiTimer" class="TimerPrefActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/BodhiTimer/app/src/main/java/org/yuttadhammo/BodhiTimer/TimerReceiver.java">
+<violation beginline="52" endline="327" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.yuttadhammo.BodhiTimer" class="TimerReceiver" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

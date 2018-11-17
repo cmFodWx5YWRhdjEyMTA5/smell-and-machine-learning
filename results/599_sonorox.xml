@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:18:52.945">
+<file name="/home/matheus/smell-and-machine-learning/repositories/sonorox/src/sonoroxadc/boids/Boid.java">
+<violation beginline="9" endline="251" begincolumn="19" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="sonoroxadc.boids" class="Boid" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sonorox/src/sonoroxadc/boids/Vector3D.java">
+<violation beginline="3" endline="130" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="sonoroxadc.boids" class="Vector3D" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sonorox/src/sonoroxadc/garethmurfin/co/uk/Graphics.java">
+<violation beginline="11" endline="379" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="sonoroxadc.garethmurfin.co.uk" class="Graphics" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="127" endline="270" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="sonoroxadc.garethmurfin.co.uk" class="Graphics" method="drawRegion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sonorox/src/sonoroxadc/garethmurfin/co/uk/SonoroxActivity.java">
+<violation beginline="60" endline="1299" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="sonoroxadc.garethmurfin.co.uk" class="SonoroxActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="61" endline="1299" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="sonoroxadc.garethmurfin.co.uk" class="SonoroxActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="436" endline="552" begincolumn="13" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="sonoroxadc.garethmurfin.co.uk" class="SonoroxActivity" method="saveData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/sonorox/src/sonoroxadc/garethmurfin/co/uk/SonoroxSurfaceView.java">
+<violation beginline="40" endline="1443" begincolumn="1" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="sonoroxadc.garethmurfin.co.uk" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="42" endline="1178" begincolumn="9" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="sonoroxadc.garethmurfin.co.uk" class="SonoroxSurfaceView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="42" endline="1178" begincolumn="41" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="sonoroxadc.garethmurfin.co.uk" class="SonoroxSurfaceView$GameThread" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="500" endline="862" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="sonoroxadc.garethmurfin.co.uk" class="SonoroxSurfaceView$GameThread" method="doDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="912" endline="1061" begincolumn="17" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="sonoroxadc.garethmurfin.co.uk" class="SonoroxSurfaceView$GameThread" method="drawDemo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

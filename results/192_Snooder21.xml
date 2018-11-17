@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:51:02.502">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Snooder21/snooder21/src/main/java/ru/exlmoto/snood21/SnoodsLauncherActivity.java">
+<violation beginline="47" endline="391" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.exlmoto.snood21" class="SnoodsLauncherActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Snooder21/snooder21/src/main/java/ru/exlmoto/snood21/SnoodsSurfaceView.java">
+<violation beginline="44" endline="1074" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="ru.exlmoto.snood21" class="SnoodsSurfaceView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="45" endline="1074" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ru.exlmoto.snood21" class="SnoodsSurfaceView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="791" endline="891" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ru.exlmoto.snood21" class="SnoodsSurfaceView" method="tick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:03:46.519">
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/androidTest/java/org/ebookdroid/common/settings/books/DBSettingsManagerTest.java">
+<violation beginline="39" endline="474" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.common.settings.books" class="DBSettingsManagerTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/afzkl/colorpicker/views/ColorPickerView.java">
+<violation beginline="48" endline="975" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.afzkl.colorpicker.views" class="ColorPickerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/bitmaps/ByteBufferBitmap.java">
+<violation beginline="15" endline="209" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.common.bitmaps" class="ByteBufferBitmap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/cache/DocumentCacheFile.java">
+<violation beginline="257" endline="268" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="org.ebookdroid.common.cache" class="DocumentCacheFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PageInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/AppSettings.java">
+<violation beginline="22" endline="579" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.common.settings" class="AppSettings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/SettingsManager.java">
+<violation beginline="37" endline="520" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.common.settings" class="SettingsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/books/DBAdapterV1.java">
+<violation beginline="16" endline="347" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.common.settings.books" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DBAdapterV1' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=21)
+</violation>
+<violation beginline="16" endline="347" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.common.settings.books" class="DBAdapterV1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/books/DBAdapterV2.java">
+<violation beginline="12" endline="152" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.common.settings.books" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DBAdapterV2' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/books/DBAdapterV3.java">
+<violation beginline="13" endline="114" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.common.settings.books" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DBAdapterV3' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/books/DBAdapterV4.java">
+<violation beginline="13" endline="195" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.common.settings.books" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DBAdapterV4' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/books/DBAdapterV5.java">
+<violation beginline="13" endline="129" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.common.settings.books" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DBAdapterV5' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/books/DBAdapterV6.java">
+<violation beginline="14" endline="205" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.common.settings.books" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DBAdapterV6' is suspected to be a Data Class (WOC=0.000%, NOPA=13, NOAM=0, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/books/DBAdapterV7.java">
+<violation beginline="17" endline="163" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.common.settings.books" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DBAdapterV7' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/books/DBAdapterV8.java">
+<violation beginline="17" endline="168" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.common.settings.books" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DBAdapterV8' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/books/DBAdapterV9.java">
+<violation beginline="20" endline="300" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.common.settings.books" class="DBAdapterV9" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/common/settings/books/DBSettingsManager.java">
+<violation beginline="25" endline="276" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.common.settings.books" class="DBSettingsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/AbstractViewController.java">
+<violation beginline="51" endline="847" begincolumn="116" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.core" class="AbstractViewController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/DecodeServiceBase.java">
+<violation beginline="42" endline="877" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.core" class="DecodeServiceBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="137" endline="239" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.ebookdroid.core" class="DecodeServiceBase" method="performDecode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/EventGLDraw.java">
+<violation beginline="25" endline="230" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.core" class="EventGLDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/PageTreeNode.java">
+<violation beginline="27" endline="324" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.core" class="PageTreeNode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/SinglePageController.java">
+<violation beginline="28" endline="306" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.core" class="SinglePageController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/codec/CodecPageInfo.java">
+<violation beginline="3" endline="23" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.core.codec" class="CodecPageInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CodecPageInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/codec/OutlineLink.java">
+<violation beginline="5" endline="70" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.core.codec" class="OutlineLink" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OutlineLink' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/codec/PageLink.java">
+<violation beginline="5" endline="48" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.core.codec" class="PageLink" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PageLink' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/curl/AbstractPageAnimator.java">
+<violation beginline="18" endline="421" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.core.curl" class="AbstractPageAnimator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/curl/Vector2D.java">
+<violation beginline="9" endline="92" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.core.curl" class="Vector2D" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/core/models/DocumentModel.java">
+<violation beginline="47" endline="413" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.core.models" class="DocumentModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/droids/djvu/codec/DjvuPage.java">
+<violation beginline="162" endline="164" begincolumn="51" endcolumn="50" rule="ExcessiveParameterList" ruleset="Design" package="org.ebookdroid.droids.djvu.codec" class="DjvuPage" method="renderPageDirect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/droids/mupdf/codec/MuPdfPage.java">
+<violation beginline="25" endline="173" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.droids.mupdf.codec" class="MuPdfPage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/opds/model/Entry.java">
+<violation beginline="3" endline="18" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.opds.model" class="Entry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Entry' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/opds/model/Feed.java">
+<violation beginline="6" endline="37" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.opds.model" class="Feed" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Feed' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/opds/model/Link.java">
+<violation beginline="3" endline="23" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.opds.model" class="Link" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Link' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/library/BrowserActivity.java">
+<violation beginline="42" endline="236" begincolumn="105" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.library" class="BrowserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/library/BrowserActivityController.java">
+<violation beginline="51" endline="360" begincolumn="120" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.library" class="BrowserActivityController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/library/RecentActivity.java">
+<violation beginline="61" endline="367" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.library" class="RecentActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/library/RecentActivityController.java">
+<violation beginline="65" endline="624" begincolumn="104" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.library" class="RecentActivityController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/library/adapters/BookNode.java">
+<violation beginline="11" endline="61" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.ui.library.adapters" class="BookNode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BookNode' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/library/adapters/BookShelfAdapter.java">
+<violation beginline="20" endline="89" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.ebookdroid.ui.library.adapters" class="BookShelfAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BookShelfAdapter' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=1, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/library/adapters/BooksAdapter.java">
+<violation beginline="41" endline="638" begincolumn="114" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.library.adapters" class="BooksAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/library/dialogs/BackupDlg.java">
+<violation beginline="32" endline="203" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.library.dialogs" class="BackupDlg" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/opds/OPDSActivity.java">
+<violation beginline="27" endline="226" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.opds" class="OPDSActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/opds/OPDSActivityController.java">
+<violation beginline="37" endline="367" begincolumn="104" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.opds" class="OPDSActivityController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/opds/adapters/OPDSAdapter.java">
+<violation beginline="50" endline="419" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.opds.adapters" class="OPDSAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/settings/PreferencesDecorator.java">
+<violation beginline="39" endline="307" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.settings" class="PreferencesDecorator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/viewer/IView.java">
+<violation beginline="15" endline="82" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.viewer" class="IView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/viewer/IViewController.java">
+<violation beginline="17" endline="85" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.viewer" class="IViewController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/viewer/ViewerActivity.java">
+<violation beginline="45" endline="434" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.viewer" class="ViewerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/viewer/ViewerActivityController.java">
+<violation beginline="98" endline="1217" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.ebookdroid.ui.viewer" class="ViewerActivityController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="100" endline="1217" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.viewer" class="ViewerActivityController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/viewer/dialogs/GoToPageDialog.java">
+<violation beginline="36" endline="265" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.viewer.dialogs" class="GoToPageDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/viewer/stubs/ViewContollerStub.java">
+<violation beginline="20" endline="157" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.viewer.stubs" class="ViewContollerStub" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/viewer/stubs/ViewStub.java">
+<violation beginline="13" endline="145" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.viewer.stubs" class="ViewStub" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/ebookdroid/ui/viewer/viewers/GLView.java">
+<violation beginline="28" endline="387" begincolumn="87" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.ebookdroid.ui.viewer.viewers" class="GLView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/common/log/LogContext.java">
+<violation beginline="5" endline="80" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.common.log" class="LogContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/common/xml/parsers/DuckbillParser.java">
+<violation beginline="13" endline="137" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.common.xml.parsers" class="DuckbillParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/ui/AbstractActionActivity.java">
+<violation beginline="23" endline="383" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.ui" class="AbstractActionActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/ui/AbstractActivityController.java">
+<violation beginline="14" endline="74" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.ui" class="AbstractActivityController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/ui/actions/params/EditableValue.java">
+<violation beginline="25" endline="158" begincolumn="62" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.emdev.ui.actions.params" class="EditableValue$PasswordEditable" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/ui/gl/GLCanvas.java">
+<violation beginline="34" endline="138" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.ui.gl" class="GLCanvas" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/ui/gl/GLCanvasImpl.java">
+<violation beginline="36" endline="759" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.ui.gl" class="GLCanvasImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/ui/gl/GLRootView.java">
+<violation beginline="44" endline="270" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.ui.gl" class="GLRootView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/ui/tasks/AsyncTask.java">
+<violation beginline="164" endline="604" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.ui.tasks" class="AsyncTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/ui/widget/TextViewMultilineEllipse.java">
+<violation beginline="501" endline="616" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.ui.widget" class="TextViewMultilineEllipse$LineBreaker" method="breakText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/utils/FastMath.java">
+<violation beginline="25" endline="6176" begincolumn="1" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.emdev.utils" class="FastMath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="6237" endline="9877" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.emdev.utils" class="FastMath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="6237" endline="9877" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.utils" class="FastMath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="6587" endline="6696" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="sinh" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="6702" endline="6820" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="tanh" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="6963" endline="7078" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="exp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="7093" endline="7233" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="expm1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="7251" endline="7471" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="7565" endline="7723" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="pow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="7772" endline="7887" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="sinQ" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="7915" endline="8050" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="tanQ" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="8063" endline="8273" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="reducePayneHanek" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="8463" endline="8564" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="tan" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="8581" endline="8720" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="atan" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="8728" endline="8843" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="FastMath" method="atan2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/utils/LengthUtils.java">
+<violation beginline="8" endline="541" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.utils" class="LengthUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/utils/MathUtils.java">
+<violation beginline="7" endline="135" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.utils" class="MathUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/utils/StringUtils.java">
+<violation beginline="92" endline="195" begincolumn="25" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils" class="StringUtils" method="compareNatural" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/utils/base64/Base64.java">
+<violation beginline="275" endline="450" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils.base64" class="Base64$Decoder" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="453" endline="584" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils.base64" class="Base64$Decoder" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="749" endline="883" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.emdev.utils.base64" class="Base64$Encoder" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/document-viewer/document-viewer/src/main/java/org/emdev/utils/collections/ArrayDeque.java">
+<violation beginline="63" endline="958" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.emdev.utils.collections" class="ArrayDeque" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:00:58.142">
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Game/ComputerAI.java">
+<violation beginline="122" endline="244" begincolumn="24" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.glTron.Game" class="ComputerAI" method="doComputerActive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="325" endline="429" begincolumn="24" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.glTron.Game" class="ComputerAI" method="calculateDistances" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Game/GLTronGame.java">
+<violation beginline="40" endline="598" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.glTron.Game" class="GLTronGame" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Sound/SoundManager.java">
+<violation beginline="33" endline="174" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.glTron.Sound" class="SoundManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Video/HUD.java">
+<violation beginline="32" endline="261" begincolumn="18" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.glTron.Video" class="HUD" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Video/Model.java">
+<violation beginline="74" endline="282" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.glTron.Video" class="Model" method="readMesh" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Video/Vec.java">
+<violation beginline="25" endline="144" begincolumn="18" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.glTron.Video" class="Vec" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

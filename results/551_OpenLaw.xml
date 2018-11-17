@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:10:52.384">
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenLaw/src/com/jakewharton/DiskLruCache.java">
+<violation beginline="89" endline="898" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jakewharton" class="DiskLruCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenLaw/src/de/jdsoft/law/ColorList.java">
+<violation beginline="7" endline="1170" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.jdsoft.law" class="ColorList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenLaw/src/de/jdsoft/law/LawHeadlineFragment.java">
+<violation beginline="40" endline="709" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.jdsoft.law" class="LawHeadlineFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="593" endline="694" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.jdsoft.law" class="LawHeadlineFragment$HeadlineComposerAdapterWithView" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenLaw/src/de/jdsoft/law/LawListActivity.java">
+<violation beginline="78" endline="190" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.jdsoft.law" class="LawListActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="388" endline="400" begincolumn="24" endcolumn="9" rule="DataClass" ruleset="Design" package="de.jdsoft.law" class="LawListActivity$DrawerAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Entry' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenLaw/src/de/jdsoft/law/data/LawSectionList.java">
+<violation beginline="15" endline="104" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.jdsoft.law.data" class="LawSectionList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LawSectionList' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=1, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenLaw/src/de/jdsoft/law/data/helper/Law.java">
+<violation beginline="6" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.jdsoft.law.data.helper" class="Law" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Law' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenLaw/src/de/jdsoft/law/data/helper/LawHeadline.java">
+<violation beginline="3" endline="18" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="de.jdsoft.law.data.helper" class="LawHeadline" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LawHeadline' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+</pmd>

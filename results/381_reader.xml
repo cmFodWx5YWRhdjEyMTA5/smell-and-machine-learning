@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:37:54.719">
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-agent/src/main/java/com/sismics/reader/agent/deployer/DeploymentStatus.java">
+<violation beginline="10" endline="107" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.agent.deployer" class="DeploymentStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DeploymentStatus' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-agent/src/main/java/com/sismics/reader/agent/model/Setting.java">
+<violation beginline="20" endline="345" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.agent.model" class="Setting" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Setting' is suspected to be a Data Class (WOC=9.524%, NOPA=5, NOAM=18, WMC=29)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-android/app/src/main/java/com/sismics/reader/activity/ArticleActivity.java">
+<violation beginline="87" endline="233" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sismics.reader.activity" class="ArticleActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-android/app/src/main/java/com/sismics/reader/activity/MainActivity.java">
+<violation beginline="50" endline="499" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sismics.reader.activity" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-android/app/src/main/java/com/sismics/reader/fragment/ArticleFragment.java">
+<violation beginline="68" endline="176" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sismics.reader.fragment" class="ArticleFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="183" endline="327" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sismics.reader.fragment" class="ArticleFragment" method="zoomImageFromThumb" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-android/app/src/main/java/com/sismics/reader/fragment/ArticlesFragment.java">
+<violation beginline="166" endline="304" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sismics.reader.fragment" class="ArticlesFragment" method="initFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-android/app/src/main/java/com/sismics/reader/ui/adapter/CategoryAdapter.java">
+<violation beginline="262" endline="282" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.sismics.reader.ui.adapter" class="CategoryAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Category' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+<violation beginline="287" endline="324" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.sismics.reader.ui.adapter" class="CategoryAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'State' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-android/app/src/main/java/com/sismics/reader/ui/adapter/SubscriptionItem.java">
+<violation beginline="8" endline="144" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.ui.adapter" class="SubscriptionItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubscriptionItem' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=14, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/file/json/StarredArticleImportedEvent.java">
+<violation beginline="12" endline="60" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.file.json" class="StarredArticleImportedEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StarredArticleImportedEvent' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/file/opml/Outline.java">
+<violation beginline="11" endline="126" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.file.opml" class="Outline" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Outline' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=11, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/file/rss/AtomLink.java">
+<violation beginline="8" endline="91" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.file.rss" class="AtomLink" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AtomLink' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/file/rss/RssReader.java">
+<violation beginline="33" endline="594" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.file.rss" class="RssReader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RssReader' is suspected to be a Data Class (WOC=25.000%, NOPA=3, NOAM=2, WMC=24)
+</violation>
+<violation beginline="246" endline="412" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sismics.reader.core.dao.file.rss" class="RssReader" method="startElement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/jpa/dto/ArticleDto.java">
+<violation beginline="10" endline="322" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.jpa.dto" class="ArticleDto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ArticleDto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=28, WMC=28)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/jpa/dto/FeedDto.java">
+<violation beginline="8" endline="54" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.jpa.dto" class="FeedDto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FeedDto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/jpa/dto/FeedSubscriptionDto.java">
+<violation beginline="10" endline="325" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.jpa.dto" class="FeedSubscriptionDto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FeedSubscriptionDto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=30, WMC=30)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/jpa/dto/JobDto.java">
+<violation beginline="8" endline="147" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.jpa.dto" class="JobDto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'JobDto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/jpa/dto/JobEventDto.java">
+<violation beginline="8" endline="78" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.jpa.dto" class="JobEventDto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'JobEventDto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/jpa/dto/UserArticleDto.java">
+<violation beginline="9" endline="423" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.jpa.dto" class="UserArticleDto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserArticleDto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=36, WMC=36)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/jpa/dto/UserDto.java">
+<violation beginline="8" endline="123" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.jpa.dto" class="UserDto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserDto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/dao/lucene/ReaderStandardAnalyzer.java">
+<violation beginline="58" endline="135" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.dao.lucene" class="ReaderStandardAnalyzer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ReaderStandardAnalyzer' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=2, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/event/SubscriptionImportedEvent.java">
+<violation beginline="13" endline="67" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.event" class="SubscriptionImportedEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubscriptionImportedEvent' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java">
+<violation beginline="304" endline="422" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sismics.reader.core.listener.async" class="SubscriptionImportAsyncListener" method="importOutline" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/context/AppContext.java">
+<violation beginline="26" endline="209" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.context" class="AppContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AppContext' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=6, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/Article.java">
+<violation beginline="15" endline="416" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="Article" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Article' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=32, WMC=34)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/AuthenticationToken.java">
+<violation beginline="19" endline="149" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="AuthenticationToken" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AuthenticationToken' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/Category.java">
+<violation beginline="19" endline="220" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="Category" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Category' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/Config.java">
+<violation beginline="20" endline="77" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="Config" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Config' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/Feed.java">
+<violation beginline="18" endline="274" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="Feed" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Feed' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=22)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/FeedSubscription.java">
+<violation beginline="18" endline="245" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="FeedSubscription" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FeedSubscription' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/FeedSynchronization.java">
+<violation beginline="20" endline="115" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="FeedSynchronization" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FeedSynchronization' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/Job.java">
+<violation beginline="19" endline="213" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="Job" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Job' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/JobEvent.java">
+<violation beginline="19" endline="192" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="JobEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'JobEvent' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/Role.java">
+<violation beginline="19" endline="124" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="Role" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Role' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/RoleBaseFunction.java">
+<violation beginline="19" endline="149" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="RoleBaseFunction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RoleBaseFunction' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/User.java">
+<violation beginline="19" endline="388" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="User" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=30, WMC=30)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/model/jpa/UserArticle.java">
+<violation beginline="19" endline="197" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.model.jpa" class="UserArticle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserArticle' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java">
+<violation beginline="138" endline="316" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sismics.reader.core.service" class="FeedService" method="synchronize" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/reader/core/util/jpa/PaginatedList.java">
+<violation beginline="10" endline="95" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.reader.core.util.jpa" class="PaginatedList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PaginatedList' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/util/jpa/QueryParam.java">
+<violation beginline="14" endline="117" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.util.jpa" class="QueryParam" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'QueryParam' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=9, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/util/jpa/ResultMapper.java">
+<violation beginline="21" endline="129" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sismics.util.jpa" class="ResultMapper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/main/java/com/sismics/util/log4j/LogEntry.java">
+<violation beginline="8" endline="79" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.util.log4j" class="LogEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LogEntry' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java">
+<violation beginline="18" endline="658" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sismics.reader.core.dao.file.rss" class="TestRssReader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java">
+<violation beginline="19" endline="397" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sismics.util" class="TestArticleSanitizer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java">
+<violation beginline="13" endline="148" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.sismics.security" class="UserPrincipal" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserPrincipal' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java">
+<violation beginline="46" endline="383" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sismics.reader.rest" class="BaseJerseyTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-web/src/main/java/com/sismics/reader/rest/resource/UserResource.java">
+<violation beginline="50" endline="655" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.sismics.reader.rest.resource" class="UserResource" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="146" endline="156" begincolumn="27" endcolumn="63" rule="ExcessiveParameterList" ruleset="Design" package="com.sismics.reader.rest.resource" class="UserResource" method="update" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="236" endline="246" begincolumn="27" endcolumn="59" rule="ExcessiveParameterList" ruleset="Design" package="com.sismics.reader.rest.resource" class="UserResource" method="update" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-web/src/test/java/com/sismics/reader/rest/TestCategoryResource.java">
+<violation beginline="22" endline="199" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sismics.reader.rest" class="TestCategoryResource" method="testCategoryResource" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-web/src/test/java/com/sismics/reader/rest/TestSubscriptionResource.java">
+<violation beginline="34" endline="203" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sismics.reader.rest" class="TestSubscriptionResource" method="testSubscriptionAddResource" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reader/reader-web/src/test/java/com/sismics/reader/rest/TestUserResource.java">
+<violation beginline="35" endline="190" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.sismics.reader.rest" class="TestUserResource" method="testUserResource" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

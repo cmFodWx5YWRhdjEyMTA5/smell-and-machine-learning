@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:27:30.756">
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/android/support/v7/widget/ConcatAdapter.java">
+<violation beginline="22" endline="227" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.v7.widget" class="ConcatAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/activities/AppCompatPreferenceActivity.java">
+<violation beginline="23" endline="159" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="at.linuxtage.companion.activities" class="AppCompatPreferenceActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/activities/MainActivity.java">
+<violation beginline="72" endline="584" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="at.linuxtage.companion.activities" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="196" endline="325" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="at.linuxtage.companion.activities" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/db/DatabaseHelper.java">
+<violation beginline="7" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="at.linuxtage.companion.db" class="DatabaseHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DatabaseHelper' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/db/DatabaseManager.java">
+<violation beginline="46" endline="881" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="at.linuxtage.companion.db" class="DatabaseManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="125" endline="274" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="at.linuxtage.companion.db" class="DatabaseManager" method="storeSchedule" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/fragments/BookmarksListFragment.java">
+<violation beginline="30" endline="200" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="at.linuxtage.companion.fragments" class="BookmarksListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/fragments/TrackScheduleListFragment.java">
+<violation beginline="33" endline="335" begincolumn="120" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="at.linuxtage.companion.fragments" class="TrackScheduleListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/model/Day.java">
+<violation beginline="14" endline="101" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="at.linuxtage.companion.model" class="Day" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Day' is suspected to be a Data Class (WOC=28.571%, NOPA=1, NOAM=4, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/model/Event.java">
+<violation beginline="14" endline="245" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="at.linuxtage.companion.model" class="Event" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Event' is suspected to be a Data Class (WOC=9.375%, NOPA=1, NOAM=28, WMC=40)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/model/Link.java">
+<violation beginline="6" endline="75" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="at.linuxtage.companion.model" class="Link" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Link' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/model/Person.java">
+<violation beginline="9" endline="84" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="at.linuxtage.companion.model" class="Person" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Person' is suspected to be a Data Class (WOC=16.667%, NOPA=1, NOAM=4, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/model/Track.java">
+<violation beginline="10" endline="127" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="at.linuxtage.companion.model" class="Track" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Track' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/glt-companion/app/src/main/java/at/linuxtage/companion/parsers/EventsParser.java">
+<violation beginline="70" endline="187" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="at.linuxtage.companion.parsers" class="EventsParser" method="parseNext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

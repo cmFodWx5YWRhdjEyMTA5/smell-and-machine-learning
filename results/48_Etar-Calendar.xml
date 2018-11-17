@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:15:53.704">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/AllInOneActivity.java">
+<violation beginline="100" endline="1491" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar" class="AllInOneActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="101" endline="1491" begincolumn="156" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="AllInOneActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="255" endline="393" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="AllInOneActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="996" endline="1132" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="AllInOneActivity" method="setMainPane" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1230" endline="1362" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="AllInOneActivity" method="handleEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/AsyncQueryService.java">
+<violation beginline="46" endline="436" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="AsyncQueryService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/AsyncQueryServiceHelper.java">
+<violation beginline="141" endline="251" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="AsyncQueryServiceHelper" method="onHandleIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/CalendarController.java">
+<violation beginline="53" endline="874" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="CalendarController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="190" endline="192" begincolumn="70" endcolumn="121" rule="ExcessiveParameterList" ruleset="Design" package="com.android.calendar" class="CalendarController" method="sendEventRelatedEventWithExtraWithTitleWithCalendarId" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="243" endline="244" begincolumn="26" endcolumn="112" rule="ExcessiveParameterList" ruleset="Design" package="com.android.calendar" class="CalendarController" method="sendEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="258" endline="448" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="CalendarController" method="sendEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/CalendarEventModel.java">
+<violation beginline="548" endline="715" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="CalendarEventModel" method="checkOriginalModelFields" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="785" endline="832" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.android.calendar" class="CalendarEventModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Attendee' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/CalendarViewAdapter.java">
+<violation beginline="49" endline="488" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="CalendarViewAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/DayFragment.java">
+<violation beginline="41" endline="276" begincolumn="99" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="DayFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/DayView.java">
+<violation beginline="100" endline="5011" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar" class="DayView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="102" endline="5011" begincolumn="9" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="DayView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="575" endline="703" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="DayView" method="DayView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="785" endline="906" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="DayView" method="init" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1248" endline="1360" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="DayView" method="remeasure" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1512" endline="1656" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="DayView" method="onKeyDown" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2811" endline="2953" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="DayView" method="drawAllDayEvents" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3106" endline="3389" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="DayView" method="computeNeighbors" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3921" endline="4022" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="DayView" method="doScroll" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4478" endline="4610" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="DayView" method="findSelectedEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/Event.java">
+<violation beginline="47" endline="647" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="Event" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/EventInfoFragment.java">
+<violation beginline="130" endline="2431" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar" class="EventInfoFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="132" endline="2431" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="EventInfoFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="723" endline="900" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="EventInfoFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1122" endline="1260" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="EventInfoFragment" method="shareEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1436" endline="1589" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="EventInfoFragment" method="updateEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2251" endline="2429" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="EventInfoFragment$QueryHandler" method="onQueryComplete" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/EventLoader.java">
+<violation beginline="139" endline="198" begincolumn="20" endcolumn="5" rule="DataClass" ruleset="Design" package="com.android.calendar" class="EventLoader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LoadEventDaysRequest' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/GeneralPreferences.java">
+<violation beginline="62" endline="514" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="GeneralPreferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="154" endline="255" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="GeneralPreferences" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/GoogleCalendarUriIntentFilter.java">
+<violation beginline="142" endline="263" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="GoogleCalendarUriIntentFilter" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/OtherPreferences.java">
+<violation beginline="39" endline="248" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.android.calendar" class="OtherPreferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OtherPreferences' is suspected to be a Data Class (WOC=0.000%, NOPA=14, NOAM=0, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/SearchActivity.java">
+<violation beginline="52" endline="383" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="SearchActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/Utils.java">
+<violation beginline="76" endline="2108" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="76" endline="2108" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="889" endline="1104" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="Utils" method="createDNAStrands" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1709" endline="1849" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar" class="Utils" method="extendedLinkify" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/agenda/AgendaAdapter.java">
+<violation beginline="89" endline="245" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.agenda" class="AgendaAdapter" method="bindView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/agenda/AgendaByDayAdapter.java">
+<violation beginline="169" endline="280" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.agenda" class="AgendaByDayAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="291" endline="425" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.agenda" class="AgendaByDayAdapter" method="calculateDays" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/agenda/AgendaFragment.java">
+<violation beginline="51" endline="476" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.agenda" class="AgendaFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/agenda/AgendaListView.java">
+<violation beginline="42" endline="430" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.agenda" class="AgendaListView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/agenda/AgendaWindowAdapter.java">
+<violation beginline="77" endline="1392" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar.agenda" class="AgendaWindowAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="78" endline="1392" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.agenda" class="AgendaWindowAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1076" endline="1337" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.agenda" class="AgendaWindowAdapter$QueryHandler" method="onQueryComplete" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/alerts/AlarmScheduler.java">
+<violation beginline="184" endline="298" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.alerts" class="AlarmScheduler" method="queryNextReminderAndSchedule" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/alerts/AlertReceiver.java">
+<violation beginline="78" endline="926" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.alerts" class="AlertReceiver" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="239" endline="242" begincolumn="55" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="com.android.calendar.alerts" class="AlertReceiver" method="buildBasicNotification" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="239" endline="382" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.alerts" class="AlertReceiver" method="buildBasicNotification" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="388" endline="390" begincolumn="64" endcolumn="62" rule="ExcessiveParameterList" ruleset="Design" package="com.android.calendar.alerts" class="AlertReceiver" method="makeExpandingNotification" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="425" endline="558" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.alerts" class="AlertReceiver" method="makeDigestNotification" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/alerts/AlertService.java">
+<violation beginline="65" endline="1158" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar.alerts" class="AlertService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="65" endline="1158" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.alerts" class="AlertService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="209" endline="341" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.alerts" class="AlertService" method="generateAlerts" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="452" endline="736" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.alerts" class="AlertService" method="processQuery" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/event/AttendeesView.java">
+<violation beginline="59" endline="485" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.event" class="AttendeesView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/event/EditEventFragment.java">
+<violation beginline="81" endline="999" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.event" class="EditEventFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="665" endline="891" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.event" class="EditEventFragment$QueryHandler" method="onQueryComplete" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/event/EditEventHelper.java">
+<violation beginline="58" endline="1393" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar.event" class="EditEventHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="58" endline="1393" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.event" class="EditEventHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="236" endline="248" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.android.calendar.event" class="EditEventHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AttendeeItem' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+<violation beginline="268" endline="571" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.event" class="EditEventHelper" method="saveEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/event/EditEventView.java">
+<violation beginline="106" endline="1851" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar.event" class="EditEventView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="109" endline="1851" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.event" class="EditEventView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="229" endline="402" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.event" class="EditEventView" method="EditEventView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="834" endline="1005" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.event" class="EditEventView" method="setModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/event/EventViewUtils.java">
+<violation beginline="225" endline="229" begincolumn="38" endcolumn="50" rule="ExcessiveParameterList" ruleset="Design" package="com.android.calendar.event" class="EventViewUtils" method="addReminder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/month/MonthByWeekFragment.java">
+<violation beginline="65" endline="503" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.month" class="MonthByWeekFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/month/MonthWeekEventsView.java">
+<violation beginline="58" endline="1156" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar.month" class="MonthWeekEventsView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="58" endline="1156" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.month" class="MonthWeekEventsView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="266" endline="411" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.month" class="MonthWeekEventsView" method="initView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="602" endline="707" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.month" class="MonthWeekEventsView" method="drawWeekNums" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="806" endline="934" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.month" class="MonthWeekEventsView" method="drawEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/month/SimpleDayPickerFragment.java">
+<violation beginline="58" endline="629" begincolumn="87" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.month" class="SimpleDayPickerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/month/SimpleWeekView.java">
+<violation beginline="215" endline="315" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.month" class="SimpleWeekView" method="setWeekParams" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/recurrencepicker/RecurrencePickerDialog.java">
+<violation beginline="68" endline="1283" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar.recurrencepicker" class="RecurrencePickerDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="70" endline="1283" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.recurrencepicker" class="RecurrencePickerDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="407" endline="624" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.recurrencepicker" class="RecurrencePickerDialog" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/selectcalendars/SelectCalendarsSimpleAdapter.java">
+<violation beginline="155" endline="266" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.selectcalendars" class="SelectCalendarsSimpleAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/selectcalendars/SelectVisibleCalendarsFragment.java">
+<violation beginline="44" endline="196" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.selectcalendars" class="SelectVisibleCalendarsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/widget/CalendarAppWidgetModel.java">
+<violation beginline="153" endline="154" begincolumn="40" endcolumn="123" rule="ExcessiveParameterList" ruleset="Design" package="com.android.calendar.widget" class="CalendarAppWidgetModel" method="populateEventInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/src/com/android/calendar/widget/CalendarAppWidgetService.java">
+<violation beginline="134" endline="621" begincolumn="90" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.widget" class="CalendarAppWidgetService$CalendarFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="260" endline="376" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.calendar.widget" class="CalendarAppWidgetService$CalendarFactory" method="getViewAt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/tests/src/com/android/calendar/AsyncQueryServiceTest.java">
+<violation beginline="56" endline="661" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="AsyncQueryServiceTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/tests/src/com/android/calendar/FakeSharedPreferences.java">
+<violation beginline="27" endline="166" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="FakeSharedPreferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/tests/src/com/android/calendar/FormatDateRangeTest.java">
+<violation beginline="32" endline="72" begincolumn="20" endcolumn="5" rule="DataClass" ruleset="Design" package="com.android.calendar" class="FormatDateRangeTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DateTest' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=5)
+</violation>
+<violation beginline="38" endline="40" begincolumn="24" endcolumn="41" rule="ExcessiveParameterList" ruleset="Design" package="com.android.calendar" class="FormatDateRangeTest$DateTest" method="DateTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/tests/src/com/android/calendar/UtilsTests.java">
+<violation beginline="58" endline="686" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar" class="UtilsTests" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/tests/src/com/android/calendar/alerts/AlarmSchedulerTest.java">
+<violation beginline="42" endline="319" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.alerts" class="AlarmSchedulerTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/tests/src/com/android/calendar/alerts/AlertServiceTest.java">
+<violation beginline="45" endline="1033" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.alerts" class="AlertServiceTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Etar-Calendar/tests/src/com/android/calendar/event/EditEventHelperTest.java">
+<violation beginline="52" endline="1645" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.android.calendar.event" class="EditEventHelperTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="52" endline="1645" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.calendar.event" class="EditEventHelperTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

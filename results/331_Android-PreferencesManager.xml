@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:26:47.378">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-PreferencesManager/PreferencesManager/src/main/java/fr/simon/marquis/preferencesmanager/ui/AppListActivity.java">
+<violation beginline="43" endline="301" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.simon.marquis.preferencesmanager.ui" class="AppListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-PreferencesManager/PreferencesManager/src/main/java/fr/simon/marquis/preferencesmanager/ui/FileEditorActivity.java">
+<violation beginline="53" endline="381" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.simon.marquis.preferencesmanager.ui" class="FileEditorActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-PreferencesManager/PreferencesManager/src/main/java/fr/simon/marquis/preferencesmanager/ui/PreferenceDialog.java">
+<violation beginline="42" endline="414" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.simon.marquis.preferencesmanager.ui" class="PreferenceDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-PreferencesManager/PreferencesManager/src/main/java/fr/simon/marquis/preferencesmanager/ui/PreferencesActivity.java">
+<violation beginline="52" endline="322" begincolumn="171" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.simon.marquis.preferencesmanager.ui" class="PreferencesActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-PreferencesManager/PreferencesManager/src/main/java/fr/simon/marquis/preferencesmanager/ui/PreferencesFragment.java">
+<violation beginline="60" endline="470" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.simon.marquis.preferencesmanager.ui" class="PreferencesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-PreferencesManager/PreferencesManager/src/main/java/fr/simon/marquis/preferencesmanager/ui/RestoreDialogFragment.java">
+<violation beginline="39" endline="160" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.simon.marquis.preferencesmanager.ui" class="RestoreDialogFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-PreferencesManager/PreferencesManager/src/main/java/fr/simon/marquis/preferencesmanager/util/FastXmlSerializer.java">
+<violation beginline="40" endline="349" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.simon.marquis.preferencesmanager.util" class="FastXmlSerializer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-PreferencesManager/PreferencesManager/src/main/java/fr/simon/marquis/preferencesmanager/util/Utils.java">
+<violation beginline="49" endline="398" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.simon.marquis.preferencesmanager.util" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Android-PreferencesManager/PreferencesManager/src/main/java/fr/simon/marquis/preferencesmanager/util/XmlUtils.java">
+<violation beginline="40" endline="796" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="fr.simon.marquis.preferencesmanager.util" class="XmlUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

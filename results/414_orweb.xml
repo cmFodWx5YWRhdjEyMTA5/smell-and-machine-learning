@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:42:16.795">
+<file name="/home/matheus/smell-and-machine-learning/repositories/orweb/src/fi/iki/elonen/NanoHTTPD.java">
+<violation beginline="431" endline="603" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="fi.iki.elonen" class="NanoHTTPD" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Response' is suspected to be a Data Class (WOC=15.385%, NOPA=0, NOAM=8, WMC=28)
+</violation>
+<violation beginline="621" endline="766" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="fi.iki.elonen" class="NanoHTTPD$HTTPSession" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/orweb/src/info/guardianproject/browser/Base64.java">
+<violation beginline="149" endline="2064" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="info.guardianproject.browser" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="150" endline="2064" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="info.guardianproject.browser" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="885" endline="992" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="info.guardianproject.browser" class="Base64" method="encodeBytesToBytes" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/orweb/src/info/guardianproject/browser/Browser.java">
+<violation beginline="119" endline="1561" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="info.guardianproject.browser" class="Browser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="120" endline="1561" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="info.guardianproject.browser" class="Browser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/orweb/src/info/guardianproject/browser/PostProcessor.java">
+<violation beginline="65" endline="219" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="info.guardianproject.browser" class="PostProcessor" method="rewriteIncoming" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

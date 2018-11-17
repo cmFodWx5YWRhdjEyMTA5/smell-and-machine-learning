@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:47:49.659">
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/BCJ2_x86_Decoder.java">
+<violation beginline="28" endline="143" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="SevenZip" class="BCJ2_x86_Decoder" method="CodeReal" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/BinTree.java">
+<violation beginline="118" endline="250" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="SevenZip" class="BinTree" method="GetMatches" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/CoderMixer2ST.java">
+<violation beginline="160" endline="261" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="SevenZip" class="CoderMixer2ST" method="Code" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/ExtractFolderInfo.java">
+<violation beginline="6" endline="33" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="SevenZip" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExtractFolderInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/FileItem.java">
+<violation beginline="3" endline="36" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="SevenZip" class="FileItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FileItem' is suspected to be a Data Class (WOC=0.000%, NOPA=14, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/Handler.java">
+<violation beginline="66" endline="272" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="SevenZip" class="Handler" method="Extract" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/InArchive.java">
+<violation beginline="7" endline="1058" begincolumn="1" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="SevenZip" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="7" endline="1058" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="SevenZip" class="InArchive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="336" endline="346" begincolumn="24" endcolumn="30" rule="ExcessiveParameterList" ruleset="Design" package="SevenZip" class="InArchive" method="ReadStreamsInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="845" endline="1057" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="SevenZip" class="InArchive" method="ReadHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/InWindow.java">
+<violation beginline="8" endline="131" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="SevenZip" class="InWindow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/LZMADecoder.java">
+<violation beginline="28" endline="487" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="SevenZip" class="LZMADecoder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="329" endline="470" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="SevenZip" class="LZMADecoder" method="CodeSpec" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/LZMAEncoder.java">
+<violation beginline="7" endline="1413" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="SevenZip" class="LZMAEncoder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="8" endline="1413" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="SevenZip" class="LZMAEncoder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="537" endline="1026" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="SevenZip" class="LZMAEncoder" method="GetOptimum" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1061" endline="1225" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="SevenZip" class="LZMAEncoder" method="CodeOneBlock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/MethodID.java">
+<violation beginline="3" endline="60" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" package="SevenZip" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MethodID' is suspected to be a Data Class (WOC=20.000%, NOPA=10, NOAM=0, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/OutWindow.java">
+<violation beginline="7" endline="107" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="SevenZip" class="OutWindow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/RangeCoderEncoder.java">
+<violation beginline="5" endline="151" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="SevenZip" class="RangeCoderEncoder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/SevenZip/SevenZip_Decoder.java">
+<violation beginline="92" endline="356" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="SevenZip" class="SevenZip_Decoder" method="Decode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/android/gallery3d/common/BitmapUtils.java">
+<violation beginline="32" endline="300" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.gallery3d.common" class="BitmapUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/android/gallery3d/common/BlobCache.java">
+<violation beginline="79" endline="653" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.gallery3d.common" class="BlobCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/android/gallery3d/common/EntrySchema.java">
+<violation beginline="28" endline="529" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.gallery3d.common" class="EntrySchema" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="294" endline="410" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.gallery3d.common" class="EntrySchema" method="createTables" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/android/gallery3d/common/Utils.java">
+<violation beginline="36" endline="420" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.gallery3d.common" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/android/gallery3d/data/DataManager.java">
+<violation beginline="50" endline="338" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.gallery3d.data" class="DataManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/android/gallery3d/data/DecodeUtils.java">
+<violation beginline="40" endline="224" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.gallery3d.data" class="DecodeUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/android/gallery3d/data/LocationClustering.java">
+<violation beginline="203" endline="313" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.gallery3d.data" class="LocationClustering" method="kMeans" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/android/gallery3d/data/Log.java">
+<violation beginline="21" endline="55" begincolumn="18" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.gallery3d.data" class="Log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/android/gallery3d/util/GalleryUtils.java">
+<violation beginline="43" endline="294" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.gallery3d.util" class="GalleryUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/android/gallery3d/util/ReverseGeocoder.java">
+<violation beginline="87" endline="273" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.android.gallery3d.util" class="ReverseGeocoder" method="computeAddress" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/box/androidlib/Box.java">
+<violation beginline="42" endline="1908" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.box.androidlib" class="Box" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="42" endline="1908" begincolumn="18" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.box.androidlib" class="Box" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1389" endline="1390" begincolumn="36" endcolumn="152" rule="ExcessiveParameterList" ruleset="Design" package="com.box.androidlib" class="Box" method="inviteCollaborators" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/box/androidlib/BoxFileDownload.java">
+<violation beginline="127" endline="255" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.box.androidlib" class="BoxFileDownload" method="execute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/box/androidlib/BoxFileUpload.java">
+<violation beginline="126" endline="287" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.box.androidlib" class="BoxFileUpload" method="execute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/box/androidlib/BoxSynchronous.java">
+<violation beginline="55" endline="1249" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.box.androidlib" class="BoxSynchronous" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="55" endline="1249" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.box.androidlib" class="BoxSynchronous" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/dropbox/client2/DropboxAPI.java">
+<violation beginline="79" endline="2518" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.dropbox.client2" class="DropboxAPI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="79" endline="2518" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.dropbox.client2" class="DropboxAPI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="114" endline="182" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.dropbox.client2" class="DropboxAPI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Account' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=2)
+</violation>
+<violation beginline="397" endline="530" begincolumn="25" endcolumn="5" rule="DataClass" ruleset="Design" package="com.dropbox.client2" class="DropboxAPI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DropboxFileInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=21)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/dropbox/client2/RESTUtility.java">
+<violation beginline="80" endline="555" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.dropbox.client2" class="RESTUtility" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/dropbox/client2/jsonextract/JsonThing.java">
+<violation beginline="17" endline="219" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.dropbox.client2.jsonextract" class="JsonThing" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/Archive.java">
+<violation beginline="217" endline="426" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar" class="Archive" method="readHeaders" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/io/RandomAccessStream.java">
+<violation beginline="16" endline="203" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.github.junrar.io" class="RandomAccessStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/io/Raw.java">
+<violation beginline="26" endline="305" begincolumn="18" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.github.junrar.io" class="Raw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/rarfile/AVHeader.java">
+<violation beginline="29" endline="66" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.rarfile" class="AVHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AVHeader' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/rarfile/CommentHeader.java">
+<violation beginline="30" endline="70" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.rarfile" class="CommentHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CommentHeader' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/rarfile/EAHeader.java">
+<violation beginline="28" endline="88" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.rarfile" class="EAHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EAHeader' is suspected to be a Data Class (WOC=16.667%, NOPA=1, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/rarfile/EndArcHeader.java">
+<violation beginline="28" endline="57" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.rarfile" class="EndArcHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EndArcHeader' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=2, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/rarfile/FileHeader.java">
+<violation beginline="84" endline="190" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.rarfile" class="FileHeader" method="FileHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/rarfile/MacInfoHeader.java">
+<violation beginline="28" endline="79" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.rarfile" class="MacInfoHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MacInfoHeader' is suspected to be a Data Class (WOC=16.667%, NOPA=1, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/rarfile/ProtectHeader.java">
+<violation beginline="29" endline="71" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.rarfile" class="ProtectHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProtectHeader' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/rarfile/SignHeader.java">
+<violation beginline="29" endline="60" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.rarfile" class="SignHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SignHeader' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=3, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/rarfile/UnixOwnersHeader.java">
+<violation beginline="6" endline="92" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.rarfile" class="UnixOwnersHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UnixOwnersHeader' is suspected to be a Data Class (WOC=10.000%, NOPA=0, NOAM=8, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/Unpack.java">
+<violation beginline="42" endline="1047" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.github.junrar.unpack" class="Unpack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="42" endline="1047" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.github.junrar.unpack" class="Unpack" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="136" endline="353" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack" class="Unpack" method="unpack29" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="355" endline="527" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack" class="Unpack" method="UnpWriteBuf" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="639" endline="741" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack" class="Unpack" method="readTables" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="799" endline="976" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack" class="Unpack" method="addVMCode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/Unpack15.java">
+<violation beginline="35" endline="620" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.github.junrar.unpack" class="Unpack15" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/Unpack20.java">
+<violation beginline="84" endline="201" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack" class="Unpack20" method="unpack20" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="261" endline="384" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack" class="Unpack20" method="decodeNumber" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/UnpackFilter.java">
+<violation beginline="28" endline="94" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.unpack" class="UnpackFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UnpackFilter' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/decode/Decode.java">
+<violation beginline="26" endline="81" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.unpack.decode" class="Decode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Decode' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/ppm/ModelPPM.java">
+<violation beginline="34" endline="694" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.github.junrar.unpack.ppm" class="ModelPPM" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="508" endline="658" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack.ppm" class="ModelPPM" method="updateModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/ppm/RarNode.java">
+<violation beginline="30" endline="69" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.unpack.ppm" class="RarNode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RarNode' is suspected to be a Data Class (WOC=20.000%, NOPA=1, NOAM=3, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/ppm/SubAllocator.java">
+<violation beginline="28" endline="427" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.github.junrar.unpack.ppm" class="SubAllocator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/vm/RarVM.java">
+<violation beginline="33" endline="1221" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.github.junrar.unpack.vm" class="RarVM" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="33" endline="1221" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.github.junrar.unpack.vm" class="RarVM" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="224" endline="632" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack.vm" class="RarVM" method="ExecuteCode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="634" endline="764" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack.vm" class="RarVM" method="prepare" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="917" endline="1175" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack.vm" class="RarVM" method="ExecuteStandardFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/vm/VMCommands.java">
+<violation beginline="58" endline="225" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.junrar.unpack.vm" class="VMCommands" method="findVMCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/vm/VMPreparedCommand.java">
+<violation beginline="26" endline="57" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.unpack.vm" class="VMPreparedCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'VMPreparedCommand' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/vm/VMPreparedOperand.java">
+<violation beginline="26" endline="58" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.unpack.vm" class="VMPreparedOperand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'VMPreparedOperand' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/vm/VMPreparedProgram.java">
+<violation beginline="30" endline="127" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.unpack.vm" class="VMPreparedProgram" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'VMPreparedProgram' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/github/junrar/unpack/vm/VMStandardFilterSignature.java">
+<violation beginline="26" endline="64" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.junrar.unpack.vm" class="VMStandardFilterSignature" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'VMStandardFilterSignature' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/google/api/services/drive/Drive.java">
+<violation beginline="59" endline="7352" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.api.services.drive" class="Drive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="59" endline="7352" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.api.services.drive" class="Drive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2248" endline="4511" begincolumn="10" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="com.google.api.services.drive" class="Drive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="2248" endline="4511" begincolumn="22" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.api.services.drive" class="Drive$Files" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/google/api/services/drive/model/File.java">
+<violation beginline="40" endline="1848" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.api.services.drive.model" class="File" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/Buffer.java">
+<violation beginline="32" endline="256" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jsch" class="Buffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/Channel.java">
+<violation beginline="39" endline="677" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jsch" class="Channel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="210" endline="317" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="Channel" method="getOutputStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/ChannelAgentForwarding.java">
+<violation beginline="92" endline="246" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelAgentForwarding" method="write" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/ChannelSftp.java">
+<violation beginline="36" endline="2623" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="36" endline="2623" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="312" endline="417" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" method="put" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="470" endline="606" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" method="_put" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="617" endline="773" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" method="put" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="782" endline="885" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" method="get" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="919" endline="1057" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" method="_get" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1141" endline="1326" begincolumn="10" endcolumn="4" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" method="get" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1195" endline="1309" begincolumn="19" endcolumn="12" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" method="read" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1328" endline="1501" begincolumn="11" endcolumn="4" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" method="ls" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2271" endline="2383" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ChannelSftp" method="glob_remote" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/DHG1.java">
+<violation beginline="139" endline="302" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="DHG1" method="next" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/DHG14.java">
+<violation beginline="150" endline="302" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="DHG14" method="next" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/DHGEX.java">
+<violation beginline="117" endline="332" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="DHGEX" method="next" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/HostKey.java">
+<violation beginline="32" endline="104" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.jcraft.jsch" class="HostKey" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HostKey' is suspected to be a Data Class (WOC=16.667%, NOPA=2, NOAM=3, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/IdentityFile.java">
+<violation beginline="142" endline="431" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="IdentityFile" method="IdentityFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="598" endline="802" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="IdentityFile" method="decrypt_rsa" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="804" endline="922" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="IdentityFile" method="decrypt_dss" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/JSch.java">
+<violation beginline="35" endline="316" begincolumn="18" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jsch" class="JSch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/KeyPair.java">
+<violation beginline="36" endline="729" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jsch" class="KeyPair" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="418" endline="711" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="KeyPair" method="load" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/KeyPairRSA.java">
+<violation beginline="112" endline="293" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="KeyPairRSA" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/KnownHosts.java">
+<violation beginline="65" endline="174" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="KnownHosts" method="setKnownHosts" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/ProxySOCKS4.java">
+<violation beginline="73" endline="193" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ProxySOCKS4" method="connect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/ProxySOCKS5.java">
+<violation beginline="73" endline="320" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="ProxySOCKS5" method="connect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/Session.java">
+<violation beginline="35" endline="2054" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.jcraft.jsch" class="Session" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="35" endline="2054" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jsch" class="Session" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="163" endline="531" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="Session" method="connect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="660" endline="786" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="Session" method="checkHost" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="850" endline="988" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="Session" method="read" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1029" endline="1145" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="Session" method="updateKeys" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1273" endline="1599" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="Session" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/UserAuthGSSAPIWithMIC.java">
+<violation beginline="51" endline="224" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="UserAuthGSSAPIWithMIC" method="start" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/UserAuthKeyboardInteractive.java">
+<violation beginline="33" endline="202" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="UserAuthKeyboardInteractive" method="start" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/UserAuthPassword.java">
+<violation beginline="35" endline="193" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="UserAuthPassword" method="start" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/UserAuthPublicKey.java">
+<violation beginline="36" endline="227" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="UserAuthPublicKey" method="start" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/Util.java">
+<violation beginline="33" endline="474" begincolumn="18" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jsch" class="Util" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="138" endline="250" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jsch" class="Util" method="glob" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/jce/DH.java">
+<violation beginline="37" endline="91" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.jcraft.jsch.jce" class="DH" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DH' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=5, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/jce/KeyPairGenDSA.java">
+<violation beginline="35" endline="62" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.jcraft.jsch.jce" class="KeyPairGenDSA" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'KeyPairGenDSA' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jsch/jce/KeyPairGenRSA.java">
+<violation beginline="35" endline="72" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.jcraft.jsch.jce" class="KeyPairGenRSA" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'KeyPairGenRSA' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=8, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jzlib/Deflate.java">
+<violation beginline="38" endline="1751" begincolumn="7" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.jcraft.jzlib" class="Deflate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="38" endline="1751" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jzlib" class="Deflate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1005" endline="1105" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="Deflate" method="deflate_fast" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1110" endline="1237" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="Deflate" method="deflate_slow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1492" endline="1657" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="Deflate" method="deflate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jzlib/GZIPHeader.java">
+<violation beginline="42" endline="214" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.jcraft.jzlib" class="GZIPHeader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GZIPHeader' is suspected to be a Data Class (WOC=20.000%, NOPA=15, NOAM=8, WMC=35)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jzlib/InfBlocks.java">
+<violation beginline="136" endline="531" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="InfBlocks" method="proc" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jzlib/InfCodes.java">
+<violation beginline="112" endline="395" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="InfCodes" method="proc" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="406" endline="609" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="InfCodes" method="inflate_fast" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jzlib/InfTree.java">
+<violation beginline="229" endline="240" begincolumn="25" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="com.jcraft.jzlib" class="InfTree" method="huft_build" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="229" endline="417" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="InfTree" method="huft_build" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jzlib/Inflate.java">
+<violation beginline="37" endline="711" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jzlib" class="Inflate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="172" endline="525" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.jcraft.jzlib" class="Inflate" method="inflate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/jcraft/jzlib/ZStream.java">
+<violation beginline="43" endline="343" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jcraft.jzlib" class="ZStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/stericson/RootTools/RootTools.java">
+<violation beginline="52" endline="1110" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.stericson.RootTools" class="RootTools" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="52" endline="1110" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.stericson.RootTools" class="RootTools" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/stericson/RootTools/execution/Executer.java">
+<violation beginline="125" endline="271" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.stericson.RootTools.execution" class="Executer$Worker" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/stericson/RootTools/execution/Shell.java">
+<violation beginline="39" endline="454" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.stericson.RootTools.execution" class="Shell" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/stericson/RootTools/internal/RootToolsInternalMethods.java">
+<violation beginline="56" endline="1587" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.stericson.RootTools.internal" class="RootToolsInternalMethods" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="57" endline="1587" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.stericson.RootTools.internal" class="RootToolsInternalMethods" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/stericson/RootTools/test/SanityCheckRootTools.java">
+<violation beginline="130" endline="358" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.stericson.RootTools.test" class="SanityCheckRootTools$SanityCheckThread" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/viewpagerindicator/CirclePageIndicator.java">
+<violation beginline="41" endline="561" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.viewpagerindicator" class="CirclePageIndicator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/com/viewpagerindicator/TitlePageIndicator.java">
+<violation beginline="50" endline="797" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.viewpagerindicator" class="TitlePageIndicator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="315" endline="472" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.viewpagerindicator" class="TitlePageIndicator" method="onDraw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/dcerpc/DcerpcHandle.java">
+<violation beginline="133" endline="251" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jcifs.dcerpc" class="DcerpcHandle" method="sendrecv" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/dcerpc/msrpc/lsarpc.java">
+<violation beginline="257" endline="361" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="jcifs.dcerpc.msrpc" class="lsarpc$LsarDnsDomainInfo" method="decode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/dcerpc/ndr/NdrBuffer.java">
+<violation beginline="26" endline="230" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.dcerpc.ndr" class="NdrBuffer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/netbios/NameServicePacket.java">
+<violation beginline="24" endline="336" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.netbios" class="NameServicePacket" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/netbios/NbtAddress.java">
+<violation beginline="80" endline="879" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.netbios" class="NbtAddress" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/netbios/SessionServicePacket.java">
+<violation beginline="24" endline="128" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.netbios" class="SessionServicePacket" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/ntlmssp/Type3Message.java">
+<violation beginline="154" endline="276" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jcifs.ntlmssp" class="Type3Message" method="Type3Message" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/smb/AndXServerMessageBlock.java">
+<violation beginline="184" endline="297" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jcifs.smb" class="AndXServerMessageBlock" method="readAndXWireFormat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/smb/Dfs.java">
+<violation beginline="155" endline="284" begincolumn="25" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jcifs.smb" class="Dfs" method="resolve" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/smb/SID.java">
+<violation beginline="47" endline="724" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.smb" class="SID" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/smb/ServerMessageBlock.java">
+<violation beginline="28" endline="621" begincolumn="92" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.smb" class="ServerMessageBlock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/smb/SmbComTransaction.java">
+<violation beginline="25" endline="281" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.smb" class="SmbComTransaction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/smb/SmbComTransactionResponse.java">
+<violation beginline="23" endline="173" begincolumn="92" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.smb" class="SmbComTransactionResponse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/smb/SmbFile.java">
+<violation beginline="277" endline="3224" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="jcifs.smb" class="SmbFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="277" endline="3224" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.smb" class="SmbFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="688" endline="792" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jcifs.smb" class="SmbFile" method="resolveDfs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2208" endline="2333" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jcifs.smb" class="SmbFile" method="copyTo0" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2334" endline="2434" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jcifs.smb" class="SmbFile" method="copyTo0" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/smb/SmbRandomAccessFile.java">
+<violation beginline="30" endline="333" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.smb" class="SmbRandomAccessFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/smb/SmbSession.java">
+<violation beginline="248" endline="435" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="jcifs.smb" class="SmbSession" method="sessionSetup" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/smb/SmbTransport.java">
+<violation beginline="32" endline="812" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.smb" class="SmbTransport" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/util/DES.java">
+<violation beginline="73" endline="551" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.util" class="DES" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/util/Encdec.java">
+<violation beginline="29" endline="314" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.util" class="Encdec" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/jcifs/util/Transport.java">
+<violation beginline="16" endline="272" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jcifs.util" class="Transport" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/SocketClient.java">
+<violation beginline="55" endline="766" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net" class="SocketClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/ftp/FTP.java">
+<violation beginline="98" endline="1763" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.commons.net.ftp" class="FTP" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="99" endline="1763" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.ftp" class="FTP" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/ftp/FTPClient.java">
+<violation beginline="273" endline="3372" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.commons.net.ftp" class="FTPClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="275" endline="3372" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.ftp" class="FTPClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="633" endline="758" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.commons.net.ftp" class="FTPClient" method="_openDataConnection_" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/ftp/FTPClientConfig.java">
+<violation beginline="142" endline="580" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.apache.commons.net.ftp" class="FTPClientConfig" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FTPClientConfig' is suspected to be a Data Class (WOC=15.789%, NOPA=9, NOAM=13, WMC=26)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/ftp/FTPSClient.java">
+<violation beginline="44" endline="777" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.ftp" class="FTPSClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/ftp/parser/DefaultFTPFileEntryParserFactory.java">
+<violation beginline="39" endline="277" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.ftp.parser" class="DefaultFTPFileEntryParserFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/ftp/parser/UnixFTPEntryParser.java">
+<violation beginline="167" endline="300" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.commons.net.ftp.parser" class="UnixFTPEntryParser" method="parseFTPEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/io/CopyStreamEvent.java">
+<violation beginline="34" endline="111" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.apache.commons.net.io" class="CopyStreamEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CopyStreamEvent' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=3, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/telnet/Telnet.java">
+<violation beginline="32" endline="1269" begincolumn="1" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.commons.net.telnet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="33" endline="1269" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.telnet" class="Telnet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/telnet/TelnetClient.java">
+<violation beginline="48" endline="407" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.telnet" class="TelnetClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/telnet/TelnetInputStream.java">
+<violation beginline="124" endline="296" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.commons.net.telnet" class="TelnetInputStream" method="__read" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="350" endline="467" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.commons.net.telnet" class="TelnetInputStream" method="read" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/apache/commons/net/util/Base64.java">
+<violation beginline="51" endline="1046" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.apache.commons.net.util" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/activities/OpenExplorer.java">
+<violation beginline="219" endline="4306" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="OpenExplorer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="222" endline="4306" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.activities" class="OpenExplorer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="415" endline="618" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="OpenExplorer" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="939" endline="1039" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="OpenExplorer" method="handleNetworking" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2089" endline="2273" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="OpenExplorer" method="findCursors" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2792" endline="2951" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="OpenExplorer" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3390" endline="3556" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="OpenExplorer" method="changePath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/activities/OpenFragmentActivity.java">
+<violation beginline="39" endline="475" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.activities" class="OpenFragmentActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="271" endline="451" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="OpenFragmentActivity" method="setupLogviewHandlers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/activities/ServerSetupActivity.java">
+<violation beginline="114" endline="1944" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="ServerSetupActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="116" endline="1944" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.activities" class="ServerSetupActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="373" endline="509" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="ServerSetupActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="753" endline="945" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="ServerSetupActivity" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/activities/SettingsActivity.java">
+<violation beginline="98" endline="1054" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.activities" class="SettingsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="189" endline="386" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="SettingsActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="641" endline="784" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.activities" class="SettingsActivity" method="onPreferenceTreeClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/adapters/ArrayPagerAdapter.java">
+<violation beginline="31" endline="333" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.adapters" class="ArrayPagerAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/adapters/ContentAdapter.java">
+<violation beginline="68" endline="722" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.adapters" class="ContentAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="313" endline="523" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.adapters" class="ContentAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/adapters/OpenBookmarks.java">
+<violation beginline="69" endline="1026" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.adapters" class="OpenBookmarks" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="186" endline="291" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.adapters" class="OpenBookmarks" method="scanBookmarksInner" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/adapters/OpenClipboard.java">
+<violation beginline="45" endline="403" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.adapters" class="OpenClipboard" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/adapters/OpenPathDbAdapter.java">
+<violation beginline="15" endline="318" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.adapters" class="OpenPathDbAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/adapters/PagerTabsAdapter.java">
+<violation beginline="32" endline="283" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.adapters" class="PagerTabsAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenBox.java">
+<violation beginline="40" endline="629" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenBox" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenCommand.java">
+<violation beginline="15" endline="144" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenContent.java">
+<violation beginline="19" endline="245" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenContent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenCursor.java">
+<violation beginline="16" endline="284" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenCursor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenDrive.java">
+<violation beginline="59" endline="950" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenDrive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenDropBox.java">
+<violation beginline="75" endline="976" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenDropBox" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenFTP.java">
+<violation beginline="23" endline="518" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenFTP" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenFile.java">
+<violation beginline="35" endline="851" begincolumn="168" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenFileRoot.java">
+<violation beginline="36" endline="526" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenFileRoot" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenLZMA.java">
+<violation beginline="30" endline="623" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenLZMA" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="343" endline="468" begincolumn="55" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenLZMA$OpenLZMAVirtualPath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="470" endline="622" begincolumn="49" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenLZMA$OpenLZMAEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenMediaStore.java">
+<violation beginline="13" endline="225" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenMediaStore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenNetworkPath.java">
+<violation beginline="18" endline="356" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenNetworkPath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenPath.java">
+<violation beginline="46" endline="1344" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenPath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="46" endline="1344" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenPath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenPathArray.java">
+<violation beginline="10" endline="124" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenPathArray" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenPathMerged.java">
+<violation beginline="11" endline="163" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenPathMerged" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenRAR.java">
+<violation beginline="23" endline="616" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenRAR" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="317" endline="442" begincolumn="54" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenRAR$OpenRARVirtualPath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="444" endline="615" begincolumn="70" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenRAR$OpenRAREntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenSCP.java">
+<violation beginline="24" endline="296" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenSCP" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenSFTP.java">
+<violation beginline="42" endline="586" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenSFTP" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenSMB.java">
+<violation beginline="30" endline="632" begincolumn="107" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenSMB" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenSearch.java">
+<violation beginline="23" endline="323" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenSearch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenServer.java">
+<violation beginline="29" endline="537" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenServer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenServers.java">
+<violation beginline="15" endline="176" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenServers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenSmartFolder.java">
+<violation beginline="16" endline="253" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenSmartFolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenTar.java">
+<violation beginline="29" endline="681" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenTar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="355" endline="480" begincolumn="54" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenTar$OpenTarVirtualPath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="482" endline="680" begincolumn="85" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenTar$OpenTarEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenURL.java">
+<violation beginline="9" endline="185" begincolumn="105" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenURL" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenVFS.java">
+<violation beginline="28" endline="318" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenVFS" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/data/OpenZip.java">
+<violation beginline="24" endline="653" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenZip" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="336" endline="496" begincolumn="77" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenZip$OpenZipVirtualPath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="498" endline="652" begincolumn="70" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.data" class="OpenZip$OpenZipEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/fragments/ContentFragment.java">
+<violation beginline="138" endline="2570" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.brandroid.openmanager.fragments" class="ContentFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="140" endline="2570" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.fragments" class="ContentFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="448" endline="582" begincolumn="25" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.fragments" class="ContentFragment" method="refreshData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="588" endline="736" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.fragments" class="ContentFragment" method="runUpdateTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="858" endline="972" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.fragments" class="ContentFragment" method="onItemClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1029" endline="1143" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.fragments" class="ContentFragment" method="createContextMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1248" endline="1478" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.fragments" class="ContentFragment" method="executeMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/fragments/DialogHandler.java">
+<violation beginline="139" endline="1314" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.brandroid.openmanager.fragments" class="DialogHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="139" endline="1314" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.fragments" class="DialogHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="579" endline="729" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.fragments" class="DialogHandler" method="showExtractDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="920" endline="1079" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.fragments" class="DialogHandler" method="showAboutDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/fragments/OpenFragment.java">
+<violation beginline="80" endline="891" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.fragments" class="OpenFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/fragments/SearchResultsFragment.java">
+<violation beginline="42" endline="329" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.fragments" class="SearchResultsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/fragments/TextEditorFragment.java">
+<violation beginline="86" endline="964" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.fragments" class="TextEditorFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="742" endline="853" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.fragments" class="TextEditorFragment$FileLoadTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/util/BetterPopupWindow.java">
+<violation beginline="42" endline="885" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.util" class="BetterPopupWindow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="182" endline="363" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.util" class="BetterPopupWindow" method="preShow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="447" endline="700" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.util" class="BetterPopupWindow" method="showLikePopDownMenu" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/util/EventHandler.java">
+<violation beginline="111" endline="1897" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.brandroid.openmanager.util" class="EventHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="111" endline="1897" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.util" class="EventHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="575" endline="1895" begincolumn="16" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="org.brandroid.openmanager.util" class="EventHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="576" endline="1895" begincolumn="38" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.util" class="EventHandler$BackgroundWork" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1312" endline="1461" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.util" class="EventHandler$BackgroundWork" method="copyToDirectory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1786" endline="1894" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.util" class="EventHandler$BackgroundWork" method="showToast" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/util/FileManager.java">
+<violation beginline="78" endline="592" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.util" class="FileManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="355" endline="565" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.util" class="FileManager" method="getOpenCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/util/IntentManager.java">
+<violation beginline="77" endline="213" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.util" class="IntentManager" method="startIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/util/NetworkIOTask.java">
+<violation beginline="25" endline="282" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.util" class="NetworkIOTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="105" endline="207" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.util" class="NetworkIOTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/util/RootManager.java">
+<violation beginline="45" endline="577" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.util" class="RootManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/openmanager/util/ThumbnailCreator.java">
+<violation beginline="79" endline="850" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.openmanager.util" class="ThumbnailCreator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="137" endline="259" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.util" class="ThumbnailCreator" method="setThumbnail" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="554" endline="757" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.openmanager.util" class="ThumbnailCreator" method="generateThumb" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/utils/Base64.java">
+<violation beginline="40" endline="559" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.utils" class="Base64" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/utils/BitmapUtils.java">
+<violation beginline="33" endline="291" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.utils" class="BitmapUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/utils/Decoder.java">
+<violation beginline="11" endline="149" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.utils" class="Decoder" method="getAttributeResource" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="151" endline="287" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.brandroid.utils" class="Decoder" method="decompressXML" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/utils/DiskLruCache.java">
+<violation beginline="92" endline="925" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.utils" class="DiskLruCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/utils/Logger.java">
+<violation beginline="23" endline="459" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.utils" class="Logger" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/utils/MenuBuilder2.java">
+<violation beginline="29" endline="1282" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.brandroid.utils" class="MenuBuilder2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="29" endline="1282" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.utils" class="MenuBuilder2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/utils/MenuBuilderNew.java">
+<violation beginline="39" endline="716" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.utils" class="MenuBuilderNew" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/utils/MenuItemImpl.java">
+<violation beginline="36" endline="662" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.utils" class="MenuItemImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/utils/MenuUtils.java">
+<violation beginline="23" endline="365" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.utils" class="MenuUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/brandroid/utils/Utils.java">
+<violation beginline="46" endline="607" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.brandroid.utils" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/itadaki/bzip2/BZip2DivSufSort.java">
+<violation beginline="34" endline="2534" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.itadaki.bzip2" class="BZip2DivSufSort" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="34" endline="2534" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.itadaki.bzip2" class="BZip2DivSufSort" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="506" endline="675" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.itadaki.bzip2" class="BZip2DivSufSort" method="ssMultiKeyIntroSort" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="777" endline="902" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.itadaki.bzip2" class="BZip2DivSufSort" method="ssMergeBackward" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="946" endline="1055" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.itadaki.bzip2" class="BZip2DivSufSort" method="ssMerge" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1465" endline="1607" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.itadaki.bzip2" class="BZip2DivSufSort" method="lsIntroSort" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1809" endline="2132" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.itadaki.bzip2" class="BZip2DivSufSort" method="trIntroSort" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2253" endline="2406" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.itadaki.bzip2" class="BZip2DivSufSort" method="sortTypeBstar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenExplorer/src/org/kamranzafar/jtar/TarUtils.java">
+<violation beginline="33" endline="376" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.kamranzafar.jtar" class="TarUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

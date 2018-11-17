@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:02:07.910">
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/addons/Addon.java">
+<violation beginline="36" endline="377" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.addons" class="Addon" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/addons/AddonManager.java">
+<violation beginline="33" endline="379" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.addons" class="AddonManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/addons/AddonServiceConnection.java">
+<violation beginline="29" endline="305" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.addons" class="AddonServiceConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/providers/BookmarksWrapper.java">
+<violation beginline="39" endline="682" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.providers" class="BookmarksWrapper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/tasks/HistoryBookmarksImportTask.java">
+<violation beginline="98" endline="287" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.tasks" class="HistoryBookmarksImportTask" method="readAsJSON" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="289" endline="393" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.tasks" class="HistoryBookmarksImportTask" method="readAsXml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/activities/BookmarksActivity.java">
+<violation beginline="53" endline="374" begincolumn="123" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.activities" class="BookmarksActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/activities/TintBrowserActivity.java">
+<violation beginline="64" endline="568" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.activities" class="TintBrowserActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="99" endline="242" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.ui.activities" class="TintBrowserActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/components/CustomWebChromeClient.java">
+<violation beginline="47" endline="254" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.components" class="CustomWebChromeClient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/components/CustomWebView.java">
+<violation beginline="58" endline="409" begincolumn="115" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.components" class="CustomWebView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/fragments/BookmarksFragment.java">
+<violation beginline="71" endline="567" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.fragments" class="BookmarksFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/fragments/HistoryFragment.java">
+<violation beginline="65" endline="529" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.fragments" class="HistoryFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/managers/BasePhoneUIManager.java">
+<violation beginline="43" endline="366" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.managers" class="BasePhoneUIManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/managers/BaseUIManager.java">
+<violation beginline="67" endline="701" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.managers" class="BaseUIManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="289" endline="393" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.ui.managers" class="BaseUIManager" method="onNewIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/managers/LegacyPhoneUIManager.java">
+<violation beginline="53" endline="720" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.managers" class="LegacyPhoneUIManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="102" endline="290" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.ui.managers" class="LegacyPhoneUIManager" method="setupUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/managers/PhoneUIManager.java">
+<violation beginline="55" endline="634" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.managers" class="PhoneUIManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="83" endline="258" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.ui.managers" class="PhoneUIManager" method="setupUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/managers/TabletUIManager.java">
+<violation beginline="50" endline="488" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.managers" class="TabletUIManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/managers/UIManager.java">
+<violation beginline="36" endline="144" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.managers" class="UIManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/preferences/WebsitesSettingsFragment.java">
+<violation beginline="238" endline="361" begincolumn="16" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.ui.preferences" class="WebsitesSettingsFragment$SiteAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/views/PhoneUrlBar.java">
+<violation beginline="98" endline="288" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.ui.views" class="PhoneUrlBar" method="PhoneUrlBar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/views/ScrollerView.java">
+<violation beginline="66" endline="1934" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.tint.ui.views" class="ScrollerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="66" endline="1934" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.views" class="ScrollerView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="492" endline="613" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.ui.views" class="ScrollerView" method="onInterceptTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="616" endline="783" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.ui.views" class="ScrollerView" method="onTouchEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/views/TabletUrlBar.java">
+<violation beginline="85" endline="232" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.tint.ui.views" class="TabletUrlBar" method="TabletUrlBar" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/TintBrowser/src/org/tint/ui/views/TabsScroller.java">
+<violation beginline="43" endline="554" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.tint.ui.views" class="TabsScroller" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

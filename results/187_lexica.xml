@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:49:58.039">
+<file name="/home/matheus/smell-and-machine-learning/repositories/lexica/app/src/androidTest/java/com/serwylo/lexica/GenerateLanguageBoards.java">
+<violation beginline="57" endline="340" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.serwylo.lexica" class="GenerateLanguageBoards" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lexica/app/src/main/java/com/serwylo/lexica/GameSaver.java">
+<violation beginline="11" endline="45" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.serwylo.lexica" class="GameSaver" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lexica/app/src/main/java/com/serwylo/lexica/GameSaverPersistent.java">
+<violation beginline="12" endline="99" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.serwylo.lexica" class="GameSaverPersistent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lexica/app/src/main/java/com/serwylo/lexica/GameSaverTransient.java">
+<violation beginline="10" endline="85" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.serwylo.lexica" class="GameSaverTransient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lexica/app/src/main/java/com/serwylo/lexica/PlayLexica.java">
+<violation beginline="32" endline="226" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.serwylo.lexica" class="PlayLexica" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lexica/app/src/main/java/com/serwylo/lexica/game/Game.java">
+<violation beginline="49" endline="498" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.serwylo.lexica.game" class="Game" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lexica/app/src/main/java/com/serwylo/lexica/view/LexicaView.java">
+<violation beginline="39" endline="701" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.serwylo.lexica.view" class="LexicaView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/lexica/app/src/test/java/com/serwylo/lexica/BoardTransitionTest.java">
+<violation beginline="20" endline="190" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.serwylo.lexica" class="BoardTransitionTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

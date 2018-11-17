@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:39:47.544">
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/data/DataProvider.java">
+<violation beginline="73" endline="4912" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="DataProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="73" endline="4912" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.callmeter.data" class="DataProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="826" endline="2374" begincolumn="25" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="DataProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="3931" endline="4136" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="DataProvider" method="importDefault" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4583" endline="4832" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="DataProvider" method="query" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/data/LogRunnerService.java">
+<violation beginline="68" endline="1127" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="LogRunnerService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="68" endline="1127" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.callmeter.data" class="LogRunnerService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="381" endline="502" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="LogRunnerService" method="updateData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="766" endline="875" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="LogRunnerService" method="updateMMS" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="916" endline="1081" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="LogRunnerService" method="handleIntent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/data/RuleMatcher.java">
+<violation beginline="57" endline="1631" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="RuleMatcher" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="540" endline="716" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="RuleMatcher$Rule" method="match" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1493" endline="1630" begincolumn="25" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.data" class="RuleMatcher" method="match" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/ui/AskForPlan.java">
+<violation beginline="125" endline="240" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.ui" class="AskForPlan" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/ui/LogsFragment.java">
+<violation beginline="70" endline="585" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.callmeter.ui" class="LogsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="193" endline="305" begincolumn="22" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.ui" class="LogsFragment$LogAdapter" method="bindView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/ui/Plans.java">
+<violation beginline="84" endline="724" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.callmeter.ui" class="Plans" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/ui/PlansFragment.java">
+<violation beginline="73" endline="769" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.callmeter.ui" class="PlansFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="260" endline="460" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.ui" class="PlansFragment$PlansAdapter" method="bindView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/ui/prefs/NumberGroupEdit.java">
+<violation beginline="55" endline="373" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.ub0r.android.callmeter.ui.prefs" class="NumberGroupEdit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/ui/prefs/PlanEdit.java">
+<violation beginline="93" endline="420" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.ui.prefs" class="PlanEdit" method="reload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/ui/prefs/Preferences.java">
+<violation beginline="80" endline="1096" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="de.ub0r.android.callmeter.ui.prefs" class="Preferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="672" endline="794" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.ui.prefs" class="Preferences" method="importData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="806" endline="943" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.ui.prefs" class="Preferences" method="exportData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/ui/prefs/RuleEdit.java">
+<violation beginline="192" endline="409" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.ui.prefs" class="RuleEdit" method="reload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/widget/LogsAppWidgetProvider.java">
+<violation beginline="190" endline="298" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.widget" class="LogsAppWidgetProvider" method="updateWidget" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/de/ub0r/android/callmeter/widget/StatsAppWidgetProvider.java">
+<violation beginline="226" endline="350" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.ub0r.android.callmeter.widget" class="StatsAppWidgetProvider" method="updateWidget" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/callmeter/CallMeter3G/src/main/java/yuku/ambilwarna/AmbilWarnaDialog.java">
+<violation beginline="67" endline="199" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="yuku.ambilwarna" class="AmbilWarnaDialog" method="AmbilWarnaDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:07:33.645">
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/activity/DocumentActivity.java">
+<violation beginline="60" endline="410" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.markor.activity" class="DocumentActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/activity/DocumentEditFragment.java">
+<violation beginline="50" endline="386" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.markor.activity" class="DocumentEditFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/activity/MainActivity.java">
+<violation beginline="62" endline="441" begincolumn="118" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.markor.activity" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/activity/SettingsActivity.java">
+<violation beginline="217" endline="326" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="net.gsantner.markor.activity" class="SettingsActivity$SettingsFragmentMaster" method="onPreferenceClicked" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/format/TextFormat.java">
+<violation beginline="28" endline="108" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.gsantner.markor.format" class="TextFormat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TextFormat' is suspected to be a Data Class (WOC=11.111%, NOPA=4, NOAM=6, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/format/general/BackgroundParagraphSpan.java">
+<violation beginline="21" endline="21" begincolumn="31" endcolumn="154" rule="ExcessiveParameterList" ruleset="Design" package="net.gsantner.markor.format.general" class="BackgroundParagraphSpan" method="drawBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="30" endline="30" begincolumn="40" endcolumn="195" rule="ExcessiveParameterList" ruleset="Design" package="net.gsantner.markor.format.general" class="BackgroundParagraphSpan" method="drawBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/format/general/FilledBackgroundParagraphSpan.java">
+<violation beginline="29" endline="29" begincolumn="31" endcolumn="186" rule="ExcessiveParameterList" ruleset="Design" package="net.gsantner.markor.format.general" class="FilledBackgroundParagraphSpan" method="drawBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/format/general/HorizontalLineBackgroundParagraphSpan.java">
+<violation beginline="37" endline="37" begincolumn="31" endcolumn="186" rule="ExcessiveParameterList" ruleset="Design" package="net.gsantner.markor.format.general" class="HorizontalLineBackgroundParagraphSpan" method="drawBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/format/markdown/MarkdownTextModuleActions.java">
+<violation beginline="313" endline="471" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="net.gsantner.markor.format.markdown" class="MarkdownTextModuleActions" method="showInsertImageOrLinkDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/format/plaintext/CommonTextModuleActions.java">
+<violation beginline="71" endline="186" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="net.gsantner.markor.format.plaintext" class="CommonTextModuleActions" method="runAction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/format/todotxt/TodoTxtTextModuleActions.java">
+<violation beginline="95" endline="250" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="net.gsantner.markor.format.todotxt" class="TodoTxtTextModuleActions$TodoTxtTextActionsImpl" method="onClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/model/Document.java">
+<violation beginline="19" endline="227" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.markor.model" class="Document" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/ui/SearchOrCustomTextDialogCreator.java">
+<violation beginline="36" endline="284" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.markor.ui" class="SearchOrCustomTextDialogCreator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/markor/ui/hleditor/Highlighter.java">
+<violation beginline="39" endline="192" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.markor.ui.hleditor" class="Highlighter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/format/todotxt/SttCommander.java">
+<violation beginline="27" endline="354" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.opoc.format.todotxt" class="SttCommander" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/preference/FontPreferenceCompat.java">
+<violation beginline="42" endline="141" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.gsantner.opoc.preference" class="FontPreferenceCompat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FontPreferenceCompat' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/preference/GsPreferenceFragmentCompat.java">
+<violation beginline="77" endline="465" begincolumn="129" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.opoc.preference" class="GsPreferenceFragmentCompat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/preference/LanguagePreferenceCompat.java">
+<violation beginline="67" endline="192" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="net.gsantner.opoc.preference" class="LanguagePreferenceCompat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LanguagePreferenceCompat' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=4, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/preference/SharedPreferencesPropertyBackend.java">
+<violation beginline="56" endline="536" begincolumn="116" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.opoc.preference" class="SharedPreferencesPropertyBackend" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/ui/FilesystemDialog.java">
+<violation beginline="51" endline="252" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.opoc.ui" class="FilesystemDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/ui/FilesystemDialogAdapter.java">
+<violation beginline="255" endline="356" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="net.gsantner.opoc.ui" class="FilesystemDialogAdapter" method="loadFolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/ui/SearchOrCustomTextDialog.java">
+<violation beginline="66" endline="193" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="net.gsantner.opoc.ui" class="SearchOrCustomTextDialog" method="showMultiChoiceDialogWithSearchFilterUI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/util/ActivityUtils.java">
+<violation beginline="39" endline="189" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.opoc.util" class="ActivityUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/util/ContextUtils.java">
+<violation beginline="76" endline="741" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.opoc.util" class="ContextUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/util/FileUtils.java">
+<violation beginline="39" endline="444" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.opoc.util" class="FileUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/util/NetworkUtils.java">
+<violation beginline="31" endline="223" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.opoc.util" class="NetworkUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/main/java/net/gsantner/opoc/util/ShareUtil.java">
+<violation beginline="69" endline="825" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.opoc.util" class="ShareUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/test/java/net/gsantner/markor/format/markdown/MarkdownHighlighterPatternBoldTest.java">
+<violation beginline="20" endline="138" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.markor.format.markdown" class="MarkdownHighlighterPatternBoldTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/test/java/net/gsantner/markor/format/markdown/MarkdownHighlighterPatternItalicTest.java">
+<violation beginline="20" endline="163" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.markor.format.markdown" class="MarkdownHighlighterPatternItalicTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/markor/app/src/test/java/net/gsantner/markor/format/markdown/MarkdownHighlighterPatternListTest.java">
+<violation beginline="20" endline="101" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.gsantner.markor.format.markdown" class="MarkdownHighlighterPatternListTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

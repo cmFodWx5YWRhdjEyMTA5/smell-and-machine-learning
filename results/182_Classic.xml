@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:49:21.110">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/app/src/main/java/ca/farrelltonsolar/classic/CalendarAdapter.java">
+<violation beginline="100" endline="213" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ca.farrelltonsolar.classic" class="CalendarAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/app/src/main/java/ca/farrelltonsolar/classic/ChargeControllerInfo.java">
+<violation beginline="31" endline="302" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.classic" class="ChargeControllerInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/app/src/main/java/ca/farrelltonsolar/classic/ChargeControllers.java">
+<violation beginline="29" endline="292" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.classic" class="ChargeControllers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/app/src/main/java/ca/farrelltonsolar/classic/ModbusTask.java">
+<violation beginline="92" endline="728" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.classic" class="ModbusTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/app/src/main/java/ca/farrelltonsolar/classic/MonitorApplication.java">
+<violation beginline="47" endline="415" begincolumn="103" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.classic" class="MonitorApplication" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/app/src/main/java/ca/farrelltonsolar/classic/NavigationDrawerFragment.java">
+<violation beginline="47" endline="298" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.classic" class="NavigationDrawerFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/app/src/main/java/ca/farrelltonsolar/classic/RecordEntry.java">
+<violation beginline="9" endline="60" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="ca.farrelltonsolar.classic" class="RecordEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RecordEntry' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/app/src/main/java/ca/farrelltonsolar/classic/SwipeDismissListViewTouchListener.java">
+<violation beginline="165" endline="316" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="ca.farrelltonsolar.classic" class="SwipeDismissListViewTouchListener" method="onTouch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/io/BytesInputStream.java">
+<violation beginline="49" endline="220" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.j2modlite.io" class="BytesInputStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/io/BytesOutputStream.java">
+<violation beginline="49" endline="150" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.j2modlite.io" class="BytesOutputStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/io/FastByteArrayOutputStream.java">
+<violation beginline="94" endline="348" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.j2modlite.io" class="FastByteArrayOutputStream" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/io/ModbusTCPTransaction.java">
+<violation beginline="182" endline="285" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="ca.farrelltonsolar.j2modlite.io" class="ModbusTCPTransaction" method="execute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/msg/ModbusMessageImpl.java">
+<violation beginline="50" endline="270" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="ca.farrelltonsolar.j2modlite.msg" class="ModbusMessageImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ModbusMessageImpl' is suspected to be a Data Class (WOC=31.250%, NOPA=0, NOAM=11, WMC=23)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/msg/ReportSlaveIDResponse.java">
+<violation beginline="84" endline="230" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="ca.farrelltonsolar.j2modlite.msg" class="ReportSlaveIDResponse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ReportSlaveIDResponse' is suspected to be a Data Class (WOC=30.000%, NOPA=0, NOAM=6, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/net/TCPMasterConnection.java">
+<violation beginline="52" endline="247" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="ca.farrelltonsolar.j2modlite.net" class="TCPMasterConnection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TCPMasterConnection' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=11, WMC=29)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/procimg/DefaultProcessImageFactory.java">
+<violation beginline="46" endline="161" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.j2modlite.procimg" class="DefaultProcessImageFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/procimg/ProcessImageImplementation.java">
+<violation beginline="44" endline="239" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.j2modlite.procimg" class="ProcessImageImplementation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/procimg/SimpleProcessImage.java">
+<violation beginline="85" endline="435" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.j2modlite.procimg" class="SimpleProcessImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/util/BitVector.java">
+<violation beginline="46" endline="374" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.j2modlite.util" class="BitVector" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/j2modlite/src/main/java/ca/farrelltonsolar/j2modlite/util/ModbusUtil.java">
+<violation beginline="51" endline="519" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.j2modlite.util" class="ModbusUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/uicomponents/src/main/java/ca/farrelltonsolar/uicomponents/BaseGauge.java">
+<violation beginline="40" endline="866" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.uicomponents" class="BaseGauge" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="823" endline="858" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="ca.farrelltonsolar.uicomponents" class="BaseGauge" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ColoredRange' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/uicomponents/src/main/java/ca/farrelltonsolar/uicomponents/ChartView.java">
+<violation beginline="33" endline="489" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.uicomponents" class="ChartView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Classic/uicomponents/src/main/java/ca/farrelltonsolar/uicomponents/RectD.java">
+<violation beginline="32" endline="570" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ca.farrelltonsolar.uicomponents" class="RectD" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

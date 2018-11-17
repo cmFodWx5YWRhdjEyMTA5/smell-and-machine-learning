@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:36:57.630">
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/Reddinator.java">
+<violation beginline="62" endline="484" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator" class="Reddinator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/activity/AccountActivity.java">
+<violation beginline="68" endline="507" begincolumn="113" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="AccountActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/activity/FeedItemDialogActivity.java">
+<violation beginline="71" endline="289" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="FeedItemDialogActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="93" endline="240" begincolumn="20" endcolumn="13" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="FeedItemDialogActivity" method="onItemClick" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/activity/MainActivity.java">
+<violation beginline="67" endline="773" begincolumn="161" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="95" endline="274" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/activity/PrefsFragment.java">
+<violation beginline="33" endline="326" begincolumn="173" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="PrefsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="51" endline="199" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="PrefsFragment" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/activity/SearchActivity.java">
+<violation beginline="84" endline="264" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="SearchActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/activity/SubredditSelectActivity.java">
+<violation beginline="94" endline="1442" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="SubredditSelectActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="94" endline="1442" begincolumn="130" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="SubredditSelectActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="114" endline="244" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="SubredditSelectActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/activity/ThemeEditorActivity.java">
+<violation beginline="139" endline="328" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="ThemeEditorActivity$ThemeSettingsAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/activity/ViewRedditActivity.java">
+<violation beginline="87" endline="791" begincolumn="119" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="ViewRedditActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="129" endline="247" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.activity" class="ViewRedditActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/core/RedditData.java">
+<violation beginline="56" endline="1182" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="au.com.wallaceit.reddinator.core" class="RedditData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="56" endline="1182" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.core" class="RedditData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/core/SubredditManager.java">
+<violation beginline="36" endline="501" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.core" class="SubredditManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/core/Utilities.java">
+<violation beginline="60" endline="329" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.core" class="Utilities" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/service/WidgetProviderBase.java">
+<violation beginline="80" endline="183" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.service" class="WidgetProviderBase" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/service/WidgetService.java">
+<violation beginline="164" endline="404" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.service" class="ListRemoteViewsFactory" method="getViewAt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/tasks/SubscriptionEditTask.java">
+<violation beginline="33" endline="179" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="au.com.wallaceit.reddinator.tasks" class="SubscriptionEditTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubscriptionEditTask' is suspected to be a Data Class (WOC=0.000%, NOPA=11, NOAM=0, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/ui/AccountFeedFragment.java">
+<violation beginline="68" endline="471" begincolumn="131" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.ui" class="AccountFeedFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="255" endline="358" begincolumn="31" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.ui" class="AccountFeedFragment$WebInterface" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/ui/SubredditFeedAdapter.java">
+<violation beginline="241" endline="472" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="au.com.wallaceit.reddinator.ui" class="SubredditFeedAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/reddinator/reddinator/src/main/java/au/com/wallaceit/reddinator/ui/TabCommentsFragment.java">
+<violation beginline="59" endline="419" begincolumn="102" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="au.com.wallaceit.reddinator.ui" class="TabCommentsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

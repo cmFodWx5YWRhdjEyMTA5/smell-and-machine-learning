@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:02:17.474">
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/app/CaptionFragment.java">
+<violation beginline="53" endline="376" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="CaptionFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/app/HomeActivity.java">
+<violation beginline="68" endline="362" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="HomeActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/app/ManageDownloadsActivity.java">
+<violation beginline="92" endline="751" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="ManageDownloadsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/app/ShowProfileActivity.java">
+<violation beginline="74" endline="544" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="ShowProfileActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="92" endline="283" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="ShowProfileActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="129" endline="237" begincolumn="42" endcolumn="25" rule="ExcessiveMethodLength" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="ShowProfileActivity" method="shouldOverrideUrlLoading" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/app/TopicListActivity.java">
+<violation beginline="133" endline="233" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="TopicListActivity" method="onStart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/app/VideoDetailActivity.java">
+<violation beginline="94" endline="1252" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="VideoDetailActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="95" endline="1252" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="VideoDetailActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/app/VideoFragment.java">
+<violation beginline="60" endline="470" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="VideoFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/app/VideoListActivity.java">
+<violation beginline="89" endline="738" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="VideoListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="178" endline="282" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.concentricsky.android.khanacademy.app" class="VideoListActivity" method="onStart" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/KADataService.java">
+<violation beginline="83" endline="448" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.data" class="KADataService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/db/Badge.java">
+<violation beginline="32" endline="94" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="Badge" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Badge' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/db/BadgeCategory.java">
+<violation beginline="30" endline="83" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="BadgeCategory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BadgeCategory' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=4, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/db/Caption.java">
+<violation beginline="27" endline="77" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="Caption" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Caption' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=12, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/db/DatabaseHelper.java">
+<violation beginline="61" endline="823" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="DatabaseHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="418" endline="520" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="DatabaseHelper" method="syncWithDownloadManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/db/EntityBase.java">
+<violation beginline="40" endline="172" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="EntityBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EntityBase' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/db/Topic.java">
+<violation beginline="34" endline="252" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="Topic" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Topic' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=13, WMC=22)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/db/User.java">
+<violation beginline="28" endline="252" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="User" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=9.091%, NOPA=0, NOAM=18, WMC=22)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/db/UserVideo.java">
+<violation beginline="28" endline="215" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="UserVideo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserVideo' is suspected to be a Data Class (WOC=5.263%, NOPA=0, NOAM=18, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/db/Video.java">
+<violation beginline="28" endline="450" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="Video" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Video' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=26, WMC=27)
+</violation>
+<violation beginline="106" endline="148" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.db" class="Video" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DownloadUrls' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/remote/KAAPIAdapter.java">
+<violation beginline="51" endline="399" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.data.remote" class="KAAPIAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/data/remote/VideoProgressPostTask.java">
+<violation beginline="66" endline="178" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.concentricsky.android.khanacademy.data.remote" class="VideoProgressPostTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="243" endline="276" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.remote" class="VideoProgressPostTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'VideoProgressUpdate' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+<violation beginline="290" endline="307" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="com.concentricsky.android.khanacademy.data.remote" class="VideoProgressPostTask" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ActionResults' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/util/OfflineVideoManager.java">
+<violation beginline="82" endline="658" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.util" class="OfflineVideoManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/util/ThumbnailManager.java">
+<violation beginline="207" endline="311" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.concentricsky.android.khanacademy.util" class="ThumbnailManager" method="getThumbnailFromDiskCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-viewer-for-khan-academy/src/com/concentricsky/android/khanacademy/views/VideoController.java">
+<violation beginline="37" endline="370" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.concentricsky.android.khanacademy.views" class="VideoController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

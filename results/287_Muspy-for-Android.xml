@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:15:52.220">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/ApplicationDaggerComponent.java">
+<violation beginline="58" endline="78" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.danielme.muspyforandroid" class="ApplicationDaggerComponent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/model/Artist.java">
+<violation beginline="30" endline="158" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.model" class="Artist" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Artist' is suspected to be a Data Class (WOC=8.333%, NOPA=1, NOAM=10, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/model/ArtistMb.java">
+<violation beginline="22" endline="94" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.model" class="ArtistMb" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ArtistMb' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=7, WMC=8)
+</violation>
+<violation beginline="62" endline="92" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.model" class="ArtistMb" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Artist' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/model/Cover.java">
+<violation beginline="36" endline="83" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.model" class="Cover" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CoverImage' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/model/Credential.java">
+<violation beginline="25" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.model" class="Credential" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Credential' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/model/Media.java">
+<violation beginline="24" endline="101" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.model" class="Media" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Media' is suspected to be a Data Class (WOC=6.667%, NOPA=0, NOAM=14, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/model/Release.java">
+<violation beginline="25" endline="152" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.model" class="Release" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Release' is suspected to be a Data Class (WOC=8.333%, NOPA=1, NOAM=10, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/model/ReleaseMB.java">
+<violation beginline="24" endline="156" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.model" class="ReleaseMB" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ReleaseMB' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=28, WMC=28)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/model/Track.java">
+<violation beginline="20" endline="58" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.model" class="Track" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Track' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/model/User.java">
+<violation beginline="5" endline="115" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.model" class="User" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/repository/rest/muspy/resources/UserResource.java">
+<violation beginline="47" endline="57" begincolumn="24" endcolumn="61" rule="ExcessiveParameterList" ruleset="Design" package="com.danielme.muspyforandroid.repository.rest.muspy.resources" class="UserResource" method="updateUser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/ui/ViewUtils.java">
+<violation beginline="60" endline="360" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.danielme.muspyforandroid.ui" class="ViewUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="310" endline="330" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.ui" class="ViewUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ReleaseDate' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/ui/adapters/ReleaseAdapter.java">
+<violation beginline="119" endline="171" begincolumn="10" endcolumn="3" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.ui.adapters" class="ReleaseAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MediaViewHolder' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=6, WMC=10)
+</violation>
+<violation beginline="173" endline="216" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.ui.adapters" class="ReleaseAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TrackViewHolder' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/ui/fragments/ReleaseFragment.java">
+<violation beginline="45" endline="290" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.danielme.muspyforandroid.ui.fragments" class="ReleaseFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/ui/recyclerview/GenericRecyclerViewConfiguration.java">
+<violation beginline="26" endline="287" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.danielme.muspyforandroid.ui.recyclerview" class="GenericRecyclerViewConfiguration" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GenericRecyclerViewConfiguration' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=19)
+</violation>
+<violation beginline="52" endline="70" begincolumn="43" endcolumn="70" rule="ExcessiveParameterList" ruleset="Design" package="com.danielme.muspyforandroid.ui.recyclerview" class="GenericRecyclerViewConfiguration" method="GenericRecyclerViewConfiguration" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Muspy-for-Android/app/src/main/java/com/danielme/muspyforandroid/ui/recyclerview/GenericRecyclerViewFragment.java">
+<violation beginline="61" endline="569" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.danielme.muspyforandroid.ui.recyclerview" class="GenericRecyclerViewFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

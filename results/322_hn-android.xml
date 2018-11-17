@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:24:42.338">
+<file name="/home/matheus/smell-and-machine-learning/repositories/hn-android/app/src/main/java/com/manuelmaly/hn/ArticleReaderActivity.java">
+<violation beginline="36" endline="292" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.manuelmaly.hn" class="ArticleReaderActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/hn-android/app/src/main/java/com/manuelmaly/hn/CommentsActivity.java">
+<violation beginline="62" endline="754" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.manuelmaly.hn" class="CommentsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/hn-android/app/src/main/java/com/manuelmaly/hn/MainActivity.java">
+<violation beginline="63" endline="763" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.manuelmaly.hn" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="437" endline="565" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.manuelmaly.hn" class="MainActivity$PostsAdapter" method="getView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

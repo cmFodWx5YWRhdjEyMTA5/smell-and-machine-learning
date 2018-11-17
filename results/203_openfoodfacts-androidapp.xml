@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:52:58.120">
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/category/model/Category.java">
+<violation beginline="7" endline="35" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.category.model" class="Category" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Category' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/category/network/CategoryResponse.java">
+<violation beginline="34" endline="66" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.category.network" class="CategoryResponse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Tag' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/fragments/AddProductIngredientsFragment.java">
+<violation beginline="68" endline="483" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="AddProductIngredientsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/fragments/AddProductNutritionFactsFragment.java">
+<violation beginline="72" endline="1269" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="AddProductNutritionFactsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="72" endline="1269" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="AddProductNutritionFactsFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="302" endline="448" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="AddProductNutritionFactsFragment" method="preFillProductValues" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="453" endline="582" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="AddProductNutritionFactsFragment" method="preFillValues" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="935" endline="1036" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="AddProductNutritionFactsFragment" method="getDetails" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1064" endline="1205" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="AddProductNutritionFactsFragment" method="addNutrientRow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/fragments/AddProductOverviewFragment.java">
+<violation beginline="96" endline="953" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="AddProductOverviewFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/fragments/AddProductPhotosFragment.java">
+<violation beginline="48" endline="201" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="AddProductPhotosFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/fragments/OfflineEditFragment.java">
+<violation beginline="76" endline="899" begincolumn="111" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="OfflineEditFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/fragments/PreferencesFragment.java">
+<violation beginline="68" endline="186" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.fragments" class="PreferencesFragment" method="onCreatePreferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/Additive.java">
+<violation beginline="20" endline="246" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="Additive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Additive' is suspected to be a Data Class (WOC=5.263%, NOPA=0, NOAM=18, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/AdditiveName.java">
+<violation beginline="16" endline="208" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="AdditiveName" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AdditiveName' is suspected to be a Data Class (WOC=12.000%, NOPA=0, NOAM=22, WMC=28)
+</violation>
+<violation beginline="39" endline="42" begincolumn="24" endcolumn="40" rule="ExcessiveParameterList" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="AdditiveName" method="AdditiveName" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/Allergen.java">
+<violation beginline="18" endline="196" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="Allergen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Allergen' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/AllergenName.java">
+<violation beginline="19" endline="129" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="AllergenName" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AllergenName' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=12, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/AllergenResponse.java">
+<violation beginline="13" endline="88" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="AllergenResponse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AllergenResponse' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=4, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/Category.java">
+<violation beginline="24" endline="185" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="Category" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Category' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/CategoryName.java">
+<violation beginline="19" endline="140" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="CategoryName" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CategoryName' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/Country.java">
+<violation beginline="22" endline="151" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="Country" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Country' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/CountryName.java">
+<violation beginline="16" endline="92" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="CountryName" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CountryName' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/HistoryItem.java">
+<violation beginline="5" endline="83" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="HistoryItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HistoryItem' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=12, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/HistoryProduct.java">
+<violation beginline="13" endline="115" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="HistoryProduct" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HistoryProduct' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/Label.java">
+<violation beginline="24" endline="189" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="Label" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Label' is suspected to be a Data Class (WOC=10.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/LabelName.java">
+<violation beginline="19" endline="141" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="LabelName" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LabelName' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=12, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/LabelResponse.java">
+<violation beginline="12" endline="73" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="LabelResponse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LabelResponse' is suspected to be a Data Class (WOC=22.222%, NOPA=0, NOAM=5, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/NavDrawerItem.java">
+<violation beginline="3" endline="32" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="NavDrawerItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NavDrawerItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/NutrientLevelItem.java">
+<violation beginline="3" endline="32" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="NutrientLevelItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NutrientLevelItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/NutrientLevels.java">
+<violation beginline="14" endline="116" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="NutrientLevels" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NutrientLevels' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/NutrimentItem.java">
+<violation beginline="5" endline="66" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="NutrimentItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NutrimentItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/Nutriments.java">
+<violation beginline="274" endline="341" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="Nutriments" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Nutriment' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/OfflineSavedProduct.java">
+<violation beginline="23" endline="97" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="OfflineSavedProduct" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OfflineSavedProduct' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=6, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/ProductImage.java">
+<violation beginline="9" endline="110" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="ProductImage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProductImage' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/SaveItem.java">
+<violation beginline="3" endline="67" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="SaveItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SaveItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=11, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/Search.java">
+<violation beginline="24" endline="136" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="Search" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Search' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/SendProduct.java">
+<violation beginline="21" endline="221" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="SendProduct" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SendProduct' is suspected to be a Data Class (WOC=13.793%, NOPA=0, NOAM=24, WMC=36)
+</violation>
+<violation beginline="54" endline="54" begincolumn="23" endcolumn="205" rule="ExcessiveParameterList" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="SendProduct" method="SendProduct" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/models/ToUploadProduct.java">
+<violation beginline="15" endline="106" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.models" class="ToUploadProduct" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ToUploadProduct' is suspected to be a Data Class (WOC=8.333%, NOPA=0, NOAM=10, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/network/OpenFoodAPIService.java">
+<violation beginline="21" endline="332" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.network" class="OpenFoodAPIService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/utils/Utils.java">
+<violation beginline="79" endline="657" begincolumn="20" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.utils" class="Utils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/AddProductActivity.java">
+<violation beginline="65" endline="1278" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="AddProductActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="65" endline="1278" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="AddProductActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="544" endline="654" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="AddProductActivity" method="checkFrontImageUploadStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="659" endline="769" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="AddProductActivity" method="checkIngredientsImageUploadStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="774" endline="884" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="AddProductActivity" method="checkNutritionFactsImageUploadStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/ContinuousScanActivity.java">
+<violation beginline="69" endline="703" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="ContinuousScanActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="155" endline="312" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="ContinuousScanActivity" method="findProduct" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="174" endline="284" begincolumn="28" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="ContinuousScanActivity" method="onSuccess" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="442" endline="565" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="ContinuousScanActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/HistoryScanActivity.java">
+<violation beginline="74" endline="625" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="HistoryScanActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/LoginActivity.java">
+<violation beginline="54" endline="303" begincolumn="103" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="LoginActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/MainActivity.java">
+<violation beginline="107" endline="1093" begincolumn="180" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="145" endline="539" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/ProductBrowsingListActivity.java">
+<violation beginline="53" endline="657" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="ProductBrowsingListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="356" endline="458" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views" class="ProductBrowsingListActivity" method="getDataFromAPI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/holders/HistoryScanHolder.java">
+<violation beginline="16" endline="49" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views.holders" class="HistoryScanHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HistoryScanHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/product/CalculateDetails.java">
+<violation beginline="52" endline="165" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views.product" class="CalculateDetails" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/product/ProductActivity.java">
+<violation beginline="64" endline="528" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views.product" class="ProductActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="93" endline="204" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views.product" class="ProductActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/product/ingredients/IngredientsProductFragment.java">
+<violation beginline="78" endline="657" begincolumn="107" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views.product.ingredients" class="IngredientsProductFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="172" endline="322" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views.product.ingredients" class="IngredientsProductFragment" method="refreshView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/product/nutrition/NutritionProductFragment.java">
+<violation beginline="69" endline="173" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views.product.nutrition" class="NutritionProductFragment" method="refreshView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/product/nutrition_details/NutritionInfoProductFragment.java">
+<violation beginline="107" endline="257" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views.product.nutrition_details" class="NutritionInfoProductFragment" method="refreshView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/product/summary/SummaryProductFragment.java">
+<violation beginline="92" endline="809" begincolumn="143" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views.product.summary" class="SummaryProductFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="183" endline="405" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.views.product.summary" class="SummaryProductFragment" method="refreshView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/openfoodfacts-androidapp/app/src/test/java/openfoodfacts/github/scrachx/openfood/network/OpenFoodAPIServiceTest.java">
+<violation beginline="27" endline="289" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="openfoodfacts.github.scrachx.openfood.network" class="OpenFoodAPIServiceTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

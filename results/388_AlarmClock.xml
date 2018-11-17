@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:39:21.544">
+<file name="/home/matheus/smell-and-machine-learning/repositories/AlarmClock/src/androidTest/java/com/better/alarm/test/PickerTest.java">
+<violation beginline="30" endline="237" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.better.alarm.test" class="PickerTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AlarmClock/src/main/java/com/better/alarm/configuration/AlarmApplication.java">
+<violation beginline="93" endline="239" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.better.alarm.configuration" class="AlarmApplication" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AlarmClock/src/main/java/com/better/alarm/model/AlarmCore.java">
+<violation beginline="101" endline="837" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.better.alarm.model" class="AlarmCore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="155" endline="725" begincolumn="13" endcolumn="5" rule="DataClass" ruleset="Design" package="com.better.alarm.model" class="AlarmCore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AlarmStateMachine' is suspected to be a Data Class (WOC=0.000%, NOPA=21, NOAM=0, WMC=16)
+</violation>
+<violation beginline="638" endline="724" begincolumn="48" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.better.alarm.model" class="AlarmCore$AlarmStateMachine$AlarmState" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AlarmClock/src/main/java/com/better/alarm/presenter/AlarmsListActivity.java">
+<violation beginline="59" endline="272" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.better.alarm.presenter" class="AlarmsListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AlarmClock/src/main/java/com/better/alarm/statemachine/StateMachine.java">
+<violation beginline="38" endline="429" begincolumn="62" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.better.alarm.statemachine" class="StateMachine$SmHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/AlarmClock/src/test/java/com/better/alarm/AlarmsTest.java">
+<violation beginline="54" endline="451" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.better.alarm" class="AlarmsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

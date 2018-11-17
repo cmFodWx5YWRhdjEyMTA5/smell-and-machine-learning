@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:38:44.620">
+<file name="/home/matheus/smell-and-machine-learning/repositories/L9Droid/src/pro/oneredpixel/l9droid/CustomisableListAdapter.java">
+<violation beginline="14" endline="64" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="pro.oneredpixel.l9droid" class="CustomisableListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CustomisableListAdapter' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/L9Droid/src/pro/oneredpixel/l9droid/ExpAdapter.java">
+<violation beginline="58" endline="62" begincolumn="26" endcolumn="75" rule="ExcessiveParameterList" ruleset="Design" package="pro.oneredpixel.l9droid" class="ExpAdapter" method="ExpAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="68" endline="73" begincolumn="26" endcolumn="38" rule="ExcessiveParameterList" ruleset="Design" package="pro.oneredpixel.l9droid" class="ExpAdapter" method="ExpAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/L9Droid/src/pro/oneredpixel/l9droid/GameActivity.java">
+<violation beginline="40" endline="616" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pro.oneredpixel.l9droid" class="GameActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/L9Droid/src/pro/oneredpixel/l9droid/L9.java">
+<violation beginline="54" endline="7043" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="54" endline="7043" begincolumn="17" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1643" endline="1806" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9" method="ValidateSequence" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2203" endline="2305" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9" method="ScanV1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2719" endline="2908" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9" method="intinitialise" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4400" endline="4580" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9" method="corruptinginput" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4767" endline="4892" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9" method="inputV2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/L9Droid/src/pro/oneredpixel/l9droid/L9Bitmap.java">
+<violation beginline="3" endline="2510" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9Bitmap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="3" endline="2510" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9Bitmap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1035" endline="1159" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9Bitmap" method="bitmap_pc2_decode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1987" endline="2150" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9Bitmap" method="bitmap_c64_decode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/L9Droid/src/pro/oneredpixel/l9droid/L9implement.java">
+<violation beginline="13" endline="547" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pro.oneredpixel.l9droid" class="L9implement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/L9Droid/src/pro/oneredpixel/l9droid/Library.java">
+<violation beginline="41" endline="1142" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="Library" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="41" endline="1142" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="pro.oneredpixel.l9droid" class="Library" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/L9Droid/src/pro/oneredpixel/l9droid/Threads.java">
+<violation beginline="66" endline="186" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="Threads" method="create" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="79" endline="182" begincolumn="28" endcolumn="21" rule="ExcessiveMethodLength" ruleset="Design" package="pro.oneredpixel.l9droid" class="Threads" method="handleMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

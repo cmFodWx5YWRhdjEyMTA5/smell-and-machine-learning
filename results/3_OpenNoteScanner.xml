@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:06:16.845">
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenNoteScanner/app/src/main/java/com/todobom/opennotescanner/ImageProcessor.java">
+<violation beginline="53" endline="563" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.todobom.opennotescanner" class="ImageProcessor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenNoteScanner/app/src/main/java/com/todobom/opennotescanner/OpenNoteScannerActivity.java">
+<violation beginline="87" endline="1182" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.todobom.opennotescanner" class="OpenNoteScannerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="89" endline="1182" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.todobom.opennotescanner" class="OpenNoteScannerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="179" endline="346" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.todobom.opennotescanner" class="OpenNoteScannerActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="661" endline="778" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.todobom.opennotescanner" class="OpenNoteScannerActivity" method="surfaceCreated" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenNoteScanner/app/src/main/java/com/todobom/opennotescanner/helpers/CustomOpenCVLoader.java">
+<violation beginline="163" endline="282" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.todobom.opennotescanner.helpers" class="CustomOpenCVLoader" method="initAsync" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenNoteScanner/app/src/main/java/com/todobom/opennotescanner/helpers/OpenNoteMessage.java">
+<violation beginline="6" endline="32" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.todobom.opennotescanner.helpers" class="OpenNoteMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OpenNoteMessage' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenNoteScanner/app/src/main/java/com/todobom/opennotescanner/helpers/PreviewFrame.java">
+<violation beginline="8" endline="39" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.todobom.opennotescanner.helpers" class="PreviewFrame" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PreviewFrame' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/OpenNoteScanner/app/src/main/java/com/todobom/opennotescanner/views/TouchImageView.java">
+<violation beginline="45" endline="1287" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.todobom.opennotescanner.views" class="TouchImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="45" endline="1287" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.todobom.opennotescanner.views" class="TouchImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="552" endline="657" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.todobom.opennotescanner.views" class="TouchImageView" method="fitImageToView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1268" endline="1280" begincolumn="13" endcolumn="5" rule="DataClass" ruleset="Design" package="com.todobom.opennotescanner.views" class="TouchImageView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ZoomVariables' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+</pmd>

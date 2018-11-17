@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:00:48.254">
+<file name="/home/matheus/smell-and-machine-learning/repositories/WiFi-Auto-Off/src/main/java/de/j4velin/wifiAutoOff/APILevel11Wrapper.java">
+<violation beginline="32" endline="32" begincolumn="33" endcolumn="233" rule="ExcessiveParameterList" ruleset="Design" package="de.j4velin.wifiAutoOff" class="APILevel11Wrapper" method="showNumberPicker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/WiFi-Auto-Off/src/main/java/de/j4velin/wifiAutoOff/Preferences.java">
+<violation beginline="73" endline="693" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="de.j4velin.wifiAutoOff" class="Preferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="277" endline="563" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.j4velin.wifiAutoOff" class="Preferences" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="565" endline="569" begincolumn="46" endcolumn="72" rule="ExcessiveParameterList" ruleset="Design" package="de.j4velin.wifiAutoOff" class="Preferences" method="showPre11NumberPicker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/WiFi-Auto-Off/src/main/java/de/j4velin/wifiAutoOff/Receiver.java">
+<violation beginline="193" endline="363" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.j4velin.wifiAutoOff" class="Receiver" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/WiFi-Auto-Off/src/play/java/de/j4velin/wifiAutoOff/Locations.java">
+<violation beginline="100" endline="232" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="de.j4velin.wifiAutoOff" class="Locations" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

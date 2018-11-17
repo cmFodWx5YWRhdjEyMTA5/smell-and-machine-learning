@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T00:42:35.295">
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/automationTest/src/test/java/com/owncloud/android/test/ui/actions/Actions.java">
+<violation beginline="48" endline="244" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.test.ui.actions" class="Actions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/androidTest/java/com/owncloud/android/util/EncryptionTestIT.java">
+<violation beginline="60" endline="378" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.util" class="EncryptionTestIT" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/gplay/java/com/owncloud/android/utils/PushUtils.java">
+<violation beginline="74" endline="483" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.utils" class="PushUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/nextcloud/android/sso/aidl/NextcloudRequest.java">
+<violation beginline="27" endline="147" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.nextcloud.android.sso.aidl" class="NextcloudRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NextcloudRequest' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/MainApp.java">
+<violation beginline="95" endline="665" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android" class="MainApp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="121" endline="227" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android" class="MainApp" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/authentication/AccountAuthenticator.java">
+<violation beginline="50" endline="285" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.owncloud.android.authentication" class="AccountAuthenticator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AccountAuthenticator' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/authentication/AuthenticatorActivity.java">
+<violation beginline="140" endline="2305" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.owncloud.android.authentication" class="AuthenticatorActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="143" endline="2305" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.authentication" class="AuthenticatorActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="674" endline="779" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.authentication" class="AuthenticatorActivity" method="initServerPreFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/datamodel/ArbitraryDataProvider.java">
+<violation beginline="228" endline="256" begincolumn="12" endcolumn="5" rule="DataClass" ruleset="Design" package="com.owncloud.android.datamodel" class="ArbitraryDataProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ArbitraryDataSet' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/datamodel/FileDataStorageManager.java">
+<violation beginline="68" endline="2209" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.owncloud.android.datamodel" class="FileDataStorageManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="68" endline="2209" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.datamodel" class="FileDataStorageManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="617" endline="733" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.datamodel" class="FileDataStorageManager" method="moveLocalFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1733" endline="1880" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.datamodel" class="FileDataStorageManager" method="saveConflict" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/datamodel/OCFile.java">
+<violation beginline="47" endline="538" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.datamodel" class="OCFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/datamodel/SyncedFolderDisplayItem.java">
+<violation beginline="57" endline="59" begincolumn="35" endcolumn="119" rule="ExcessiveParameterList" ruleset="Design" package="com.owncloud.android.datamodel" class="SyncedFolderDisplayItem" method="SyncedFolderDisplayItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="67" endline="69" begincolumn="35" endcolumn="75" rule="ExcessiveParameterList" ruleset="Design" package="com.owncloud.android.datamodel" class="SyncedFolderDisplayItem" method="SyncedFolderDisplayItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/datamodel/SyncedFolderProvider.java">
+<violation beginline="43" endline="375" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.datamodel" class="SyncedFolderProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/datamodel/ThumbnailsCacheManager.java">
+<violation beginline="81" endline="1169" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.owncloud.android.datamodel" class="ThumbnailsCacheManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="498" endline="599" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.datamodel" class="ThumbnailsCacheManager$ThumbnailGenerationTask" method="doThumbnailFromOCFileInBackground" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/datamodel/UploadsStorageManager.java">
+<violation beginline="47" endline="625" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.datamodel" class="UploadsStorageManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/db/PreferenceManager.java">
+<violation beginline="39" endline="578" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.db" class="PreferenceManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/files/FileMenuFilter.java">
+<violation beginline="49" endline="523" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.files" class="FileMenuFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/files/services/FileDownloader.java">
+<violation beginline="74" endline="710" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.files.services" class="FileDownloader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/files/services/FileUploader.java">
+<violation beginline="99" endline="1360" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.owncloud.android.files.services" class="FileUploader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="100" endline="1360" begincolumn="115" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.files.services" class="FileUploader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="218" endline="229" begincolumn="34" endcolumn="9" rule="ExcessiveParameterList" ruleset="Design" package="com.owncloud.android.files.services" class="FileUploader$UploadRequester" method="uploadNewFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="249" endline="261" begincolumn="44" endcolumn="9" rule="ExcessiveParameterList" ruleset="Design" package="com.owncloud.android.files.services" class="FileUploader$UploadRequester" method="uploadFileWithOverwrite" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="285" endline="287" begincolumn="44" endcolumn="78" rule="ExcessiveParameterList" ruleset="Design" package="com.owncloud.android.files.services" class="FileUploader$UploadRequester" method="uploadFileWithOverwrite" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="307" endline="309" begincolumn="34" endcolumn="59" rule="ExcessiveParameterList" ruleset="Design" package="com.owncloud.android.files.services" class="FileUploader$UploadRequester" method="uploadNewFile" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="524" endline="726" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.files.services" class="FileUploader" method="onStartCommand" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="764" endline="995" begincolumn="94" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.files.services" class="FileUploader$FileUploaderBinder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/jobs/OfflineSyncJob.java">
+<violation beginline="136" endline="160" begincolumn="13" endcolumn="5" rule="DataClass" ruleset="Design" package="com.owncloud.android.jobs" class="OfflineSyncJob" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OfflineFile' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/media/MediaControlView.java">
+<violation beginline="56" endline="373" begincolumn="103" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.media" class="MediaControlView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/media/MediaService.java">
+<violation beginline="72" endline="755" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.media" class="MediaService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/operations/RefreshFolderOperation.java">
+<violation beginline="66" endline="615" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.operations" class="RefreshFolderOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/operations/SynchronizeFileOperation.java">
+<violation beginline="176" endline="276" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.operations" class="SynchronizeFileOperation" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/operations/SynchronizeFolderOperation.java">
+<violation beginline="62" endline="520" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.operations" class="SynchronizeFolderOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/operations/UpdateShareViaLinkOperation.java">
+<violation beginline="38" endline="150" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.owncloud.android.operations" class="UpdateShareViaLinkOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpdateShareViaLinkOperation' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=5, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/operations/UploadFileOperation.java">
+<violation beginline="97" endline="1362" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.owncloud.android.operations" class="UploadFileOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="97" endline="1362" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.operations" class="UploadFileOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="422" endline="698" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.operations" class="UploadFileOperation" method="encryptedUpload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="745" endline="894" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.operations" class="UploadFileOperation" method="normalUpload" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/providers/DocumentsStorageProvider.java">
+<violation beginline="66" endline="306" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.providers" class="DocumentsStorageProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/providers/FileContentProvider.java">
+<violation beginline="66" endline="1819" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.owncloud.android.providers" class="FileContentProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="66" endline="1819" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.providers" class="FileContentProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="267" endline="401" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.providers" class="FileContentProvider" method="insert" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="496" endline="640" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.providers" class="FileContentProvider" method="query" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1065" endline="1805" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.providers" class="FileContentProvider$DataBaseHelper" method="onUpgrade" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/providers/UsersAndGroupsSearchProvider.java">
+<violation beginline="155" endline="266" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.providers" class="UsersAndGroupsSearchProvider" method="searchForUsersOrGroups" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/services/OperationsService.java">
+<violation beginline="536" endline="731" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.services" class="OperationsService" method="newOperation" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/syncadapter/FileSyncAdapter.java">
+<violation beginline="69" endline="554" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.owncloud.android.syncadapter" class="FileSyncAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FileSyncAdapter' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=36)
+</violation>
+<violation beginline="69" endline="554" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.syncadapter" class="FileSyncAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activities/ActivitiesActivity.java">
+<violation beginline="61" endline="329" begincolumn="112" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activities" class="ActivitiesActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/DrawerActivity.java">
+<violation beginline="113" endline="1451" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.owncloud.android.ui.activity" class="DrawerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="113" endline="1451" begincolumn="111" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="DrawerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="399" endline="506" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.ui.activity" class="DrawerActivity" method="selectNavigationItem" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/FileActivity.java">
+<violation beginline="87" endline="648" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="FileActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/FileDisplayActivity.java">
+<violation beginline="151" endline="2581" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.owncloud.android.ui.activity" class="FileDisplayActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="154" endline="2581" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="FileDisplayActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1307" endline="1407" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.ui.activity" class="FileDisplayActivity$SyncBroadcastReceiver" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/FirstRunActivity.java">
+<violation beginline="53" endline="247" begincolumn="94" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="FirstRunActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/FolderPickerActivity.java">
+<violation beginline="65" endline="581" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="FolderPickerActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/ManageAccountsActivity.java">
+<violation beginline="75" endline="496" begincolumn="117" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="ManageAccountsActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/PassCodeActivity.java">
+<violation beginline="49" endline="456" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="PassCodeActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/Preferences.java">
+<violation beginline="87" endline="1039" begincolumn="116" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="Preferences" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/ReceiveExternalFilesActivity.java">
+<violation beginline="121" endline="1236" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.owncloud.android.ui.activity" class="ReceiveExternalFilesActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="123" endline="1236" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="ReceiveExternalFilesActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="326" endline="626" begincolumn="74" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="ReceiveExternalFilesActivity$DialogInputUploadFilename" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/ShareActivity.java">
+<violation beginline="60" endline="370" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="ShareActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/SyncedFoldersActivity.java">
+<violation beginline="87" endline="683" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="SyncedFoldersActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/UploadFilesActivity.java">
+<violation beginline="79" endline="658" begincolumn="112" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="UploadFilesActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="117" endline="217" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.ui.activity" class="UploadFilesActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/UploadListActivity.java">
+<violation beginline="75" endline="398" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="UploadListActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/activity/UserInfoActivity.java">
+<violation beginline="93" endline="505" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.activity" class="UserInfoActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/adapter/OCFileListAdapter.java">
+<violation beginline="84" endline="868" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.adapter" class="OCFileListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="258" endline="376" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.ui.adapter" class="OCFileListAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/adapter/UploadListAdapter.java">
+<violation beginline="137" endline="386" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.ui.adapter" class="UploadListAdapter" method="onBindViewHolder" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/adapter/UserListAdapter.java">
+<violation beginline="65" endline="440" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.adapter" class="UserListAdapter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/components/SendButtonData.java">
+<violation beginline="26" endline="54" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.owncloud.android.ui.components" class="SendButtonData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SendButtonData' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/dialog/SamlWebViewDialog.java">
+<violation beginline="52" endline="268" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.dialog" class="SamlWebViewDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/events/EncryptionEvent.java">
+<violation beginline="25" endline="37" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.owncloud.android.ui.events" class="EncryptionEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EncryptionEvent' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/fragment/ExtendedListFragment.java">
+<violation beginline="87" endline="805" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment" class="ExtendedListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/fragment/FileDetailActivitiesFragment.java">
+<violation beginline="84" endline="462" begincolumn="120" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment" class="FileDetailActivitiesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/fragment/FileDetailFragment.java">
+<violation beginline="74" endline="702" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment" class="FileDetailFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/fragment/FileDetailSharingFragment.java">
+<violation beginline="76" endline="546" begincolumn="110" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment" class="FileDetailSharingFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/fragment/LocalFileListFragment.java">
+<violation beginline="47" endline="351" begincolumn="107" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment" class="LocalFileListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/fragment/OCFileListFragment.java">
+<violation beginline="127" endline="1614" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.owncloud.android.ui.fragment" class="OCFileListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="128" endline="1614" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment" class="OCFileListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="449" endline="598" begincolumn="119" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment" class="OCFileListFragment$MultiChoiceModeListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="761" endline="882" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.ui.fragment" class="OCFileListFragment" method="onItemClicked" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="912" endline="1022" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.ui.fragment" class="OCFileListFragment" method="onFileActionChosen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1370" endline="1484" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.ui.fragment" class="OCFileListFragment" method="onMessageEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/fragment/SearchShareesFragment.java">
+<violation beginline="60" endline="236" begincolumn="110" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment" class="SearchShareesFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/fragment/ShareFileFragment.java">
+<violation beginline="79" endline="925" begincolumn="106" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment" class="ShareFileFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="697" endline="826" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.ui.fragment" class="ShareFileFragment" method="updatePublicShareSection" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/fragment/contactsbackup/ContactListFragment.java">
+<violation beginline="107" endline="568" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment.contactsbackup" class="ContactListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="321" endline="354" begincolumn="12" endcolumn="5" rule="DataClass" ruleset="Design" package="com.owncloud.android.ui.fragment.contactsbackup" class="ContactListFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ContactItemViewHolder' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/fragment/contactsbackup/ContactsBackupFragment.java">
+<violation beginline="77" endline="534" begincolumn="104" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.fragment.contactsbackup" class="ContactsBackupFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/helpers/FileOperationsHelper.java">
+<violation beginline="92" endline="973" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.helpers" class="FileOperationsHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/preview/FileDownloadFragment.java">
+<violation beginline="46" endline="312" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.preview" class="FileDownloadFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/preview/PreviewImageActivity.java">
+<violation beginline="67" endline="518" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.preview" class="PreviewImageActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/preview/PreviewImageFragment.java">
+<violation beginline="89" endline="766" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.preview" class="PreviewImageFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/preview/PreviewMediaFragment.java">
+<violation beginline="92" endline="848" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.preview" class="PreviewMediaFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/preview/PreviewTextFragment.java">
+<violation beginline="66" endline="500" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.preview" class="PreviewTextFragment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/ui/trashbin/TrashbinActivity.java">
+<violation beginline="61" endline="289" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.ui.trashbin" class="TrashbinActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/utils/BitmapUtils.java">
+<violation beginline="44" endline="401" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.utils" class="BitmapUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/utils/DisplayUtils.java">
+<violation beginline="105" endline="789" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.utils" class="DisplayUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/utils/EncryptionUtils.java">
+<violation beginline="90" endline="705" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.utils" class="EncryptionUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/utils/MimeTypeUtil.java">
+<violation beginline="500" endline="662" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.utils" class="MimeTypeUtil" method="populateFileExtensionMimeTypeMapping" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/com/owncloud/android/utils/ThemeUtils.java">
+<violation beginline="65" endline="453" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.utils" class="ThemeUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/third_parties/ezvcard_android/ContactOperations.java">
+<violation beginline="78" endline="640" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="third_parties.ezvcard_android" class="ContactOperations" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/main/java/third_parties/in/srain/cube/GridViewWithHeaderAndFooter.java">
+<violation beginline="46" endline="813" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="third_parties.in.srain.cube" class="GridViewWithHeaderAndFooter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android/src/test/java/com/owncloud/android/utils/TestSorting.java">
+<violation beginline="45" endline="451" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.owncloud.android.utils" class="TestSorting" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="161" endline="373" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.owncloud.android.utils" class="TestSorting" method="testSortCloudFilesWithDots" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

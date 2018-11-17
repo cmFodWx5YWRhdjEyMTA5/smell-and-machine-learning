@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:40:14.428">
+<file name="/home/matheus/smell-and-machine-learning/repositories/faster-gps/FasterGPS/src/main/java/org/fastergps/ui/BaseActivity.java">
+<violation beginline="173" endline="333" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.fastergps.ui" class="BaseActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/faster-gps/FasterGPS/src/main/java/org/fastergps/util/Log.java">
+<violation beginline="28" endline="82" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.fastergps.util" class="Log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/faster-gps/libraries/RootCommands/src/main/java/org/sufficientlysecure/rootcommands/Shell.java">
+<violation beginline="33" endline="350" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.rootcommands" class="Shell" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/faster-gps/libraries/RootCommands/src/main/java/org/sufficientlysecure/rootcommands/Toolbox.java">
+<violation beginline="46" endline="824" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.rootcommands" class="Toolbox" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/faster-gps/libraries/RootCommands/src/main/java/org/sufficientlysecure/rootcommands/util/Log.java">
+<violation beginline="25" endline="83" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.sufficientlysecure.rootcommands.util" class="Log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:15:43.742">
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-obd-reader/src/main/java/com/github/pires/obd/reader/activity/ConfigActivity.java">
+<violation beginline="191" endline="292" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.github.pires.obd.reader.activity" class="ConfigActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-obd-reader/src/main/java/com/github/pires/obd/reader/activity/MainActivity.java">
+<violation beginline="81" endline="725" begincolumn="117" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.github.pires.obd.reader.activity" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-obd-reader/src/main/java/com/github/pires/obd/reader/io/ObdCommandJob.java">
+<violation beginline="14" endline="71" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.pires.obd.reader.io" class="ObdCommandJob" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ObdCommandJob' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/android-obd-reader/src/main/java/com/github/pires/obd/reader/trips/TripRecord.java">
+<violation beginline="7" endline="137" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.github.pires.obd.reader.trips" class="TripRecord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TripRecord' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=11, WMC=19)
+</violation>
+</file>
+</pmd>

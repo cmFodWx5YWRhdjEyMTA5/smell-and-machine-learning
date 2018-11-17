@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T01:41:24.132">
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/Common.java">
+<violation beginline="27" endline="345" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="zame.game" class="Common" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/GameActivity.java">
+<violation beginline="28" endline="344" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="zame.game" class="GameActivity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/Renderer.java">
+<violation beginline="12" endline="473" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="zame.game" class="Renderer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/ZameGame.java">
+<violation beginline="20" endline="211" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="zame.game" class="ZameGame" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/engine/Controls.java">
+<violation beginline="16" endline="979" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="zame.game.engine" class="Controls" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="123" endline="191" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="zame.game.engine" class="Controls" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ControlVariant' is suspected to be a Data Class (WOC=0.000%, NOPA=12, NOAM=0, WMC=3)
+</violation>
+<violation beginline="546" endline="703" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="Controls" method="processOnePointer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/engine/Game.java">
+<violation beginline="31" endline="1390" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="zame.game.engine" class="Game" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="31" endline="1390" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="zame.game.engine" class="Game" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="624" endline="781" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="Game" method="update" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="802" endline="1038" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="Game" method="pickObjects" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/engine/Level.java">
+<violation beginline="160" endline="351" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="Level" method="create" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="396" endline="584" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="Level" method="executeActions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/engine/LevelRenderer.java">
+<violation beginline="9" endline="1021" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="zame.game.engine" class="LevelRenderer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="9" endline="1021" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="zame.game.engine" class="LevelRenderer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="434" endline="590" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="LevelRenderer" method="renderObjects" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="670" endline="797" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="LevelRenderer" method="renderFloor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="880" endline="1010" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="LevelRenderer" method="renderAutoMap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/engine/Monster.java">
+<violation beginline="225" endline="394" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="Monster" method="update" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/engine/PortalTracer.java">
+<violation beginline="163" endline="428" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="PortalTracer" method="traceCell" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="432" endline="538" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="PortalTracer" method="trace" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/engine/State.java">
+<violation beginline="203" endline="349" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="State" method="readFrom" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/engine/TextureLoader.java">
+<violation beginline="54" endline="75" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="zame.game.engine" class="TextureLoader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TextureToLoad' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/engine/Weapons.java">
+<violation beginline="10" endline="50" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="zame.game.engine" class="Weapons" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WeaponParams' is suspected to be a Data Class (WOC=0.000%, NOPA=12, NOAM=0, WMC=1)
+</violation>
+<violation beginline="24" endline="35" begincolumn="28" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="zame.game.engine" class="Weapons$WeaponParams" method="WeaponParams" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="147" endline="247" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.engine" class="Weapons" method="render" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/game/views/MenuView.java">
+<violation beginline="274" endline="380" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.game.views" class="MenuView" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/libs/GLSurfaceView21.java">
+<violation beginline="149" endline="1478" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="zame.libs" class="GLSurfaceView21" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1029" endline="1384" begincolumn="35" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="zame.libs" class="GLSurfaceView21$GLThread" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1096" endline="1260" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="zame.libs" class="GLSurfaceView21$GLThread" method="guardedRun" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/libs/KeyMapPreference.java">
+<violation beginline="118" endline="405" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="zame.libs" class="KeyMapPreference" method="getKeyNameByCode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/libs/LabelMaker.java">
+<violation beginline="45" endline="440" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="zame.libs" class="LabelMaker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="421" endline="439" begincolumn="20" endcolumn="5" rule="DataClass" ruleset="Design" package="zame.libs" class="LabelMaker" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Label' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/Gloomy-Dungeons-3D/src/main/java/zame/promo/PromoView.java">
+<violation beginline="28" endline="417" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="zame.promo" class="PromoView" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

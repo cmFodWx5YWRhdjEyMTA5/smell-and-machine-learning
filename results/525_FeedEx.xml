@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-17T02:08:09.716">
+<file name="/home/matheus/smell-and-machine-learning/repositories/FeedEx/app/src/main/java/net/frju/flym/ui/views/SwipeProgressBar.java">
+<violation beginline="136" endline="238" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="net.frju.flym.ui.views" class="SwipeProgressBar" method="draw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/smell-and-machine-learning/repositories/FeedEx/app/src/main/java/net/frju/flym/ui/views/SwipeRefreshLayout.java">
+<violation beginline="56" endline="428" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="net.frju.flym.ui.views" class="SwipeRefreshLayout" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>
