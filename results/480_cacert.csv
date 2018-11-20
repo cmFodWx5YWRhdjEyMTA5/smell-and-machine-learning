@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","info.guardianproject.cacert","/home/matheus/smell-and-machine-learning/repositories/cacert/app/src/info/guardianproject/cacert/CACertManagerActivity.java","3","49","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

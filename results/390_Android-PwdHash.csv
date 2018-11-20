@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.uploadedlobster.PwdHash.algorithm","/home/matheus/smell-and-machine-learning/repositories/Android-PwdHash/app/src/main/java/com/uploadedlobster/PwdHash/algorithm/HashedPassword.java","3","59","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

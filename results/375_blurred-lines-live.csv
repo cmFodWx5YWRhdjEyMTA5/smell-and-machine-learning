@@ -1,0 +1,5 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","cxa.lineswallpaper","/home/matheus/smell-and-machine-learning/repositories/blurred-lines-live/src/cxa/lineswallpaper/GLES20LinesRenderer.java","3","19","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","net.rbgrn.android.glwallpaperservice","/home/matheus/smell-and-machine-learning/repositories/blurred-lines-live/src/net/rbgrn/android/glwallpaperservice/GLWallpaperService.java","3","47","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","net.rbgrn.android.glwallpaperservice","/home/matheus/smell-and-machine-learning/repositories/blurred-lines-live/src/net/rbgrn/android/glwallpaperservice/GLWallpaperService.java","3","445","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"3","net.rbgrn.android.glwallpaperservice","/home/matheus/smell-and-machine-learning/repositories/blurred-lines-live/src/net/rbgrn/android/glwallpaperservice/GLWallpaperService.java","3","521","Avoid really long methods.","Design","ExcessiveMethodLength"

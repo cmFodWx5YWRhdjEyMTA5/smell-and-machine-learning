@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","steele.gerry.dotty","/home/matheus/smell-and-machine-learning/repositories/dotty/src/steele/gerry/dotty/TestView.java","3","28","The class 'MPoint' is suspected to be a Data Class (WOC=8.333%, NOPA=0, NOAM=9, WMC=12)","Design","DataClass"

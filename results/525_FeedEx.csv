@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","net.frju.flym.ui.views","/home/matheus/smell-and-machine-learning/repositories/FeedEx/app/src/main/java/net/frju/flym/ui/views/SwipeProgressBar.java","3","136","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","net.frju.flym.ui.views","/home/matheus/smell-and-machine-learning/repositories/FeedEx/app/src/main/java/net/frju/flym/ui/views/SwipeRefreshLayout.java","3","56","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

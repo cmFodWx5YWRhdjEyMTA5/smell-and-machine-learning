@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.duenndns.gmdice","/home/matheus/smell-and-machine-learning/repositories/gamemasterdice/src/de/duenndns/gmdice/GameMasterDice.java","3","52","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

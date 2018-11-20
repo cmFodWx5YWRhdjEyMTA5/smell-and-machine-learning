@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.zaren","/home/matheus/smell-and-machine-learning/repositories/Hdhomerun-signal-meter/app/src/main/java/com/zaren/HdhomerunActivity.java","3","33","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.zaren.ui","/home/matheus/smell-and-machine-learning/repositories/Hdhomerun-signal-meter/app/src/main/java/com/zaren/ui/HdhomerunUI.java","3","52","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","com.zaren.ui","/home/matheus/smell-and-machine-learning/repositories/Hdhomerun-signal-meter/app/src/main/java/com/zaren/ui/HdhomerunUI.java","3","82","Avoid really long methods.","Design","ExcessiveMethodLength"

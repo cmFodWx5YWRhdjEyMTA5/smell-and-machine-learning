@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","net.szym.barnacle","/home/matheus/smell-and-machine-learning/repositories/barnacle/src/net/szym/barnacle/BarnacleApp.java","3","47","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","net.szym.barnacle","/home/matheus/smell-and-machine-learning/repositories/barnacle/src/net/szym/barnacle/BarnacleService.java","3","46","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","net.szym.barnacle","/home/matheus/smell-and-machine-learning/repositories/barnacle/src/net/szym/barnacle/BarnacleService.java","3","201","Avoid really long methods.","Design","ExcessiveMethodLength"

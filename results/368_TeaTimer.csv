@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","goo.TeaTimer","/home/matheus/smell-and-machine-learning/repositories/TeaTimer/src/goo/TeaTimer/TimerActivity.java","3","62","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

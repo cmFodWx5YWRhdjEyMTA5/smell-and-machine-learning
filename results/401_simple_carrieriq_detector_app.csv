@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.projectvoodoo.simplecarrieriqdetector","/home/matheus/smell-and-machine-learning/repositories/simple_carrieriq_detector_app/src/org/projectvoodoo/simplecarrieriqdetector/Detect.java","3","13","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

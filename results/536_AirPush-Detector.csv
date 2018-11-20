@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.brosmike.airpushdetector","/home/matheus/smell-and-machine-learning/repositories/AirPush-Detector/src/com/brosmike/airpushdetector/DetectorFragment.java","3","54","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

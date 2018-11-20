@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.timvdalen.gizmooi","/home/matheus/smell-and-machine-learning/repositories/gizmooi/src/com/timvdalen/gizmooi/Photo.java","3","17","The class 'Photo' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=8, WMC=15)","Design","DataClass"

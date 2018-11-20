@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","orbitlivewallpaperfree.puzzleduck.com","/home/matheus/smell-and-machine-learning/repositories/Orbital-Live-Wallpaper/Orbital-Live-Wallpaper/src/orbitlivewallpaperfree/puzzleduck/com/OrbitalLiveWallpaper.java","3","90","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","orbitlivewallpaperfree.puzzleduck.com","/home/matheus/smell-and-machine-learning/repositories/Orbital-Live-Wallpaper/Orbital-Live-Wallpaper/src/orbitlivewallpaperfree/puzzleduck/com/OrbitalLiveWallpaper.java","3","292","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,0 +1,7 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.koushikdutta.widgets","/home/matheus/smell-and-machine-learning/repositories/BatteryFu/Widgets/src/com/koushikdutta/widgets/ActivityBaseFragment.java","3","20","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.tobykurien.android","/home/matheus/smell-and-machine-learning/repositories/BatteryFu/src/com/tobykurien/android/Utils.java","3","48","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","com.tobykurien.android","/home/matheus/smell-and-machine-learning/repositories/BatteryFu/src/com/tobykurien/android/Utils.java","3","305","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.tobykurien.batteryfu","/home/matheus/smell-and-machine-learning/repositories/BatteryFu/src/com/tobykurien/batteryfu/BatteryFu.java","3","27","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.tobykurien.batteryfu","/home/matheus/smell-and-machine-learning/repositories/BatteryFu/src/com/tobykurien/batteryfu/DataService.java","3","29","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.tobykurien.batteryfu","/home/matheus/smell-and-machine-learning/repositories/BatteryFu/src/com/tobykurien/batteryfu/DataToggler.java","3","21","Avoid really long methods.","Design","ExcessiveMethodLength"

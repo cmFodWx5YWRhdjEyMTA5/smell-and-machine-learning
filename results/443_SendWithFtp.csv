@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.totschnig.sendwithftp","/home/matheus/smell-and-machine-learning/repositories/SendWithFtp/app/src/main/java/org/totschnig/sendwithftp/UriList.java","3","45","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.blntsoft.emailpopup","/home/matheus/smell-and-machine-learning/repositories/EmailPopup/src/com/blntsoft/emailpopup/EmailNotification.java","3","52","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.blntsoft.emailpopup","/home/matheus/smell-and-machine-learning/repositories/EmailPopup/src/com/blntsoft/emailpopup/EmailReceiver.java","3","27","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.blntsoft.emailpopup","/home/matheus/smell-and-machine-learning/repositories/EmailPopup/src/com/blntsoft/emailpopup/Main.java","3","75","Avoid really long methods.","Design","ExcessiveMethodLength"

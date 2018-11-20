@@ -1,0 +1,6 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.jurihock.voicesmith","/home/matheus/smell-and-machine-learning/repositories/voicesmith/voicesmith/src/de/jurihock/voicesmith/Utils.java","3","43","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","de.jurihock.voicesmith.audio","/home/matheus/smell-and-machine-learning/repositories/voicesmith/voicesmith/src/de/jurihock/voicesmith/audio/HeadsetManager.java","3","206","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","de.jurihock.voicesmith.dsp","/home/matheus/smell-and-machine-learning/repositories/voicesmith/voicesmith/src/de/jurihock/voicesmith/dsp/Math.java","3","23","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","de.jurihock.voicesmith.io.pcm","/home/matheus/smell-and-machine-learning/repositories/voicesmith/voicesmith/src/de/jurihock/voicesmith/io/pcm/PcmDevice.java","3","25","The class 'PcmDevice' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=12)","Design","DataClass"
+"1","de.jurihock.voicesmith.services","/home/matheus/smell-and-machine-learning/repositories/voicesmith/voicesmith/src/de/jurihock/voicesmith/services/AudioService.java","3","40","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

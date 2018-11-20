@@ -1,0 +1,6 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","nl.ttys0.simplec25k","/home/matheus/smell-and-machine-learning/repositories/Simple-C25K/src/nl/ttys0/simplec25k/CountdownChronometer.java","3","31","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","nl.ttys0.simplec25k","/home/matheus/smell-and-machine-learning/repositories/Simple-C25K/src/nl/ttys0/simplec25k/ProgramService.java","3","43","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","nl.ttys0.simplec25k","/home/matheus/smell-and-machine-learning/repositories/Simple-C25K/src/nl/ttys0/simplec25k/ProgramService.java","3","134","Avoid really long methods.","Design","ExcessiveMethodLength"
+"3","nl.ttys0.simplec25k","/home/matheus/smell-and-machine-learning/repositories/Simple-C25K/src/nl/ttys0/simplec25k/ProgramService.java","3","461","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","nl.ttys0.simplec25k","/home/matheus/smell-and-machine-learning/repositories/Simple-C25K/src/nl/ttys0/simplec25k/TimerActivity.java","3","73","Avoid really long methods.","Design","ExcessiveMethodLength"

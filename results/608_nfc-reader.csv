@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","se.anyro.nfc_reader","/home/matheus/smell-and-machine-learning/repositories/nfc-reader/src/se/anyro/nfc_reader/TagViewer.java","3","58","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

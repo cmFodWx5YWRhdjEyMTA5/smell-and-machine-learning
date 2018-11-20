@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.ginkel.hashit","/home/matheus/smell-and-machine-learning/repositories/hashit/src/main/java/com/ginkel/hashit/PasswordActivity.java","3","57","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","com.ginkel.hashit","/home/matheus/smell-and-machine-learning/repositories/hashit/src/main/java/com/ginkel/hashit/PasswordActivity.java","3","87","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.ginkel.hashit.util","/home/matheus/smell-and-machine-learning/repositories/hashit/src/main/java/com/ginkel/hashit/util/PreferenceListStorage.java","3","150","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

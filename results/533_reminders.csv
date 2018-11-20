@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.lostrealm.lembretes","/home/matheus/smell-and-machine-learning/repositories/reminders/app/src/main/java/com/lostrealm/lembretes/MainIntentService.java","3","30","The class 'MainIntentService' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=7)","Design","DataClass"

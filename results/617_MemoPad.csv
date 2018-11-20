@@ -1,0 +1,6 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.zakky.memopad","/home/matheus/smell-and-machine-learning/repositories/MemoPad/src/org/zakky/memopad/BgConfigActionProvider.java","3","28","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","org.zakky.memopad","/home/matheus/smell-and-machine-learning/repositories/MemoPad/src/org/zakky/memopad/CanvasFragment.java","3","28","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.zakky.memopad","/home/matheus/smell-and-machine-learning/repositories/MemoPad/src/org/zakky/memopad/PadActivity.java","3","39","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.zakky.memopad","/home/matheus/smell-and-machine-learning/repositories/MemoPad/src/org/zakky/memopad/PaintView.java","3","52","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.zakky.memopad","/home/matheus/smell-and-machine-learning/repositories/MemoPad/src/org/zakky/memopad/PenConfigActionProvider.java","3","32","Avoid really long methods.","Design","ExcessiveMethodLength"

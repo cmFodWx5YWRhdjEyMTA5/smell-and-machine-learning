@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","kr.softgear.multiping","/home/matheus/smell-and-machine-learning/repositories/MultiPing-for-Android/src/kr/softgear/multiping/MultiPing.java","3","69","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.gokhanmoral.stweaks.app","/home/matheus/smell-and-machine-learning/repositories/STweaks/src/com/gokhanmoral/stweaks/app/MainActivity.java","3","42","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","com.gokhanmoral.stweaks.app","/home/matheus/smell-and-machine-learning/repositories/STweaks/src/com/gokhanmoral/stweaks/app/MainActivity.java","3","130","Avoid really long methods.","Design","ExcessiveMethodLength"

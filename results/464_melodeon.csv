@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.billthefarmer.melodeon","/home/matheus/smell-and-machine-learning/repositories/melodeon/src/main/java/org/billthefarmer/melodeon/MainActivity.java","3","52","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

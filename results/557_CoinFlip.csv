@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.banasiak.coinflip.lib","/home/matheus/smell-and-machine-learning/repositories/CoinFlip/dependencies/lib/src/main/java/com/banasiak/coinflip/lib/Animation.java","3","171","Avoid long parameter lists.","Design","ExcessiveParameterList"
+"2","com.banasiak.coinflip.lib","/home/matheus/smell-and-machine-learning/repositories/CoinFlip/dependencies/lib/src/main/java/com/banasiak/coinflip/lib/Animation.java","3","171","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.banasiak.coinflip","/home/matheus/smell-and-machine-learning/repositories/CoinFlip/mobile/src/main/java/com/banasiak/coinflip/CoinFlipActivity.java","3","70","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

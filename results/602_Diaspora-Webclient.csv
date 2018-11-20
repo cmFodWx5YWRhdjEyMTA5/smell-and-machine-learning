@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.voidcode.diasporawebclient","/home/matheus/smell-and-machine-learning/repositories/Diaspora-Webclient/src/com/voidcode/diasporawebclient/MainActivity.java","3","47","Avoid really long methods.","Design","ExcessiveMethodLength"

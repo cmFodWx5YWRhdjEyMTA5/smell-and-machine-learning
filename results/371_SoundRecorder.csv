@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.danielkim.soundrecorder.fragments","/home/matheus/smell-and-machine-learning/repositories/SoundRecorder/app/src/main/java/com/danielkim/soundrecorder/fragments/PlaybackFragment.java","3","29","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

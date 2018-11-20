@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.onyxbits.drudgery","/home/matheus/smell-and-machine-learning/repositories/Drudgery/src/de/onyxbits/drudgery/Game.java","3","13","The class 'Game' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=8)","Design","DataClass"
+"1","de.onyxbits.drudgery","/home/matheus/smell-and-machine-learning/repositories/Drudgery/src/de/onyxbits/drudgery/MainActivity.java","3","29","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","de.onyxbits.drudgery","/home/matheus/smell-and-machine-learning/repositories/Drudgery/src/de/onyxbits/drudgery/TimeUtil.java","3","14","The class 'TimeUtil' is suspected to be a Data Class (WOC=0.000%, NOPA=12, NOAM=0, WMC=4)","Design","DataClass"

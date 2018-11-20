@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.dje.openwifinetworkremover","/home/matheus/smell-and-machine-learning/repositories/android-open-wifi-network-remover/src/com/dje/openwifinetworkremover/MainActivity.java","3","47","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

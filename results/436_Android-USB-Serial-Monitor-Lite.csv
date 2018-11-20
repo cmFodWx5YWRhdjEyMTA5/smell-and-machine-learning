@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","jp.ksksue.app.terminal","/home/matheus/smell-and-machine-learning/repositories/Android-USB-Serial-Monitor-Lite/AndroidUSBSerialMonitorLite/src/jp/ksksue/app/terminal/AndroidUSBSerialMonitorLite.java","3","41","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","jp.ksksue.app.terminal","/home/matheus/smell-and-machine-learning/repositories/Android-USB-Serial-Monitor-Lite/AndroidUSBSerialMonitorLite/src/jp/ksksue/app/terminal/AndroidUSBSerialMonitorLite.java","3","283","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","jp.ksksue.app.terminal","/home/matheus/smell-and-machine-learning/repositories/Android-USB-Serial-Monitor-Lite/AndroidUSBSerialMonitorLite/src/jp/ksksue/app/terminal/AndroidUSBSerialMonitorLitePrefActivity.java","3","53","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,0 +1,6 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","at.univie.sensorium.sensors","/home/matheus/smell-and-machine-learning/repositories/android-sensorium/Sensorium/src/at/univie/sensorium/sensors/RadioSensor.java","3","79","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","at.univie.sensorium.sensors","/home/matheus/smell-and-machine-learning/repositories/android-sensorium/Sensorium/src/at/univie/sensorium/sensors/SensorValue.java","3","25","The class 'SensorValue' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=6, WMC=18)","Design","DataClass"
+"1","at.univie.sensorium.sensors","/home/matheus/smell-and-machine-learning/repositories/android-sensorium/Sensorium/src/at/univie/sensorium/sensors/WifiSensor.java","3","99","The class 'WifiDevice' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=4, WMC=11)","Design","DataClass"
+"1","org.xmlrpc.android","/home/matheus/smell-and-machine-learning/repositories/android-sensorium/Sensorium/src/org/xmlrpc/android/XMLRPCClient.java","3","79","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.xmlrpc.android","/home/matheus/smell-and-machine-learning/repositories/android-sensorium/Sensorium/src/org/xmlrpc/android/XMLRPCSerializer.java","3","96","Avoid really long methods.","Design","ExcessiveMethodLength"

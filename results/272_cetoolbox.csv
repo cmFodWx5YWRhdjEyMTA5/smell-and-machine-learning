@@ -1,0 +1,7 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.github.cetoolbox","/home/matheus/smell-and-machine-learning/repositories/cetoolbox/src/com/github/cetoolbox/GlobalState.java","3","18","The class 'GlobalState' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=32, WMC=32)","Design","DataClass"
+"1","com.github.cetoolbox.fragments.tabs","/home/matheus/smell-and-machine-learning/repositories/cetoolbox/src/com/github/cetoolbox/fragments/tabs/ConductivityActivity.java","3","178","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.github.cetoolbox.fragments.tabs","/home/matheus/smell-and-machine-learning/repositories/cetoolbox/src/com/github/cetoolbox/fragments/tabs/FlowrateActivity.java","3","202","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.github.cetoolbox.fragments.tabs","/home/matheus/smell-and-machine-learning/repositories/cetoolbox/src/com/github/cetoolbox/fragments/tabs/InjectionActivity.java","3","254","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.github.cetoolbox.fragments.tabs","/home/matheus/smell-and-machine-learning/repositories/cetoolbox/src/com/github/cetoolbox/fragments/tabs/MobilityActivity.java","3","279","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.github.cetoolbox.fragments.tabs","/home/matheus/smell-and-machine-learning/repositories/cetoolbox/src/com/github/cetoolbox/fragments/tabs/ViscosityActivity.java","3","215","Avoid really long methods.","Design","ExcessiveMethodLength"

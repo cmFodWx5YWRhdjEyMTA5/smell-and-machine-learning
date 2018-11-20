@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.willhauck.linconnectclient","/home/matheus/smell-and-machine-learning/repositories/linconnect-client/LinConnectClient/src/com/willhauck/linconnectclient/NotificationUtilities.java","3","55","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.willhauck.linconnectclient","/home/matheus/smell-and-machine-learning/repositories/linconnect-client/LinConnectClient/src/com/willhauck/linconnectclient/SettingsActivity.java","3","113","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.google.android.apps.dashclock.api","/home/matheus/smell-and-machine-learning/repositories/DashClock_K-9/src/com/google/android/apps/dashclock/api/ExtensionData.java","3","68","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

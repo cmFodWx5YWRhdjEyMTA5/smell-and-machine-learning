@@ -1,0 +1,8 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.glTron.Game","/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Game/ComputerAI.java","3","122","Avoid really long methods.","Design","ExcessiveMethodLength"
+"2","com.glTron.Game","/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Game/ComputerAI.java","3","325","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.glTron.Game","/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Game/GLTronGame.java","3","40","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.glTron.Sound","/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Sound/SoundManager.java","3","33","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.glTron.Video","/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Video/HUD.java","3","32","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.glTron.Video","/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Video/Model.java","3","74","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.glTron.Video","/home/matheus/smell-and-machine-learning/repositories/android-gltron/GlTron/src/com/glTron/Video/Vec.java","3","25","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
