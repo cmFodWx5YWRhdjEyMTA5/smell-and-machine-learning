@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.hayaisoftware.launcher.activities","/home/matheus/smell-and-machine-learning/repositories/HayaiLauncher/app/src/main/java/com/hayaisoftware/launcher/activities/SearchActivity.java","3","88","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

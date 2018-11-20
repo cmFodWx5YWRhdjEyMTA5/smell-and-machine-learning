@@ -1,0 +1,5 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","protect.card_locker","/home/matheus/smell-and-machine-learning/repositories/loyalty-card-locker/app/src/main/java/protect/card_locker/ImportExportActivity.java","3","48","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","protect.card_locker","/home/matheus/smell-and-machine-learning/repositories/loyalty-card-locker/app/src/main/java/protect/card_locker/LoyaltyCardEditActivity.java","3","122","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","protect.card_locker","/home/matheus/smell-and-machine-learning/repositories/loyalty-card-locker/app/src/main/java/protect/card_locker/LoyaltyCardViewActivity.java","3","91","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","protect.card_locker","/home/matheus/smell-and-machine-learning/repositories/loyalty-card-locker/app/src/test/java/protect/card_locker/LoyaltyCardViewActivityTest.java","3","45","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

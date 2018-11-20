@@ -1,0 +1,6 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.alaskalinuxuser.justnotes","/home/matheus/smell-and-machine-learning/repositories/app_justnotes/app/src/main/java/com/alaskalinuxuser/justnotes/MainActivity.java","3","67","Avoid really long methods.","Design","ExcessiveMethodLength"
+"2","com.alaskalinuxuser.justnotes","/home/matheus/smell-and-machine-learning/repositories/app_justnotes/app/src/main/java/com/alaskalinuxuser/justnotes/MainActivity.java","3","424","Avoid really long methods.","Design","ExcessiveMethodLength"
+"3","com.alaskalinuxuser.justnotes","/home/matheus/smell-and-machine-learning/repositories/app_justnotes/app/src/main/java/com/alaskalinuxuser/justnotes/MainActivity.java","3","564","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.alaskalinuxuser.justnotes","/home/matheus/smell-and-machine-learning/repositories/app_justnotes/app/src/main/java/com/alaskalinuxuser/justnotes/SettingsActivity.java","3","46","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.alaskalinuxuser.justnotes","/home/matheus/smell-and-machine-learning/repositories/app_justnotes/app/src/main/java/com/alaskalinuxuser/justnotes/about.java","3","33","Avoid really long methods.","Design","ExcessiveMethodLength"

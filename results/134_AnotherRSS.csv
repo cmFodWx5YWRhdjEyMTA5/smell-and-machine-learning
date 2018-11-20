@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.digisocken.anotherrss","/home/matheus/smell-and-machine-learning/repositories/AnotherRSS/app/src/main/java/de/digisocken/anotherrss/FeedContract.java","3","407","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","de.digisocken.anotherrss","/home/matheus/smell-and-machine-learning/repositories/AnotherRSS/app/src/main/java/de/digisocken/anotherrss/FeedCursorAdapter.java","3","60","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","de.digisocken.anotherrss","/home/matheus/smell-and-machine-learning/repositories/AnotherRSS/app/src/main/java/de/digisocken/anotherrss/Refresher.java","3","285","Avoid really long methods.","Design","ExcessiveMethodLength"

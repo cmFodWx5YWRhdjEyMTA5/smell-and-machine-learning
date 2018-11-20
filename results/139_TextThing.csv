@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","click.dummer.textthing","/home/matheus/smell-and-machine-learning/repositories/TextThing/app/src/main/java/click/dummer/textthing/MainActivity.java","3","34","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","click.dummer.textthing","/home/matheus/smell-and-machine-learning/repositories/TextThing/app/src/main/java/click/dummer/textthing/MainActivity.java","3","53","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","click.dummer.textthing","/home/matheus/smell-and-machine-learning/repositories/TextThing/app/src/main/java/click/dummer/textthing/WidgetUpdateService.java","3","39","Avoid really long methods.","Design","ExcessiveMethodLength"

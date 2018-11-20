@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","fr.xgouchet.texteditor","/home/matheus/smell-and-machine-learning/repositories/Ted/Ted/src/fr/xgouchet/texteditor/TedActivity.java","3","47","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

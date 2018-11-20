@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.redirectapps.tvkill","/home/matheus/smell-and-machine-learning/repositories/TVKILL/app/src/main/java/com/redirectapps/tvkill/MainActivity.java","3","43","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

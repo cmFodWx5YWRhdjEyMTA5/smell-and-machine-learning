@@ -1,0 +1,5 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.nicue.onetwo","/home/matheus/smell-and-machine-learning/repositories/OneTwo/app/src/main/java/com/nicue/onetwo/MainActivity.java","3","31","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.nicue.onetwo.Utils","/home/matheus/smell-and-machine-learning/repositories/OneTwo/app/src/main/java/com/nicue/onetwo/Utils/TouchDisplayView.java","3","155","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.nicue.onetwo.adapters","/home/matheus/smell-and-machine-learning/repositories/OneTwo/app/src/main/java/com/nicue/onetwo/adapters/DiceListAdapter.java","3","154","The class 'ViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)","Design","DataClass"
+"1","com.nicue.onetwo.fragments","/home/matheus/smell-and-machine-learning/repositories/OneTwo/app/src/main/java/com/nicue/onetwo/fragments/TimerFragment.java","3","28","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

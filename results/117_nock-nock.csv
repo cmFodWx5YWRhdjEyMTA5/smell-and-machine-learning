@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.afollestad.nocknock.ui","/home/matheus/smell-and-machine-learning/repositories/nock-nock/app/src/main/java/com/afollestad/nocknock/ui/MainActivity.java","3","45","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

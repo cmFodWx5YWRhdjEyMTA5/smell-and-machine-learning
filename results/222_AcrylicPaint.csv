@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","anupam.acrylic","/home/matheus/smell-and-machine-learning/repositories/AcrylicPaint/Acrylic_Paint/src/anupam/acrylic/EasyPaint.java","3","247","Avoid really long methods.","Design","ExcessiveMethodLength"

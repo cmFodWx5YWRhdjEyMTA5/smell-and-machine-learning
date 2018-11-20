@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.boztalay.puppyframeuid.configuration.albums","/home/matheus/smell-and-machine-learning/repositories/PuppyFrame/src/com/boztalay/puppyframeuid/configuration/albums/AlbumsActivity.java","3","24","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

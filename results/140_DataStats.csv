@@ -1,0 +1,7 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","jp.takke.datastats","/home/matheus/smell-and-machine-learning/repositories/DataStats/app/src/main/java/jp/takke/datastats/LayerService.java","3","29","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","jp.takke.datastats","/home/matheus/smell-and-machine-learning/repositories/DataStats/app/src/main/java/jp/takke/datastats/MainActivity.java","3","34","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","jp.takke.datastats","/home/matheus/smell-and-machine-learning/repositories/DataStats/app/src/main/java/jp/takke/datastats/MainActivity.java","3","266","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","jp.takke.datastats","/home/matheus/smell-and-machine-learning/repositories/DataStats/app/src/main/java/jp/takke/datastats/MySurfaceView.java","3","24","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","jp.takke.datastats","/home/matheus/smell-and-machine-learning/repositories/DataStats/app/src/main/java/jp/takke/datastats/MySurfaceView.java","3","41","The class 'Traffic' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)","Design","DataClass"
+"3","jp.takke.datastats","/home/matheus/smell-and-machine-learning/repositories/DataStats/app/src/main/java/jp/takke/datastats/MySurfaceView.java","3","224","Avoid really long methods.","Design","ExcessiveMethodLength"

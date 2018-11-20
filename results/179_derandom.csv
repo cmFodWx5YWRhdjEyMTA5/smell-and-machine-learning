@@ -1,0 +1,8 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.asnelt.derandom","/home/matheus/smell-and-machine-learning/repositories/derandom/app/src/main/java/org/asnelt/derandom/MainActivity.java","3","57","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","org.asnelt.derandom","/home/matheus/smell-and-machine-learning/repositories/derandom/app/src/main/java/org/asnelt/derandom/MainActivity.java","3","106","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","org.asnelt.derandom","/home/matheus/smell-and-machine-learning/repositories/derandom/app/src/main/java/org/asnelt/derandom/MersenneTwister.java","3","122","Avoid long parameter lists.","Design","ExcessiveParameterList"
+"1","org.asnelt.derandom","/home/matheus/smell-and-machine-learning/repositories/derandom/app/src/main/java/org/asnelt/derandom/NumberSequence.java","3","24","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.asnelt.derandom","/home/matheus/smell-and-machine-learning/repositories/derandom/app/src/main/java/org/asnelt/derandom/ProcessingFragment.java","3","48","Avoid really long classes.","Design","ExcessiveClassLength"
+"2","org.asnelt.derandom","/home/matheus/smell-and-machine-learning/repositories/derandom/app/src/main/java/org/asnelt/derandom/ProcessingFragment.java","3","48","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.asnelt.derandom","/home/matheus/smell-and-machine-learning/repositories/derandom/app/src/main/java/org/asnelt/derandom/SettingsActivity.java","3","43","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

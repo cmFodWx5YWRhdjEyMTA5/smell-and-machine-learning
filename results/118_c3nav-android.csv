@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.c3nav.droid","/home/matheus/smell-and-machine-learning/repositories/c3nav-android/CongressRoutePlanner/app/src/main/java/de/c3nav/droid/MainActivity.java","3","58","Avoid really long methods.","Design","ExcessiveMethodLength"

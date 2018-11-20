@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.secuso.privacyfriendlymemory.ui","/home/matheus/smell-and-machine-learning/repositories/privacy-friendly-memo-game/app/src/main/java/org/secuso/privacyfriendlymemory/ui/MemoActivity.java","3","40","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","app.librenews.io.librenews.controllers","/home/matheus/smell-and-machine-learning/repositories/LibreNews-Android/LibreNews-App/src/main/java/app/librenews/io/librenews/controllers/FlashManager.java","3","245","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","app.librenews.io.librenews.models","/home/matheus/smell-and-machine-learning/repositories/LibreNews-Android/LibreNews-App/src/main/java/app/librenews/io/librenews/models/Flash.java","3","12","The class 'Flash' is suspected to be a Data Class (WOC=27.778%, NOPA=0, NOAM=12, WMC=19)","Design","DataClass"

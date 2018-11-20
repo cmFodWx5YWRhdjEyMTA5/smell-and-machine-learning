@@ -1,0 +1,5 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.chaosdorf.meteroid","/home/matheus/smell-and-machine-learning/repositories/meteroid/meteroid/src/main/java/de/chaosdorf/meteroid/BuyDrink.java","3","258","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","de.chaosdorf.meteroid.model","/home/matheus/smell-and-machine-learning/repositories/meteroid/meteroid/src/main/java/de/chaosdorf/meteroid/model/Drink.java","3","31","The class 'Drink' is suspected to be a Data Class (WOC=30.000%, NOPA=0, NOAM=6, WMC=13)","Design","DataClass"
+"1","de.chaosdorf.meteroid.model","/home/matheus/smell-and-machine-learning/repositories/meteroid/meteroid/src/main/java/de/chaosdorf/meteroid/model/User.java","3","27","The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=13, WMC=14)","Design","DataClass"
+"1","de.chaosdorf.meteroid.util","/home/matheus/smell-and-machine-learning/repositories/meteroid/meteroid/src/main/java/de/chaosdorf/meteroid/util/Utility.java","3","49","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

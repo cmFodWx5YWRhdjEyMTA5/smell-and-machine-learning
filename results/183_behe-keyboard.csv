@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.vlath.keyboard","/home/matheus/smell-and-machine-learning/repositories/behe-keyboard/app/src/main/java/com/vlath/keyboard/PCKeyboard.java","3","55","Avoid really long classes.","Design","ExcessiveClassLength"
+"2","com.vlath.keyboard","/home/matheus/smell-and-machine-learning/repositories/behe-keyboard/app/src/main/java/com/vlath/keyboard/PCKeyboard.java","3","56","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"3","com.vlath.keyboard","/home/matheus/smell-and-machine-learning/repositories/behe-keyboard/app/src/main/java/com/vlath/keyboard/PCKeyboard.java","3","993","Avoid really long methods.","Design","ExcessiveMethodLength"

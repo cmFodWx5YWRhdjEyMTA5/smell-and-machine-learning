@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.smerty.zooborns","/home/matheus/smell-and-machine-learning/repositories/zooborns.android/src/org/smerty/zooborns/ZooBorns.java","3","72","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","org.smerty.zooborns.data","/home/matheus/smell-and-machine-learning/repositories/zooborns.android/src/org/smerty/zooborns/data/ZooBornsEntry.java","3","6","The class 'ZooBornsEntry' is suspected to be a Data Class (WOC=18.182%, NOPA=0, NOAM=8, WMC=12)","Design","DataClass"
+"1","org.smerty.zooborns.data","/home/matheus/smell-and-machine-learning/repositories/zooborns.android/src/org/smerty/zooborns/data/ZooBornsPhoto.java","3","5","The class 'ZooBornsPhoto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=9)","Design","DataClass"

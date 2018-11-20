@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.cityfreqs.littlesirecho","/home/matheus/smell-and-machine-learning/repositories/LittleSirEcho/src/com/cityfreqs/littlesirecho/MainActivity.java","3","60","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
