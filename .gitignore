@@ -19,3 +19,6 @@ repositories_backup/*
 
 results_backup/
 results_backup/*
+
+ASTConverter/
+ASTConverter/*
