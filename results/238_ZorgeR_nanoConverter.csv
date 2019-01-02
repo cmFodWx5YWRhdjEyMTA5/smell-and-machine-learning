@@ -1,0 +1,5 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.nanoconverter.zlab","/home/matheus/smell-and-machine-learning/repositories/ZorgeR_nanoConverter/Source/src/com/nanoconverter/zlab/NanoConverter.java","3","47","Avoid really long classes.","Design","ExcessiveClassLength"
+"2","com.nanoconverter.zlab","/home/matheus/smell-and-machine-learning/repositories/ZorgeR_nanoConverter/Source/src/com/nanoconverter/zlab/NanoConverter.java","3","47","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.nanoconverter.zlab","/home/matheus/smell-and-machine-learning/repositories/ZorgeR_nanoConverter/Source/src/com/nanoconverter/zlab/Widget_1x1.java","3","53","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.nanoconverter.zlab","/home/matheus/smell-and-machine-learning/repositories/ZorgeR_nanoConverter/Source/src/com/nanoconverter/zlab/Widget_1x1_config.java","3","40","Avoid really long methods.","Design","ExcessiveMethodLength"

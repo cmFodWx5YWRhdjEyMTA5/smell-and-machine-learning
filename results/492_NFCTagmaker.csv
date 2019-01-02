@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","pl.net.szafraniec.NFCTagmaker","/home/matheus/smell-and-machine-learning/repositories/NFCTagmaker/NfcTagMaker/src/main/java/pl/net/szafraniec/NFCTagmaker/MainActivity.java","3","63","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","pl.net.szafraniec.NFCTagmaker","/home/matheus/smell-and-machine-learning/repositories/NFCTagmaker/NfcTagMaker/src/main/java/pl/net/szafraniec/NFCTagmaker/UltralightHEXEDIT.java","3","354","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","net.tedstein.AndroSS","/home/matheus/smell-and-machine-learning/repositories/AndroSS/src/net/tedstein/AndroSS/AndroSSService.java","3","41","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"2","net.tedstein.AndroSS","/home/matheus/smell-and-machine-learning/repositories/AndroSS/src/net/tedstein/AndroSS/AndroSSService.java","3","340","Avoid really long methods.","Design","ExcessiveMethodLength"
-"3","net.tedstein.AndroSS","/home/matheus/smell-and-machine-learning/repositories/AndroSS/src/net/tedstein/AndroSS/AndroSSService.java","3","589","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","net.tedstein.AndroSS","/home/matheus/smell-and-machine-learning/repositories/AndroSS/src/net/tedstein/AndroSS/ConfigurationActivity.java","3","58","Avoid really long methods.","Design","ExcessiveMethodLength"

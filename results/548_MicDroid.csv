@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.intervigil.micdroid","/home/matheus/smell-and-machine-learning/repositories/MicDroid/app/src/main/java/com/intervigil/micdroid/MainActivity.java","3","60","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","net.sourceforge.autotalent","/home/matheus/smell-and-machine-learning/repositories/MicDroid/app/src/main/java/net/sourceforge/autotalent/Autotalent.java","3","3","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

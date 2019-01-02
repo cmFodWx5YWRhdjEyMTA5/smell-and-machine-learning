@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","uk.co.alt236.usbdeviceenumerator.sysbususb","/home/matheus/smell-and-machine-learning/repositories/USB-Device-Info---Android/usbdeviceenumerator/src/main/java/uk/co/alt236/usbdeviceenumerator/sysbususb/SysBusUsbDevice.java","3","22","The class 'SysBusUsbDevice' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=15)","Design","DataClass"
-"2","uk.co.alt236.usbdeviceenumerator.sysbususb","/home/matheus/smell-and-machine-learning/repositories/USB-Device-Info---Android/usbdeviceenumerator/src/main/java/uk/co/alt236/usbdeviceenumerator/sysbususb/SysBusUsbDevice.java","3","111","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

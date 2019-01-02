@@ -1,0 +1,8 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","net.chilon.matt.teacup","/home/matheus/smell-and-machine-learning/repositories/yourealwaysbe_teacup/src/net/chilon/matt/teacup/LastFM.java","3","61","Avoid really long classes.","Design","ExcessiveClassLength"
+"2","net.chilon.matt.teacup","/home/matheus/smell-and-machine-learning/repositories/yourealwaysbe_teacup/src/net/chilon/matt/teacup/LastFM.java","3","61","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","net.chilon.matt.teacup","/home/matheus/smell-and-machine-learning/repositories/yourealwaysbe_teacup/src/net/chilon/matt/teacup/PlayerConfig.java","3","8","The class 'PlayerConfig' is suspected to be a Data Class (WOC=5.882%, NOPA=0, NOAM=16, WMC=19)","Design","DataClass"
+"2","net.chilon.matt.teacup","/home/matheus/smell-and-machine-learning/repositories/yourealwaysbe_teacup/src/net/chilon/matt/teacup/PlayerConfig.java","3","26","Avoid long parameter lists.","Design","ExcessiveParameterList"
+"1","net.chilon.matt.teacup","/home/matheus/smell-and-machine-learning/repositories/yourealwaysbe_teacup/src/net/chilon/matt/teacup/TeaCup.java","3","19","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","net.chilon.matt.teacup","/home/matheus/smell-and-machine-learning/repositories/yourealwaysbe_teacup/src/net/chilon/matt/teacup/TeaCupConfiguration.java","3","29","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","net.chilon.matt.teacup","/home/matheus/smell-and-machine-learning/repositories/yourealwaysbe_teacup/src/net/chilon/matt/teacup/TeaCupService.java","3","32","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.casimirlab.simpleDeadlines.ui","/home/matheus/smell-and-machine-learning/repositories/chibibi_simpleDeadlines/src/main/java/com/casimirlab/simpleDeadlines/ui/DeadlineListFragment.java","3","43","Avoid really long methods.","Design","ExcessiveMethodLength"

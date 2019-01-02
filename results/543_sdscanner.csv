@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.gmail.jerickson314.sdscanner","/home/matheus/smell-and-machine-learning/repositories/sdscanner/src/com/gmail/jerickson314/sdscanner/MainActivity.java","3","41","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.gmail.jerickson314.sdscanner","/home/matheus/smell-and-machine-learning/repositories/sdscanner/src/com/gmail/jerickson314/sdscanner/ScanFragment.java","3","47","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

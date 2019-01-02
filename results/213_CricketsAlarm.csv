@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.github.alijc.cricketsalarm","/home/matheus/smell-and-machine-learning/repositories/CricketsAlarm/CricketsAlarm/src/com/github/alijc/cricketsalarm/CricketsAlarmWidget.java","3","41","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","fr.miximum.picker","/home/matheus/smell-and-machine-learning/repositories/CricketsAlarm/PickerWidget/src/fr/miximum/picker/NumberPicker.java","3","44","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

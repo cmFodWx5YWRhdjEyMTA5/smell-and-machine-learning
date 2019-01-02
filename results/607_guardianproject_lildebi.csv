@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","info.guardianproject.lildebi","/home/matheus/smell-and-machine-learning/repositories/guardianproject_lildebi/src/info/guardianproject/lildebi/InstallActivity.java","3","41","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","info.guardianproject.lildebi","/home/matheus/smell-and-machine-learning/repositories/guardianproject_lildebi/src/info/guardianproject/lildebi/LilDebi.java","3","36","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","info.guardianproject.lildebi","/home/matheus/smell-and-machine-learning/repositories/guardianproject_lildebi/src/info/guardianproject/lildebi/LilDebi.java","3","188","Avoid really long methods.","Design","ExcessiveMethodLength"

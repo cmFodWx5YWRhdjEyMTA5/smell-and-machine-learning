@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","fr.unix_experience.owncloud_sms.activities","/home/matheus/smell-and-machine-learning/repositories/nerzhul_ownCloud-SMS-App/src/main/java/fr/unix_experience/owncloud_sms/activities/MainActivity.java","3","58","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

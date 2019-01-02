@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","net.anzix.osm.upload.data","/home/matheus/smell-and-machine-learning/repositories/osmgpxuploader/upload/src/main/java/net/anzix/osm/upload/data/Gpx.java","3","8","The class 'Gpx' is suspected to be a Data Class (WOC=13.333%, NOPA=0, NOAM=10, WMC=16)","Design","DataClass"
-"1","net.anzix.osm.upload.data","/home/matheus/smell-and-machine-learning/repositories/osmgpxuploader/upload/src/main/java/net/anzix/osm/upload/data/Source.java","3","7","The class 'Source' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=11)","Design","DataClass"
-"1","net.anzix.osm.upload.service","/home/matheus/smell-and-machine-learning/repositories/osmgpxuploader/upload/src/main/java/net/anzix/osm/upload/service/Uploader.java","3","41","The class 'Uploader' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)","Design","DataClass"
-"2","net.anzix.osm.upload.service","/home/matheus/smell-and-machine-learning/repositories/osmgpxuploader/upload/src/main/java/net/anzix/osm/upload/service/Uploader.java","3","72","Avoid really long methods.","Design","ExcessiveMethodLength"

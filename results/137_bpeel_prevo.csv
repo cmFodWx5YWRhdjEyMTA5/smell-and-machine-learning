@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","uk.co.busydoingnothing.prevo","/home/matheus/smell-and-machine-learning/repositories/bpeel_prevo/src/uk/co/busydoingnothing/prevo/ArticleActivity.java","3","59","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","uk.co.busydoingnothing.prevo","/home/matheus/smell-and-machine-learning/repositories/bpeel_prevo/src/uk/co/busydoingnothing/prevo/SearchActivity.java","3","43","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","uk.co.busydoingnothing.prevo","/home/matheus/smell-and-machine-learning/repositories/bpeel_prevo/src/uk/co/busydoingnothing/prevo/Trie.java","3","173","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.mobilepearls.sokoban","/home/matheus/smell-and-machine-learning/repositories/mobilepearls_com.mobilepearls.sokoban/src/com/mobilepearls/sokoban/SokobanLevels.java","3","5","Avoid really long classes.","Design","ExcessiveClassLength"

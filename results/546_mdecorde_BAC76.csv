@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","fr.hnit.riverferry","/home/matheus/smell-and-machine-learning/repositories/mdecorde_BAC76/app/src/main/java/fr/hnit/riverferry/NextDeparture.java","3","28","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

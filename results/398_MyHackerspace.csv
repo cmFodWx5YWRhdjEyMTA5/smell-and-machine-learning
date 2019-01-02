@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","ch.fixme.status","/home/matheus/smell-and-machine-learning/repositories/MyHackerspace/app/src/main/java/ch/fixme/status/Main.java","3","63","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"2","ch.fixme.status","/home/matheus/smell-and-machine-learning/repositories/MyHackerspace/app/src/main/java/ch/fixme/status/Main.java","3","569","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","ch.fixme.status","/home/matheus/smell-and-machine-learning/repositories/MyHackerspace/app/src/main/java/ch/fixme/status/Parse12.java","3","25","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","ch.fixme.status","/home/matheus/smell-and-machine-learning/repositories/MyHackerspace/app/src/main/java/ch/fixme/status/Parse13.java","3","25","Avoid really long methods.","Design","ExcessiveMethodLength"

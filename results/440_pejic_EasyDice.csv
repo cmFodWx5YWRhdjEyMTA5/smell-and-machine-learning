@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","net.pejici.easydice.model","/home/matheus/smell-and-machine-learning/repositories/pejic_EasyDice/androidsrc/src/net/pejici/easydice/model/DieHandListTests.java","3","25","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","net.pejici.easydice.model","/home/matheus/smell-and-machine-learning/repositories/pejic_EasyDice/androidsrc/src/net/pejici/easydice/model/DieHandTests.java","3","33","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","net.pejici.easydice.model","/home/matheus/smell-and-machine-learning/repositories/pejic_EasyDice/androidsrc/src/net/pejici/easydice/model/DieTests.java","3","31","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

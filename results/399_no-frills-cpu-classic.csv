@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","it.sineo.android.noFrillsCPUClassic.activity","/home/matheus/smell-and-machine-learning/repositories/no-frills-cpu-classic/src/it/sineo/android/noFrillsCPUClassic/activity/MainActivity.java","3","50","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","it.sineo.android.noFrillsCPUClassic.service","/home/matheus/smell-and-machine-learning/repositories/no-frills-cpu-classic/src/it/sineo/android/noFrillsCPUClassic/service/BootService.java","3","32","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.dozingcatsoftware.cameratimer","/home/matheus/smell-and-machine-learning/repositories/CamTimer/app/src/main/java/com/dozingcatsoftware/cameratimer/MainActivity.java","3","46","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.dozingcatsoftware.cameratimer","/home/matheus/smell-and-machine-learning/repositories/CamTimer/app/src/main/java/com/dozingcatsoftware/cameratimer/ViewImageGridActivity.java","3","18","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.dozingcatsoftware.util","/home/matheus/smell-and-machine-learning/repositories/CamTimer/app/src/main/java/com/dozingcatsoftware/util/CameraUtils.java","3","14","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.dozingcatsoftware.util","/home/matheus/smell-and-machine-learning/repositories/CamTimer/app/src/main/java/com/dozingcatsoftware/util/FrameRateManager.java","3","17","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

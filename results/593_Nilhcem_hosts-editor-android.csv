@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.nilhcem.hostseditor.ui.list","/home/matheus/smell-and-machine-learning/repositories/Nilhcem_hosts-editor-android/app/src/main/java/com/nilhcem/hostseditor/ui/list/ListHostsActivity.java","3","29","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.nilhcem.hostseditor.ui.list","/home/matheus/smell-and-machine-learning/repositories/Nilhcem_hosts-editor-android/app/src/main/java/com/nilhcem/hostseditor/ui/list/ListHostsFragment.java","3","43","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

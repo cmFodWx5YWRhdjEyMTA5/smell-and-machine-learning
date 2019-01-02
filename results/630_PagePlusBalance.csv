@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.moparisthebest.pageplus","/home/matheus/smell-and-machine-learning/repositories/PagePlusBalance/android/src/main/java/org/moparisthebest/pageplus/Main.java","3","69","Avoid really long methods.","Design","ExcessiveMethodLength"

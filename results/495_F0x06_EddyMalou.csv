@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.f0x.eddymalou","/home/matheus/smell-and-machine-learning/repositories/F0x06_EddyMalou/src/com/f0x/eddymalou/MainActivity.java","3","61","Avoid really long methods.","Design","ExcessiveMethodLength"

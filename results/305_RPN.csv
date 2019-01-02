@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.ath0.rpn","/home/matheus/smell-and-machine-learning/repositories/RPN/app/src/main/java/com/ath0/rpn/CalculatorStack.java","3","20","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.ath0.rpn","/home/matheus/smell-and-machine-learning/repositories/RPN/app/src/main/java/com/ath0/rpn/Main.java","3","33","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.twotoasters.watchface.gears.widget","/home/matheus/smell-and-machine-learning/repositories/Xlythe_MinecraftClock/WearLibrary/src/main/java/com/twotoasters/watchface/gears/widget/Watch.java","3","25","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

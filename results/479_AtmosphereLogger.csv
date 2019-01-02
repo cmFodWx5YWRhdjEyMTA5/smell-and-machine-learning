@@ -1,4 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.tamanegi.atmosphere","/home/matheus/smell-and-machine-learning/repositories/AtmosphereLogger/app/src/main/java/org/tamanegi/atmosphere/AtmosphereFragment.java","3","35","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","org.tamanegi.atmosphere","/home/matheus/smell-and-machine-learning/repositories/AtmosphereLogger/app/src/main/java/org/tamanegi/atmosphere/LoggerService.java","3","12","The class 'LoggerService' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=4)","Design","DataClass"
-"1","org.tamanegi.atmosphere","/home/matheus/smell-and-machine-learning/repositories/AtmosphereLogger/app/src/main/java/org/tamanegi/atmosphere/PlotView.java","3","101","Avoid really long methods.","Design","ExcessiveMethodLength"

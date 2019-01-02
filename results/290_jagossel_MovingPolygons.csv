@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.logicallycreative.mplw","/home/matheus/smell-and-machine-learning/repositories/jagossel_MovingPolygons/src/org/logicallycreative/mplw/MovingPolygonsEngine.java","3","29","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

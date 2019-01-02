@@ -1,0 +1,6 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.att.preference.colorpicker","/home/matheus/smell-and-machine-learning/repositories/teneighty_moss/libs/color-picker/src/main/java/com/att/preference/colorpicker/ColorPickerView.java","3","43","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.mosspaper","/home/matheus/smell-and-machine-learning/repositories/teneighty_moss/moss/src/main/java/org/mosspaper/Config.java","3","25","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","org.mosspaper","/home/matheus/smell-and-machine-learning/repositories/teneighty_moss/moss/src/main/java/org/mosspaper/Env.java","3","30","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.mosspaper","/home/matheus/smell-and-machine-learning/repositories/teneighty_moss/moss/src/main/java/org/mosspaper/PackageDatabase.java","3","15","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.mosspaper","/home/matheus/smell-and-machine-learning/repositories/teneighty_moss/moss/src/main/java/org/mosspaper/WallPaper.java","3","58","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

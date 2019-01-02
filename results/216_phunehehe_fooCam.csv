@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","net.phunehehe.foocam","/home/matheus/smell-and-machine-learning/repositories/phunehehe_fooCam/fooCam/src/main/java/net/phunehehe/foocam/MainActivity.java","3","36","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

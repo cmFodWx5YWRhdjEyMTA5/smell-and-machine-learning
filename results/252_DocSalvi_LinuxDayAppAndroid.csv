@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","it.mn.salvi.linuxDayOSM","/home/matheus/smell-and-machine-learning/repositories/DocSalvi_LinuxDayAppAndroid/src/it/mn/salvi/linuxDayOSM/LinuxDayOSMActivity.java","3","55","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","it.mn.salvi.linuxDayOSM","/home/matheus/smell-and-machine-learning/repositories/DocSalvi_LinuxDayAppAndroid/src/it/mn/salvi/linuxDayOSM/OsmBrowser.java","3","59","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","it.mn.salvi.linuxDayOSM","/home/matheus/smell-and-machine-learning/repositories/DocSalvi_LinuxDayAppAndroid/src/it/mn/salvi/linuxDayOSM/TagDescription.java","3","24","The class 'TagDescription' is suspected to be a Data Class (WOC=28.571%, NOPA=0, NOAM=4, WMC=9)","Design","DataClass"

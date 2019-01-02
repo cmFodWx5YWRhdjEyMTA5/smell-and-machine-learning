@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.kanedias.vanilla.lyrics","/home/matheus/smell-and-machine-learning/repositories/vanilla-music_vanilla-music-lyrics-search/app/src/main/java/com/kanedias/vanilla/lyrics/LyricsShowActivity.java","3","92","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

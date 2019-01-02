@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","protect.gift_card_guard","/home/matheus/smell-and-machine-learning/repositories/gift-card-guard/app/src/main/java/protect/gift_card_guard/GiftCardViewActivity.java","3","50","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","protect.gift_card_guard","/home/matheus/smell-and-machine-learning/repositories/gift-card-guard/app/src/test/java/protect/gift_card_guard/GiftCardViewActivityTest.java","3","37","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

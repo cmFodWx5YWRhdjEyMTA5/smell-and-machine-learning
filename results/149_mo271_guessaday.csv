@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.goltzkiste.guessaday","/home/matheus/smell-and-machine-learning/repositories/mo271_guessaday/app/src/main/java/com/goltzkiste/guessaday/MainActivity.java","3","178","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.gunshippenguin.openflood","/home/matheus/smell-and-machine-learning/repositories/GunshipPenguin_open_flood/app/src/main/java/com/gunshippenguin/openflood/GameActivity.java","3","27","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.azapps.mirakel.dashclock","/home/matheus/smell-and-machine-learning/repositories/azapps_mirakel-dashclock/src/de/azapps/mirakel/dashclock/MirakelSettingsActivity.java","3","50","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","org.dmfs.provider.tasks","/home/matheus/smell-and-machine-learning/repositories/azapps_mirakel-dashclock/src/org/dmfs/provider/tasks/TaskContract.java","3","41","Avoid really long classes.","Design","ExcessiveClassLength"

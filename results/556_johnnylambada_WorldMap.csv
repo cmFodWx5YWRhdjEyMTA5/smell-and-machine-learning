@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.sigseg.android.map","/home/matheus/smell-and-machine-learning/repositories/johnnylambada_WorldMap/library/src/com/sigseg/android/map/ImageSurfaceView.java","3","17","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

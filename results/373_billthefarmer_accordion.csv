@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.billthefarmer.accordion","/home/matheus/smell-and-machine-learning/repositories/billthefarmer_accordion/src/main/java/org/billthefarmer/accordion/MainActivity.java","3","50","Avoid really long classes.","Design","ExcessiveClassLength"
+"2","org.billthefarmer.accordion","/home/matheus/smell-and-machine-learning/repositories/billthefarmer_accordion/src/main/java/org/billthefarmer/accordion/MainActivity.java","3","53","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

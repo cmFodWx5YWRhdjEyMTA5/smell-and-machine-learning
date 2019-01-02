@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.poirsouille.tinc_gui","/home/matheus/smell-and-machine-learning/repositories/tinc_gui/app/src/main/java/org/poirsouille/tinc_gui/TincActivity.java","3","49","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","org.poirsouille.tinc_gui","/home/matheus/smell-and-machine-learning/repositories/tinc_gui/app/src/main/java/org/poirsouille/tinc_gui/TincdService.java","3","54","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

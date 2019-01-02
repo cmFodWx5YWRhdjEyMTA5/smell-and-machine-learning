@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","net.bluetoothviewer","/home/matheus/smell-and-machine-learning/repositories/bluetoothviewer/bluetoothviewer/src/main/java/net/bluetoothviewer/BluetoothViewer.java","3","49","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

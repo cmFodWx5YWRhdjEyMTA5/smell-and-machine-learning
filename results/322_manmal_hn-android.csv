@@ -1,0 +1,5 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.manuelmaly.hn","/home/matheus/smell-and-machine-learning/repositories/manmal_hn-android/app/src/main/java/com/manuelmaly/hn/ArticleReaderActivity.java","3","36","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.manuelmaly.hn","/home/matheus/smell-and-machine-learning/repositories/manmal_hn-android/app/src/main/java/com/manuelmaly/hn/CommentsActivity.java","3","62","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.manuelmaly.hn","/home/matheus/smell-and-machine-learning/repositories/manmal_hn-android/app/src/main/java/com/manuelmaly/hn/MainActivity.java","3","63","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","com.manuelmaly.hn","/home/matheus/smell-and-machine-learning/repositories/manmal_hn-android/app/src/main/java/com/manuelmaly/hn/MainActivity.java","3","437","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","in.ac.dtu.subtlenews","/home/matheus/smell-and-machine-learning/repositories/teamOSC_SubtleNews_Android_App/app/src/main/java/in/ac/dtu/subtlenews/InstapaperViewer.java","3","84","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","in.ac.dtu.subtlenews","/home/matheus/smell-and-machine-learning/repositories/teamOSC_SubtleNews_Android_App/app/src/main/java/in/ac/dtu/subtlenews/NavigationDrawerFragment.java","3","54","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

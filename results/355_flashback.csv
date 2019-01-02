@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","uk.co.danieljarvis.android.flashback","/home/matheus/smell-and-machine-learning/repositories/flashback/Flashback/src/main/java/uk/co/danieljarvis/android/flashback/MainActivity.java","3","54","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"2","uk.co.danieljarvis.android.flashback","/home/matheus/smell-and-machine-learning/repositories/flashback/Flashback/src/main/java/uk/co/danieljarvis/android/flashback/MainActivity.java","3","258","Avoid really long methods.","Design","ExcessiveMethodLength"
-"3","uk.co.danieljarvis.android.flashback","/home/matheus/smell-and-machine-learning/repositories/flashback/Flashback/src/main/java/uk/co/danieljarvis/android/flashback/MainActivity.java","3","365","Avoid really long methods.","Design","ExcessiveMethodLength"
-"4","uk.co.danieljarvis.android.flashback","/home/matheus/smell-and-machine-learning/repositories/flashback/Flashback/src/main/java/uk/co/danieljarvis/android/flashback/MainActivity.java","3","562","Avoid really long methods.","Design","ExcessiveMethodLength"

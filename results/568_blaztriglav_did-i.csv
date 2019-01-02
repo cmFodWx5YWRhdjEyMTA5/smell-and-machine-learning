@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","si.modrajagoda.didi","/home/matheus/smell-and-machine-learning/repositories/blaztriglav_did-i/Did I/src/si/modrajagoda/didi/FragmentHabits.java","3","71","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","si.modrajagoda.didi.database","/home/matheus/smell-and-machine-learning/repositories/blaztriglav_did-i/Did I/src/si/modrajagoda/didi/database/Day.java","3","7","The class 'Day' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)","Design","DataClass"
+"1","si.modrajagoda.didi.database","/home/matheus/smell-and-machine-learning/repositories/blaztriglav_did-i/Did I/src/si/modrajagoda/didi/database/Habit.java","3","9","The class 'Habit' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=7)","Design","DataClass"

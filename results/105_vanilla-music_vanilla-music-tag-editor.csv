@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.kanedias.vanilla.audiotag","/home/matheus/smell-and-machine-learning/repositories/vanilla-music_vanilla-music-tag-editor/app/src/main/java/com/kanedias/vanilla/audiotag/PluginTagWrapper.java","3","341","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,0 +1,5 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.nephoapp.anarxiv","/home/matheus/smell-and-machine-learning/repositories/nephoapp_anarxiv/src/com/nephoapp/anarxiv/AnarxivDB.java","3","31","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","com.nephoapp.anarxiv","/home/matheus/smell-and-machine-learning/repositories/nephoapp_anarxiv/src/com/nephoapp/anarxiv/ArxivLoader.java","3","119","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.nephoapp.anarxiv","/home/matheus/smell-and-machine-learning/repositories/nephoapp_anarxiv/src/com/nephoapp/anarxiv/UrlTable.java","3","112","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.nephoapp.anarxiv","/home/matheus/smell-and-machine-learning/repositories/nephoapp_anarxiv/src/com/nephoapp/anarxiv/anarxiv.java","3","45","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

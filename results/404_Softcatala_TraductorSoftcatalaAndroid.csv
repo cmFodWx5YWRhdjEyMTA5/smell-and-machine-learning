@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.softcatala.traductor.Speech","/home/matheus/smell-and-machine-learning/repositories/Softcatala_TraductorSoftcatalaAndroid/app/src/main/java/org/softcatala/traductor/Speech/SpeechAndroid.java","3","32","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.softcatala.traductor.Speech","/home/matheus/smell-and-machine-learning/repositories/Softcatala_TraductorSoftcatalaAndroid/app/src/main/java/org/softcatala/traductor/Speech/SpeechRemote.java","3","31","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.softcatala.traductor","/home/matheus/smell-and-machine-learning/repositories/Softcatala_TraductorSoftcatalaAndroid/app/src/main/java/org/softcatala/traductor/TraductorSoftcatalaActivity.java","3","53","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.bvalosek.cpuspy.ui","/home/matheus/smell-and-machine-learning/repositories/cpuspy/src/com/bvalosek/cpuspy/ui/HomeActivity.java","3","34","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

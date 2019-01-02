@@ -1,0 +1,5 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.moparisthebest.openintents.filemanager","/home/matheus/smell-and-machine-learning/repositories/moparisthebest_AppBak/src/org/moparisthebest/openintents/filemanager/DirectoryScanner.java","3","65","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","org.moparisthebest.openintents.filemanager","/home/matheus/smell-and-machine-learning/repositories/moparisthebest_AppBak/src/org/moparisthebest/openintents/filemanager/FileManagerActivity.java","3","82","Avoid really long classes.","Design","ExcessiveClassLength"
+"2","org.moparisthebest.openintents.filemanager","/home/matheus/smell-and-machine-learning/repositories/moparisthebest_AppBak/src/org/moparisthebest/openintents/filemanager/FileManagerActivity.java","3","82","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"3","org.moparisthebest.openintents.filemanager","/home/matheus/smell-and-machine-learning/repositories/moparisthebest_AppBak/src/org/moparisthebest/openintents/filemanager/FileManagerActivity.java","3","166","Avoid really long methods.","Design","ExcessiveMethodLength"

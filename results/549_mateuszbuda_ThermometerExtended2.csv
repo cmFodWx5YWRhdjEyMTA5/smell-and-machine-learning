@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","pl.narfsoftware.thermometer.db","/home/matheus/smell-and-machine-learning/repositories/mateuszbuda_ThermometerExtended2/src/pl/narfsoftware/thermometer/db/DbHelper.java","3","13","The class 'DbHelper' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)","Design","DataClass"
+"1","pl.narfsoftware.thermometer.ui","/home/matheus/smell-and-machine-learning/repositories/mateuszbuda_ThermometerExtended2/src/pl/narfsoftware/thermometer/ui/PlotFragment.java","3","35","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","pl.narfsoftware.thermometer.ui","/home/matheus/smell-and-machine-learning/repositories/mateuszbuda_ThermometerExtended2/src/pl/narfsoftware/thermometer/ui/SensorsFragment.java","3","30","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

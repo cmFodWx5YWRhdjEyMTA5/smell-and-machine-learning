@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","ch.blinkenlights.android.apnswitch","/home/matheus/smell-and-machine-learning/repositories/APN-Switch/src/ch/blinkenlights/android/apnswitch/ApnDao.java","3","40","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","de.onyxbits.listmyapps","/home/matheus/smell-and-machine-learning/repositories/listmyaps/src/de/onyxbits/listmyapps/MainActivity.java","3","38","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"2","de.onyxbits.listmyapps","/home/matheus/smell-and-machine-learning/repositories/listmyaps/src/de/onyxbits/listmyapps/MainActivity.java","3","119","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","de.onyxbits.listmyapps","/home/matheus/smell-and-machine-learning/repositories/listmyaps/src/de/onyxbits/listmyapps/Schema.java","3","15","The class 'Schema' is suspected to be a Data Class (WOC=0.000%, NOPA=15, NOAM=0, WMC=4)","Design","DataClass"
-"1","de.onyxbits.listmyapps","/home/matheus/smell-and-machine-learning/repositories/listmyaps/src/de/onyxbits/listmyapps/SortablePackageInfo.java","3","13","The class 'SortablePackageInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=16, NOAM=0, WMC=1)","Design","DataClass"

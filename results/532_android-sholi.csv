@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","name.soulayrol.rhaa.sholi","/home/matheus/smell-and-machine-learning/repositories/android-sholi/sholi/src/main/java/name/soulayrol/rhaa/sholi/CheckingFragment.java","3","48","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","name.soulayrol.rhaa.sholi.data","/home/matheus/smell-and-machine-learning/repositories/android-sholi/sholi/src/main/java/name/soulayrol/rhaa/sholi/data/AbstractLazyListAdapter.java","3","29","The class 'AbstractLazyListAdapter' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)","Design","DataClass"

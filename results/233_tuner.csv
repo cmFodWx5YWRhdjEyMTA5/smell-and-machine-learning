@@ -1,7 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.billthefarmer.tuner","/home/matheus/smell-and-machine-learning/repositories/tuner/src/main/java/org/billthefarmer/tuner/Display.java","3","98","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","org.billthefarmer.tuner","/home/matheus/smell-and-machine-learning/repositories/tuner/src/main/java/org/billthefarmer/tuner/MainActivity.java","3","54","Avoid really long classes.","Design","ExcessiveClassLength"
-"2","org.billthefarmer.tuner","/home/matheus/smell-and-machine-learning/repositories/tuner/src/main/java/org/billthefarmer/tuner/MainActivity.java","3","56","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"3","org.billthefarmer.tuner","/home/matheus/smell-and-machine-learning/repositories/tuner/src/main/java/org/billthefarmer/tuner/MainActivity.java","3","760","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","org.billthefarmer.tuner","/home/matheus/smell-and-machine-learning/repositories/tuner/src/main/java/org/billthefarmer/tuner/Spectrum.java","3","53","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","org.billthefarmer.tuner","/home/matheus/smell-and-machine-learning/repositories/tuner/src/main/java/org/billthefarmer/tuner/Status.java","3","81","Avoid really long methods.","Design","ExcessiveMethodLength"

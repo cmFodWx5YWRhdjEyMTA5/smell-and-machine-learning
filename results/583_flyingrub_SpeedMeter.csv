@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","fly.speedmeter.grub","/home/matheus/smell-and-machine-learning/repositories/flyingrub_SpeedMeter/app/src/main/java/fly/speedmeter/grub/MainActivity.java","3","34","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","fly.speedmeter.grub","/home/matheus/smell-and-machine-learning/repositories/flyingrub_SpeedMeter/app/src/main/java/fly/speedmeter/grub/MainActivity.java","3","57","Avoid really long methods.","Design","ExcessiveMethodLength"

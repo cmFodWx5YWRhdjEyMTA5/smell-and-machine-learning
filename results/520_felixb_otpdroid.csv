@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.ub0r.android.otpdroid","/home/matheus/smell-and-machine-learning/repositories/felixb_otpdroid/src/de/ub0r/android/otpdroid/OTPdroid.java","3","33","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","de.ub0r.android.otpdroid","/home/matheus/smell-and-machine-learning/repositories/felixb_otpdroid/src/de/ub0r/android/otpdroid/OTPdroid.java","3","232","Avoid really long methods.","Design","ExcessiveMethodLength"

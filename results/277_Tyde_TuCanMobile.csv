@@ -1,0 +1,5 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.dalthed.tucan.Connection","/home/matheus/smell-and-machine-learning/repositories/Tyde_TuCanMobile/app/src/main/java/com/dalthed/tucan/Connection/BrowseMethods.java","3","95","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.dalthed.tucan.datamodel","/home/matheus/smell-and-machine-learning/repositories/Tyde_TuCanMobile/app/src/main/java/com/dalthed/tucan/datamodel/Appointment.java","3","38","Avoid long parameter lists.","Design","ExcessiveParameterList"
+"1","com.dalthed.tucan.helpers","/home/matheus/smell-and-machine-learning/repositories/Tyde_TuCanMobile/app/src/main/java/com/dalthed/tucan/helpers/AuthenticationManager.java","3","144","The class 'Account' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=6, WMC=13)","Design","DataClass"
+"1","com.dalthed.tucan.ui","/home/matheus/smell-and-machine-learning/repositories/Tyde_TuCanMobile/app/src/main/java/com/dalthed/tucan/ui/SingleEvent.java","3","119","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,4 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","aws.apps.androidDrawables","/home/matheus/smell-and-machine-learning/repositories/Android-Drawables---Android/gen/aws/apps/androidDrawables/R.java","3","10","Avoid really long classes.","Design","ExcessiveClassLength"
-"2","aws.apps.androidDrawables","/home/matheus/smell-and-machine-learning/repositories/Android-Drawables---Android/gen/aws/apps/androidDrawables/R.java","3","1139","Avoid really long classes.","Design","ExcessiveClassLength"
-"1","aws.apps.androidDrawables.activities","/home/matheus/smell-and-machine-learning/repositories/Android-Drawables---Android/src/aws/apps/androidDrawables/activities/Main.java","3","38","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

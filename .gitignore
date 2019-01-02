@@ -13,3 +13,9 @@
 
 repositories/
 repositories/*
+
+repositories_backup/
+repositories_backup/*
+
+results_backup/
+results_backup/*

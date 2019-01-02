@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.cr5315.cfdc","/home/matheus/smell-and-machine-learning/repositories/countdown-for-dashclock/app/src/main/java/com/cr5315/cfdc/BaseExtensionSettings.java","3","48","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

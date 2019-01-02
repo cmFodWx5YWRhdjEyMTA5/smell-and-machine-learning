@@ -1,4 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","name.bagi.levente.pedometer","/home/matheus/smell-and-machine-learning/repositories/android-pedometer/src/name/bagi/levente/pedometer/Pedometer.java","3","43","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","name.bagi.levente.pedometer","/home/matheus/smell-and-machine-learning/repositories/android-pedometer/src/name/bagi/levente/pedometer/PedometerSettings.java","3","27","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","name.bagi.levente.pedometer","/home/matheus/smell-and-machine-learning/repositories/android-pedometer/src/name/bagi/levente/pedometer/StepService.java","3","53","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

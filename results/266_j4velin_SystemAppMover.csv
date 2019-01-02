@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.j4velin.systemappmover","/home/matheus/smell-and-machine-learning/repositories/j4velin_SystemAppMover/src/main/java/de/j4velin/systemappmover/AppClickListener.java","3","47","Avoid really long methods.","Design","ExcessiveMethodLength"
+"2","de.j4velin.systemappmover","/home/matheus/smell-and-machine-learning/repositories/j4velin_SystemAppMover/src/main/java/de/j4velin/systemappmover/AppClickListener.java","3","136","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","de.j4velin.systemappmover","/home/matheus/smell-and-machine-learning/repositories/j4velin_SystemAppMover/src/main/java/de/j4velin/systemappmover/MoverActivity.java","3","151","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","ca.cmetcalfe.locationshare","/home/matheus/smell-and-machine-learning/repositories/LocationShare/app/src/main/java/ca/cmetcalfe/locationshare/MainActivity.java","3","37","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

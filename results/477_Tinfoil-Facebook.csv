@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.danvelazco.fbwrapper.activity","/home/matheus/smell-and-machine-learning/repositories/Tinfoil-Facebook/app/src/main/java/com/danvelazco/fbwrapper/activity/BaseFacebookWebViewActivity.java","3","76","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.danvelazco.fbwrapper.webview","/home/matheus/smell-and-machine-learning/repositories/Tinfoil-Facebook/app/src/main/java/com/danvelazco/fbwrapper/webview/FacebookWebChromeClient.java","3","37","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

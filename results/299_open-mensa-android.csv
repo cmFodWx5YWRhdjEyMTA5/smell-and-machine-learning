@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","de.uni_potsdam.hpi.openmensa","/home/matheus/smell-and-machine-learning/repositories/open-mensa-android/src/de/uni_potsdam/hpi/openmensa/MainActivity.java","3","47","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

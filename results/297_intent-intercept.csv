@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","uk.co.ashtonbrsc.intentexplode","/home/matheus/smell-and-machine-learning/repositories/intent-intercept/app/src/main/java/uk/co/ashtonbrsc/intentexplode/Explode.java","3","68","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

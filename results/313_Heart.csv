@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","ca.ddaly.android.heart","/home/matheus/smell-and-machine-learning/repositories/Heart/src/ca/ddaly/android/heart/EditFragment.java","3","52","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","ca.ddaly.android.heart","/home/matheus/smell-and-machine-learning/repositories/Heart/src/ca/ddaly/android/heart/Heart.java","3","45","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

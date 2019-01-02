@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.c3nav.droid","/home/matheus/smell-and-machine-learning/repositories/raphaelm_c3nav-android_/CongressRoutePlanner/app/src/main/java/de/c3nav/droid/MainActivity.java","3","70","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"2","de.c3nav.droid","/home/matheus/smell-and-machine-learning/repositories/raphaelm_c3nav-android_/CongressRoutePlanner/app/src/main/java/de/c3nav/droid/MainActivity.java","3","118","Avoid really long methods.","Design","ExcessiveMethodLength"

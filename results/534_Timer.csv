@@ -1,8 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.dpadgett.timer","/home/matheus/smell-and-machine-learning/repositories/Timer/Timer/src/org/dpadgett/timer/StopwatchFragment.java","3","44","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","org.dpadgett.timer","/home/matheus/smell-and-machine-learning/repositories/Timer/Timer/src/org/dpadgett/timer/WorldClockFragment.java","3","124","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","org.dpadgett.widget","/home/matheus/smell-and-machine-learning/repositories/Timer/Timer/src/org/dpadgett/widget/FasterNumberPicker.java","3","86","Avoid really long classes.","Design","ExcessiveClassLength"
-"2","org.dpadgett.widget","/home/matheus/smell-and-machine-learning/repositories/Timer/Timer/src/org/dpadgett/widget/FasterNumberPicker.java","3","86","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"3","org.dpadgett.widget","/home/matheus/smell-and-machine-learning/repositories/Timer/Timer/src/org/dpadgett/widget/FasterNumberPicker.java","3","470","The class 'ScrollabilityCache' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)","Design","DataClass"
-"4","org.dpadgett.widget","/home/matheus/smell-and-machine-learning/repositories/Timer/Timer/src/org/dpadgett/widget/FasterNumberPicker.java","3","579","Avoid really long methods.","Design","ExcessiveMethodLength"
-"5","org.dpadgett.widget","/home/matheus/smell-and-machine-learning/repositories/Timer/Timer/src/org/dpadgett/widget/FasterNumberPicker.java","3","1488","Avoid really long methods.","Design","ExcessiveMethodLength"

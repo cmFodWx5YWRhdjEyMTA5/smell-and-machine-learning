@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.sparkleshare.android.actionbarcompat","/home/matheus/smell-and-machine-learning/repositories/SparkleShare-Android/src/org/sparkleshare/android/actionbarcompat/SimpleMenu.java","3","36","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","org.sparkleshare.android.ui","/home/matheus/smell-and-machine-learning/repositories/SparkleShare-Android/src/org/sparkleshare/android/ui/ListEntryItem.java","3","9","The class 'ListEntryItem' is suspected to be a Data Class (WOC=21.739%, NOPA=1, NOAM=16, WMC=25)","Design","DataClass"

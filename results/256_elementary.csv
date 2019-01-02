@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.ultramegatech.ey.provider","/home/matheus/smell-and-machine-learning/repositories/elementary/app/src/main/java/com/ultramegatech/ey/provider/Element.java","3","141","Avoid long parameter lists.","Design","ExcessiveParameterList"
-"1","com.ultramegatech.ey.provider","/home/matheus/smell-and-machine-learning/repositories/elementary/app/src/main/java/com/ultramegatech/ey/provider/Elements.java","3","35","Avoid really long classes.","Design","ExcessiveClassLength"
-"1","com.ultramegatech.ey.widget","/home/matheus/smell-and-machine-learning/repositories/elementary/app/src/main/java/com/ultramegatech/ey/widget/PeriodicTableView.java","3","66","Avoid really long classes.","Design","ExcessiveClassLength"
-"2","com.ultramegatech.ey.widget","/home/matheus/smell-and-machine-learning/repositories/elementary/app/src/main/java/com/ultramegatech/ey/widget/PeriodicTableView.java","3","66","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

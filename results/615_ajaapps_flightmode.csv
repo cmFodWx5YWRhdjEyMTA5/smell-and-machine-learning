@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.aja.flightmode","/home/matheus/smell-and-machine-learning/repositories/ajaapps_flightmode/src/org/aja/flightmode/PLog.java","3","8","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

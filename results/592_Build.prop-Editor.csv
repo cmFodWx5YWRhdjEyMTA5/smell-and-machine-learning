@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.nathan.jf.build.prop.editor","/home/matheus/smell-and-machine-learning/repositories/Build.prop-Editor/src/org/nathan/jf/build/prop/editor/BuildPropEditor.java","3","28","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

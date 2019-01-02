@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","net.xenotropic.quizznworldcap","/home/matheus/smell-and-machine-learning/repositories/quizzn/src/net/xenotropic/quizznworldcap/Quizzer.java","3","72","Avoid really long methods.","Design","ExcessiveMethodLength"

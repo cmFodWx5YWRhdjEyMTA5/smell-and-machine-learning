@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.mod.android.widget.fbcw.bean","/home/matheus/smell-and-machine-learning/repositories/marin-liovic_Fast-Brightness-Control-Widget/src/com/mod/android/widget/fbcw/bean/ApplicationState.java","3","6","The class 'ApplicationState' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)","Design","DataClass"

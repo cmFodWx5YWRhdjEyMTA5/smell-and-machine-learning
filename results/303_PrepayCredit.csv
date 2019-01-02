@@ -1,4 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","damo.three.ie.activity","/home/matheus/smell-and-machine-learning/repositories/PrepayCredit/PrepayCreditAndroid/src/main/java/damo/three/ie/activity/PrepayCreditActivity.java","3","67","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","damo.three.ie.ui","/home/matheus/smell-and-machine-learning/repositories/PrepayCredit/PrepayCreditAndroid/src/main/java/damo/three/ie/ui/BasicUsageLayout.java","3","46","Avoid really long methods.","Design","ExcessiveMethodLength"
-"2","damo.three.ie.ui","/home/matheus/smell-and-machine-learning/repositories/PrepayCredit/PrepayCreditAndroid/src/main/java/damo/three/ie/ui/BasicUsageLayout.java","3","201","The class 'MergedItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)","Design","DataClass"

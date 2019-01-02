@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","ru.exlmoto.snood21","/home/matheus/smell-and-machine-learning/repositories/Snooder21/snooder21/src/main/java/ru/exlmoto/snood21/SnoodsLauncherActivity.java","3","47","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","ru.exlmoto.snood21","/home/matheus/smell-and-machine-learning/repositories/Snooder21/snooder21/src/main/java/ru/exlmoto/snood21/SnoodsSurfaceView.java","3","44","Avoid really long classes.","Design","ExcessiveClassLength"
-"2","ru.exlmoto.snood21","/home/matheus/smell-and-machine-learning/repositories/Snooder21/snooder21/src/main/java/ru/exlmoto/snood21/SnoodsSurfaceView.java","3","45","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"3","ru.exlmoto.snood21","/home/matheus/smell-and-machine-learning/repositories/Snooder21/snooder21/src/main/java/ru/exlmoto/snood21/SnoodsSurfaceView.java","3","791","Avoid really long methods.","Design","ExcessiveMethodLength"

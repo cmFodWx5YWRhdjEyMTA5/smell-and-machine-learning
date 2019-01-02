@@ -1,4 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.tastycactus.timesheet","/home/matheus/smell-and-machine-learning/repositories/timesheet/src/com/tastycactus/timesheet/TimeEntryEditActivity.java","3","169","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","com.tastycactus.timesheet","/home/matheus/smell-and-machine-learning/repositories/timesheet/src/com/tastycactus/timesheet/TimesheetActivity.java","3","42","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.tastycactus.timesheet","/home/matheus/smell-and-machine-learning/repositories/timesheet/src/com/tastycactus/timesheet/TimesheetDatabase.java","3","30","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

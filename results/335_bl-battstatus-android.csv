@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","ch.blinkenlights.battery","/home/matheus/smell-and-machine-learning/repositories/bl-battstatus-android/src/ch/blinkenlights/battery/ConfigUtil.java","3","25","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

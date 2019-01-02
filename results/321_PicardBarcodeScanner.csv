@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.google.zxing.integration.android","/home/matheus/smell-and-machine-learning/repositories/PicardBarcodeScanner/PicardBarcodeScanner/src/main/java/com/google/zxing/integration/android/IntentIntegrator.java","3","109","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.google.zxing.integration.android","/home/matheus/smell-and-machine-learning/repositories/PicardBarcodeScanner/PicardBarcodeScanner/src/main/java/com/google/zxing/integration/android/IntentResult.java","3","24","The class 'IntentResult' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=7)","Design","DataClass"

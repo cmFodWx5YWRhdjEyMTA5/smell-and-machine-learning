@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","afzkl.development.mColorPicker.views","/home/matheus/smell-and-machine-learning/repositories/JesusFreke_Penroser/src/afzkl/development/mColorPicker/views/ColorPickerView.java","3","45","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"1","org.jf.GLPixelBuffer","/home/matheus/smell-and-machine-learning/repositories/JesusFreke_Penroser/src/org/jf/GLPixelBuffer/GLPixelBuffer.java","3","78","The class 'GLPixelBuffer' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=9, WMC=39)","Design","DataClass"
+"1","org.jf.Penroser","/home/matheus/smell-and-machine-learning/repositories/JesusFreke_Penroser/src/org/jf/Penroser/PenroserGallery.java","3","92","Avoid really long methods.","Design","ExcessiveMethodLength"

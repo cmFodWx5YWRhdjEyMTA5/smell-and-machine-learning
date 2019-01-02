@@ -1,0 +1,14 @@
+files,language,blank,comment,code,"http://cloc.sourceforge.net v 1.60  T=10.33 s (169.7 files/s, 26437.5 lines/s)"
+692,Java,21411,10452,117623
+992,XML,5377,1085,107150
+19,Javascript,1137,1329,4007
+18,Bourne Shell,150,49,697
+3,CSS,85,21,531
+7,Ruby,126,77,463
+5,Python,60,36,292
+2,Bourne Again Shell,39,41,244
+3,HTML,18,2,134
+2,DOS Batch,47,4,123
+5,YAML,27,15,114
+4,SQL,1,0,97
+1,IDL,2,0,15

@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","de.steinpfeffer.rdt","/home/matheus/smell-and-machine-learning/repositories/jufickel_rdt/src/de/steinpfeffer/rdt/MainActivity.java","3","45","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

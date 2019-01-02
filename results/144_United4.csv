@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.angryburg.uapp.API","/home/matheus/smell-and-machine-learning/repositories/United4/app/src/main/java/com/angryburg/uapp/API/ThreadWatcher.java","3","24","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.angryburg.uapp.activities","/home/matheus/smell-and-machine-learning/repositories/United4/app/src/main/java/com/angryburg/uapp/activities/MainActivity.java","3","34","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.angryburg.uapp.activities","/home/matheus/smell-and-machine-learning/repositories/United4/app/src/main/java/com/angryburg/uapp/activities/UserscriptActivity.java","3","74","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","com.angryburg.uapp.application","/home/matheus/smell-and-machine-learning/repositories/United4/app/src/main/java/com/angryburg/uapp/application/United.java","3","213","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

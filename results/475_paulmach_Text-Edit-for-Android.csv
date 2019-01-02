@@ -1,0 +1,8 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.paulmach.textedit","/home/matheus/smell-and-machine-learning/repositories/paulmach_Text-Edit-for-Android/src/org/paulmach/textedit/FileBrowser.java","3","164","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","org.paulmach.textedit","/home/matheus/smell-and-machine-learning/repositories/paulmach_Text-Edit-for-Android/src/org/paulmach/textedit/pmTextEdit.java","3","43","Avoid really long classes.","Design","ExcessiveClassLength"
+"2","org.paulmach.textedit","/home/matheus/smell-and-machine-learning/repositories/paulmach_Text-Edit-for-Android/src/org/paulmach/textedit/pmTextEdit.java","3","44","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"3","org.paulmach.textedit","/home/matheus/smell-and-machine-learning/repositories/paulmach_Text-Edit-for-Android/src/org/paulmach/textedit/pmTextEdit.java","3","562","Avoid really long methods.","Design","ExcessiveMethodLength"
+"4","org.paulmach.textedit","/home/matheus/smell-and-machine-learning/repositories/paulmach_Text-Edit-for-Android/src/org/paulmach/textedit/pmTextEdit.java","3","766","Avoid really long methods.","Design","ExcessiveMethodLength"
+"5","org.paulmach.textedit","/home/matheus/smell-and-machine-learning/repositories/paulmach_Text-Edit-for-Android/src/org/paulmach/textedit/pmTextEdit.java","3","885","Avoid really long methods.","Design","ExcessiveMethodLength"
+"6","org.paulmach.textedit","/home/matheus/smell-and-machine-learning/repositories/paulmach_Text-Edit-for-Android/src/org/paulmach/textedit/pmTextEdit.java","3","1005","Avoid really long methods.","Design","ExcessiveMethodLength"

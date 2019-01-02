@@ -1,7 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","de.j4velin.wifiAutoOff","/home/matheus/smell-and-machine-learning/repositories/WiFi-Auto-Off/src/main/java/de/j4velin/wifiAutoOff/APILevel11Wrapper.java","3","32","Avoid long parameter lists.","Design","ExcessiveParameterList"
-"1","de.j4velin.wifiAutoOff","/home/matheus/smell-and-machine-learning/repositories/WiFi-Auto-Off/src/main/java/de/j4velin/wifiAutoOff/Preferences.java","3","73","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"2","de.j4velin.wifiAutoOff","/home/matheus/smell-and-machine-learning/repositories/WiFi-Auto-Off/src/main/java/de/j4velin/wifiAutoOff/Preferences.java","3","277","Avoid really long methods.","Design","ExcessiveMethodLength"
-"3","de.j4velin.wifiAutoOff","/home/matheus/smell-and-machine-learning/repositories/WiFi-Auto-Off/src/main/java/de/j4velin/wifiAutoOff/Preferences.java","3","565","Avoid long parameter lists.","Design","ExcessiveParameterList"
-"1","de.j4velin.wifiAutoOff","/home/matheus/smell-and-machine-learning/repositories/WiFi-Auto-Off/src/main/java/de/j4velin/wifiAutoOff/Receiver.java","3","193","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","de.j4velin.wifiAutoOff","/home/matheus/smell-and-machine-learning/repositories/WiFi-Auto-Off/src/play/java/de/j4velin/wifiAutoOff/Locations.java","3","100","Avoid really long methods.","Design","ExcessiveMethodLength"

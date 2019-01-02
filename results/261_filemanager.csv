@@ -1,4 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.michaldabski.filemanager.folders","/home/matheus/smell-and-machine-learning/repositories/filemanager/src/com/michaldabski/filemanager/folders/FolderActivity.java","3","62","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.michaldabski.filemanager.folders","/home/matheus/smell-and-machine-learning/repositories/filemanager/src/com/michaldabski/filemanager/folders/FolderFragment.java","3","87","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","com.michaldabski.utils","/home/matheus/smell-and-machine-learning/repositories/filemanager/src/com/michaldabski/utils/FileUtils.java","3","55","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

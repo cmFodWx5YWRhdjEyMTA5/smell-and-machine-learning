@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.chrisbailey.todo","/home/matheus/smell-and-machine-learning/repositories/ToDo-List-Widget/src/org/chrisbailey/todo/ToDoWidget2x2.java","3","131","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","org.chrisbailey.todo.activities","/home/matheus/smell-and-machine-learning/repositories/ToDo-List-Widget/src/org/chrisbailey/todo/activities/PreferencesActivity.java","3","68","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"2","org.chrisbailey.todo.activities","/home/matheus/smell-and-machine-learning/repositories/ToDo-List-Widget/src/org/chrisbailey/todo/activities/PreferencesActivity.java","3","107","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","org.chrisbailey.todo.activities","/home/matheus/smell-and-machine-learning/repositories/ToDo-List-Widget/src/org/chrisbailey/todo/activities/ToDoActivity.java","3","57","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

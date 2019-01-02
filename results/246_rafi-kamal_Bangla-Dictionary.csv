@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","buet.rafi.dictionary.model","/home/matheus/smell-and-machine-learning/repositories/rafi-kamal_Bangla-Dictionary/src/buet/rafi/dictionary/model/Word.java","3","3","The class 'Word' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)","Design","DataClass"

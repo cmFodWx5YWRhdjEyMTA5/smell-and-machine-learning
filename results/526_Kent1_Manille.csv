@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","be.quentinloos.manille.core","/home/matheus/smell-and-machine-learning/repositories/Kent1_Manille/src/main/java/be/quentinloos/manille/core/ManilleTurns.java","3","8","The class 'ManilleTurns' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)","Design","DataClass"
+"1","be.quentinloos.manille.core","/home/matheus/smell-and-machine-learning/repositories/Kent1_Manille/src/main/java/be/quentinloos/manille/core/Turn.java","3","8","The class 'Turn' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=8, WMC=39)","Design","DataClass"
+"1","be.quentinloos.manille.gui.dialogs","/home/matheus/smell-and-machine-learning/repositories/Kent1_Manille/src/main/java/be/quentinloos/manille/gui/dialogs/AddTurnDialog.java","3","41","Avoid really long methods.","Design","ExcessiveMethodLength"

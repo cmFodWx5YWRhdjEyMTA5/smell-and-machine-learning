@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.koushikdutta.superuser","/home/matheus/smell-and-machine-learning/repositories/Superuser/Superuser/src/com/koushikdutta/superuser/LogFragment.java","3","87","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","com.koushikdutta.superuser","/home/matheus/smell-and-machine-learning/repositories/Superuser/Superuser/src/com/koushikdutta/superuser/MultitaskSuRequestActivity.java","3","150","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","com.koushikdutta.superuser","/home/matheus/smell-and-machine-learning/repositories/Superuser/Superuser/src/com/koushikdutta/superuser/SettingsFragment.java","3","119","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","com.koushikdutta.superuser.util","/home/matheus/smell-and-machine-learning/repositories/Superuser/Superuser/src/com/koushikdutta/superuser/util/StreamUtility.java","3","25","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

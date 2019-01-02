@@ -1,4 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.traccar.client","/home/matheus/smell-and-machine-learning/repositories/traccar-client-android/app/src/main/java/org/traccar/client/MainFragment.java","3","50","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","org.traccar.client","/home/matheus/smell-and-machine-learning/repositories/traccar-client-android/app/src/main/java/org/traccar/client/Position.java","3","24","The class 'Position' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=22, WMC=27)","Design","DataClass"
-"1","org.traccar.client","/home/matheus/smell-and-machine-learning/repositories/traccar-client-android/app/src/main/java/org/traccar/client/TrackingController.java","3","25","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

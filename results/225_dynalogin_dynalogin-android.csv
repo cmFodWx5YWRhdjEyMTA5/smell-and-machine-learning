@@ -1,0 +1,4 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","org.dynalogin.android","/home/matheus/smell-and-machine-learning/repositories/dynalogin_dynalogin-android/src/org/dynalogin/android/Base64.java","3","151","Avoid really long classes.","Design","ExcessiveClassLength"
+"2","org.dynalogin.android","/home/matheus/smell-and-machine-learning/repositories/dynalogin_dynalogin-android/src/org/dynalogin/android/Base64.java","3","152","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
+"3","org.dynalogin.android","/home/matheus/smell-and-machine-learning/repositories/dynalogin_dynalogin-android/src/org/dynalogin/android/Base64.java","3","887","Avoid really long methods.","Design","ExcessiveMethodLength"

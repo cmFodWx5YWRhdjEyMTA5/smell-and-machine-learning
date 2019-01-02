@@ -1,4 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.maxfierke.sandwichroulette","/home/matheus/smell-and-machine-learning/repositories/sandwichroulette/src/com/maxfierke/sandwichroulette/SandwichDBHelper.java","3","8","The class 'SandwichDBHelper' is suspected to be a Data Class (WOC=0.000%, NOPA=28, NOAM=0, WMC=1)","Design","DataClass"
-"1","com.maxfierke.sandwichroulette","/home/matheus/smell-and-machine-learning/repositories/sandwichroulette/src/com/maxfierke/sandwichroulette/SandwichIngredientData.java","3","8","The class 'SandwichIngredientData' is suspected to be a Data Class (WOC=25.000%, NOPA=56, NOAM=5, WMC=8)","Design","DataClass"
-"1","com.maxfierke.sandwichroulette","/home/matheus/smell-and-machine-learning/repositories/sandwichroulette/src/com/maxfierke/sandwichroulette/SandwichRoulette.java","3","26","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

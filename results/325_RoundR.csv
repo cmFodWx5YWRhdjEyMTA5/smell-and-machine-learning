@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","mohammad.adib.roundr","/home/matheus/smell-and-machine-learning/repositories/RoundR/RoundR/src/mohammad/adib/roundr/SettingsActivity.java","3","23","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","wei.mark.standout","/home/matheus/smell-and-machine-learning/repositories/RoundR/StandOutRoundR/src/wei/mark/standout/StandOutWindow.java","3","53","Avoid really long classes.","Design","ExcessiveClassLength"
-"2","wei.mark.standout","/home/matheus/smell-and-machine-learning/repositories/RoundR/StandOutRoundR/src/wei/mark/standout/StandOutWindow.java","3","53","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"3","wei.mark.standout","/home/matheus/smell-and-machine-learning/repositories/RoundR/StandOutRoundR/src/wei/mark/standout/StandOutWindow.java","3","1700","The class 'StandOutLayoutParams' is suspected to be a Data Class (WOC=14.286%, NOPA=8, NOAM=0, WMC=17)","Design","DataClass"

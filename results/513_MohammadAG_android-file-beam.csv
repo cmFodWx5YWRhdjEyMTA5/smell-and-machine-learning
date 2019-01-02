@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.mohammadag.beamfile","/home/matheus/smell-and-machine-learning/repositories/MohammadAG_android-file-beam/src/com/mohammadag/beamfile/MainActivity.java","3","58","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

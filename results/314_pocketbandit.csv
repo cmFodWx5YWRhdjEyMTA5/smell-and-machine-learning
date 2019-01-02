@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","de.onyxbits.bureauengine.screen","/home/matheus/smell-and-machine-learning/repositories/pocketbandit/src/de/onyxbits/bureauengine/screen/BureauScreen.java","3","23","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","de.onyxbits.pocketbandit","/home/matheus/smell-and-machine-learning/repositories/pocketbandit/src/de/onyxbits/pocketbandit/GambleScreen.java","3","197","Avoid really long methods.","Design","ExcessiveMethodLength"

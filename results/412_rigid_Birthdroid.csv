@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.rigid.birthdroid","/home/matheus/smell-and-machine-learning/repositories/rigid_Birthdroid/app/src/main/java/com/rigid/birthdroid/Birthdays.java","3","218","Avoid really long methods.","Design","ExcessiveMethodLength"
+"1","com.rigid.birthdroid","/home/matheus/smell-and-machine-learning/repositories/rigid_Birthdroid/app/src/main/java/com/rigid/birthdroid/BirthdroidWidget.java","3","147","Avoid really long methods.","Design","ExcessiveMethodLength"

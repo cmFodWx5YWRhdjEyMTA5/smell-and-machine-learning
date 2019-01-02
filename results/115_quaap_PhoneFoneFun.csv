@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.quaap.phonefonefun","/home/matheus/smell-and-machine-learning/repositories/quaap_PhoneFoneFun/app/src/main/java/com/quaap/phonefonefun/MainActivity.java","3","44","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

@@ -1,0 +1,2 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","com.linkomnia.android.Changjie","/home/matheus/smell-and-machine-learning/repositories/wanleung_ChangjieIME/src/com/linkomnia/android/Changjie/ChangjieIME.java","3","48","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

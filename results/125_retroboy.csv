@@ -1,8 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","se.embargo.retroboy","/home/matheus/smell-and-machine-learning/repositories/retroboy/app/src/main/java/se/embargo/retroboy/ImageActivity.java","3","37","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","se.embargo.retroboy","/home/matheus/smell-and-machine-learning/repositories/retroboy/app/src/main/java/se/embargo/retroboy/MainActivity.java","3","66","Avoid really long classes.","Design","ExcessiveClassLength"
-"2","se.embargo.retroboy","/home/matheus/smell-and-machine-learning/repositories/retroboy/app/src/main/java/se/embargo/retroboy/MainActivity.java","3","66","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"3","se.embargo.retroboy","/home/matheus/smell-and-machine-learning/repositories/retroboy/app/src/main/java/se/embargo/retroboy/MainActivity.java","3","185","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","se.embargo.retroboy","/home/matheus/smell-and-machine-learning/repositories/retroboy/app/src/main/java/se/embargo/retroboy/VideoRecorder.java","3","266","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","se.embargo.retroboy","/home/matheus/smell-and-machine-learning/repositories/retroboy/app/src/main/java/se/embargo/retroboy/WindowOrientationListener.java","3","151","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","se.embargo.retroboy.filter","/home/matheus/smell-and-machine-learning/repositories/retroboy/app/src/main/java/se/embargo/retroboy/filter/IImageFilter.java","3","44","The class 'ImageBuffer' is suspected to be a Data Class (WOC=25.000%, NOPA=8, NOAM=0, WMC=4)","Design","DataClass"

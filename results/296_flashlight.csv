@@ -1,3 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.openintents.flashlight","/home/matheus/smell-and-machine-learning/repositories/flashlight/Flashlight/src/main/java/org/openintents/flashlight/Flashlight.java","3","59","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"2","org.openintents.flashlight","/home/matheus/smell-and-machine-learning/repositories/flashlight/Flashlight/src/main/java/org/openintents/flashlight/Flashlight.java","3","198","Avoid really long methods.","Design","ExcessiveMethodLength"

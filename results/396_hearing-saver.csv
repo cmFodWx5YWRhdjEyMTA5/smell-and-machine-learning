@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.jakebasile.android.hearingsaver","/home/matheus/smell-and-machine-learning/repositories/hearing-saver/src/com/jakebasile/android/hearingsaver/SetupActivity.java","3","44","Avoid really long methods.","Design","ExcessiveMethodLength"

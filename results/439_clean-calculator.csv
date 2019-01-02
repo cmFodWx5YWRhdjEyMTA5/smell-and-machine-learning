@@ -1,6 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","com.udojava.evalex","/home/matheus/smell-and-machine-learning/repositories/clean-calculator/src/com/udojava/evalex/Expression.java","3","468","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","home.jmstudios.calc","/home/matheus/smell-and-machine-learning/repositories/clean-calculator/src/home/jmstudios/calc/Main.java","3","48","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"2","home.jmstudios.calc","/home/matheus/smell-and-machine-learning/repositories/clean-calculator/src/home/jmstudios/calc/Main.java","3","170","Avoid really long methods.","Design","ExcessiveMethodLength"
-"3","home.jmstudios.calc","/home/matheus/smell-and-machine-learning/repositories/clean-calculator/src/home/jmstudios/calc/Main.java","3","356","Avoid really long methods.","Design","ExcessiveMethodLength"
-"4","home.jmstudios.calc","/home/matheus/smell-and-machine-learning/repositories/clean-calculator/src/home/jmstudios/calc/Main.java","3","609","Avoid really long methods.","Design","ExcessiveMethodLength"

@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","mazechazer.android.wottankquiz","/home/matheus/smell-and-machine-learning/repositories/WoT-Tank-Quiz/WoT Tank Quiz/src/mazechazer/android/wottankquiz/ActivityQuizScreen.java","3","224","Avoid really long methods.","Design","ExcessiveMethodLength"

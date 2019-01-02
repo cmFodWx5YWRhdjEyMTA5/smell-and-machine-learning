@@ -1,4 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","org.geometerplus.android.fbreader.api","/home/matheus/smell-and-machine-learning/repositories/FBReaderJ-plugin-tts/src/org/geometerplus/android/fbreader/api/ApiClientImplementation.java","3","12","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","org.geometerplus.android.fbreader.api","/home/matheus/smell-and-machine-learning/repositories/FBReaderJ-plugin-tts/src/org/geometerplus/android/fbreader/api/TextPosition.java","3","10","The class 'TextPosition' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)","Design","DataClass"
-"1","org.geometerplus.fbreader.plugin.tts","/home/matheus/smell-and-machine-learning/repositories/FBReaderJ-plugin-tts/src/org/geometerplus/fbreader/plugin/tts/SpeakActivity.java","3","38","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

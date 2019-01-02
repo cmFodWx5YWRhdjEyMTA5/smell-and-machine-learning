@@ -1,5 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","vnd.blueararat.kaleidoscope6","/home/matheus/smell-and-machine-learning/repositories/Kaleidoscope/Kaleidoscope/src/main/java/vnd/blueararat/kaleidoscope6/KCamera.java","3","31","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"1","vnd.blueararat.kaleidoscope6","/home/matheus/smell-and-machine-learning/repositories/Kaleidoscope/Kaleidoscope/src/main/java/vnd/blueararat/kaleidoscope6/KView.java","3","32","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"2","vnd.blueararat.kaleidoscope6","/home/matheus/smell-and-machine-learning/repositories/Kaleidoscope/Kaleidoscope/src/main/java/vnd/blueararat/kaleidoscope6/KView.java","3","265","Avoid really long methods.","Design","ExcessiveMethodLength"
-"1","vnd.blueararat.kaleidoscope6","/home/matheus/smell-and-machine-learning/repositories/Kaleidoscope/Kaleidoscope/src/main/java/vnd/blueararat/kaleidoscope6/Kaleidoscope.java","3","41","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

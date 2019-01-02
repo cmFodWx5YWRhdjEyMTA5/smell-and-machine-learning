@@ -1,2 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","ch.hsr.eyecam","/home/matheus/smell-and-machine-learning/repositories/eyeCam/src/ch/hsr/eyecam/EyeCamActivity.java","3","49","This class has too many methods, consider refactoring it.","Design","TooManyMethods"

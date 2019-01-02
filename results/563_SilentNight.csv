@@ -1,4 +1,0 @@
-"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
-"1","eu.chainfire.libsuperuser","/home/matheus/smell-and-machine-learning/repositories/SilentNight/app/src/main/java/eu/chainfire/libsuperuser/Shell.java","3","43","Avoid really long classes.","Design","ExcessiveClassLength"
-"2","eu.chainfire.libsuperuser","/home/matheus/smell-and-machine-learning/repositories/SilentNight/app/src/main/java/eu/chainfire/libsuperuser/Shell.java","3","462","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
-"3","eu.chainfire.libsuperuser","/home/matheus/smell-and-machine-learning/repositories/SilentNight/app/src/main/java/eu/chainfire/libsuperuser/Shell.java","3","713","This class has too many methods, consider refactoring it.","Design","TooManyMethods"
