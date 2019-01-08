@@ -22,3 +22,6 @@ results_backup/*
 
 ASTConverter/
 ASTConverter/*
+
+ast_results/
+ast_results/*
