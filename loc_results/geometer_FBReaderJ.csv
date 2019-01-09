@@ -1,0 +1,19 @@
+files,language,blank,comment,code,"http://cloc.sourceforge.net v 1.60  T=8.41 s (180.3 files/s, 35491.0 lines/s)"
+804,Java,14509,18847,70853
+258,XML,459,445,56457
+25,Bourne Shell,5854,8132,43954
+26,C,1218,1049,16455
+142,C++,2677,3647,16392
+5,m4,1404,63,12304
+172,C/C++ Header,2573,3643,7764
+58,HTML,431,32,6733
+5,CSS,173,38,766
+3,Teamcenter def,4,0,350
+3,Python,78,6,287
+7,Ant,91,247,228
+2,make,61,7,156
+2,Maven,17,30,126
+1,Perl,10,0,46
+1,XSLT,0,0,18
+1,DOS Batch,0,1,8
+2,sed,0,0,3

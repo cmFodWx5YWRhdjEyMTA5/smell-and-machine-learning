@@ -1,8 +1,0 @@
-files,language,blank,comment,code,"http://cloc.sourceforge.net v 1.60  T=0.34 s (192.7 files/s, 19559.9 lines/s)"
-27,Java,110,172,3699
-25,XML,0,5,1002
-3,C,35,76,669
-3,C++,91,84,358
-1,Maven,0,0,153
-4,C/C++ Header,19,60,31
-2,Bourne Shell,5,0,28
