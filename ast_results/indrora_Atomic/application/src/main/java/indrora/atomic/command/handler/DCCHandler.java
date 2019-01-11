@@ -1,0 +1,58 @@
+// isComment
+package indrora.atomic.command.handler;
+
+import indrora.atomic.command.BaseHandler;
+import indrora.atomic.exception.CommandException;
+import indrora.atomic.irc.IRCService;
+import indrora.atomic.model.Broadcast;
+import indrora.atomic.model.Conversation;
+import indrora.atomic.model.Message;
+import indrora.atomic.model.Server;
+import java.io.File;
+import indrora.atomic.R;
+import android.content.Context;
+
+/**
+ * isComment
+ */
+public class isClassOrIsInterface extends BaseHandler {
+
+    /**
+     * isComment
+     */
+    @Override
+    public void isMethod(String[] isParameter, Server isParameter, Conversation isParameter, IRCService isParameter) throws CommandException {
+        if (isNameExpr.isFieldAccessExpr == isIntegerConstant) {
+            if (!isNameExpr[isIntegerConstant].isMethod("isStringConstant")) {
+                throw new CommandException(isNameExpr.isMethod(isNameExpr.isFieldAccessExpr.isFieldAccessExpr));
+            }
+            File isVariable = new File(isNameExpr[isIntegerConstant]);
+            if (!isNameExpr.isMethod()) {
+                throw new CommandException(isNameExpr.isMethod(isNameExpr.isFieldAccessExpr.isFieldAccessExpr, isNameExpr[isIntegerConstant]));
+            }
+            isNameExpr.isMethod(isNameExpr.isMethod()).isMethod(isNameExpr, isNameExpr[isIntegerConstant], isIntegerConstant);
+            Message isVariable = new Message(isNameExpr.isMethod(isNameExpr.isFieldAccessExpr.isFieldAccessExpr, isNameExpr[isIntegerConstant]));
+            isNameExpr.isMethod(isNameExpr.isFieldAccessExpr.isFieldAccessExpr);
+            isNameExpr.isMethod(isNameExpr);
+            isNameExpr.isMethod(isNameExpr.isMethod(isNameExpr.isFieldAccessExpr, isNameExpr.isMethod(), isNameExpr.isMethod()));
+        } else {
+            throw new CommandException(isNameExpr.isMethod(isNameExpr.isFieldAccessExpr.isFieldAccessExpr));
+        }
+    }
+
+    /**
+     * isComment
+     */
+    @Override
+    public String isMethod() {
+        return "isStringConstant";
+    }
+
+    /**
+     * isComment
+     */
+    @Override
+    public String isMethod(Context isParameter) {
+        return isNameExpr.isMethod(isNameExpr.isFieldAccessExpr.isFieldAccessExpr);
+    }
+}

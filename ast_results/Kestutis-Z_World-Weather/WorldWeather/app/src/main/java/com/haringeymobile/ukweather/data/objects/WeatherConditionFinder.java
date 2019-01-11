@@ -1,0 +1,163 @@
+// isComment
+package com.haringeymobile.ukweather.data.objects;
+
+import com.haringeymobile.ukweather.R;
+
+public class isClassOrIsInterface {
+
+    /**
+     * isComment
+     */
+    public static int isMethod(int isParameter) {
+        switch(isNameExpr) {
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            case isIntegerConstant:
+                return isNameExpr.isFieldAccessExpr.isFieldAccessExpr;
+            default:
+                throw new IllegalArgumentException("isStringConstant" + isNameExpr);
+        }
+    }
+}

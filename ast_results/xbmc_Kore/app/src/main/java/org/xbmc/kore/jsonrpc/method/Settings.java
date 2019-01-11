@@ -1,0 +1,358 @@
+// isComment
+package org.xbmc.kore.jsonrpc.method;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
+import org.xbmc.kore.jsonrpc.ApiException;
+import org.xbmc.kore.jsonrpc.ApiMethod;
+
+/**
+ * isComment
+ */
+public class isClassOrIsInterface {
+
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    public static final String isVariable = "isStringConstant";
+
+    /**
+     * isComment
+     */
+    public static final class isClassOrIsInterface extends ApiMethod<JsonNode> {
+
+        public static final String isVariable = "isStringConstant";
+
+        /**
+         * isComment
+         */
+        public isConstructor(String isParameter) {
+            super();
+            isMethod("isStringConstant", isNameExpr);
+        }
+
+        @Override
+        public String isMethod() {
+            return isNameExpr;
+        }
+
+        @Override
+        public JsonNode isMethod(ObjectNode isParameter) throws ApiException {
+            return isNameExpr.isMethod(isNameExpr).isMethod("isStringConstant");
+        }
+    }
+}

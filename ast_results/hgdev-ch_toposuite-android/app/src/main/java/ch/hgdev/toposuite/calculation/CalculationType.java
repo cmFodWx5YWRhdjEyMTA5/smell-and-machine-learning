@@ -1,0 +1,28 @@
+// isComment
+package ch.hgdev.toposuite.calculation;
+
+/**
+ * isComment
+ */
+public enum CalculationType {
+
+    GISEMENT,
+    ABRISS,
+    POLARIMPLANT,
+    POLARSURVEY,
+    LEVEORTHO,
+    CHEMINORTHO,
+    PROJPT,
+    ORTHOIMPL,
+    FREESTATION,
+    CIRCLE,
+    TRIANGLESOLVER,
+    AXISIMPLANTATION,
+    SURFACE,
+    CIRCCURVESOLVER,
+    LINEINTERSEC,
+    CIRCLESINTERSEC,
+    LINECIRCINTERSEC,
+    LIMITDISPL,
+    CIRCULARSEGMENTATION
+}

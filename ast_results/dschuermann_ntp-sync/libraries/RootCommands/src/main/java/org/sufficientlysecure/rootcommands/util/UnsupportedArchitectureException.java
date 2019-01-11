@@ -1,0 +1,15 @@
+// isComment
+package org.sufficientlysecure.rootcommands.util;
+
+public class isClassOrIsInterface extends Exception {
+
+    private static final long isVariable = isStringConstant;
+
+    public isConstructor() {
+        super();
+    }
+
+    public isConstructor(String isParameter) {
+        super(isNameExpr);
+    }
+}

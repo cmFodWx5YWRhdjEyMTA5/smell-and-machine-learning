@@ -1,0 +1,110 @@
+// isComment
+package com.fsck.k9.mail.store.imap;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import org.junit.Test;
+import static com.fsck.k9.mail.store.imap.ImapResponseHelper.createImapResponseList;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+
+public class isClassOrIsInterface {
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+        isMethod(isMethod("isStringConstant", "isStringConstant", "isStringConstant", "isStringConstant"), isNameExpr.isMethod());
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    @Test
+    public void isMethod() throws Exception {
+        List<ImapResponse> isVariable = isMethod("isStringConstant");
+        UidCopyResponse isVariable = isNameExpr.isMethod(isNameExpr);
+        isMethod(isNameExpr);
+    }
+
+    private Map<String, String> isMethod(String... isParameter) {
+        Map<String, String> isVariable = new HashMap<>(isNameExpr.isFieldAccessExpr);
+        for (String isVariable : isNameExpr) {
+            String[] isVariable = isNameExpr.isMethod("isStringConstant");
+            String isVariable = isNameExpr[isIntegerConstant];
+            String isVariable = isNameExpr[isIntegerConstant];
+            isNameExpr.isMethod(isNameExpr, isNameExpr);
+        }
+        return isNameExpr;
+    }
+}

@@ -1,0 +1,27 @@
+// isComment
+package souch.smp;
+
+public enum PrefKeys {
+
+    SONG_ID,
+    NO_LOCK,
+    FOLLOW_SONG,
+    ENABLE_SHAKE,
+    SHAKE_THRESHOLD,
+    FILTER,
+    ROOT_FOLDERS,
+    DEFAULT_FOLD,
+    UNFOLD_SUBGROUP,
+    UNFOLD_SUBGROUP_THRESHOLD,
+    TEXT_SIZE_NORMAL,
+    TEXT_SIZE_BIG,
+    TEXT_SIZE_RATIO,
+    TEXT_SIZE_CHOOSED,
+    MEDIA_BUTTON_START_APP,
+    VIBRATE,
+    SHUFFLE,
+    SCROBBLE,
+    SONG_POS,
+    SAVE_SONG_POS,
+    REPEAT_MODE
+}

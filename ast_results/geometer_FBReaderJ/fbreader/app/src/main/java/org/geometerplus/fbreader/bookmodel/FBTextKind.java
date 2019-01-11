@@ -1,0 +1,80 @@
+// isComment
+package org.geometerplus.fbreader.bookmodel;
+
+public interface isClassOrIsInterface {
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    // isComment
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    // isComment
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    byte isVariable = isIntegerConstant;
+
+    // isComment
+    byte isVariable = isIntegerConstant;
+}
