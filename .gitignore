@@ -1,5 +1,7 @@
  https://www.gitignore.io/api/jupyternotebook
 # Edit at https://www.gitignore.io/?templates=jupyternotebook
+.git__old/
+.git__old/*
 
 ### JupyterNotebook ###
 .ipynb_checkpoints
@@ -25,3 +27,6 @@ ASTConverter/*
 
 ast_results/
 ast_results/*
+
+data/df/
+data/df/*
